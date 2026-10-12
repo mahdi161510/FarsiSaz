@@ -187,6 +187,9 @@ def main() -> int:
 
     print("\nجمع کل: %d آیتم، %d مورد فارسی شد، %d خطا، %d هشدار"
           % (grand_total, grand_changed, len(all_errors), len(all_warnings)))
+    if not args.check:
+        print("یادآوری: فایل‌های xbin هنوز از روی این XMLها ساخته نشده‌اند؛"
+              " اجرای `python3 tools/xbin.py` فراموش نشود.")
     return 1 if (all_errors and args.strict) else 0
 
 
