@@ -40,8 +40,8 @@ WORK = os.path.join(ROOT, "work")
 BATCH_DIR = os.path.join(ROOT, "translations", "batches")
 
 SOURCES = [
-    ("common", "C", os.path.join(ROOT, "stringtable_en_common_group.xml")),
-    ("pc", "P", os.path.join(ROOT, "stringtable_en_pc_group.xml")),
+    ("common", "C", os.path.join(ROOT, "source", "stringtable_en_common_group.xml")),
+    ("pc", "P", os.path.join(ROOT, "source", "stringtable_en_pc_group.xml")),
 ]
 
 # ---------------------------------------------------------------------------

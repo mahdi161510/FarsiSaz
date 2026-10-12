@@ -84,12 +84,12 @@ def main() -> int:
     if problems:
         lines.append("## مشکلات حافظه‌ی ترجمه")
         lines += ["- " + p for p in problems]
-    with open(os.path.join(OUT_DIR, "progress.md"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(ROOT, "PROGRESS.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
 
     print("\n".join(lines))
     print("\n-> release/translation_memory_en_fa.tsv")
-    print("-> release/progress.md")
+    print("-> PROGRESS.md")
     return 0
 
 

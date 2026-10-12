@@ -30,11 +30,12 @@ import fslib  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BATCH_DIR = os.path.join(ROOT, "translations", "batches")
 WORK = os.path.join(ROOT, "work")
-OUT_DIR = os.path.join(ROOT, "release")
+OUT_DIR = ROOT   # خروجی نهایی: ریشه‌ی مخزن (جایگزین مستقیم فایل‌های بازی)
+REPORT_DIR = os.path.join(ROOT, "release")   # گزارش‌های تولیدی
 
 SOURCES = [
-    ("common", os.path.join(ROOT, "stringtable_en_common_group.xml")),
-    ("pc", os.path.join(ROOT, "stringtable_en_pc_group.xml")),
+    ("common", os.path.join(ROOT, "source", "stringtable_en_common_group.xml")),
+    ("pc", os.path.join(ROOT, "source", "stringtable_en_pc_group.xml")),
 ]
 
 INDEX_FILES = [os.path.join(WORK, "index_common.tsv"), os.path.join(WORK, "index_pc.tsv")]
@@ -180,8 +181,8 @@ def main() -> int:
     ]
 
     if not args.check:
-        os.makedirs(args.out, exist_ok=True)
-        with open(os.path.join(args.out, "VALIDATION.txt"), "w", encoding="utf-8") as fh:
+        os.makedirs(REPORT_DIR, exist_ok=True)
+        with open(os.path.join(REPORT_DIR, "VALIDATION.txt"), "w", encoding="utf-8") as fh:
             fh.write("\n".join(report_lines) + "\n")
 
     print("\nجمع کل: %d آیتم، %d مورد فارسی شد، %d خطا، %d هشدار"
