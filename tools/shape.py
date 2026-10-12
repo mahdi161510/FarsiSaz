@@ -39,13 +39,15 @@ class _Element:
 
 
 _RESHAPER = None
+_RESHAPER_NO_LIGATURES = None
 _BIDI = None
+_LAM_ALEF_LIGATURES = frozenset(range(0xFEF5, 0xFEFD))
 
 
 def _load_engines():
-    global _RESHAPER, _BIDI
+    global _RESHAPER, _RESHAPER_NO_LIGATURES, _BIDI
     if _RESHAPER is not None:
-        return _RESHAPER, _BIDI
+        return _RESHAPER, _RESHAPER_NO_LIGATURES, _BIDI
     try:
         import arabic_reshaper
         from bidi import algorithm as bidi
@@ -54,15 +56,25 @@ def _load_engines():
             "برای پیش‌شکل‌دهی فارسی، وابستگی‌ها را نصب کنید: "
             "python3 -m pip install -r requirements-gfx.txt"
         ) from exc
-    # لیگچرها خاموش‌اند تا هر نویسه پس از شکل‌دهی دقیقاً با همان نویسه‌ی
-    # منطقی متناظر بماند و جای توکن‌ها/مارکاپ‌ها هنگام Bidi گم نشود.
+    # لیگچرهای لام-الف روشن‌اند تا شکل بصری متن با نمونه‌ی رایج «ﻡﻼﺳ» یکی شود؛
+    # لیگچرهای چندحرفیِ واژه‌ای خاموش‌اند تا نگاشت متن/استایل قابل‌ردیابی بماند.
     _RESHAPER = arabic_reshaper.ArabicReshaper(configuration={
+        "delete_harakat": False,
+        "support_ligatures": True,
+        "shift_harakat_position": False,
+        "ARABIC LIGATURE ALLAH": False,
+        "ARABIC LIGATURE LAM WITH ALEF": True,
+        "ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE": True,
+        "ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW": True,
+        "ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE": True,
+    })
+    _RESHAPER_NO_LIGATURES = arabic_reshaper.ArabicReshaper(configuration={
         "delete_harakat": False,
         "support_ligatures": False,
         "shift_harakat_position": False,
     })
     _BIDI = bidi
-    return _RESHAPER, _BIDI
+    return _RESHAPER, _RESHAPER_NO_LIGATURES, _BIDI
 
 
 def _tag_spec(token: str):
@@ -171,7 +183,7 @@ def _render_styled(elements: list[_Element]) -> str:
 def _shape_line(line: str) -> str:
     if not fslib.has_rtl(line):
         return line
-    reshaper, bidi = _load_engines()
+    reshaper, reshaper_no_ligatures, bidi = _load_engines()
 
     token_matches = list(_SHAPE_TOKEN_RE.finditer(line))
     tokens = [match.group(0) for match in token_matches]
@@ -191,13 +203,40 @@ def _shape_line(line: str) -> str:
         if not raw_chars:
             return
         raw = "".join(char for char, _styles in raw_chars)
+
+        def append_mapped(shaped, allow_ligatures):
+            """حروف خروجی را به استایل منطقی‌شان نگاشت می‌کند؛ لیگچر لام-الف دو حرف است."""
+            source_index = 0
+            mapped = []
+            for char in shaped:
+                # ZWJ برای شکل‌دهی اتصال مصرف می‌شود و ممکن است در خروجی reshaper نیاید.
+                if (source_index < len(raw_chars)
+                        and raw_chars[source_index][0] == "\u200d"
+                        and char != "\u200d"):
+                    source_index += 1
+                span = 2 if allow_ligatures and ord(char) in _LAM_ALEF_LIGATURES else 1
+                source = raw_chars[source_index:source_index + span]
+                if len(source) != span:
+                    return False
+                styles = source[0][1]
+                if any(item[1] != styles for item in source[1:]):
+                    # یک گلیف را نمی‌توان هم‌زمان با دو استایل رسم کرد؛ پایین‌تر
+                    # همان متن را بدون لیگچر بازشکل‌دهی می‌کنیم تا markup دقیق بماند.
+                    return False
+                mapped.append(_Element(char, styles))
+                source_index += span
+            while source_index < len(raw_chars) and raw_chars[source_index][0] == "\u200d":
+                source_index += 1
+            if source_index != len(raw_chars):
+                return False
+            elements.extend(mapped)
+            return True
+
         shaped = reshaper.reshape(raw)
-        if len(shaped) != len(raw):
-            raise ValueError(
-                "arabic_reshaper طول متن را تغییر داد؛ لیگچرها باید خاموش باشند."
-            )
-        for char, (_original, styles) in zip(shaped, raw_chars):
-            elements.append(_Element(char, styles))
+        if not append_mapped(shaped, allow_ligatures=True):
+            shaped = reshaper_no_ligatures.reshape(raw)
+            if not append_mapped(shaped, allow_ligatures=False):
+                raise ValueError("نگاشت نویسه‌ها پس از شکل‌دهی عربی ناموفق بود.")
         raw_chars.clear()
 
     cursor = 0
@@ -247,7 +286,7 @@ def shape_text(text: str) -> str:
 def _self_test():
     """چند حالت حساس: شکل‌دهی، RTL، توکن‌ها، مارکاپ و CRLF."""
     cases = [
-        ("سلام", None),
+        ("سلام", "ﻡﻼﺳ"),
         ("قبل %s بعد", "%s"),
         ("برای #E_CTRL_MAP# باز کن", "#E_CTRL_MAP#"),
         ("&lt;bold&gt;سلام&lt;/bold&gt;", None),
@@ -264,7 +303,9 @@ def _self_test():
                 raise AssertionError("توکن براکتی جابه‌جا/خراب شد: %s" % marker)
         if fslib.token_signature(source) != fslib.token_signature(result):
             raise AssertionError("امضای توکن عوض شد: %r -> %r" % (source, result))
-    print("✔ پیش‌شکل‌دهی، Bidi، توکن‌ها، مارکاپ و CRLF تأیید شد")
+    if shape_text(" سلام ") != " ﻡﻼﺳ ":
+        raise AssertionError("نمونه‌ی دقیق سلام با لیگچر/فاصله‌ی مورد انتظار یکی نیست")
+    print("✔ پیش‌شکل‌دهی، لیگچر لام-الف، Bidi، توکن‌ها، markup و CRLF تأیید شد")
 
 
 if __name__ == "__main__":

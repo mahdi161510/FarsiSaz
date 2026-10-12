@@ -25,6 +25,7 @@ TARGET_RANGES = (
     (0xFE70, 0xFF00),
 )
 EXTRA_CODES = {0x200C, 0x200D}
+PERSIAN_GLYPH_SCALE = 1.08  # بزرگ‌نمایی ۸٪ گلیف‌ها و advanceهای فارسی/عربی
 
 
 def u16(data: bytes, pos: int) -> int:
@@ -406,12 +407,12 @@ def parse_font3(payload: bytes) -> Font3:
                  metrics, kerning, wide_offsets, wide_codes)
 
 
-def rebuild_font3(font: Font3, ttf_path: Path) -> tuple[bytes, int]:
+def rebuild_font3(font: Font3, ttf_path: Path, size_scale: float = PERSIAN_GLYPH_SCALE) -> tuple[bytes, int, int]:
     ttfont = TTFont(str(ttf_path), recalcBBoxes=False, recalcTimestamp=False)
     if "glyf" not in ttfont:
         raise ValueError("%s is not a TrueType glyf font" % ttf_path)
     units_per_em = ttfont["head"].unitsPerEm
-    scale = 20480.0 / units_per_em
+    scale = 20480.0 / units_per_em * size_scale
     cmap = ttfont.getBestCmap()
     existing = set(font.glyphs)
     requested = set(EXTRA_CODES)
@@ -421,13 +422,18 @@ def rebuild_font3(font: Font3, ttf_path: Path) -> tuple[bytes, int]:
 
     merged = dict(font.glyphs)
     glyph_set = ttfont.getGlyphSet()
+    capped_advances = 0
     for code in additions:
         glyph_name = cmap[code]
         shape, rect = make_glyph_shape(glyph_set, glyph_name, scale)
         advance_units = ttfont["hmtx"].metrics[glyph_name][0]
         advance = int(round(advance_units * scale))
-        if not -32768 <= advance <= 32767:
-            raise ValueError("U+%04X advance %d does not fit SI16" % (code, advance))
+        if advance > 32767:
+            advance = 32767
+            capped_advances += 1
+        elif advance < -32768:
+            advance = -32768
+            capped_advances += 1
         merged[code] = FontGlyph(code, shape, advance, make_rect(rect))
 
     codes = sorted(merged)
@@ -473,7 +479,7 @@ def rebuild_font3(font: Font3, ttf_path: Path) -> tuple[bytes, int]:
     for code, old_glyph in font.glyphs.items():
         if rebuilt.glyphs[code] != old_glyph:
             raise AssertionError("original glyph U+%04X changed in font %d" % (code, font.font_id))
-    return bytes(out), len(additions)
+    return bytes(out), len(additions), capped_advances
 
 
 @dataclass
@@ -526,7 +532,8 @@ def pack_tag(code: int, payload: bytes) -> bytes:
     return struct.pack("<HI", (code << 6) | 0x3F, len(payload)) + payload
 
 
-def add_persian(input_path: Path, font_dir: Path, output_path: Path):
+def add_persian(input_path: Path, font_dir: Path, output_path: Path,
+                size_scale: float = PERSIAN_GLYPH_SCALE):
     data = input_path.read_bytes()
     tags_start, tags = parse_gfx(data)
     found = {}
@@ -541,9 +548,9 @@ def add_persian(input_path: Path, font_dir: Path, output_path: Path):
                 ttf_path = font_dir / FONT_MAPPINGS[font.font_id]
                 if not ttf_path.is_file():
                     raise FileNotFoundError(ttf_path)
-                payload, added = rebuild_font3(font, ttf_path)
+                payload, added, capped = rebuild_font3(font, ttf_path, size_scale=size_scale)
                 found[font.font_id] = True
-                counts[font.font_id] = added
+                counts[font.font_id] = (added, capped)
                 rebuilt_tags.append(pack_tag(tag.code, payload))
                 continue
         rebuilt_tags.append(data[tag.start:tag.end])
@@ -587,13 +594,16 @@ def add_persian(input_path: Path, font_dir: Path, output_path: Path):
     output_path.write_bytes(out)
     print("Input: %s (%s bytes)" % (input_path, len(data)))
     print("Output: %s (%s bytes)" % (output_path, len(out)))
+    print("Persian/Arabic glyph scale: %.0f%%" % (size_scale * 100))
     for font_id in sorted(counts):
-        print("Font ID %d: added %d mapped Persian/Arabic glyphs" % (font_id, counts[font_id]))
+        added, capped = counts[font_id]
+        print("Font ID %d: added %d glyphs; %d advances capped to SWF SI16 range"
+              % (font_id, added, capped))
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="افزودن گلیف‌های عربی/فارسی Vazirmatn به پنج DefineFont3 در فایل GFx.",
+        description="افزودن گلیف‌های فارسی/عربی Vazirmatn (با بزرگ‌نمایی پیش‌فرض ۸٪) به پنج DefineFont3.",
         epilog=("نمونه: python3 tools/gfx_font.py originals/fonts_en_pc.gfx "
                 "work/vazirmatn-ttf fonts_en_pc.gfx"),
     )
@@ -601,8 +611,12 @@ def main():
     parser.add_argument("font_dir", type=Path,
                         help="پوشه‌ی TTFهای ثابت Vazirmatn (Regular/Medium/Bold/ExtraBold)")
     parser.add_argument("output", type=Path, help="مسیر خروجی GFX")
+    parser.add_argument("--scale", type=float, default=PERSIAN_GLYPH_SCALE,
+                        help="ضریب اندازه‌ی گلیف‌های تازه؛ پیش‌فرض 1.08 (۸٪ بزرگ‌تر)")
     args = parser.parse_args()
-    add_persian(args.input, args.font_dir, args.output)
+    if not 0.5 <= args.scale <= 1.5:
+        parser.error("--scale باید بین 0.5 و 1.5 باشد")
+    add_persian(args.input, args.font_dir, args.output, size_scale=args.scale)
 
 
 if __name__ == "__main__":
