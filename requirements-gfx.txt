@@ -1,0 +1,4 @@
+# نسخه‌های ثابت برای بازتولید یکسان شکل‌دهی RTL و خروجی GFX
+arabic-reshaper==3.0.1
+fonttools==4.66.1
+python-bidi==0.6.11
