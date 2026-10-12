@@ -310,7 +310,10 @@
       <Content Type="String">تغییر پروفایل</Content>
     </LocalisableString>
     <LocalisableString StringID="18229727269072727389">
-      <Content Type="String">تا زمانی که این نماد دیده می‌شود، رایانه را از برق نکشید و خاموش نکنید؛ وگرنه ممکن است داده‌های ذخیره‌ی بازی‌تان آسیب ببینند.</Content>
+      <Content Type="String">تا زمانی که این نماد
+دیده می‌شود، رایانه را از برق نکشید
+و خاموش نکنید؛ وگرنه ممکن است
+داده‌های ذخیره‌ی بازی‌تان آسیب ببینند.</Content>
     </LocalisableString>
     <LocalisableString StringID="18400611527009175786">
       <Content Type="String">محتوای اضافی موجود نیست</Content>

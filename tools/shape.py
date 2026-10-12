@@ -303,9 +303,14 @@ def _self_test():
                 raise AssertionError("توکن براکتی جابه‌جا/خراب شد: %s" % marker)
         if fslib.token_signature(source) != fslib.token_signature(result):
             raise AssertionError("امضای توکن عوض شد: %r -> %r" % (source, result))
+    # شکست‌خط‌های صریح باید ترتیب معناییِ بالا به پایین را حفظ کنند.
+    first = _shape_line("خط نخست")
+    second = _shape_line("خط دوم")
+    if shape_text("خط نخست\r\nخط دوم") != first + "\r\n" + second:
+        raise AssertionError("ترتیب سطرهای چندخطی عوض شد")
     if shape_text(" سلام ") != " ﻡﻼﺳ ":
         raise AssertionError("نمونه‌ی دقیق سلام با لیگچر/فاصله‌ی مورد انتظار یکی نیست")
-    print("✔ پیش‌شکل‌دهی، لیگچر لام-الف، Bidi، توکن‌ها، markup و CRLF تأیید شد")
+    print("✔ پیش‌شکل‌دهی، ترتیب سطرها، لیگچر لام-الف، Bidi، توکن‌ها، markup و CRLF تأیید شد")
 
 
 if __name__ == "__main__":
