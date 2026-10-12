@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StringTable>
+  <Items>
+    <LocalisableString StringID="913456240071126308">
+      <Content Type="String">You need to install the latest update to access Additional Content. To install the latest update, please close your application and relaunch it.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="1170625712839878472">
+      <Content Type="String">Please reconnect controller.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="1357440043220310567">
+      <Content Type="String">LS: Pan</Content>
+    </LocalisableString>
+    <LocalisableString StringID="2186830714040206997">
+      <Content Type="String">Once a specific part of the city has been wiretapped, enemies can be seen around corners and even through walls in Intel View. To see currently Wiretapped Rackets: Press #E_CTRL_MAP# to open the Map, then click Toggle Wiretap</Content>
+    </LocalisableString>
+    <LocalisableString StringID="2211502318742737806">
+      <Content Type="String">CONTROLLER SENSITIVITY</Content>
+    </LocalisableString>
+    <LocalisableString StringID="2287847266025395808">
+      <Content Type="String">Drop Explosives to destroy pursuing vehicles.
+To drop Explosives while driving: Press #E_CTRL_VEHICLE_WEAPON_GRENADE_AIM#
+To throw Explosives while driving: Hold #E_CTRL_VEHICLE_WEAPON_GRENADE_AIM# to aim Explosives, then release to throw</Content>
+    </LocalisableString>
+    <LocalisableString StringID="2378073424513412962">
+      <Content Type="String">Mouse Wheel: Zoom In/Out</Content>
+    </LocalisableString>
+    <LocalisableString StringID="2397189119963250569">
+      <Content Type="String">VIBRATION</Content>
+    </LocalisableString>
+    <LocalisableString StringID="2741769034688181747">
+      <Content Type="String">Once a specific part of the city has been wiretapped, enemies can be seen around corners and even through walls in Intel View. To see currently Wiretapped Rackets: Press #E_CTRL_MAP# to open the Map, then press #E_MA_LEFT_THUMB_CLICK#</Content>
+    </LocalisableString>
+    <LocalisableString StringID="2854395194769844572">
+      <Content Type="String">Left D-pad</Content>
+    </LocalisableString>
+    <LocalisableString StringID="3261255325931632781">
+      <Content Type="String">Before making your decision, view possible Favors and upgrades from your Underboss by pressing the Left or Right Arrows. View past upgrades and Favors by pressing #E_MA_MAP_PLAYER#.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="3330581356261580452">
+      <Content Type="String">this is platform sample text 2 for WINDOWS</Content>
+    </LocalisableString>
+    <LocalisableString StringID="3330581356261580453">
+      <Content Type="String">this is platform sample text 3 for WINDOWS</Content>
+    </LocalisableString>
+    <LocalisableString StringID="3330581356261580455">
+      <Content Type="String">this is platform sample text 1 for WINDOWS</Content>
+    </LocalisableString>
+    <LocalisableString StringID="3393520119077825885">
+      <Content Type="String">Controller Disconnected</Content>
+    </LocalisableString>
+    <LocalisableString StringID="3403307817361462362">
+      <Content Type="String">Additional Content</Content>
+    </LocalisableString>
+    <LocalisableString StringID="3526203276116546739">
+      <Content Type="String">Press #E_CTRL_MAP# to open the Map, then press #E_MA_CLICK_RIGHT# on the Racket</Content>
+    </LocalisableString>
+    <LocalisableString StringID="4069939743125883675">
+      <Content Type="String">If using a controller, you can set Aim Assist to LOW, HIGH, or turn it OFF.
+To set Aim Assist, press #E_CTRL_MAP#, navigate to the Options Menu, then select Controls.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="4632367317101777488">
+      <Content Type="String">New profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="4632367317101777489">
+      <Content Type="String">Change profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="4632367317101777490">
+      <Content Type="String">Profile:</Content>
+    </LocalisableString>
+    <LocalisableString StringID="4632367317101777491">
+      <Content Type="String">Delete profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="4632367317101777493">
+      <Content Type="String">Create new profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="4697035411871077997">
+      <Content Type="String">Searching for installed Additional Content.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="5718227883192122651">
+      <Content Type="String">Right D-pad</Content>
+    </LocalisableString>
+    <LocalisableString StringID="5929478557874443259">
+      <Content Type="String">To drop Explosives while driving: Press #E_CTRL_VEHICLE_WEAPON_GRENADE_AIM#
+To throw Explosives while driving: Hold #E_CTRL_VEHICLE_WEAPON_GRENADE_AIM# to aim Explosives, then release to throw</Content>
+    </LocalisableString>
+    <LocalisableString StringID="5963429621551810212">
+      <Content Type="String">Failed to import Demo saves due to insufficient free space. Would you like to try again?</Content>
+    </LocalisableString>
+    <LocalisableString StringID="6214603679679045099">
+      <Content Type="String">Right Stick</Content>
+    </LocalisableString>
+    <LocalisableString StringID="6221951360503041836">
+      <Content Type="String">Checking Additional Content</Content>
+    </LocalisableString>
+    <LocalisableString StringID="6322962391867612567">
+      <Content Type="String">LS: Change Page</Content>
+    </LocalisableString>
+    <LocalisableString StringID="7548126046873211215">
+      <Content Type="String">Step 1, Expose the Lock: Move the Mouse until the cursor is in the Green Zone, then press #E_CTRL_LOCKPULL_SET_POSITION#</Content>
+    </LocalisableString>
+    <LocalisableString StringID="7792373384015248371">
+      <Content Type="String">Down D-pad</Content>
+    </LocalisableString>
+    <LocalisableString StringID="7858170794824368377">
+      <Content Type="String">CONTROLLER PRESET</Content>
+    </LocalisableString>
+    <LocalisableString StringID="7956170477661326197">
+      <Content Type="String">Right D-pad</Content>
+    </LocalisableString>
+    <LocalisableString StringID="7956325796505959997">
+      <Content Type="String">Starts Additional Content free ride</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162561826745459496">
+      <Content Type="String">A problem with the license occured while checking installed Additional Content. You may resolve the problem by reinstalling the Additional Content.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162561826745459497">
+      <Content Type="String">A problem occured while verifying the installed Additional Content. The installed Additional Content is damaged. You may resolve the problem by reinstalling the Additional Content.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162561826745459498">
+      <Content Type="String">A problem occured while loading the installed Additional Content. The installed Additional Content is damaged. You may resolve the problem by reinstalling the Additional Content.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162561826745459499">
+      <Content Type="String">There is a problem loading Additional Content "%s". Try to reinstall it in order to use it.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162562926257087738">
+      <Content Type="String">Error occured while looking for Additional Content. Please try again later.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162564025768715853">
+      <Content Type="String">Download this Additional Content</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162564025768715855">
+      <Content Type="String">Looking for Additional Content...</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162565125280344064">
+      <Content Type="String">Additional Content</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162565125280344070">
+      <Content Type="String">Checking for Additional Content...</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162567324303600548">
+      <Content Type="String">The Additional Content (%S) requires newer version of the game executable. You have to restart the game in order to use the Additional Content. Do you want to restart the game now?</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162567324303600549">
+      <Content Type="String">There is an updated version of Additional Content (%S) available online. Please reinstall the Additional Content.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162567324303600550">
+      <Content Type="String">Load failed. The Additional Content (%s) is missing, although the game was saved with this Additional Content. Please reinstall the Additional Content to load the game.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162568423815228787">
+      <Content Type="String">You have no Additional Content.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162568423815228792">
+      <Content Type="String">The Additional Content "%S" requires newest version of game to function properly. Please install the latest title update.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162568423815228793">
+      <Content Type="String">The Additional Content "%s" requires that latest update is installed. Please install this latest update.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162568423815228797">
+      <Content Type="String">The Additional Content "%S" is installed but appears that it was not purchased. Please purchase this Additional Content in order to use it.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8162568423815228798">
+      <Content Type="String">Load failed. The Additional Content (%S) is missing, although the game was saved with this Additional Content. Please reinstall the Additional Content to load the game.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8312532862197436017">
+      <Content Type="String">This save contains Additional Content items from the following package(s) which are not currently installed. Please reinstall the missing Additional Content or start a new game if you wish to play without Additional Content.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="8825061796701376848">
+      <Content Type="String">Set Route: Press #E_CTRL_MAP# to open the map, then press #E_MA_MAP_WAYPOINT# at your destination
+Select Mission: On the Map, press #E_MA_MAP_PLAYER# to view Chapters, and use #E_CTRL_MOVE_ALL# to scroll through available Objectives</Content>
+    </LocalisableString>
+    <LocalisableString StringID="9047395527805370166">
+      <Content Type="String">Left D-pad</Content>
+    </LocalisableString>
+    <LocalisableString StringID="9131269926013478130">
+      <Content Type="String">Map</Content>
+    </LocalisableString>
+    <LocalisableString StringID="9225569731814977812">
+      <Content Type="String">Set Route: Press #E_CTRL_MAP# to open the map, then press #E_MA_MAP_WAYPOINT# at your destination
+Select Mission: On the Map, then click Objectives</Content>
+    </LocalisableString>
+    <LocalisableString StringID="9604033290221963868">
+      <Content Type="String">You now have multiple Objectives available. Select objectives from the Map or in the Objective Panel.
+View Map: #E_CTRL_MAP#, then view the Objective Panel with #E_MA_MAP_PLAYER#</Content>
+    </LocalisableString>
+    <LocalisableString StringID="9823292126929675125">
+      <Content Type="String">Warning: This save contains Additional Content items from the following package(s) which are not currently installed, and you may lose progress.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="9866826269898968692">
+      <Content Type="String">Up D-pad</Content>
+    </LocalisableString>
+    <LocalisableString StringID="10516222482891026164">
+      <Content Type="String">Steam account</Content>
+    </LocalisableString>
+    <LocalisableString StringID="11165173121705853594">
+      <Content Type="String">© 2002-2020 Take-Two Interactive Software, Inc. and its subsidiaries. Developed by Hangar 13. 2K, Hangar 13, MAFIA, 2K Czech, the 2K logo, the 2K Czech logo, the Hangar 13 logo and Take-Two Interactive Software are all trademarks and/or registered trademarks of Take-Two Interactive Software, Inc. Uses Bink Video. Copyright © 1997-2020 by RAD Game Tools, Inc. MAFIA III: DEFINITIVE EDITION uses Havok®. ©Copyright 1999-2020 Havok.com, Inc. (and its Licensors). All Rights Reserved. See www.havok.com for details. This software product Includes Autodesk® Scaleform® software, © 2013 Autodesk, Inc. All rights reserved. Includes software from IDV. Facial animations generated with FaceFX. ©2002-2020, OC3 Entertainment, Inc. and its licensors. All rights reserved. Powered by Wwise © 2006-2020 Audiokinetic Inc. All rights reserved. Uses Simplygon™, Copyright © 2016 Donya™ Labs AB. Copyright in Enlighten is owned by or licensed to Geomerics Limited. All rights reserved. Enlighten is a trademark or registered trademark of Geomerics limited or its affiliates. © 2016 NVIDIA Corporation. NVIDIA, the NVIDIA logo, GeForce are trademarks or registered trademarks of NVIDIA Corporation. All Rights Reserved. 
+This videogame is a work of fiction and is not intended to represent or depict an actual record of the events, persons, locations or entities in the game's setting. Mafia III was made and developed by a diverse team with various religious affiliations and beliefs. The makers and publishers of this videogame do not in any way endorse, condone or encourage engaging in any conduct depicted in this videogame.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="11166513123718761764">
+      <Content Type="String">Missing Additional Content</Content>
+    </LocalisableString>
+    <LocalisableString StringID="11480442858142156688">
+      <Content Type="String">You now have multiple Objectives available. Select objectives from the Map or in the Objective Panel.
+View Map: #E_CTRL_MAP#, then view the Objective Panel by clicking Objectives</Content>
+    </LocalisableString>
+    <LocalisableString StringID="11617266215445719209">
+      <Content Type="String">right trigger</Content>
+    </LocalisableString>
+    <LocalisableString StringID="11617266215445719231">
+      <Content Type="String">right bumper</Content>
+    </LocalisableString>
+    <LocalisableString StringID="11617268414468975649">
+      <Content Type="String">left bumper</Content>
+    </LocalisableString>
+    <LocalisableString StringID="11617268414468975671">
+      <Content Type="String">left trigger</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12208967929445687742">
+      <Content Type="String">Demo Import Failed</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12354295589958122301">
+      <Content Type="String">Saving Disabled</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12388764197267829572">
+      <Content Type="String">left stick</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730624597988244485">
+      <Content Type="String">Save Data</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730626797011500960">
+      <Content Type="String">Selected profile is in use. Switch to another profile or create new profile and then try again.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730626797011500966">
+      <Content Type="String">Delete profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730627896523129211">
+      <Content Type="String">The gamer profile status has changed. Do you want to return to start screen? Your progress will be lost.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730630095546385560">
+      <Content Type="String">Delete profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730630095546385562">
+      <Content Type="String">The gamer profile status has changed. You will be returned to the title screen.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730631195058013776">
+      <Content Type="String">Create user profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730631195058013779">
+      <Content Type="String">You must create a game profile to save your progress. Game will create a new profile file.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730631195058013781">
+      <Content Type="String">Create profile data error. Select RETRY to repeat save operation or QUIT to quit game.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12730631195058013786">
+      <Content Type="String">Change profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="12786672648358620541">
+      <Content Type="String">Menu button</Content>
+    </LocalisableString>
+    <LocalisableString StringID="13133980654610514724">
+      <Content Type="String">Y button</Content>
+    </LocalisableString>
+    <LocalisableString StringID="13133980654610514725">
+      <Content Type="String">X button</Content>
+    </LocalisableString>
+    <LocalisableString StringID="13133980654610514748">
+      <Content Type="String">A button</Content>
+    </LocalisableString>
+    <LocalisableString StringID="13133980654610514751">
+      <Content Type="String">B button</Content>
+    </LocalisableString>
+    <LocalisableString StringID="13973833243003342029">
+      <Content Type="String">Down D-pad</Content>
+    </LocalisableString>
+    <LocalisableString StringID="14159258185257250270">
+      <Content Type="String">Profile Manager</Content>
+    </LocalisableString>
+    <LocalisableString StringID="14855096678123549954">
+      <Content Type="String">Map</Content>
+    </LocalisableString>
+    <LocalisableString StringID="14895086218627829501">
+      <Content Type="String">Left Stick</Content>
+    </LocalisableString>
+    <LocalisableString StringID="14967709168025280058">
+      <Content Type="String">Up D-pad</Content>
+    </LocalisableString>
+    <LocalisableString StringID="15080067792540380964">
+      <Content Type="String">User Profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="15623732681117211540">
+      <Content Type="String">Additional Content</Content>
+    </LocalisableString>
+    <LocalisableString StringID="16440801151823735996">
+      <Content Type="String">Epic account</Content>
+    </LocalisableString>
+    <LocalisableString StringID="16472955271943361248">
+      <Content Type="String">View button</Content>
+    </LocalisableString>
+    <LocalisableString StringID="16551334175354002274">
+      <Content Type="String">right stick</Content>
+    </LocalisableString>
+    <LocalisableString StringID="16564756481596368266">
+      <Content Type="String">Selected player profile</Content>
+    </LocalisableString>
+    <LocalisableString StringID="17481771879634021928">
+      <Content Type="String">No progress will be saved for Sponsored Users.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="17495172407675340869">
+      <Content Type="String">SWITCH PROFILE</Content>
+    </LocalisableString>
+    <LocalisableString StringID="18229727269072727389">
+      <Content Type="String">Do not disconnect or turn off your PC while this symbol is visible or you could damage your saved game data.</Content>
+    </LocalisableString>
+    <LocalisableString StringID="18400611527009175786">
+      <Content Type="String">Missing Additional Content</Content>
+    </LocalisableString>
+  </Items>
+</StringTable>
