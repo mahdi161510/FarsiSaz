@@ -82,9 +82,10 @@ def validate(source_raw: str, out_raw: str, tm: dict, label: str):
         # طول ترجمه نباید نجومی بیشتر از متن اصلی باشد (نشانه‌ی اشتباه)
         if len(fa) > len(en) * 6 + 40:
             warnings.append("ترجمه خیلی بلندتر از متن اصلی [%s]: %r" % (label, en[:50]))
-        # تعداد شکست خط‌ها باید حفظ شود (متن‌های چندخطی آموزش/منو)
-        if en.count("\r\n") != fa.count("\r\n") or en.count("\n") != fa.count("\n"):
-            warnings.append("شکست خط متفاوت [%s]: %d در برابر %d | %r"
+        # تعداد شکست خط‌ها: کم شدن شکست خط نشانه‌ی از دست رفتن متن است
+        # (بیشتر شدن مجاز است، چون مثلاً اعتبار فارسی‌ساز به تیتراژ اضافه می‌شود)
+        if fa.count("\n") < en.count("\n"):
+            warnings.append("شکست خط کمتر از متن اصلی [%s]: %d در برابر %d | %r"
                             % (label, en.count("\n"), fa.count("\n"), en[:50]))
         # & خام (بدون entity) رشته را می‌شکند
         for m in re.finditer(r"&(?!(amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)", fa):

@@ -87,8 +87,13 @@ def looks_like_credits(text: str) -> bool:
     return name_like / len(lines) > 0.85
 
 
-CUE_RE = re.compile(r"^\s*\[[^\]\r\n]{1,60}\]\s*[!.]?\s*$")
+# آواهای صحنه: [grunt] یا (snoring) یا *coughing*
+CUE_RE = re.compile(r"^\s*(?:\[[^\]\r\n]{1,60}\]|\([^\)\r\n]{1,60}\)|\*[^\*\r\n]{1,60}\*?)\s*[!.?…]*\s*$")
 LEGAL_RE = re.compile(r"©|®|™|All Rights Reserved|trademark", re.I)
+
+
+ALLCAPS_RE = re.compile(r"[A-Z0-9 !\.\-,/&%'’\(\)\$\+:;\*\"“”]+")
+TERMINAL_RE = re.compile(r"[.!?…](\s|$)")
 
 
 def classify(text: str, count: int) -> str:
@@ -104,17 +109,25 @@ def classify(text: str, count: int) -> str:
     if "&lt;bold&gt;" in plain:
         return "legal" if looks_like_credits(plain) else "ui"
 
-    # برچسب‌مانند: کوتاه، بدون نقطه‌ی پایان جمله، بدون لهجه و ضمیر
+    # برچسبِ رابط کاربری: کوتاه، «بدون» نقطه/علامت پایان جمله، بدون لهجه و ضمیر
+    # (رشته‌هایی مثل "No sign of him." دیالوگ‌اند، نه منو)
     label_like = (len(plain) <= 70
-                  and not re.search(r"[!?]$", plain)
+                  and not TERMINAL_RE.search(plain)
                   and not DIALECT_RE.search(plain)
                   and not SENTENCE_RE.search(plain))
-    if label_like and (re.fullmatch(r"[A-Z0-9 !\.\-,/&%'’\(\)\$\+:;\*\"“”]+", plain)
-                       or UI_LEXICON.match(plain)):
-        return "ui"
+    if label_like:
+        if ALLCAPS_RE.fullmatch(plain):
+            return "ui"
+        words = plain.split()
+        if len(words) <= 6 and UI_LEXICON.match(plain):
+            return "ui"
+        # Title Case کوتاه مثل "Vehicle Delivery" یا "Weapon Cache Location"
+        if len(words) <= 5 and all(w[0].isupper() or not w[0].isalpha() for w in words):
+            return "ui"
+
     if len(plain) <= 45 and re.search(r"[!?]$|^(Hey|Whoa|Damn|Shit|Oh|Ah|No|Yes)\b", plain):
         return "bark"
-    if count >= 8 and len(plain) <= 90:
+    if count >= 6 and len(plain) <= 100:
         return "bark"
     return "story"
 

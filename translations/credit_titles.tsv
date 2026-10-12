@@ -1,0 +1,403 @@
+# واژه‌نامه‌ی عنوان‌های شغلی تیتراژ Mafia III
+# فرمت: عنوان انگلیسی (دقیقاً همان‌طور که داخل &lt;bold&gt; آمده، با entity ها) <TAB> معادل فارسی
+# عنوان‌هایی که اینجا نیستند انگلیسی می‌مانند؛ با tools/credits.py --missing فهرستشان را ببینید.
+Executive Producer	تهیه‌کننده‌ی اجرایی
+Producer	تهیه‌کننده
+Producers	تهیه‌کنندگان
+Associate Producer	تهیه‌کننده‌ی همکار
+Associate Producers	تهیه‌کنندگان همکار
+Assistant Producer	دستیار تهیه‌کننده
+International Producer	تهیه‌کننده‌ی بین‌المللی
+International Producers	تهیه‌کنندگان بین‌المللی
+Project Manager	مدیر پروژه
+Project Lead	سرپرست پروژه
+Senior Technical Project Manager	مدیر ارشد فنی پروژه
+Production Assistant	دستیار تولید
+Director of Production	مدیر تولید
+Production Designer	طراح تولید
+Special Thanks	سپاس ویژه
+Agencies	آژانس‌ها
+Technical Director	مدیر فنی
+Technical Directors	مدیران فنی
+Art Director	مدیر هنری
+Associate Art Director	مدیر هنری همکار
+Technical Art Director	مدیر هنر فنی
+Design Director	مدیر طراحی
+Creative Director, Marketing	مدیر خلاقیت بازاریابی
+President	رئیس
+President &amp; COO	رئیس و مدیر عملیات
+Chief Operating Officer	مدیر ارشد عملیاتی
+VP, Product Development	معاون توسعه‌ی محصول
+Director of Studio Operations	مدیر عملیات استودیو
+Director of Operations	مدیر عملیات
+Director of Distributed Development	مدیر توسعه‌ی توزیع‌شده
+Outsourcing Producers	تهیه‌کنندگان برون‌سپاری
+Digital Asset Managers	مدیران دارایی دیجیتال
+Media Services Lead	سرپرست خدمات رسانه
+Sr. Media Specialists	کارشناسان ارشد رسانه
+Lead User Researcher	سرپرست پژوهش کاربر
+Sr. User Research Manager	مدیر ارشد پژوهش کاربر
+Sr. User Researcher	پژوهش‌گر ارشد کاربر
+User Research Manager	مدیر پژوهش کاربر
+Engineers	مهندسان
+Software Engineer	مهندس نرم‌افزار
+Senior Software Engineer	مهندس ارشد نرم‌افزار
+Principal Software Engineer	مهندس اصلی نرم‌افزار
+Lead Engineers	سرپرستان مهندسی
+Senior Engineers	مهندسان ارشد
+Associate Engineers	مهندسان همکار
+Sr. Systems Engineer	مهندس ارشد سیستم
+Systems Engineer	مهندس سیستم
+Systems Engineers	مهندسان سیستم
+Jr. Systems Engineer	مهندس تازه‌کار سیستم
+Dev Ops Engineer	مهندس DevOps
+Quality Engineer	مهندس کیفیت
+QA Director	مدیر تضمین کیفیت
+QA Manager	مدیر تضمین کیفیت
+Lead QA Tester	سرپرست تستر تضمین کیفیت
+Senior QA Testers	تسترهای ارشد تضمین کیفیت
+QA Testers	تسترهای تضمین کیفیت
+Quality Assurance Director	مدیر تضمین کیفیت
+Quality Assurance Manager	مدیر تضمین کیفیت
+Quality Assurance Leads	سرپرستان تضمین کیفیت
+Quality Assurance Associate Leads	سرپرستان همکار تضمین کیفیت
+Quality Assurance Senior Testers	تسترهای ارشد تضمین کیفیت
+Quality Assurance Testers	تسترهای تضمین کیفیت
+Quality Assurance Team	تیم تضمین کیفیت
+Quality Assurance Test Manager	مدیر آزمون تضمین کیفیت
+Quality Assurance Senior Lead (Support)	سرپرست ارشد تضمین کیفیت (پشتیبانی)
+SVP of Quality Assurance &amp; Submissions	معاون ارشد تضمین کیفیت و ارسال آثار
+Senior VP of Quality Assurance and Submissions	معاون ارشد تضمین کیفیت و ارسال آثار
+Support Team Manager	مدیر تیم پشتیبانی
+Support Team Leads	سرپرستان تیم پشتیبانی
+Support Team Associate Leads	سرپرستان همکار تیم پشتیبانی
+Support Team Senior Testers	تسترهای ارشد تیم پشتیبانی
+Support Team Testers	تسترهای تیم پشتیبانی
+Support Team QA Analyst	تحلیل‌گر تضمین کیفیت تیم پشتیبانی
+Support Team QA Specialists	کارشناسان تضمین کیفیت تیم پشتیبانی
+Associate Leads (Support Team)	سرپرستان همکار (تیم پشتیبانی)
+Senior Testers (Support Team)	تسترهای ارشد (تیم پشتیبانی)
+Lead (Support Team)	سرپرست (تیم پشتیبانی)
+Senior Testers	تسترهای ارشد
+Associate Lead	سرپرست همکار
+IT Engineer	مهندس فناوری اطلاعات
+IT Analyst	تحلیل‌گر فناوری اطلاعات
+IT Managers	مدیران فناوری اطلاعات
+IT Supervisor	سرپرست فناوری اطلاعات
+IT Interns	کارآموزان فناوری اطلاعات
+Sr. IT Manager	مدیر ارشد فناوری اطلاعات
+Sr. Network Manager	مدیر ارشد شبکه
+Director of Information Technology	مدیر فناوری اطلاعات
+Director, Information Technology Support	مدیر پشتیبانی فناوری اطلاعات
+Director, Systems Engineering	مدیر مهندسی سیستم
+Systems Engineering Manager	مدیر مهندسی سیستم‌ها
+Director, Network Engineering	مدیر مهندسی شبکه
+Senior Network Engineers	مهندسان ارشد شبکه
+Network Engineers	مهندسان شبکه
+Systems Administrators	مدیران سیستم
+Jr. Systems Administrators	مدیران تازه‌کار سیستم
+PC Technician	کارشناس فنی کامپیوتر
+Unified Communications Engineer	مهندس ارتباطات یکپارچه
+Sr. Manager Site Reliability Engineering	مدیر ارشد مهندسی پایداری سایت
+Site Reliability Engineer	مهندس پایداری سایت
+Sr. Network Operations Center Manager	مدیر ارشد مرکز عملیات شبکه
+Network Operations Center Supervisor	سرپرست مرکز عملیات شبکه
+Network Operations Center Engineers	مهندسان مرکز عملیات شبکه
+Director of Security	مدیر امنیت
+Security Analyst	تحلیل‌گر امنیت
+Game Security Engineer	مهندس امنیت بازی
+Sr. Enterprise Security Engineer	مهندس ارشد امنیت سازمانی
+Director of Software Engineering	مدیر مهندسی نرم‌افزار
+Vice President of Information Technology and Security	معاون فناوری اطلاعات و امنیت
+2K Las Vegas IT	فناوری اطلاعات 2K Las Vegas
+2K Vegas Digital Distribution Team Quality Assurance	تضمین کیفیت تیم توزیع دیجیتال 2K Vegas
+Localization QA Manager	مدیر تضمین کیفیت بومی‌سازی
+Localization QA Leads	سرپرستان تضمین کیفیت بومی‌سازی
+Localization QA Testers	تسترهای تضمین کیفیت بومی‌سازی
+Localization QA Senior Lead	سرپرست ارشد تضمین کیفیت بومی‌سازی
+Localization QA Technicians	کارشناسان فنی تضمین کیفیت بومی‌سازی
+Senior Localization QA Technicians	کارشناسان ارشد فنی تضمین کیفیت بومی‌سازی
+Localization Senior QA Testers	تسترهای ارشد بومی‌سازی
+Localization Junior QA Testers	تسترهای تازه‌کار بومی‌سازی
+Mafia III Localization QA Lead	سرپرست تضمین کیفیت بومی‌سازی Mafia III
+Localization tools and support provided by XLOC Inc.	ابزارها و پشتیبانی بومی‌سازی از XLOC Inc.
+Localization Project Lead	سرپرست پروژه‌ی بومی‌سازی
+Localization Support Lead	سرپرست پشتیبانی بومی‌سازی
+Localization Senior Testers	تسترهای ارشد بومی‌سازی
+Localization Junior Testers	تسترهای تازه‌کار بومی‌سازی
+Sr. Localization Coordinator	هماهنگ‌کننده‌ی ارشد بومی‌سازی
+Localization Coordinator	هماهنگ‌کننده‌ی بومی‌سازی
+Localization Coordinators	هماهنگ‌کنندگان بومی‌سازی
+Localization Assistant	دستیار بومی‌سازی
+Localization and Creative Assistant	دستیار بومی‌سازی و خلاقیت
+Sr. Localization Manager	مدیر ارشد بومی‌سازی
+Localization Lead Project Manager	مدیر ارشد پروژه‌ی بومی‌سازی
+Localization Project Manager	مدیر پروژه‌ی بومی‌سازی
+External Localization Teams	تیم‌های بومی‌سازی بیرونی
+Head of Creative Services &amp; Localization	رئیس خدمات خلاقانه و بومی‌سازی
+Director, Creative Services and Localisation	مدیر خدمات خلاقانه و بومی‌سازی
+Localisation Project Manager	مدیر پروژه‌ی بومی‌سازی
+Localisation QA Senior Lead	سرپرست ارشد تضمین کیفیت بومی‌سازی
+Localisation QA Project Lead	سرپرست پروژه‌ی تضمین کیفیت بومی‌سازی
+Localisation QA Leads	سرپرستان تضمین کیفیت بومی‌سازی
+Associate Localisation QA Lead	سرپرست همکار تضمین کیفیت بومی‌سازی
+Senior Localisation QA Technicians	کارشناسان ارشد فنی تضمین کیفیت بومی‌سازی
+Localisation QA Technicians	کارشناسان فنی تضمین کیفیت بومی‌سازی
+Mastering Engineer	مهندس مسترینگ
+Mastering Technician	کارشناس فنی مسترینگ
+Recording Engineer	مهندس ضبط
+Recording Engineer &amp; Mixer	مهندس ضبط و میکس
+Assistant Engineer	دستیار مهندس
+Lead Dialogue Recordist	سرپرست ضبط دیالوگ
+Re-recording Mixers	میکسرهای بازضبط
+Supervising Dialogue Editor	سرپرست تدوین دیالوگ
+Dialogue Editors	تدوین‌گران دیالوگ
+Foley Artists	هنرمندان فولی
+Foley Engineers	مهندسان فولی
+Voiceover Directors	کارگردانان صداپیشگی
+Stunt Coordinator	هماهنگ‌کننده‌ی بدلکاری
+Assistant Stunt Rigger	دستیار بدلکاری
+Military Advisor	مشاور نظامی
+Casting	انتخاب بازیگر
+Casting Managers	مدیران انتخاب بازیگر
+Casting Assistant	دستیار انتخاب بازیگر
+Dialect Coach	مربی لهجه
+Additional Cinematics Cast	بازیگران اضافه‌ی میان‌پرده‌ها
+Additional Motion Capture Performers	اجراکنندگان اضافه‌ی موشن کپچر
+Motion Capture Camera Operators	اپراتورهای دوربین موشن کپچر
+Original Music Composed by	آهنگ‌سازی اصلی از
+Contractor	مسئول جذب نوازندگان
+Bass	بیس
+Guitars	گیتارها
+Additional Guitars	گیتارهای اضافه
+Drums &amp; Percussion	درام و سازهای کوبه‌ای
+Harmonica	سازدهنی
+Keys	کیبورد
+Trumpet &amp; Trombone	ترومپت و ترومبون
+Alto Saxophone	ساکسیفون آلتو
+Tenor Saxophone	ساکسیفون تنور
+Baritone Saxophone	ساکسیفون باریتون
+Fiddle	ویولن محلی
+Cello	ویولنسل
+Vocals	آواز
+Step Dancers	رقصندگان استپ
+Score Preparation	آماده‌سازی پارتیتور
+Librarian	کتاب‌دار آرشیو نت
+Session Prep &amp; Music Editing	آماده‌سازی جلسات و تدوین موسیقی
+Music Assistant	دستیار موسیقی
+Recorded at Ocean Way Studios and House of Blues Studios in Nashville Tennessee	ضبط‌شده در استودیوهای Ocean Way و House of Blues در نشویل، تنسی
+Mixed at Studio D, Sausalito, California	میکس‌شده در استودیو D، ساسالیتو، کالیفرنیا
+Post-Production Sound Services	خدمات صدای پس‌ازتولید
+Lincoln Clay (Voice)	لینکلن کلی (صدا)
+Lincoln Clay (Motion Capture)	لینکلن کلی (موشن کپچر)
+Lincoln Clay (Gameplay)	لینکلن کلی (گیم‌پلی)
+John Donovan	جان داناوان
+Father James	پدر جیمز
+Jonathan Maguire	جاناتان مگوایر
+"The Voice"/ Charles Laveau	«صدا»/ شارل لوو
+Lead Animator	سرپرست انیمیشن
+Animators	انیماتورها
+Senior Animators	انیماتورهای ارشد
+Lead Character Artist	سرپرست هنرمندان شخصیت
+Character Artist	هنرمند شخصیت
+Senior Character Artists	هنرمندان ارشد شخصیت
+Senior Technical Artist	هنرمند فنی ارشد
+Technical Artist	هنرمند فنی
+Technical Artists	هنرمندان فنی
+Media Artist	هنرمند رسانه
+Lead Gameplay Designer	سرپرست طراحی گیم‌پلی
+Gameplay Designers	طراحان گیم‌پلی
+Junior Gameplay Designer	طراح تازه‌کار گیم‌پلی
+Principal Gameplay Scripter	اسکریپت‌نویس اصلی گیم‌پلی
+Gameplay Scripter	اسکریپت‌نویس گیم‌پلی
+Lead World Designer	سرپرست طراحی جهان
+World Designers	طراحان جهان
+Junior World Designers	طراحان تازه‌کار جهان
+Lead Mission Designer	سرپرست طراحی مأموریت
+Mission Designers	طراحان مأموریت
+Senior Mission Designers	طراحان ارشد مأموریت
+Junior Mission Designers	طراحان تازه‌کار مأموریت
+Principal Mission Designer	طراح اصلی مأموریت
+Principal Hideout Designer	طراح اصلی مخفی‌گاه
+Principal Living World Designer	طراح اصلی جهان زنده
+Living World Designer	طراح جهان زنده
+Lead Game Structure Designer	سرپرست طراحی ساختار بازی
+Lead Narrative Designer	سرپرست طراحی روایت
+Lead Writer	نویسنده‌ی ارشد
+Senior Writers	نویسندگان ارشد
+Designer	طراح
+Sr. Manager, Game Design	مدیر ارشد طراحی بازی
+Sr. Design Manager	مدیر ارشد طراحی
+Senior Design Manager	مدیر ارشد طراحی
+District Designers	طراحان محله
+District Design &amp; Gameplay Scripting	طراحی محله و اسکریپت‌نویسی گیم‌پلی
+Lead Architect	معمار ارشد
+Lead Architect - City	معمار ارشد - شهر
+Lead Architect - Environment	معمار ارشد - محیط
+Lead Architect – Missions	معمار ارشد – مأموریت‌ها
+Level Architects	معماران مرحله
+Senior Level Architects	معماران ارشد مرحله
+Junior Level Architect	معمار تازه‌کار مرحله
+Lead Lighting Artist	سرپرست نورپردازی
+Lighting Artists	نورپردازان
+Lead Pipeline TD	مسئول ارشد خط لوله
+Lead Technical Animator	سرپرست انیمیشن فنی
+Lead Technical Artist	سرپرست هنر فنی
+Lead UX/UI Designer	سرپرست طراحی UX/UI
+Lead VFX Artist	سرپرست جلوه‌های بصری
+Principal Character TDs	مسئولان اصلی فنی شخصیت
+Senior Concept Artist	هنرمند ارشد کانسپت
+Concept Artists	هنرمندان کانسپت
+Senior Facial TD	مسئول ارشد فنی چهره
+Senior Visual Effects Artist	هنرمند ارشد جلوه‌های بصری
+Senior Vehicles Artists	هنرمندان ارشد خودرو
+Brand Manager	مدیر برند
+Sr. Brand Manager	مدیر ارشد برند
+Senior Brand Manager	مدیر ارشد برند
+Marketing Manager	مدیر بازاریابی
+Director of Marketing, North America	مدیر بازاریابی آمریکای شمالی
+Influencer Marketing Manager	مدیر بازاریابی اینفلوئنسری
+Marketing Production Manager	مدیر تولید بازاریابی
+Sr. Graphic Designer	طراح گرافیک ارشد
+Graphic Designer	طراح گرافیک
+Graphic Designers	طراحان گرافیک
+Video Editor	تدوین‌گر ویدیو
+Video Editors &amp; Motion Graphics Designers	تدوین‌گران ویدیو و طراحان موشن گرافیک
+Sr. Video Editor &amp; Motion Graphics Designer	تدوین‌گر ارشد ویدیو و طراح موشن گرافیک
+Video Content Editors	تدوین‌گران محتوای ویدیویی
+Sr. Web Designer	طراح ارشد وب
+Web Developer	توسعه‌دهنده‌ی وب
+Sr. Web Developers	توسعه‌دهندگان ارشد وب
+Sr. Web Producer	تهیه‌کننده‌ی ارشد وب
+Web Production Coordinator	هماهنگ‌کننده‌ی تولید وب
+Associate Video Production Manager	مدیر همکار تولید ویدیو
+Sr. Director, Global Video Production	مدیر ارشد تولید ویدیوی جهانی
+Video Editor/Capture Specialist	تدوین‌گر/کارشناس ضبط ویدیو
+Jr. Video Editor	تدوین‌گر تازه‌کار ویدیو
+Director, Customer Service	مدیر خدمات مشتریان
+Sr. Manager, Customer Service	مدیر ارشد خدمات مشتریان
+Manager, Customer Service	مدیر خدمات مشتریان
+Manager, Knowledge Base	مدیر پایگاه دانش
+Supervisors, Customer Service	سرپرستان خدمات مشتریان
+Associate Supervisors, Customer Service	سرپرستان همکار خدمات مشتریان
+Coordinator, Customer Service	هماهنگ‌کننده‌ی خدمات مشتریان
+Senior Agents, Customer Service	کارشناسان ارشد خدمات مشتریان
+Customer Service Associates	کارشناسان خدمات مشتریان
+Legal Assistant	دستیار حقوقی
+Paralegal	کارشناس حقوقی
+Director &amp; Counsel	مدیر و مشاور حقوقی
+SVP, Deputy General Counsel, Publishing	معاون ارشد، جانشین مشاور حقوقی کل، نشر
+Executive Assistant	دستیار اجرایی
+Sr. Administrative Assistant	دستیار اداری ارشد
+Administrative Assistants	دستیاران اداری
+Administrative Services Manager	مدیر خدمات اداری
+Front Desk Receptionist	پذیرش
+Senior Administrative Support	پشتیبانی اداری ارشد
+Head of Finance, 2K	رئیس امور مالی 2K
+Sr. Director, Accounting	مدیر ارشد حسابداری
+Sr. Director of Finance Operations	مدیر ارشد عملیات مالی
+Financial Planning &amp; Analysis Manager	مدیر برنامه‌ریزی و تحلیل مالی
+Sr. Accountant	حسابدار ارشد
+Sr. Financial Analyst	تحلیل‌گر ارشد مالی
+Finance Coordinator	هماهنگ‌کننده‌ی مالی
+Finance Analyst	تحلیل‌گر مالی
+Finance Assistant	دستیار مالی
+VP, Global HR	معاون منابع انسانی جهانی
+Director, Human Resources	مدیر منابع انسانی
+Director of Organizational Development	مدیر توسعه‌ی سازمانی
+Human Resources Business Partner	شریک تجاری منابع انسانی
+Human Resources Manager	مدیر منابع انسانی
+Human Resources Generalist	کارشناس منابع انسانی
+Human Resources Coordinators	هماهنگ‌کنندگان منابع انسانی
+Senior Recruiters	استخدام‌کنندگان ارشد
+Recruiting Coordinator	هماهنگ‌کننده‌ی استخدام
+Director of Analytics	مدیر تحلیل داده
+VP, Global Analytics and Insights	معاون تحلیل و بینش جهانی
+Director of Data Science and Analytics	مدیر علم داده و تحلیل
+Director of Data Engineering	مدیر مهندسی داده
+Sr. Manager, Analytics	مدیر ارشد تحلیل
+Sr. Analyst	تحلیل‌گر ارشد
+Sr. Data Analyst	تحلیل‌گر ارشد داده
+Sr. Mobile Data Analyst	تحلیل‌گر ارشد داده‌ی موبایل
+Associate Data Analyst	تحلیل‌گر همکار داده
+Data Engineer	مهندس داده
+Data Scientist	دانشمند داده
+Data Analytics Engineer	مهندس تحلیل داده
+Mobile Games Analyst	تحلیل‌گر بازی‌های موبایل
+Strategy Analyst	تحلیل‌گر راهبرد
+Director of Monetization	مدیر درآمدزایی
+Live Operations Product Manager	مدیر محصول عملیات زنده
+Live Ops Manager	مدیر عملیات زنده
+Analytics Producer	تهیه‌کننده‌ی تحلیل
+Partner Operations Manager	مدیر عملیات شرکا
+Licensing &amp; Operations Specialist	کارشناس مجوز و عملیات
+Operations Coordinator	هماهنگ‌کننده‌ی عملیات
+Senior Technical Product Management	مدیریت ارشد محصول فنی
+Director of Technical Program Management	مدیر برنامه‌ی فنی
+Technical Program Management	مدیریت برنامه‌ی فنی
+VP Publishing	معاون نشر
+VP, Publishing	معاون نشر
+VP, Operations	معاون عملیات
+VP, Global Services	معاون خدمات جهانی
+Sr. Director, Global Services	مدیر ارشد خدمات جهانی
+Sr. Director, Business Development	مدیر ارشد توسعه‌ی کسب‌وکار
+Sr. Director, Story and Creative Development	مدیر ارشد توسعه‌ی داستان و خلاقیت
+Director, Business Development &amp; Corporate Strategy	مدیر توسعه‌ی کسب‌وکار و راهبرد شرکت
+VP, Global Partnerships	معاون مشارکت‌های جهانی
+Director, Partnerships and Licensing	مدیر مشارکت‌ها و صدور مجوز
+Sr. Manager, Music Partnerships &amp; Licensing	مدیر ارشد مشارکت و مجوز موسیقی
+VP, Global Channel Marketing	معاون بازاریابی کانال جهانی
+Director, Channel Marketing	مدیر بازاریابی کانال
+Channel Marketing Manager	مدیر بازاریابی کانال
+Channel Project Manager	مدیر پروژه‌ی کانال
+Senior Partner Marketing Specialist	کارشناس ارشد بازاریابی شرکا
+Account Executives, Media Partnerships	کارشناسان حساب، مشارکت‌های رسانه‌ای
+Partnerships &amp; Licensing Coordinator	هماهنگ‌کننده‌ی مشارکت‌ها و مجوزها
+Sr. Manager, First Party Partnerships	مدیر ارشد مشارکت‌های طرف اول
+Manager, First Party Partnerships	مدیر مشارکت‌های طرف اول
+Associate Manager, Partnerships &amp; Licensing	مدیر همکار مشارکت‌ها و مجوزها
+SVP, Head of Global Marketing	معاون ارشد، رئیس بازاریابی جهانی
+Global Head of Media Strategy &amp; Planning	رئیس جهانی راهبرد و برنامه‌ریزی رسانه
+Director, Global Consumer Marketing	مدیر بازاریابی مصرف‌کننده‌ی جهانی
+Sr. Director, Global Marketing	مدیر ارشد بازاریابی جهانی
+Sr. Social Media Manager	مدیر ارشد شبکه‌های اجتماعی
+Sr. Manager, Global Content	مدیر ارشد محتوای جهانی
+Global Content Manager	مدیر محتوای جهانی
+Sr. Content Manager	مدیر ارشد محتوا
+Sr. Manager, CRM and Marketing Data	مدیر ارشد داده‌های CRM و بازاریابی
+VP, Communications	معاون ارتباطات
+Director, Global Communications, Public Relations	مدیر ارتباطات جهانی و روابط عمومی
+Communications Manager	مدیر ارتباطات
+Director, Global Communications, Influencer Management	مدیر ارتباطات جهانی و مدیریت اینفلوئنسرها
+VP, Global Marketing Design &amp; Creative Services	معاون طراحی بازاریابی جهانی و خدمات خلاقانه
+Senior Director, International Marketing and Communications	مدیر ارشد بازاریابی و ارتباطات بین‌المللی
+Head of International Brand, Marketing	رئیس برند بین‌المللی، بازاریابی
+Head of International PR &amp; Communications	رئیس روابط عمومی و ارتباطات بین‌المللی
+Senior International Brand Manager, Marketing	مدیر ارشد برند بین‌المللی، بازاریابی
+International Brand Manager, Marketing	مدیر برند بین‌المللی، بازاریابی
+International Community &amp; Social Manager	مدیر بین‌المللی جامعه و شبکه‌های اجتماعی
+Senior International Product Manager	مدیر ارشد محصول بین‌المللی
+International Product Manager	مدیر محصول بین‌المللی
+International PR Managers	مدیران روابط عمومی بین‌المللی
+International Social Marketing Executive	کارشناس بازاریابی اجتماعی بین‌المللی
+TAKE-TWO ASIA OPERATIONS	عملیات TAKE-TWO آسیا
+TAKE-TWO ASIA BUSINESS DEVELOPMENT	توسعه‌ی کسب‌وکار TAKE-TWO آسیا
+General Manager, Asia	مدیر کل آسیا
+Asia General Manager	مدیر کل آسیا
+Asia Marketing Director	مدیر بازاریابی آسیا
+Asia Marketing Directors	مدیران بازاریابی آسیا
+Asia Marketing Manager	مدیر بازاریابی آسیا
+Asia Sr. Marketing Manager	مدیر ارشد بازاریابی آسیا
+Japan Marketing Manager	مدیر بازاریابی ژاپن
+Korea Marketing Manager	مدیر بازاریابی کره
+China Marketing Manager	مدیر بازاریابی چین
+Asia Associate Marketing Manager	مدیر همکار بازاریابی آسیا
+Japan Associate Marketing Manager	مدیر همکار بازاریابی ژاپن
+Asia Marketing Assistant	دستیار بازاریابی آسیا
+Korea Marketing Assistant	دستیار بازاریابی کره
+Asia Sr. Product Executive	کارشناس ارشد محصول آسیا
+Asia Product Executive	کارشناس محصول آسیا
+Asia Marketing Executive	کارشناس بازاریابی آسیا
+China Marketing Executive	کارشناس بازاریابی چین
+Sr. Product Executive	کارشناس ارشد محصول
+Product Executive	کارشناس محصول
