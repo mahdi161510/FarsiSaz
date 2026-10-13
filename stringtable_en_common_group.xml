@@ -146,7 +146,7 @@
       <Content Type="String">مارکانو قبلاً کازینوهای مافیا رو پایین همین هوانا می‌چرخوند.</Content>
     </LocalisableString>
     <LocalisableString StringID="9160158949367032">
-      <Content Type="String">You know what it is, it stinks of mud. Wet, rotten mud that's been buried down deep for way too fucking long. The Mekong Delta had the same goddamn stench. Hated it then, hate it now.</Content>
+      <Content Type="String">می‌دونی چیه، بوی گِل می‌ده. گِل خیس و گندیده که خیلی لعنتی زیاد زیر خاک مونده. دلتای مکونگ هم همین گند لعنتی رو داشت. اون‌موقع ازش بدم می‌آمد، الآن هم بدم می‌آد.</Content>
     </LocalisableString>
     <LocalisableString StringID="9161258460995147">
       <Content Type="String">Smells all right to me.</Content>
@@ -17860,13 +17860,13 @@ Maxime Le Nevanic</Content>
       <Content Type="String">خدای من، بوی این طرفا. نمی‌دونم مردم چطور تحملش می‌کنن.</Content>
     </LocalisableString>
     <LocalisableString StringID="929676309323571162">
-      <Content Type="String">It’s important enough for you to figure it out.</Content>
+      <Content Type="String">به‌قدر کافی مهمه که خودت کشفش کنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="929877264464100589">
       <Content Type="String">جست‌وجو و تعقیب پلیس را ۶۰ ثانیه متوقف کنید.</Content>
     </LocalisableString>
     <LocalisableString StringID="929936412383037999">
-      <Content Type="String">Easy now. He's not that bad.</Content>
+      <Content Type="String">آروم باش. اون این‌قدرها هم بد نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="930626044512026652">
       <Content Type="String">اونجاست! نه... اونجا!</Content>
@@ -17887,7 +17887,7 @@ Maxime Le Nevanic</Content>
       <Content Type="String">بی‌خیال. باشه، باهاتم.</Content>
     </LocalisableString>
     <LocalisableString StringID="931771363961123087">
-      <Content Type="String">Linked to mysterious Southern Union activity.</Content>
+      <Content Type="String">مربوط به فعالیت مرموز اتحادیه‌ی جنوب.</Content>
     </LocalisableString>
     <LocalisableString StringID="931919856181482028">
       <Content Type="String">عجله دارم.</Content>
@@ -17896,7 +17896,7 @@ Maxime Le Nevanic</Content>
       <Content Type="String">مزاحمم نشو.</Content>
     </LocalisableString>
     <LocalisableString StringID="931962364984233039">
-      <Content Type="String">Please, be advised, any area units, there's been a homicide reported in Delray Hollow. Please respond.</Content>
+      <Content Type="String">لطفاً توجه کنید، هر واحد منطقه، یه قتل تو دلری هالو گزارش شده. لطفاً پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="932008179929305670">
       <Content Type="String">آه، گرمی خون خودم...</Content>
@@ -17908,10 +17908,10 @@ Maxime Le Nevanic</Content>
       <Content Type="String">آره، مشکلی نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="933094808687799808">
-      <Content Type="String">Gismondi got his uncle on Bevers' payroll to keep stocking Sweetwater 'shine in his grocery store. The place can be busy, so coming at him from the front might draw a lot of attention.</Content>
+      <Content Type="String">جیزموندی عموش رو که تو لیست بِورزه گذاشته بود که مشروب سوییت‌ووتر رو تو مغازه‌ش موجود نگه داره. اون‌جا ممکنه شلوغ باشه، پس از جلو رفتن سراغش توجه زیادی جلب می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="933750213914788051">
-      <Content Type="String">This is the symbol for The Blessed.</Content>
+      <Content Type="String">این نشونه‌ی برکت‌یافته‌هاست.</Content>
     </LocalisableString>
     <LocalisableString StringID="933817582930694995">
       <Content Type="String">می‌ترکونمش!</Content>
@@ -17929,7 +17929,7 @@ Maxime Le Nevanic</Content>
       <Content Type="String">من تو رو می‌شناسم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="934907700246731475">
-      <Content Type="String">You don't work for Ms. Marcano. Ms. Marcano doesn't pay you. I do. And I damn well don't pay you to think.</Content>
+      <Content Type="String">تو برای خانم مارکانو کار نمی‌کنی. خانم مارکانو بهت پول نمی‌ده. من می‌دم. و مطمئناً برای فکر کردن پول نمی‌دم.</Content>
     </LocalisableString>
     <LocalisableString StringID="934914920653320460">
       <Content Type="String">بیا این طرف رو بگردیم.</Content>
@@ -17938,7 +17938,7 @@ Maxime Le Nevanic</Content>
       <Content Type="String">می‌دونستم جربزه‌ش رو نداره.</Content>
     </LocalisableString>
     <LocalisableString StringID="936752182950224900">
-      <Content Type="String">The warm sighs of grandparents lost in reverie / We here twine together like snakes / Dancing that eternal dance, oh yeah / No promise of heaven will forgive us / If we fail to love each other</Content>
+      <Content Type="String">آه‌های گرم پدربزرگ‌مادربزرگ‌های گم‌شده در خیال / ما این‌جا مثل مارها به هم می‌پیچیم / اون رقص ابدی رو می‌رقصیم، آره / هیچ وعده‌ی بهشتی ما رو نمی‌بخشه / اگه از دوست داشتن هم باز بمونیم</Content>
     </LocalisableString>
     <LocalisableString StringID="937424561388629207">
       <Content Type="String">دارم خشاب عوض می‌کنم. پشتمو بپا!</Content>
@@ -17956,7 +17956,7 @@ Maxime Le Nevanic</Content>
       <Content Type="String">گور بابای تو و برک!</Content>
     </LocalisableString>
     <LocalisableString StringID="938647876634772851">
-      <Content Type="String">I’ll cover you from here, Staff Sergeant.</Content>
+      <Content Type="String">از این‌جا پوششت می‌دم، گروهبان.</Content>
     </LocalisableString>
     <LocalisableString StringID="939045314080043963">
       <Content Type="String">گندش بگه. گندش بگه. این ریچی لعنتی. من این کارو نمی‌خواستم.</Content>
@@ -18016,10 +18016,10 @@ Maxime Le Nevanic</Content>
       <Content Type="String">بیا دیگه، ای فاحشه‌ی کثیف لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="944877384879738589">
-      <Content Type="String">Everything you've ever asked. I've done. Including locking up both these rackets. Don't fuck me on this.</Content>
+      <Content Type="String">هر چیزی که تا حالا خواستی، انجام دادم. از جمله قفل کردن هر دو تا این راکت. سر این یکی منو نپیچون.</Content>
     </LocalisableString>
     <LocalisableString StringID="944877384879738590">
-      <Content Type="String">My guys got this turf locked up tight. So go ahead and make this shit official and we'll all go about our fucking day.</Content>
+      <Content Type="String">بچه‌های من این قلمرو رو محکم قفل کردن. پس برو این گه رو رسمی کن تا همه‌مون بریم پی زندگیمون.</Content>
     </LocalisableString>
     <LocalisableString StringID="945570312977319140">
       <Content Type="String">برای خشاب‌عوض‌کردن یه لحظه وقت می‌خوام!</Content>
@@ -18034,16 +18034,16 @@ Maxime Le Nevanic</Content>
       <Content Type="String">یه چیز خنک الان می‌چسبه.</Content>
     </LocalisableString>
     <LocalisableString StringID="946107082855688459">
-      <Content Type="String">He can't hide for much longer.</Content>
+      <Content Type="String">زیاد نمی‌تونه قایم شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="946174220329376793">
-      <Content Type="String">Santini's brother-in-law, Ricky Coyle, has his crew locking down the rail line switch houses. You may want to hit this place at night when it's quieter.</Content>
+      <Content Type="String">برادرزن سانتینی، ریکی کویل، گذاشته خدمه‌ش خونه‌های سوئیچ خط آهن رو قفل کنن. بهتره شب که ساکت‌تره به این‌جا بزنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="946197111010855568">
-      <Content Type="String">Need work? Go talk to Mr. Vito.</Content>
+      <Content Type="String">کار لازم داری؟ برو با آقای ویتو حرف بزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="946552192002347154">
-      <Content Type="String">Part Vodou shop, part base of operations for Cassandra and the Haitian gang.</Content>
+      <Content Type="String">نصفش مغازه‌ی وودو، نصفش پایگاه عملیات کاساندرا و گنگ هائیتیایی.</Content>
     </LocalisableString>
     <LocalisableString StringID="946990736238719160">
       <Content Type="String">حس خوبی نداره.</Content>
@@ -272224,7 +272224,7 @@ That Old Union</Content>
       <Content Type="String">چشم، قربان! نارنجک در راهه!</Content>
     </LocalisableString>
     <LocalisableString StringID="15819861348279265193">
-      <Content Type="String">Visit Danny.</Content>
+      <Content Type="String">سر به حال دنی بزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15820011439436154429">
       <Content Type="String">پشت یه چیزی پناه بگیر!</Content>
@@ -272239,7 +272239,7 @@ That Old Union</Content>
       <Content Type="String">کشیدن قفل</Content>
     </LocalisableString>
     <LocalisableString StringID="15820259111270753383">
-      <Content Type="String">There’s a cutoff on the right. We can lose ‘em that way.</Content>
+      <Content Type="String">یه جاده‌ی فرعی سمت راسته. می‌تونیم از اون راه از دستشون در بریم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15820393430410745329">
       <Content Type="String">این دیگه چه وضعیه؟</Content>
@@ -272251,7 +272251,7 @@ That Old Union</Content>
       <Content Type="String">اون چیه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15821055213905150104">
-      <Content Type="String">Covered in blood... That’s what that girl, Anna, was sayin’.</Content>
+      <Content Type="String">خیس تو خون... این همون چیزیه که اون دختره، آنا، می‌گفت.</Content>
     </LocalisableString>
     <LocalisableString StringID="15821216104278395153">
       <Content Type="String">مظنون رو می‌بینم!</Content>
@@ -272263,7 +272263,7 @@ That Old Union</Content>
       <Content Type="String">کاهش پراکندگی تفنگ‌های ساچمه‌ای</Content>
     </LocalisableString>
     <LocalisableString StringID="15822050372456521020">
-      <Content Type="String">That boy's lookin' to kill him.</Content>
+      <Content Type="String">اون پسر می‌خواد بکشنش.</Content>
     </LocalisableString>
     <LocalisableString StringID="15822050372456521022">
       <Content Type="String">این کار من نیست!</Content>
@@ -272299,7 +272299,7 @@ That Old Union</Content>
       <Content Type="String">یا خدا! بجنب!</Content>
     </LocalisableString>
     <LocalisableString StringID="15822883021887589897">
-      <Content Type="String">I’m on the turret.</Content>
+      <Content Type="String">من روی مسلسل جای‌گرفته‌ام.</Content>
     </LocalisableString>
     <LocalisableString StringID="15823270784217756360">
       <Content Type="String">جورجو مارکانو</Content>
@@ -272317,10 +272317,10 @@ That Old Union</Content>
       <Content Type="String">نارنجک می‌ندازم!</Content>
     </LocalisableString>
     <LocalisableString StringID="15823751495788524760">
-      <Content Type="String">Burke's a problem. But not one I can't handle.</Content>
+      <Content Type="String">برک یه مشکله. ولی مشکلی نیست که از پسش برنیام.</Content>
     </LocalisableString>
     <LocalisableString StringID="15823751495788524763">
-      <Content Type="String">Burke made his choice. And I'll deal with him.</Content>
+      <Content Type="String">برک انتخاب خودش رو کرد. و من سروقتش می‌رم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15823825060445664849">
       <Content Type="String">هروئین را در کلیسا نابود کن تا به کسب‌وکار خلاف مواد ضربه بزنی.</Content>
@@ -272341,7 +272341,7 @@ That Old Union</Content>
       <Content Type="String">بازم از اینا دارن می‌آن!</Content>
     </LocalisableString>
     <LocalisableString StringID="15824554725914649681">
-      <Content Type="String">Trash the truck or get it to Father James and see if he can put them to good use.</Content>
+      <Content Type="String">کامیون رو دور بینداز یا برسونش پیش پدر جیمز و ببین می‌تونه ازشون خوب استفاده کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15824818040002776091">
       <Content Type="String">موجودی</Content>
@@ -272353,7 +272353,7 @@ That Old Union</Content>
       <Content Type="String">فرار کنید، ای عوضیای سوسک!</Content>
     </LocalisableString>
     <LocalisableString StringID="15825700256039159472">
-      <Content Type="String">Was there ever any doubt? I mean, seriously.</Content>
+      <Content Type="String">مگه شک هم داشتیم؟ یعنی، جدی می‌گم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15826259075610825186">
       <Content Type="String">پیدات می‌کنیم و تیکه‌هات رو برای بانی می‌بریم، پسر.</Content>
@@ -272392,7 +272392,7 @@ That Old Union</Content>
       <Content Type="String">گندش بگه. می‌دونستم باید قبل از اومدن به اینجا یه بار برم دستشویی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15827588443270957297">
-      <Content Type="String">You liked that? ‘Cos I got a line on a REAL party. C’mon!</Content>
+      <Content Type="String">ازش خوشت اومد؟ چون یه سرنخ از یه مهمونی واقعی دارم. بیا!</Content>
     </LocalisableString>
     <LocalisableString StringID="15828071478708849832">
       <Content Type="String">پسر، صبرم داره تموم می‌شه.</Content>
@@ -272413,16 +272413,16 @@ That Old Union</Content>
       <Content Type="String">نمی‌دونم. باید رفته باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15829972668711649928">
-      <Content Type="String">Level 4 achieved</Content>
+      <Content Type="String">سطح ۴ به دست آمد</Content>
     </LocalisableString>
     <LocalisableString StringID="15829972668711649929">
-      <Content Type="String">Max level achieved</Content>
+      <Content Type="String">بالاترین سطح به دست آمد</Content>
     </LocalisableString>
     <LocalisableString StringID="15829972668711649934">
-      <Content Type="String">Level 2 achieved</Content>
+      <Content Type="String">سطح ۲ به دست آمد</Content>
     </LocalisableString>
     <LocalisableString StringID="15829972668711649935">
-      <Content Type="String">Level 3 achieved</Content>
+      <Content Type="String">سطح ۳ به دست آمد</Content>
     </LocalisableString>
     <LocalisableString StringID="15830044887355569187">
       <Content Type="String">توی کیسه‌ی جنازه برمی‌گردی خونه!</Content>
@@ -272476,17 +272476,17 @@ That Old Union</Content>
       <Content Type="String">داره میاد!</Content>
     </LocalisableString>
     <LocalisableString StringID="15833401400310483818">
-      <Content Type="String">You can call the Hit Squad to provide backup when you're out in the field.
-To call the Hit Squad, select it from your Weapons Menu.</Content>
+      <Content Type="String">می‌تونی جوخه‌ی ضربتی رو خبر کنی که وقتی تو میدونی پشتیبان بیاد.
+برای خبر کردن جوخه‌ی ضربتی، از منوی سلاح‌هات انتخابش کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15833432200077198561">
-      <Content Type="String">Yeah. Lemme guess: you need more.</Content>
+      <Content Type="String">آره. بذار حدس بزنم: بیشتر می‌خوای.</Content>
     </LocalisableString>
     <LocalisableString StringID="15833560478107966204">
-      <Content Type="String">Smart. Give folks some good food with their liquor, and they'll stay all night.</Content>
+      <Content Type="String">عاقلانه. به مردم کنار مشروبشون غذای خوب بدی، تمام شب می‌مونن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15833792539247648957">
-      <Content Type="String">Boys, we got trouble brewing.</Content>
+      <Content Type="String">بچه‌ها، یه دردسری داره درست میشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15834818714914229393">
       <Content Type="String">پلیس کجاست؟</Content>
@@ -272504,7 +272504,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اوه!</Content>
     </LocalisableString>
     <LocalisableString StringID="15836375227875618659">
-      <Content Type="String">Maybe we can do a fish fry now and then.</Content>
+      <Content Type="String">شاید هر چند وقت یه بار یه ماهی سرخ‌کنی هم راه بندازیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15836734282482340796">
       <Content Type="String">از اون طرف بازه!</Content>
@@ -272516,7 +272516,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">دورش بزن و غافلگیرش کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="15836811057295630969">
-      <Content Type="String">Car crash</Content>
+      <Content Type="String">تصادف خودرو</Content>
     </LocalisableString>
     <LocalisableString StringID="15837140110581273744">
       <Content Type="String">فکر کنم اون طرف رفت.</Content>
@@ -272558,7 +272558,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">ازش برای چی استفاده می‌کردن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15838580194987701763">
-      <Content Type="String">Talk to Christian</Content>
+      <Content Type="String">با کریستین حرف بزن</Content>
     </LocalisableString>
     <LocalisableString StringID="15838760972684752320">
       <Content Type="String">گونه‌ی ۱</Content>
@@ -272573,7 +272573,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">می‌خوام ببینم چه غلطی داره می‌شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15838979815100693905">
-      <Content Type="String">Open the doors</Content>
+      <Content Type="String">درها را باز کن</Content>
     </LocalisableString>
     <LocalisableString StringID="15838990114248346484">
       <Content Type="String">من آماده‌ام.</Content>
@@ -272585,10 +272585,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">آماده‌ام!</Content>
     </LocalisableString>
     <LocalisableString StringID="15839036792042239885">
-      <Content Type="String">You don't want to be anywhere near this thing when it comes crashing down.</Content>
+      <Content Type="String">نمی‌خوای وقتی این چیز خراب می‌شه رو سرش، جایی نزدیکش باشی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15839162370589949640">
-      <Content Type="String">This country's going down the tubes.</Content>
+      <Content Type="String">این مملکت داره توی گه می‌ره.</Content>
     </LocalisableString>
     <LocalisableString StringID="15839162370589949641">
       <Content Type="String">سر چی دارن دعوا می‌کنن؟</Content>
@@ -272627,13 +272627,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">می‌خوای بریم به مهمونمون خوش‌آمد بگیم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15844831622649438016">
-      <Content Type="String">Now that the bar's back in shape, see what Lily wants to do next.</Content>
+      <Content Type="String">حالا که بار دوباره سر و شکل گرفته، ببین لی لی می‌خواد بعدش چیکار کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15845247829800823826">
       <Content Type="String">گور بابای تو، ای عوضی کمونیست‌دوست!</Content>
     </LocalisableString>
     <LocalisableString StringID="15845359398641618979">
-      <Content Type="String">Yeah, like that was a fucking "accident".</Content>
+      <Content Type="String">آره، انگار اون یه «تصادف» لعنتی بود.</Content>
     </LocalisableString>
     <LocalisableString StringID="15846255034431422784">
       <Content Type="String">دنبال دردسره، نه؟</Content>
@@ -272666,16 +272666,16 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">همه عقب‌نشینی کنید!</Content>
     </LocalisableString>
     <LocalisableString StringID="15848358235288492335">
-      <Content Type="String">Ain't telling you shit.</Content>
+      <Content Type="String">هیچی بهت نمی‌گم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15849663501785267259">
-      <Content Type="String">Sonny loses a valuable tool if you eliminate his beat down crew.</Content>
+      <Content Type="String">اگه جوخه‌ی کتک‌زن سانی رو از سر راه برداری، سانی یه ابزار ارزشمند رو از دست می‌ده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15850391563334341515">
       <Content Type="String">«آی.آر.ای؛ نپرس»</Content>
     </LocalisableString>
     <LocalisableString StringID="15850729339644539323">
-      <Content Type="String">I assume Burke gets how this little arrangement works now that he's got Point Verdun back?</Content>
+      <Content Type="String">فرض می‌کنم برک حالا که پوینت وردون رو پس گرفته، می‌فهمه این قرار کوچیک چطور کار می‌کنه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15850773187445978425">
       <Content Type="String">وادارم نکن بچه‌های اسلحه‌دار رو خبر کنم. برو!</Content>
@@ -272714,10 +272714,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">می‌خوای از منِ کوچولو قایم شی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15852543910689773220">
-      <Content Type="String">Your day just got a WHOLE lot worse.</Content>
+      <Content Type="String">روزت الآن یه ذره‌ای بدتر شد.</Content>
     </LocalisableString>
     <LocalisableString StringID="15852543910689773221">
-      <Content Type="String">We gonna do that OLD time tussle with y'all.</Content>
+      <Content Type="String">می‌خوایم با شماها اون دست‌گرم‌کن کردن قدیمی‌مون رو انجام بدیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15852543910689773222">
       <Content Type="String">سرت رو دربیار، ای خرگوش کوچولو!</Content>
@@ -272747,7 +272747,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">نیروهای کمکی مارکانو دارن میان سراغت!</Content>
     </LocalisableString>
     <LocalisableString StringID="15856163101282723634">
-      <Content Type="String">Heard about Cassandra. But you gotta let that shit go. Fast. Have a seat.</Content>
+      <Content Type="String">درباره‌ی کاساندرا شنیدم. ولی باید این گه رو ول کنی. سریع. بشین.</Content>
     </LocalisableString>
     <LocalisableString StringID="15856406598370349757">
       <Content Type="String">اوه، لعنتی!</Content>
@@ -272792,13 +272792,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">این صدای لعنتی چطور از یه عروسک وودو درمیاد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15858165523736012342">
-      <Content Type="String">JB! Do not interfere! You’re gonna get your cracker ass killed!</Content>
+      <Content Type="String">جی‌بی! دخالت نکن! کونت رو سفیدها رو این‌طوری می‌کشه!</Content>
     </LocalisableString>
     <LocalisableString StringID="15858869640759162932">
       <Content Type="String">ها! عجب مارمولکِ لیزیه‌ای، نه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15859334259129871286">
-      <Content Type="String">...that remains to be seen. But I ain't about to walk up to Burke and pay him what I owed the Butcher. If he wants it he can...</Content>
+      <Content Type="String">...این معلوم می‌شه. ولی من قرار نیست برم پیش برک و همون چیزی که به قصاب بدهکار بودم رو بهش بدم. اگه می‌خوادش می‌تونه...</Content>
     </LocalisableString>
     <LocalisableString StringID="15860101614857641465">
       <Content Type="String">کاش می‌دونم سوار یکی از این قایقا شدن و فقط... رفتن چه حالی داره.</Content>
@@ -272828,16 +272828,16 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">شنیدی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15861562606344496027">
-      <Content Type="String">What the fuck you mean, what's he here for? He's here to fight, boy.</Content>
+      <Content Type="String">یعنی چی که این‌جا چیکار می‌کنه؟ اون این‌جاست که بجنگه، پسر.</Content>
     </LocalisableString>
     <LocalisableString StringID="15861845091643571237">
       <Content Type="String">پسر، پیدات می‌کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="15861946126716194692">
-      <Content Type="String">Cops are after somebody.</Content>
+      <Content Type="String">پلیس‌ها دنبال یکی هستن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15861946126716194695">
-      <Content Type="String">Someone pissed off the police.</Content>
+      <Content Type="String">یکی پلیس رو عصبانی کرده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15862228481489246996">
       <Content Type="String">تو! برو! پیداش کن!</Content>
@@ -272846,7 +272846,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">دست از گشتن نکش!</Content>
     </LocalisableString>
     <LocalisableString StringID="15862850817619428513">
-      <Content Type="String">I say sure, it's free money as far as I'm concerned.</Content>
+      <Content Type="String">من می‌گم آره، به نظر من که پول مجانیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15863176680554294073">
       <Content Type="String">می‌خوای بدونی رئیس چندتا ماشین رو از شهر خارج می‌کنه؟ باشه، باشه! بهت می‌گم!</Content>
@@ -272861,10 +272861,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">گروه اصلی رئیس مسئول دزدیدن بهترین ماشین‌هاشه! می‌دونم کجا پیداشون کنی!</Content>
     </LocalisableString>
     <LocalisableString StringID="15863294180706823444">
-      <Content Type="String">Oof! Lincoln! I’m not gonna fuckin’ die in this hunk of shit car with you!</Content>
+      <Content Type="String">اوف! لینکلن! من قرار نیست تو این لاشه‌ی لعنتی ماشین با تو بمیرم!</Content>
     </LocalisableString>
     <LocalisableString StringID="15863486912024038303">
-      <Content Type="String">Finally, she's had enough and storms out of there cursin' a goddamn blue streak.</Content>
+      <Content Type="String">بالأخره قوطی‌اش پر شد و در حالی که لعنتی فحش می‌داد از اون‌جا زد بیرون.</Content>
     </LocalisableString>
     <LocalisableString StringID="15863704309825759688">
       <Content Type="String">دیگه کاسه‌ی صبرم رو لبریز کردی!</Content>
@@ -272885,10 +272885,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اینجا زمینگیر شدم، پسرا!</Content>
     </LocalisableString>
     <LocalisableString StringID="15864127428020802467">
-      <Content Type="String">Burke's got his IRA connections. Put him down before he calls in some favors and you get got.</Content>
+      <Content Type="String">برک ارتباط‌هاش با IRA رو داره. قبل از اینکه بخواد یه کارهایی رو جور کنه و تو به گه بیفتی، از سر راه بردارش.</Content>
     </LocalisableString>
     <LocalisableString StringID="15864177155355545249">
-      <Content Type="String">Alright, so, if we're done I'm going to go.</Content>
+      <Content Type="String">باشه، پس اگه کارمون تمومه من می‌رم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15864177155355545250">
       <Content Type="String">خب، کارمون اینجا تمومه؟</Content>
@@ -272915,7 +272915,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">کور رانندگی می‌کنی؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="15864833427387108286">
-      <Content Type="String">Don't. Hit. The. Cars.</Content>
+      <Content Type="String">به. ماشین‌ها. نزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15865138868374756418">
       <Content Type="String">درخشش</Content>
@@ -272942,10 +272942,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">سانی بلو</Content>
     </LocalisableString>
     <LocalisableString StringID="15867272206566583856">
-      <Content Type="String">Keep your money. Don't make me say it again. All you put up with - me, Tonya, and the baby - Anyway, the fuckin' Doors, man!</Content>
+      <Content Type="String">پولت رو نگه دار. دوباره مجبورم نکن بگم. با هر چی که تحمل کردی - من، تونیا و بچه - بیخیال، دورزِ لعنتی، مرد!</Content>
     </LocalisableString>
     <LocalisableString StringID="15867272206566583862">
-      <Content Type="String">You worry too much. We're gonna see the fuckin' Doors -- it's gonna be a gas.</Content>
+      <Content Type="String">زیادی نگرانی. داریم دورزِ لعنتی رو می‌بینیم -- حال می‌ده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15867293332343587756">
       <Content Type="String">به دیدار موسکدا بروید</Content>
@@ -272960,13 +272960,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">کمد سلاح را باز کنید: #E_CTRL_INTERACT_LONG# را نگه دارید</Content>
     </LocalisableString>
     <LocalisableString StringID="15868342879694762356">
-      <Content Type="String">Kind of amazed to meet someone who's known Donovan as long as you have and NOT killed him.</Content>
+      <Content Type="String">خیلی تعجب‌آوره که با کسی آشنا شم که این‌قدر که تو دونووان رو می‌شناخته و نکشته‌ش!</Content>
     </LocalisableString>
     <LocalisableString StringID="15868342879694762359">
-      <Content Type="String">The U.S. government has thoroughly kept its head up its ass when it comes to Sal Marcano's operations in this city.</Content>
+      <Content Type="String">دولت آمریکا درباره‌ی عملیات سال مارکانو تو این شهر کاملاً سرش رو تو کونش کرده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15868382830434029973">
-      <Content Type="String">Biaggio has Alvarez' weed stashed back at the Tropicana. You arranged to meet with him later to work out how to offload it.</Content>
+      <Content Type="String">بیاجیو علف آلوارز رو تو تروپیکانا قایم کرده. قرار گذاشتید بعداً ببینیدش تا راه تخلیه‌ش رو جور کنید.</Content>
     </LocalisableString>
     <LocalisableString StringID="15868438119861690378">
       <Content Type="String">من جلو می‌رم.</Content>
@@ -272975,7 +272975,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">آژیر!</Content>
     </LocalisableString>
     <LocalisableString StringID="15868598010223101938">
-      <Content Type="String">Delivery complete! Find the next orange Samson Richmond-Lux.</Content>
+      <Content Type="String">تحویل کامل شد! ماشین بعدی سامسون ریچموند-لاکس نارنجی رو پیدا کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15868796073540776696">
       <Content Type="String">اون هم مثل ما تو تاریکی نمی‌بینه.</Content>
@@ -273002,7 +273002,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">Peristent character</Content>
     </LocalisableString>
     <LocalisableString StringID="15870183026913776869">
-      <Content Type="String">Word came down you cleared out those dirty fucking Sicilian rats. Bastards can burn in hell.</Content>
+      <Content Type="String">خبر رسید که اون موش‌های سیسیلی کثیف لعنتی رو از سر راه برداشتی. این حروم‌زاده‌ها می‌تونن تو جهنم بسوزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15870295619902701160">
       <Content Type="String">ساوت‌داونز</Content>
@@ -273014,7 +273014,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">جاده مال تو نیست!</Content>
     </LocalisableString>
     <LocalisableString StringID="15871491296031443365">
-      <Content Type="String">I'd appreciate it if you'd move your slow ass.</Content>
+      <Content Type="String">قدردان می‌شم اگه اون کون کندت رو راه بیندازی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15871491296031443366">
       <Content Type="String">دیرم کردی!</Content>
@@ -273044,7 +273044,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">خب چی میشه، رئیس؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15875315209058686947">
-      <Content Type="String">Never an easy answer. Trust me, I know.</Content>
+      <Content Type="String">جواب آسونی هیچ‌وقت نیست. باور کن، می‌دونم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15875377966375182764">
       <Content Type="String">این نشون رو می‌بینی؟ یعنی من مثل تو یه اراذل نیستم.</Content>
@@ -273065,7 +273065,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">[سوت‌زدن بی‌ریتم]</Content>
     </LocalisableString>
     <LocalisableString StringID="15875653282548048691">
-      <Content Type="String">Hey man, it's cool. I don't mind hangin' out here.</Content>
+      <Content Type="String">هی مرد، اوکیه. اشکالی نداره این‌جا معطل بمونم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15875653282548048692">
       <Content Type="String">خب... هنوز منو لازم داری یا...؟</Content>
@@ -273074,7 +273074,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">گند. گند. گند. اوه، صبر کن. هیچی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15875880760227060368">
-      <Content Type="String">What the…</Content>
+      <Content Type="String">این دیگه چیه…</Content>
     </LocalisableString>
     <LocalisableString StringID="15875880760227060371">
       <Content Type="String">[صدای شگفتی]</Content>
@@ -273092,16 +273092,16 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اینجا آتش زیادی رومونه!</Content>
     </LocalisableString>
     <LocalisableString StringID="15876822876671046174">
-      <Content Type="String">Maybe if we had a truck like dat we could finally get da garage cleaned out.</Content>
+      <Content Type="String">شاید اگه یه کامیونی مثل اون داشتیم، بالاخره می‌تونستیم گاراژ رو خالی کنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15877116019110777973">
-      <Content Type="String">Get 'em while dey're blinded.</Content>
+      <Content Type="String">وقتی کورشون شده، بگیرشون.</Content>
     </LocalisableString>
     <LocalisableString StringID="15877116019110777974">
       <Content Type="String">اوه. نمی‌خوایم چراغا رو خاموش کنیم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15877215603918370914">
-      <Content Type="String">Playin' games with us...</Content>
+      <Content Type="String">داره با ما بازی درمی‌آره...</Content>
     </LocalisableString>
     <LocalisableString StringID="15877416472888384916">
       <Content Type="String">ادامه</Content>
@@ -273122,19 +273122,19 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">این سیاه‌پوست رو گیر انداختم!</Content>
     </LocalisableString>
     <LocalisableString StringID="15878542965764303938">
-      <Content Type="String">Can’t even tell you how happy pops is gonna be.</Content>
+      <Content Type="String">نمی‌تونم بگم بابام چقدر خوشحال می‌شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15878556281886380775">
-      <Content Type="String">Any damage to the work site or Cavar's equipment will be your best tactic to getting close to Jimmy Cavar.</Content>
+      <Content Type="String">هر آسیبی به محل کار یا تجهیزات کاوار، بهترین تاکتیکت می‌شه برای نزدیک شدن به جیمی کاوار.</Content>
     </LocalisableString>
     <LocalisableString StringID="15880030972365319745">
       <Content Type="String">درک می‌کنم. فقط فکر می‌کنم حتی حرف زدن در موردش هم اتلاف وقته. این بخشی از واقعیت ما نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="15880373022821068127">
-      <Content Type="String">Clear Blue Police Zones, cops ignore crimes for 30 secs.</Content>
+      <Content Type="String">مناطق پلیس آبی رو پاک می‌کنه، پلیس‌ها ۳۰ ثانیه جرم‌ها رو نادیده می‌گیرن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15880795105172788048">
-      <Content Type="String">Through here.</Content>
+      <Content Type="String">از این‌جا.</Content>
     </LocalisableString>
     <LocalisableString StringID="15880879419019558893">
       <Content Type="String">فرنچ وارد:</Content>
@@ -273149,7 +273149,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">عجب استفاده‌ی خوبی از وقت لعنتیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15881450997980361535">
-      <Content Type="String">Gotta find out more 'bout this Doc Gaston. And that's the asshole who's gonna tell me.</Content>
+      <Content Type="String">باید بیشتر درباره‌ی این داک گاستون بفهمم. و اون عوضیایه که بهم می‌گه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15881527520435044248">
       <Content Type="String">هی! لعنتی، حالا دیگه چیه؟</Content>
@@ -273209,7 +273209,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">سرب بخور، ای کونی!</Content>
     </LocalisableString>
     <LocalisableString StringID="15883723694882703681">
-      <Content Type="String">Entry fee is paid upfront. No excuses.</Content>
+      <Content Type="String">حق ورودی از قبل پرداخت می‌شه. بهانه‌ای هم نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="15883776344960363943">
       <Content Type="String">کجا فرار می‌کنی، عوضی؟</Content>
@@ -273227,7 +273227,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">خوب و ساکت. همون‌طور که دوست دارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15884232672599042804">
-      <Content Type="String">You need to figure this shit out with Cassandra. Because the way she's going it's gonna be open war in the streets.</Content>
+      <Content Type="String">باید این گه رو با کاساندرا حل کنی. چون این‌طوری که داره پیش می‌ره، جنگ علنی تو خیابون‌ها می‌شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15885043745079507147">
       <Content Type="String">قطعاً این طرف رو نگاه می‌کنم، حالا.</Content>
@@ -273239,19 +273239,19 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">چشم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15885279865260339014">
-      <Content Type="String">Right away.</Content>
+      <Content Type="String">همین الآن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15885463919371084150">
       <Content Type="String">برو جای امن!</Content>
     </LocalisableString>
     <LocalisableString StringID="15885779838450083308">
-      <Content Type="String">Wait, were they shooting at him BECAUSE he didn't have any pants? I'm confused.</Content>
+      <Content Type="String">صبر کن، بهش شلیک می‌کردن چون شلوار نداشت؟ گیج شدم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15885779838450083311">
       <Content Type="String">ظاهراً اون یارو وقتی این اتفاق افتاد، تقریباً هیچ لباسی تنش نبوده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15886522564308093730">
-      <Content Type="String">Even with bullets flying, Jackie D. will get you the guns and supplies you need.</Content>
+      <Content Type="String">حتی وقتی گلوله بارونه، جکی دی اسلحه و تدارکات لازم رو برات می‌رسونه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15886544219199368261">
       <Content Type="String">سنگ‌های واژگون‌نشده</Content>
@@ -273350,7 +273350,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">وقتی گفتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="15893710449455305199">
-      <Content Type="String">I got no problems with you running this thing the way you see fit. But I'm done living my life trying to make someone above me happy. If I ain't get nothin' out of this, then I'd rather just move the fuck on.</Content>
+      <Content Type="String">مشکلی با اداره کردن این چیز به شکلی که خودت می‌بینی ندارم. ولی دیگه تمومه که عمرم رو صرف خوشحال کردن یکی بالادستی بکنم. اگه از این چیزی گیرم نیاد، ترجیح می‌دم لعنتی ولش کنم و برم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15893731517733316946">
       <Content Type="String">داری از حد گذر می‌کنی، پسر!</Content>
@@ -273371,7 +273371,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">این دود چیه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15893874918020901753">
-      <Content Type="String">Lucky started getting soft last few years, once he started running for office, but damn if he didn't stomp some serious ass back in the day.</Content>
+      <Content Type="String">لاکی این چند سال آخر که شروع کرد برای انتخابات نامزد شه کمی نرم شد، ولی گه اگه تو روزگار خودش کونِ یه مشت آدم رو پاره نکرده بود.</Content>
     </LocalisableString>
     <LocalisableString StringID="15894420378666830572">
       <Content Type="String">[خفگی همراه با تقلا]</Content>
@@ -273389,7 +273389,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">حالا یه چیزی داریم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15894539544372906201">
-      <Content Type="String">Time for cuddling later.</Content>
+      <Content Type="String">بعداً وقت نوازش کردنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15894539544372906202">
       <Content Type="String">وای- هی! حواست به حریم شخصی باشه.</Content>
@@ -273404,10 +273404,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">نشونم بده چی داری!</Content>
     </LocalisableString>
     <LocalisableString StringID="15895473461747491973">
-      <Content Type="String">There's only truth to be found in me saying I want this district. And I'm laying down a major commitment covering both these rackets. But Cassandra's a problem that's not going to go away easily.</Content>
+      <Content Type="String">تنها حقیقتی که هست اینه که من این منطقه رو می‌خوام. و دارم تعهد بزرگی می‌دم که هر دو تا این راکت رو می‌گیرم. ولی کاساندرا یه مشکله که راحت از سر راه نمی‌ره.</Content>
     </LocalisableString>
     <LocalisableString StringID="15895473461747491974">
-      <Content Type="String">Your trust in me is clear, lad. But asking me to watch over the entire district while Cassandra's on the verge of bolting? It's a savage thing. I do trust that you know what you're doing. But I worry you're playing with fire here.</Content>
+      <Content Type="String">اعتمادت به من روشنه، جوون. ولی خواستن من برای نگهبانی کل منطقه وقتی کاساندرا داره شورش می‌کنه؟ کار جانورانه‌ایه. باور دارم می‌دونی چیکار داری می‌کنی. ولی می‌ترسم داری با آتیش بازی می‌کنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15895586812348773334">
       <Content Type="String">مگه قبض رو پرداخت نکردم؟</Content>
@@ -273434,7 +273434,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">خب، گندش. منتظر بودم کتکش بزنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15897602133300205814">
-      <Content Type="String">You came and wound me up with your big tale 'bout how we're going to march through the city murdering every Marcano bastard we cross. But look at me. I got nearly nothing here. Where's the tale you sold me, lad? Was it lies? It's time you fucking deliver.</Content>
+      <Content Type="String">تو اومدی و با اون داستان بزرگت منو شارژ کردی که چطور می‌ریم تو شهر و هر حروم‌زاده‌ی مارکانو رو که سر راهمون اومد می‌کشیم. ولی نگاه کن ببین من الآن یه زره هم ندارم. اون داستانی که به من فروختی کو، جوون؟ دروغ بود؟ وقتشه لعنتی تحویل بدی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15898511361465568512">
       <Content Type="String">همین حالا $%s بگیرید</Content>
@@ -273446,10 +273446,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">برنامه‌ی «صدای هالو» رو دیروز گوش کردی؟ به نظرت عصبانی‌تر نشده؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15899271625675713933">
-      <Content Type="String">Always liked this neighborhood. Wanted to live here when I was little..</Content>
+      <Content Type="String">همیشه این محله رو دوست داشتم. بچه که بودم می‌خواستم این‌جا زندگی کنم..</Content>
     </LocalisableString>
     <LocalisableString StringID="15899271625675713934">
-      <Content Type="String">The old high school near here used to have the worst football team. The worst.</Content>
+      <Content Type="String">دبیرستان قدیمی این نزدیکی‌ها بدترین تیم فوتبال رو داشت. بدترین.</Content>
     </LocalisableString>
     <LocalisableString StringID="15899271625675713935">
       <Content Type="String">خواهرم الان این‌طرفا زندگی می‌کنه. با یه پسر ایتالیایی عروسی کرده، باورت بشه یا نه.</Content>
@@ -273458,7 +273458,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">سوپرمارکت بلیر - بعد از ساعت کاری اونجا یه کارایی می‌گذره. هرچی هست، آقای مورو داره سخت تلاش می‌کنه سروصدا نکنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="15900166489871907984">
-      <Content Type="String">Matarazzo looks after Luca's "interests" around town.</Content>
+      <Content Type="String">ماتارازو حواسش به «منافع» لوکا تو شهر هست.</Content>
     </LocalisableString>
     <LocalisableString StringID="15900309264370188753">
       <Content Type="String">بله، قربان.</Content>
@@ -273485,7 +273485,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">شاید بهتر باشه پیداش نکنیم…</Content>
     </LocalisableString>
     <LocalisableString StringID="15901019985024591687">
-      <Content Type="String">Old money comes with a lot of old secrets... And ten thousand tax payer dollars each month.</Content>
+      <Content Type="String">پول قدیمی کلی راز قدیمی همراهش می‌آره... و ماهی ده هزار دلار از مالیات‌دهنده‌ها.</Content>
     </LocalisableString>
     <LocalisableString StringID="15901210681199179872">
       <Content Type="String">دختره، باید بری سر کارت.</Content>
@@ -273512,10 +273512,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">نذار دوباره این طرفا ببینمت.</Content>
     </LocalisableString>
     <LocalisableString StringID="15902453941689250262">
-      <Content Type="String">Here we are.</Content>
+      <Content Type="String">رسیدیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15902849036702064475">
-      <Content Type="String">Have Cassandra send some hitters to the Hollow.</Content>
+      <Content Type="String">به کاساندرا بگو چند تا ضربه‌زن بفرسته هالو.</Content>
     </LocalisableString>
     <LocalisableString StringID="15903724480935132025">
       <Content Type="String">دوستات هستن؟</Content>
@@ -273548,7 +273548,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">این عوضی رو درست کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="15904882852504572883">
-      <Content Type="String">Motherfucker, you look like the cat who ate the canary.</Content>
+      <Content Type="String">عوضی، مث اون گربه‌ای قیافه‌ای داری که قناری رو خورده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15904935477152048108">
       <Content Type="String">پسر حتماً در رفته.</Content>
@@ -273581,10 +273581,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">خوشحالم می‌بینمت.</Content>
     </LocalisableString>
     <LocalisableString StringID="15905655653649461840">
-      <Content Type="String">So how's the padre handling all this? You know, the "bloody path of mayhem and revenge" you've embarked upon.</Content>
+      <Content Type="String">خب پدر کشیش با همه‌ی اینا چطور کنار می‌آد؟ می‌دونی، با اون «مسیر خونی کشتار و انتقام» که راه انداختی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15905669840353520293">
-      <Content Type="String">I'll help you.</Content>
+      <Content Type="String">کمکت می‌کنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15906550849202446708">
       <Content Type="String">تلاش برای قایم شدن فایده نداره.</Content>
@@ -273596,7 +273596,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">بیا دیگه، از دستم در نمی‌ری.</Content>
     </LocalisableString>
     <LocalisableString StringID="15907362951522864690">
-      <Content Type="String">Meet with Nicki Burke.</Content>
+      <Content Type="String">با نیکی برک ملاقات کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15907661049968186636">
       <Content Type="String">فکر کردی شوخی دارم؟</Content>
@@ -273632,7 +273632,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اِه</Content>
     </LocalisableString>
     <LocalisableString StringID="15910367191381806730">
-      <Content Type="String">I should take a picture of it.</Content>
+      <Content Type="String">باید ازش عکس بگیرم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15910717622915777580">
       <Content Type="String">یا دارم چیزایی می‌شنوم یا دردسر داریم.</Content>
@@ -273692,10 +273692,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">درست همون‌جا بود. برو! بگرد!</Content>
     </LocalisableString>
     <LocalisableString StringID="15912567770148059217">
-      <Content Type="String">Okay, we don't HAVE to talk, thank you very much.</Content>
+      <Content Type="String">باشه، لازم نیس حرف بزنیم، خیلی هم ممنون.</Content>
     </LocalisableString>
     <LocalisableString StringID="15912567770148059220">
-      <Content Type="String">I'm just gonna be on my way.</Content>
+      <Content Type="String">من فقط راهمو می‌کشم و می‌رم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15912567770148059222">
       <Content Type="String">ما با هم حرفی نداریم.</Content>
@@ -273734,13 +273734,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">کجا لعنتی رفتن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15914258126844014748">
-      <Content Type="String">Secure the truck full of evidence so Laveau's people can retrieve it.</Content>
+      <Content Type="String">کامیون پر از مدرک رو ایمن کن تا آدم‌های لاوو بتونن بردارنش.</Content>
     </LocalisableString>
     <LocalisableString StringID="15914319142005290895">
-      <Content Type="String">See if Cassandra has some people she can spare Downtown.</Content>
+      <Content Type="String">ببین کاساندرا کسی رو داره که بتونه بفرسته داونتاون.</Content>
     </LocalisableString>
     <LocalisableString StringID="15914783682554252831">
-      <Content Type="String">Hard to see it otherwise.</Content>
+      <Content Type="String">سختشه این‌طور فکر نکنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15915018448968304376">
       <Content Type="String">استان «د فیس» کارامانچی</Content>
@@ -273752,16 +273752,16 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">آلبرت پینتو</Content>
     </LocalisableString>
     <LocalisableString StringID="15915203406417034639">
-      <Content Type="String">Cassandra won't be happy until every Dixie gun is in her hands. Go see how you can help make that happen.</Content>
+      <Content Type="String">کاساندرا تا وقتی که هر اسلحه‌ی دیکسی تو دستش نیفتاده خوشحال نمی‌شه. برو ببین چطور می‌تونی کمک کنی این اتفاق بیفته.</Content>
     </LocalisableString>
     <LocalisableString StringID="15919140489202433598">
       <Content Type="String">شاید.</Content>
     </LocalisableString>
     <LocalisableString StringID="15919641278299212594">
-      <Content Type="String">With his Union extortion racket completely FUBAR, Andy Turetto's had to come crawlin' back to the Dock Union. It's the perfect time to hit him.</Content>
+      <Content Type="String">با درهم‌پیچیدن کامل راکت اخاذی اتحادیه‌ی جنوبش، اندی تورتو مجبور شده سینه‌خیز برگرده به اتحادیه‌ی اسکله. وقتشه حسابی بهش بزنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15919660503564518124">
-      <Content Type="String">Deliver a boat here to transition to a ground vehicle to finish your delivery.</Content>
+      <Content Type="String">اینجا یه قایق تحویل بده تا سوار خودروی زمینی شی و تحویلت رو تموم کنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15919660503564518140">
       <Content Type="String">گذار تحویل</Content>
@@ -273785,7 +273785,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">[ROAR]</Content>
     </LocalisableString>
     <LocalisableString StringID="15921559516312291219">
-      <Content Type="String">This fuckin' place.</Content>
+      <Content Type="String">این جای لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15922362885699584528">
       <Content Type="String">ای خدای من، اون دیگه چه بلایی بود؟</Content>
@@ -273812,10 +273812,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">این رو ببین! این رو نمی‌بینی؟!؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15922768520805322554">
-      <Content Type="String">I am having a very, very bad day.</Content>
+      <Content Type="String">من یه روز خیلی خیلی بد دارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15922768520805322555">
-      <Content Type="String">I did everything correctly yet still this happened.</Content>
+      <Content Type="String">همه‌چی رو درست انجام دادم و با این حال این اتفاق افتاد.</Content>
     </LocalisableString>
     <LocalisableString StringID="15922941959818880306">
       <Content Type="String">از دست پلیس‌ها خلاص شوید</Content>
@@ -273848,34 +273848,34 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">دوست دارم فکر کنم همه از این تجربه رشد کردیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460592">
-      <Content Type="String">It was his heart. Just gave out. Nothing to be done.</Content>
+      <Content Type="String">قلبش بود. یهو از کار افتاد. کاریش نمی‌شد کرد.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460593">
-      <Content Type="String">Fishing, yeah. Saturday morning. Bright and early.</Content>
+      <Content Type="String">ماهیگیری، آره. صبح شنبه. زود و سر صبح.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460594">
       <Content Type="String">جوونای امروز لوس شدن. همه‌چی آماده جلوشون گذاشتن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460595">
-      <Content Type="String">Always protesting! Shouting and yelling and chanting. Who gives a shit.</Content>
+      <Content Type="String">مدام تظاهرات! داد و فریاد و شعار. به کی چه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460596">
-      <Content Type="String">My nephew's in Canada now. A draft dodger. It breaks my heart.</Content>
+      <Content Type="String">برادرزاده‌م الآن کاناداست. یه فراری از سربازی. دلم رو می‌شکنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460597">
-      <Content Type="String">You didn't know? Louise lost her son. Vietnam.</Content>
+      <Content Type="String">نمی‌دونستی؟ لوئیز پسرش رو از دست داد. ویتنام.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460598">
-      <Content Type="String">I'm going to vote for Humphrey, but I'm not sure it'll make any difference.</Content>
+      <Content Type="String">می‌خوام به همفری رأی بدم، ولی مطمئن نیستم تفاوتی بکنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460599">
       <Content Type="String">حتی فرماندار هم فکر می‌کنه حزب دموکرات پر کمونیست شده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460606">
-      <Content Type="String">Wanda's still going through the change. Never know if she's gonna smile or growl.</Content>
+      <Content Type="String">واندا هنوز تو دوران یائسگیه. هیچ‌وقت نمی‌دونی می‌خواد لبخند بزنه یا خیره شود.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924582108350460607">
-      <Content Type="String">All this new music. It's just a lot of noise. Stupid goddamn noise.</Content>
+      <Content Type="String">این همه موسیقی جدید. یه مشت سر و صداست. سر و صدای احمقانه‌ی لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924583207862088712">
       <Content Type="String">خوشحالم که زیاد طول نمی‌کشه که برم. این شهر، اینجا... آدم دلش می‌سوزه به کجا داره می‌ره.</Content>
@@ -273887,13 +273887,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">داریم فکر می‌کنیم همه‌چی رو بفروشیم و از شهر بریم. اینجا دیگه امن نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924583207862088715">
-      <Content Type="String">The funeral's on Sunday. She could use your support.</Content>
+      <Content Type="String">خاکسپاری یکشنبه‌ست. می‌تونه از حمایتت استفاده کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924583207862088718">
-      <Content Type="String">Seems like just yesterday our boys were small. Where did all that time go?</Content>
+      <Content Type="String">انگار همین دیروز بود که بچه‌هامون کوچیک بودن. این همه زمان کجا رفت؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15924583207862088719">
-      <Content Type="String">Can't get my son to shave off that ugly ass afro of his.</Content>
+      <Content Type="String">نمی‌تونم پسرم رو راضی کنم اون اَفروی زشتش رو بزنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15924872368563501272">
       <Content Type="String">بچه‌های ما رسیدن! حالا اون بی‌شعور تاوان می‌ده!</Content>
@@ -273908,7 +273908,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">بازشدن سرویس دسترسی</Content>
     </LocalisableString>
     <LocalisableString StringID="15926257022324987450">
-      <Content Type="String">Vito and Alma were tight. But maybe she'll understand you did what needed doing.</Content>
+      <Content Type="String">ویتو و آلما صمیمی بودن. ولی شاید اون بفهمه تو کاری رو کردی که باید می‌کردی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15926407382549629033">
       <Content Type="String">حس می‌کنم مثل یه احمق اینجا وایسادم.</Content>
@@ -273917,7 +273917,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">تعقیب‌کننده را گم کردید</Content>
     </LocalisableString>
     <LocalisableString StringID="15926854553956665778">
-      <Content Type="String">You wreckin' the car shipment's really gonna fuck Junior.</Content>
+      <Content Type="String">نابود کردن اون محموله‌ی ماشین حسابی جونیور رو به گه می‌کشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15926927045092282933">
       <Content Type="String">قتل قراردادی ویتو</Content>
@@ -273947,7 +273947,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">بیا این طرف رو بگردیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15928695444982403980">
-      <Content Type="String">Guess I should check that out...</Content>
+      <Content Type="String">حدس می‌زنم باید بررسیش کنم...</Content>
     </LocalisableString>
     <LocalisableString StringID="15928800390018853237">
       <Content Type="String">تفنگ ساچمه‌ای (۲۰۰$)، ۵ فشنگ</Content>
@@ -273962,10 +273962,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">خیلی خنده‌دار نمی‌شد اگه همین‌جوری، هر چی بود رو برمی‌داشتیم و می‌رفتیم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15929612381409708813">
-      <Content Type="String">Here in the heart of the Great Anglo-Saxon South, I sound the drum for freedom as generations before me have done. Let us rise to the call and stand up to the demagoguery that wraps the South in the chains of tyranny.</Content>
+      <Content Type="String">اینجا تو قلب جنوب آنگلوساکسون بزرگ، من مثل نسل‌های پیش از خودم طبل آزادی رو می‌کوبم. بیایید به این ندا بلند شیم و در برابر دام‌فکنی‌ای که جنوب رو به زنجیر استبداد می‌بنده بایستیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15929612381409708814">
-      <Content Type="String">As the proud descendent of a Confederate Colonel, I toss the gauntlet before the feet of the northern tyrant and say segregation today...segregation tomorrow...segregation forever! The mixing of the races is an abomination and those who would wantonly violate the laws of man and nature will suffer the Lord's wrath!</Content>
+      <Content Type="String">به‌عنوان وارث سرفراز یه سرهنگ کنفدراسیون، دستکش رو جلوی پای ظالم شمالی می‌ندازم و می‌گم جدایی امروز... جدایی فردا... جدایی برای همیشه! قاطی شدن نژادها یه پلیدیه و اون‌هایی که بخوان عامدانه قوانین انسان و طبیعت رو بشکنن، غضب خداوند رو می‌چشن!</Content>
     </LocalisableString>
     <LocalisableString StringID="15929735596754942762">
       <Content Type="String">عوضی خودش دعوا راه می‌ندازه، بعد شانه خالی می‌کنه؟ عجب ترسویی.</Content>
@@ -273986,7 +273986,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">حتماً.</Content>
     </LocalisableString>
     <LocalisableString StringID="15931598182946799636">
-      <Content Type="String">Well if it isn't the hero of Sinclair Parish, the scourge of the Southern Union!</Content>
+      <Content Type="String">خب، این هم قهرمان سینکلر پَریش، بلای اتحادیه‌ی جنوب!</Content>
     </LocalisableString>
     <LocalisableString StringID="15931598182946799637">
       <Content Type="String">چطوری، برادر جوون؟</Content>
@@ -273995,7 +273995,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">جنگ خوب رو می‌جنگی، برادر جوون؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15932090410414803814">
-      <Content Type="String">If any of y'all are in the mood I got a report of an armed colored boy in the Hollow.</Content>
+      <Content Type="String">اگه کسی از شماها حالش رو داره، یه گزارش از یه پسر رنگین‌پوست مسلح تو هالو دارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15932665942452552952">
       <Content Type="String">اگه پسرم رو با این جنسا بگیرم حسابی کتکش می‌زنم.</Content>
@@ -274058,19 +274058,19 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">لعنتی، به اون احتیاج دارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15936300622865599281">
-      <Content Type="String">Talk to architect.</Content>
+      <Content Type="String">با معمار حرف بزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15936300622865599282">
-      <Content Type="String">Drive Sam to hospital.</Content>
+      <Content Type="String">سام را ببر بیمارستان.</Content>
     </LocalisableString>
     <LocalisableString StringID="15936300622865599283">
-      <Content Type="String">Help Sam to the car.</Content>
+      <Content Type="String">به سام کمک کن سوار ماشین شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15936300622865599284">
       <Content Type="String">بمب‌گذارها را از بین ببرید.</Content>
     </LocalisableString>
     <LocalisableString StringID="15936300622865599285">
-      <Content Type="String">Drive to premise.</Content>
+      <Content Type="String">به محل بران.</Content>
     </LocalisableString>
     <LocalisableString StringID="15936300622865599286">
       <Content Type="String">با سام ملاقات کنید.</Content>
@@ -274085,13 +274085,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">مأمور افتاد!</Content>
     </LocalisableString>
     <LocalisableString StringID="15936798944619217780">
-      <Content Type="String">I think we can take 'em.</Content>
+      <Content Type="String">فکر می‌کنم از پسشون برمیایم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15936798944619217781">
       <Content Type="String">می‌خوای اول اون یکی رو بزنم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15936798944619217783">
-      <Content Type="String">Okay, alright. Let's get 'im.</Content>
+      <Content Type="String">باشه، اوکی. بزنیمش.</Content>
     </LocalisableString>
     <LocalisableString StringID="15936834021884707777">
       <Content Type="String">لعنتی، باید پیداش کنم.</Content>
@@ -274136,7 +274136,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">[سوت جلب‌توجه‌کننده]</Content>
     </LocalisableString>
     <LocalisableString StringID="15940507592718573826">
-      <Content Type="String">I got my hands on the BARKER 1500 TACTICAL. These pump action jobs have great rate-of-fire, but goddamn it runs out of ammo fast.</Content>
+      <Content Type="String">من به تفنگ تاکتیکی BARKER 1500 دست پیدا کردم. این تفنگ‌های گُلنگول نرخ آتش بالایی دارن، ولی لعنتی سریع مهماتش تموم می‌شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15940617788863105880">
       <Content Type="String">اینجا چه خبره؟</Content>
@@ -274178,7 +274178,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اونا هیچی به من نمی‌گن، تنها چیزی که می‌دونم رمز وایسه... بلر! بلر!</Content>
     </LocalisableString>
     <LocalisableString StringID="15943228009813654568">
-      <Content Type="String">Yer are so full of shit.</Content>
+      <Content Type="String">تو خیلی داری گه می‌گی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15943228009813654569">
       <Content Type="String">مشکلت اصلاً چیه؟</Content>
@@ -274196,10 +274196,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">بیا دیگه، این گند رو تموم کن و راه بیفت. بیا دیگه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15944154074226994640">
-      <Content Type="String">Two-Dicks Peralta had goons holdin' a fighter named Eddie Kenner out in the Bayou -- wanted him to throw a fight. I got Kenner outta there, which'll cut into the money Peralta was hopin' to pocket from his gamblin' ring.</Content>
+      <Content Type="String">تو-دیکس پرالتا یه مشت گُنده گذاشته بود که یه مبارز به اسم ادی کنر رو تو بیو نگه دارن -- می‌خواست ببازه. من کنر رو از اون‌جا در آوردم، که از پولی که پرالتا از حلقه‌ی قمارش امید داشت دربیاره کم می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15944291006029885167">
-      <Content Type="String">We will run the French Ward as our own. The women in the brothel will be protected and cared for. And those Johns who like to cross lines will be dealt with. Severely.</Content>
+      <Content Type="String">فرنچ وارد رو خودمون می‌چرخونیم. زن‌های روسپی‌خونه محافظت و رسیدگی می‌شن. و اون مشتری‌هایی که دوست دارن از خط عبور کنن، سروقتشون می‌ریم. به‌شدت.</Content>
     </LocalisableString>
     <LocalisableString StringID="15944728073786659032">
       <Content Type="String">شنیدی سر فانوس دریایی چی شد. خبرها زیاد چیزی نمی‌گن.</Content>
@@ -274214,7 +274214,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">سینی نوشیدنی را زمین بگذارید</Content>
     </LocalisableString>
     <LocalisableString StringID="15945209144559932257">
-      <Content Type="String">16 grand. Christ.</Content>
+      <Content Type="String">شانزده هزار. مسیح.</Content>
     </LocalisableString>
     <LocalisableString StringID="15945277234011737769">
       <Content Type="String">گونه‌ی ۱</Content>
@@ -274256,22 +274256,22 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">هر کی نصف مغز داشته باشه می‌بینه ایتالیاییا کامل داون تاون رو گرفتن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15946997298051126864">
-      <Content Type="String">It’s um.. it’s generally believed he was a made member of the Falcone family in Empire Bay, though he’s also a suspect in the death of Don Carlo Falcone. Now, if he did kill the Don, Vito must have had friends in high places because he was allowed to live. He was exiled, though, and was forced to relocate down here. The Commission “convinced” Sal Marcano to make Vito a lieutenant and give him some rackets.</Content>
+      <Content Type="String">اِ... عموماً باور بر اینه که اون عضو رسمی خانواده‌ی فالکونه در امپایر بی بود، هرچند تو مرگ دان کارلو فالکونه هم مظنونه. خب، اگه واقعاً دان رو کشته باشه، ویتو حتماً تو جاهای بالا دوستی داشته، چون گذاشتن زنده بمونه. هرچند تبعید شد و مجبور شد بیاد پایین این‌جا. کمیسیون سال مارکانو رو «متقاعد» کرد که ویتو رو ستوان کنه و چند تا راکت بهش بده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15947002795609267951">
       <Content Type="String">FBI از ویتو اسکالتا چی می‌دونست؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15947003895120896162">
-      <Content Type="String">Well today, I’m sure the file on Vito Scaletta is about three feet thick, but that wasn’t always the case.</Content>
+      <Content Type="String">خب امروز، مطمئنم پرونده‌ی ویتو اسکالتا حدود سه فوت کلفته، ولی همیشه این‌طور نبود.</Content>
     </LocalisableString>
     <LocalisableString StringID="15947004994632524405">
-      <Content Type="String">Hoover didn’t even acknowledge the Mafia existed until 1957, so we weren’t really keeping tabs on guys like Vittorio Scaletta until after that. Now we know he served in World War II, and did a six year stint in prison for theft and illegal distribution of federal rations.</Content>
+      <Content Type="String">هوور تا سال ۱۹۵۷ حتی وجود مافیا رو قبول نداشت، پس واقعاً تا بعد از اون حواسمون به آدم‌هایی مثل ویتوریو اسکالتا نبود. الآن می‌دونیم تو جنگ جهانی دوم خدمت کرده و شش سال هم به‌خاطر دزدی و توزیع غیرقانونی جیره‌های فدرال تو زندون بوده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15947369471488492215">
       <Content Type="String">لعنت. لعنت!</Content>
     </LocalisableString>
     <LocalisableString StringID="15947553753492188941">
-      <Content Type="String">I guess you were able to keep Burke sober long enough to get him on our side?</Content>
+      <Content Type="String">حدس می‌زنم تونستی برک رو به‌قدر کافی هوشیار نگه داری که بیاد طرف ما؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15947570794448313975">
       <Content Type="String">امروز روز مرگته!</Content>
@@ -274283,7 +274283,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">این گَک داره سعی می‌کنه منو بکشه!</Content>
     </LocalisableString>
     <LocalisableString StringID="15947695659717760206">
-      <Content Type="String">Find and Destroy Stag Flicks</Content>
+      <Content Type="String">فیلم‌های مستهجن استگ را پیدا و نابود کن</Content>
     </LocalisableString>
     <LocalisableString StringID="15948148669271102492">
       <Content Type="String">سینه را بررسی کنید</Content>
@@ -274301,10 +274301,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">مگه قبض رو پرداخت نکردم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15949048637902686629">
-      <Content Type="String">Ugh..</Content>
+      <Content Type="String">اوه..</Content>
     </LocalisableString>
     <LocalisableString StringID="15949105686945500113">
-      <Content Type="String">To say I'm biding my time would be a fucking understatement. I got no idea where your mind's at, but my patience is running short.</Content>
+      <Content Type="String">گفتن اینکه دارم وقتم رو می‌گذرونم یه دست‌کم گرفتن لعنتیه. هیچ فکری درباره‌ی اینکه تو ذهنت چیه ندارم، ولی صبرم داره تموم می‌شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15949705013379472813">
       <Content Type="String">این کمکی نمی‌کنه.</Content>
@@ -274331,7 +274331,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">لعنت! لعنت! لعنت! لعنت! لعنت! لعنت!</Content>
     </LocalisableString>
     <LocalisableString StringID="15950434598482381906">
-      <Content Type="String">When Lincoln reached the Haitian village, he simply swam away. Perhaps being in that environment triggered his PTSD and he didn't know how to cope with the situation.</Content>
+      <Content Type="String">وقتی لینکلن به دهکده‌ی هائیتیایی رسید، فقط شنا کرد و رفت. شاید بودن تو اون محیط باعث شده بود استرس بعد از سانحه‌ش عود کنه و نتونسته بود با اوضاع کنار بیاد.</Content>
     </LocalisableString>
     <LocalisableString StringID="15950738864897634181">
       <Content Type="String">بیا برگرد، یه کلمه حرف بزنیم.</Content>
@@ -274340,7 +274340,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اون دیگه کیه...؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15950869927842014665">
-      <Content Type="String">Lincoln's close - find him.</Content>
+      <Content Type="String">لینکلن نزدیکه - پیداش کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15951190237636579792">
       <Content Type="String">این‌جوری خوشت می‌آد، عوضی؟</Content>
@@ -274349,7 +274349,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">برای تو بیشتر دارم، عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="15951230708834916370">
-      <Content Type="String">Report of a colored male brandishing a firearm Downtown. Feel free to investigate if ya' like.</Content>
+      <Content Type="String">گزارش یه مرد رنگین‌پوست مسلح به سلاح گرم در داونتاون. اگه خواستی می‌تونی بری بررسی کنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15951248496712659702">
       <Content Type="String">لینکلن</Content>
@@ -274382,19 +274382,19 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">حالا دارم گروهم رو از دست می‌دم...</Content>
     </LocalisableString>
     <LocalisableString StringID="15952371693155443389">
-      <Content Type="String">Now we gonna play...</Content>
+      <Content Type="String">الآن بازی می‌کنیم...</Content>
     </LocalisableString>
     <LocalisableString StringID="15952371693155443390">
-      <Content Type="String">Right on time...</Content>
+      <Content Type="String">دقیقاً سر وقت...</Content>
     </LocalisableString>
     <LocalisableString StringID="15952371693155443391">
-      <Content Type="String">Alright now, let's get dis done.</Content>
+      <Content Type="String">خب حالا، بیا این کار رو تموم کنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15952553073614139328">
       <Content Type="String">پس باید صبر کنیم تا این ماجرا تموم شه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15952971658424078434">
-      <Content Type="String">If you want to find Ritchie Doucet, you'll need to keep dismantling his businesses here in the Hollow.</Content>
+      <Content Type="String">اگه می‌خوای ریچی دوچه رو پیدا کنی، باید همین‌طور کسب‌وکارهاش رو تو هالو از هم بپاشی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15953208773168900377">
       <Content Type="String">هی، کجایی؟ هی!</Content>
@@ -274412,10 +274412,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">با نیکی صحبت کن</Content>
     </LocalisableString>
     <LocalisableString StringID="15954014463830336949">
-      <Content Type="String">Look for the phone, Lincoln.</Content>
+      <Content Type="String">دنبال تلفن بگرد، لینکلن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15954139545290503141">
-      <Content Type="String">Haven't seen those guns yet. You do understand how important they are, wi?</Content>
+      <Content Type="String">هنوز اون اسلحه‌ها رو ندیدم. می‌فهمی چقدر مهمن، نه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15954403786201543920">
       <Content Type="String">اینجا یکی افتاده.</Content>
@@ -274424,10 +274424,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">این گند رو لازم ندارم، داداش. از اینجا برو لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15954598603817203996">
-      <Content Type="String">Sorry! I'm going.</Content>
+      <Content Type="String">ببخشید! دارم می‌رم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15954598603817203997">
-      <Content Type="String">I can only go so fast.</Content>
+      <Content Type="String">فقط همین‌قدر می‌تونم تند برم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15954598603817203999">
       <Content Type="String">آره، آره، آره...</Content>
@@ -274463,16 +274463,16 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">نتونستم پیداش کنم...</Content>
     </LocalisableString>
     <LocalisableString StringID="15956546222722883302">
-      <Content Type="String">Aw dang.</Content>
+      <Content Type="String">اوه لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15957149017592812966">
-      <Content Type="String">Donovan's procured something that may help in the fight against Marcano.</Content>
+      <Content Type="String">دونووان چیزی به دست آورده که می‌تونه تو جنگ با مارکانو کمک کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15957560645577256359">
       <Content Type="String">باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15958072361642220449">
-      <Content Type="String">Just off the parade route. Danny's hurt.</Content>
+      <Content Type="String">همین کنار مسیر رژه. دنی زخمی شده.</Content>
     </LocalisableString>
     <LocalisableString StringID="15958342261024031424">
       <Content Type="String">خواندن یادداشت</Content>
@@ -274499,19 +274499,19 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">یکیشون رو گرفتم! کمکم کنید!</Content>
     </LocalisableString>
     <LocalisableString StringID="15959960790064609596">
-      <Content Type="String">Say the word and he's done.</Content>
+      <Content Type="String">بگو کلمه رو و تمومه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15959960790064609599">
-      <Content Type="String">End 'im quick, Clay. Before he sees us.</Content>
+      <Content Type="String">سریع تمومش کن، کلی. قبل از اینکه ما رو ببینه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15960028317432090612">
-      <Content Type="String">Working the docks can't be the worst job in the world. Lots of fresh air, right?</Content>
+      <Content Type="String">کار کردن تو اسکله نمی‌تونه بدترین شغل دنیا باشه. کلی هوای تازه، مگه نه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15960028317432090614">
-      <Content Type="String">If I was a man, I could see workin' the docks.</Content>
+      <Content Type="String">اگه مرد بودم، می‌تونستم کار تو اسکله رو ببینم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15960028317432090615">
-      <Content Type="String">I love the smell of the salt water.</Content>
+      <Content Type="String">عاشق بوی آب شورم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15960532078881332169">
       <Content Type="String">سهم</Content>
@@ -274595,7 +274595,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">هه‌هه، باشه، هرچی تو بگی رفیق.</Content>
     </LocalisableString>
     <LocalisableString StringID="15963721438606751729">
-      <Content Type="String">Not a one. Old Earl is set to send some of his boys out to the Hollow. Rattle some of them monkey's cages.</Content>
+      <Content Type="String">حتی یکی هم نه. ارلِ پیر داره چند تا از بچه‌هاش رو می‌فرسته هالو. که حال بعضی از این سیاه‌ها رو بگیره.</Content>
     </LocalisableString>
     <LocalisableString StringID="15964350621801362632">
       <Content Type="String">می‌بینمت. می‌بینم چیکار می‌کنی!</Content>
@@ -274640,7 +274640,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">برای پیدا کردن پولِ لاتاری زیرزمینی رئیس، فقط باید دنبال پول‌جمع‌کن‌هاش راه بیفتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="15966626873581036907">
-      <Content Type="String">It's been a long, hard road. But with Marcano gone, we can finally move forward. Run this city the best way we see fit.</Content>
+      <Content Type="String">راه طولانی و سختی بوده. ولی با رفتن مارکانو، بالأخره می‌تونیم بریم جلو. این شهر رو به بهترین شکلی که صلاح می‌دونیم بچرخونیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15966871175086764348">
       <Content Type="String">کوکتل مولوتوف! از اونجا برید!</Content>
@@ -274667,7 +274667,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">پشتم رو بگیر! دارم می‌رم تو!</Content>
     </LocalisableString>
     <LocalisableString StringID="15967251564223430214">
-      <Content Type="String">Artie's got Clemente running smaller deals with the locals in this working class neighborhood. If you go in loud, you're liable to have your hands full with the boys in blue.</Content>
+      <Content Type="String">آرتی گذاشته کلمنته معامله‌های کوچیک‌تر با مردم محلی این محله‌ی کارگری انجام بده. اگه بلند بری تو، ممکنه دستت با آبی‌پوش‌ها پر شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15967586717853264460">
       <Content Type="String">گونه‌ی ۳</Content>
@@ -274799,7 +274799,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">برو گمشو!</Content>
     </LocalisableString>
     <LocalisableString StringID="15972092530733285351">
-      <Content Type="String">...kill'em some slants. And if that hardware's good enough for our soldiers it's good enough for me. That's for goddamn...</Content>
+      <Content Type="String">...چند تا آسیایی بکشن. و اگه اون سلاح برای سربازهای ما خوبه، برای من هم خوبه. این برای لعنتی...</Content>
     </LocalisableString>
     <LocalisableString StringID="15972125413198971905">
       <Content Type="String">برداشت ماری‌جوانا</Content>
@@ -274814,7 +274814,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">[اوهه... آآه... اوه]</Content>
     </LocalisableString>
     <LocalisableString StringID="15973328397116464752">
-      <Content Type="String">"Clicks" will kill the nearby phones for good and rally your backup.</Content>
+      <Content Type="String">«کلیک» خط‌های تلفن اطراف رو برای همیشه قطع می‌کنه و پشتیبانت رو خبر می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15973332575301384266">
       <Content Type="String">تکون نخورید، بذارید چشمتون عادت کنه، همه.</Content>
@@ -274847,7 +274847,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">دنبال ایستگاه اتوبوسی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15974175461437456703">
-      <Content Type="String">Albert Mosqueda is a firebrand Cuban politician who likes nothing more than to whip up pro-Castro fervor among his supporters. He has made an enemy of Martinez and his Batista-loving crew, so he needs to die, publicly. Mosqueda makes speeches at a podium in the North East of the city. He is always surrounded by armed guards, so approach with care.</Content>
+      <Content Type="String">آلبرت موسکدا یه سیاستمدار کوبایی آتشین‌مزاجه که هیچی به‌قدر برانگیختن شور طرفدار کاسترو تو هواداراش خوشش نمی‌آد. خودش رو دشمن مارتینز و دارودسته‌ی عاشق باتیستاش کرده، پس باید بمیره، علنی. موسکدا تو شمال‌شرق شهر، پشت تریبون سخنرانی می‌کنه. همیشه محاصره‌ی نگهبان‌های مسلحه، پس با احتیاط نزدیک شو.</Content>
     </LocalisableString>
     <LocalisableString StringID="15974414087740051440">
       <Content Type="String">پول‌جمع‌کن‌های رئیس دارن پول جمع می‌کنن! همیشه پول رو می‌برن یه انبار!</Content>
@@ -274883,10 +274883,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">گندش. بهتره اون رو چک کنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15974740955501609980">
-      <Content Type="String">Better look over dere...</Content>
+      <Content Type="String">بهتره اون‌ور رو نگاه کنی...</Content>
     </LocalisableString>
     <LocalisableString StringID="15974740955501609983">
-      <Content Type="String">Dere was SOMETHIN' dere...</Content>
+      <Content Type="String">اون‌جا یه چیزی بود...</Content>
     </LocalisableString>
     <LocalisableString StringID="15975026537736656061">
       <Content Type="String">هنوز داریم به مردم شلیک می‌کنیم؟</Content>
@@ -274907,10 +274907,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">ممکنه هیچی نباشه. ممکنه یه چیزی باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15976140243486851940">
-      <Content Type="String">Boy, pull your head out and grab that money.</Content>
+      <Content Type="String">پسر، کله‌ت رو بیار بالا و اون پول رو بردار.</Content>
     </LocalisableString>
     <LocalisableString StringID="15976185722215990609">
-      <Content Type="String">Holland's cargo business is hurting. You're doing good.</Content>
+      <Content Type="String">کار باربری هالند ضربه خورده. داری خوب کار می‌کنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15977095279421705104">
       <Content Type="String">وقت تجدید قواست.</Content>
@@ -274919,7 +274919,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">دارم عقب‌نشینی می‌کنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15977229541527057080">
-      <Content Type="String">Burke's dead? Never trusted that mick fuck, anyway.</Content>
+      <Content Type="String">برک مرده؟ هیچ‌وقت به اون ایرلندی عوضی اعتماد نداشتم، راستش.</Content>
     </LocalisableString>
     <LocalisableString StringID="15979148010500412821">
       <Content Type="String">بذار ببینیم چطور می‌سوزه!</Content>
@@ -274979,7 +274979,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اوه! این گند هنوز داره بوی گند می‌زنه، رفیق.</Content>
     </LocalisableString>
     <LocalisableString StringID="15982237267993808338">
-      <Content Type="String">Downtown. Never had much use for the 9-5 types, but their money is as good as anyone's.</Content>
+      <Content Type="String">داونتاون. هیچ‌وقت زیاد به کارمندهای نه‌تا‌پنج نیازی نداشتم، ولی پولشون به‌قدر بقیه خوبه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15982647958534624572">
       <Content Type="String">داره رگبار می‌بنده بهم!</Content>
@@ -275012,10 +275012,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">پرش هوایی</Content>
     </LocalisableString>
     <LocalisableString StringID="15985601065666862632">
-      <Content Type="String">I need the attention off me in Barclay Mills.</Content>
+      <Content Type="String">می‌خوام تو توجه از روی من بارکلی میلز برداشته شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15986529387836634059">
-      <Content Type="String">He got past us somehow. Don't give up.</Content>
+      <Content Type="String">یه جوری از کنارمون رد شد. تسلیم نشو.</Content>
     </LocalisableString>
     <LocalisableString StringID="15987405282207635966">
       <Content Type="String">لعنتی! بخواب زمین!</Content>
@@ -275087,13 +275087,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اوه، خدا رو شکر.</Content>
     </LocalisableString>
     <LocalisableString StringID="15989777168807509366">
-      <Content Type="String">Maybe I can cheer up now.</Content>
+      <Content Type="String">شاید الآن بتونم روحیه بگیرم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15989777168807509367">
-      <Content Type="String">Glad to see da clouds parting.</Content>
+      <Content Type="String">خوشحالم که ابرها دارن باز می‌شن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15989797406791757191">
-      <Content Type="String">A freelancer, he keeps his ear to the ground around River Row.</Content>
+      <Content Type="String">یه آزادکار، گوشش به خبرهای دور و بر ریور رو هست.</Content>
     </LocalisableString>
     <LocalisableString StringID="15989984996357270461">
       <Content Type="String">از این که حساب 2K خود را متصل کردید متشکریم. برای مدیریت حساب و بررسی توافق‌نامه‌های حقوقی به accounts.2k.com مراجعه کنید.</Content>
@@ -275105,28 +275105,28 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">(خنده‌ی جنون‌آمیز)</Content>
     </LocalisableString>
     <LocalisableString StringID="15990188344852446507">
-      <Content Type="String">Time for talkin' is over! Now we leave it to the bullets!</Content>
+      <Content Type="String">وقت حرف زدن تمومه! الآن می‌سپاریمش به گلوله‌ها!</Content>
     </LocalisableString>
     <LocalisableString StringID="15990378974016274009">
       <Content Type="String">%s دلار</Content>
     </LocalisableString>
     <LocalisableString StringID="15990386348571001279">
-      <Content Type="String">I think you might need to get another bottle, young man.</Content>
+      <Content Type="String">فکر کنم به یه بطری دیگه نیاز پیدا کنی، جوون.</Content>
     </LocalisableString>
     <LocalisableString StringID="15990799035908836548">
-      <Content Type="String">You got some new wheels coming.</Content>
+      <Content Type="String">چرخ‌های جدیدت داره می‌آد.</Content>
     </LocalisableString>
     <LocalisableString StringID="15990799035908836550">
-      <Content Type="String">Vehicle is inbound.</Content>
+      <Content Type="String">خودرو در راهه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15990799035908836551">
-      <Content Type="String">Your ride's on its way.</Content>
+      <Content Type="String">ماشینت تو راهه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15991271356059251438">
-      <Content Type="String">I can't get Cassandra on the line.</Content>
+      <Content Type="String">نمی‌تونم کاساندرا رو روی خط بیارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15991389835169668601">
-      <Content Type="String">"There's A War Goin' On"</Content>
+      <Content Type="String">«یه جنگی در جریانه»</Content>
     </LocalisableString>
     <LocalisableString StringID="15991991155196770940">
       <Content Type="String">*سرفه‌ی کوتاهِ ناشی از دود*</Content>
@@ -275150,7 +275150,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">فقط راهت رو بکش و برو.</Content>
     </LocalisableString>
     <LocalisableString StringID="15992942806062660127">
-      <Content Type="String">Up yours, ya bum.</Content>
+      <Content Type="String">برو گه بخور، ای ولگرد.</Content>
     </LocalisableString>
     <LocalisableString StringID="15993267975208324817">
       <Content Type="String">من می‌تونستم الان خونه باشم، با زنم باشم...</Content>
@@ -275162,7 +275162,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">الان فقط دارم عصبانی میشم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15994412047591205431">
-      <Content Type="String">Get your hands on Grecco before Marcano's men rip him to shreds.</Content>
+      <Content Type="String">قبل از اینکه آدم‌های مارکانو تیکه‌تیکه‌ش کنن، به گرکو دست پیدا کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="15994552742130568561">
       <Content Type="String">کنترلش رو از دست داده؟</Content>
@@ -275180,7 +275180,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">همه بیاید اینجا! دیدمش!</Content>
     </LocalisableString>
     <LocalisableString StringID="15996328409920789343">
-      <Content Type="String">Runnin' weed takes time.</Content>
+      <Content Type="String">چرخوندن علف وقت می‌بره.</Content>
     </LocalisableString>
     <LocalisableString StringID="15996624312829085212">
       <Content Type="String">می‌جنگیم.</Content>
@@ -275216,10 +275216,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">خانم، نمی‌تونم کمکتون کنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="15997843243176670853">
-      <Content Type="String">Dat's a nice set of wheels.</Content>
+      <Content Type="String">چه چرخ‌های قشنگی.</Content>
     </LocalisableString>
     <LocalisableString StringID="15997843243176670854">
-      <Content Type="String">Wonder how fast it goes.</Content>
+      <Content Type="String">کاش می‌دونستم چقدر تند می‌ره.</Content>
     </LocalisableString>
     <LocalisableString StringID="15997858486762079784">
       <Content Type="String">حالا سر چی دعوا می‌کنن؟</Content>
@@ -275231,13 +275231,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اونجا چه خبره؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15998078797529050855">
-      <Content Type="String">Dialing. Dialing. Dialing. That's what you do. Call me up when you need something. And forget I even exist when you're passing the district out. My men are on their way. But what's happened in the past don’t happen again.</Content>
+      <Content Type="String">زنگ می‌زنی. زنگ می‌زنی. زنگ می‌زنی. کارت همینه. هر وقت چیزی خواستی بهم زنگ بزن. و وقتی داری منطقه تقسیم می‌کنی، فراموش کن که وجود دارم. مردهای من دارن می‌آن. ولی چیزی که تو گذشته گذشت، دوباره تکرار نشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="15998636136490884847">
       <Content Type="String">کی گذاشت از اینجا رد شه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15998924135614602251">
-      <Content Type="String">Welcome to the Bone Rattler! Ain't much restin' in peace goin' on here!</Content>
+      <Content Type="String">به بن رتلر خوش اومدی! این‌جا خبری از آسایش ابدی نیست!</Content>
     </LocalisableString>
     <LocalisableString StringID="15999053765213581725">
       <Content Type="String">اینجا لعنتی!</Content>
@@ -275252,16 +275252,16 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">مشروب‌فروشی مارکی</Content>
     </LocalisableString>
     <LocalisableString StringID="16000404528280988173">
-      <Content Type="String">Lincoln, c’mon.</Content>
+      <Content Type="String">لینکلن، بیا دیگه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16001030287157013892">
       <Content Type="String">این ولگرد دیوونه رو ببین!</Content>
     </LocalisableString>
     <LocalisableString StringID="16001030287157013893">
-      <Content Type="String">He'll end up in jail, or dead.</Content>
+      <Content Type="String">آخرش می‌ره زندون، یا می‌میره.</Content>
     </LocalisableString>
     <LocalisableString StringID="16001030287157013895">
-      <Content Type="String">Accident waitin' to happen.</Content>
+      <Content Type="String">یه تصادف در انتظار اتفاق افتادن.</Content>
     </LocalisableString>
     <LocalisableString StringID="16001446686268653001">
       <Content Type="String">اونجاست! بریم!</Content>
@@ -275273,10 +275273,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">گرفتمش! کمکم کنید!</Content>
     </LocalisableString>
     <LocalisableString StringID="16001490717870330228">
-      <Content Type="String">Her and her fucked up little inner circle.</Content>
+      <Content Type="String">اون و حلقه‌ی کوچیک و کوفتی دور و برش.</Content>
     </LocalisableString>
     <LocalisableString StringID="16001534975716592104">
-      <Content Type="String">That's it. I know exactly how I'm gonna nail this coffin closed...</Content>
+      <Content Type="String">همینه. دقیقاً می‌دونم چطور این تابوت رو میخکوب کنم...</Content>
     </LocalisableString>
     <LocalisableString StringID="16001619082656175437">
       <Content Type="String">[سوت‌زدن بی‌ریتم]</Content>
@@ -275294,7 +275294,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اون یکی از خودمون بود؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16004508341623040676">
-      <Content Type="String">They can try all they like. Still won't change the outcome. You gettin' in touch with your artistic side?</Content>
+      <Content Type="String">هر کاری بخوان می‌تونن بکنن. نتیجه عوض نمی‌شه. داری سمت هنریتت رو پیدا می‌کنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16004754070434638764">
       <Content Type="String">اوه، جیورجی مارکانو مالیات می‌ده؟</Content>
@@ -275345,7 +275345,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">گلوله نداره! شلیک!</Content>
     </LocalisableString>
     <LocalisableString StringID="16006378539240931332">
-      <Content Type="String">Burke's distracted with other... obligations. Go see what you can do to get him back on track.</Content>
+      <Content Type="String">برک با... تعهدهای دیگه‌ای حواسش پرته. برو ببین چیکار می‌تونی بکنی که برگرده سر خط.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006735491225537112">
       <Content Type="String">اون حیوون رو از بین ببر!</Content>
@@ -275354,31 +275354,31 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اون عوضی رو بفرست جهنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="16006805835343917024">
-      <Content Type="String">Attention all units, reports of a hit and run in have been coming in. Any area units, please respond.</Content>
+      <Content Type="String">توجه همه‌ی واحدها، گزارش‌های یه تصادف و فرار داره می‌رسه. هر واحد منطقه، لطفاً پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006805835343917025">
-      <Content Type="String">There's been a hit and run reported by a concerned citizen. Any available units, please respond.</Content>
+      <Content Type="String">یه شهروند نگران یه تصادف و فرار رو گزارش کرده. هر واحد در دسترس، لطفاً پاسخ بده.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006805835343917026">
-      <Content Type="String">All area units, there's been a hit and run. Response requested.</Content>
+      <Content Type="String">همه‌ی واحدهای منطقه، یه تصادف و فرار بوده. درخواست پاسخ.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006805835343917028">
-      <Content Type="String">There's been a hit and run called in. Any available units, immediate attention requested.</Content>
+      <Content Type="String">یه تصادف و فرار اعلام شده. هر واحد در دسترس، درخواست توجه فوری.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006805835343917029">
-      <Content Type="String">We've got reports of a hit and run. Area units, please respond.</Content>
+      <Content Type="String">گزارش‌های یه تصادف و فرار داریم. واحدهای منطقه، لطفاً پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006805835343917030">
-      <Content Type="String">Any units available, there's been a hit and run reported in the area. Response requested.</Content>
+      <Content Type="String">هر واحد در دسترس، یه تصادف و فرار تو منطقه گزارش شده. درخواست پاسخ.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006805835343917031">
-      <Content Type="String">All units, be advised. A hit and run incident has been reported. Response requested.</Content>
+      <Content Type="String">همه‌ی واحدها، توجه. یه مورد تصادف و فرار گزارش شده. درخواست پاسخ.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006805835343917034">
-      <Content Type="String">Be advised, there's been a hit and run reported. Any units in the area, please keep an eye out for anyone driving erratically.</Content>
+      <Content Type="String">توجه، یه تصادف و فرار گزارش شده. هر واحدی تو منطقه، حواستون به هر کسی که غیرعادی رانندگی می‌کنه باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006805835343917035">
-      <Content Type="String">Attention all units, someone called in a hit and run. Please respond.</Content>
+      <Content Type="String">توجه همه‌ی واحدها، یکی تصادف و فرار رو اعلام کرده. لطفاً پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="16006902998823163932">
       <Content Type="String">یه نارنجک بهش بدید!</Content>
@@ -275399,13 +275399,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">می‌ریم می‌گیریمش.</Content>
     </LocalisableString>
     <LocalisableString StringID="16008260914949903317">
-      <Content Type="String">Ooo, that's somethin' to inquire about.</Content>
+      <Content Type="String">اوه، این یکی ارزش پرسیدن داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="16008260914949903318">
       <Content Type="String">این دیگه چه کوفتیه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16008432362127633950">
-      <Content Type="String">What are you waiting for? Go.</Content>
+      <Content Type="String">منتظر چی هستی؟ برو.</Content>
     </LocalisableString>
     <LocalisableString StringID="16008649570099946531">
       <Content Type="String">مرکز شهر</Content>
@@ -275438,10 +275438,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">کی این کارو کرد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16011488404678330078">
-      <Content Type="String">Get yourself somethin’ fast that can handle turns.</Content>
+      <Content Type="String">یه ماشین سریع که پیچ‌ها رو خوب بگیره بگیر.</Content>
     </LocalisableString>
     <LocalisableString StringID="16012330040970904780">
-      <Content Type="String">Suspect’s here. The Nightcrawler’s at the off-site facility!</Content>
+      <Content Type="String">مظنون این‌جاست. نایت‌کراولر تو محل بیرونی‌ه!</Content>
     </LocalisableString>
     <LocalisableString StringID="16012490920531982273">
       <Content Type="String">اون دیگه چی بود؟!</Content>
@@ -275567,7 +275567,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">فقط یه آدمم. جادو لعنتی نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="16021964631953082532">
-      <Content Type="String">Sinclair born and raised. He’s a white boy lookin’ to make a difference.</Content>
+      <Content Type="String">اهل سینکلر، تولد و بزرگ‌شده. یه پسر سفیدپوسته که دنبال تغییره.</Content>
     </LocalisableString>
     <LocalisableString StringID="16022306313197318816">
       <Content Type="String">لازم نیست نزدیک‌تر بیاد تا بفهمم اون چیه.</Content>
@@ -275609,7 +275609,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">دارم سنگر می‌گیرم!</Content>
     </LocalisableString>
     <LocalisableString StringID="16026743520450689078">
-      <Content Type="String">Manny Forcella's an ex-councilman who Frankie brought in for his insider knowledge on the shit going down in city hall.</Content>
+      <Content Type="String">مانی فورچلا یه عضو سابق شوراست که فرانکی به‌خاطر اطلاعات داخلی‌اش درباره‌ی گه‌هایی که تو تالار شهر راه می‌افته آوردش.</Content>
     </LocalisableString>
     <LocalisableString StringID="16027171182533110711">
       <Content Type="String">من می‌رم یه دور بزنم و نگاه کنم.</Content>
@@ -275630,7 +275630,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">دعوت‌نامه‌ی کلکسیونی</Content>
     </LocalisableString>
     <LocalisableString StringID="16029183011807878406">
-      <Content Type="String">I can hot-wire those doors, probably get them open-- Thirty, forty seconds tops.</Content>
+      <Content Type="String">می‌تونم اون درها رو با سیم باز کنم، احتمالاً بازشون کنم-- حداکثر سی چهل ثانیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16029357548619799098">
       <Content Type="String">ساوت‌داونز دیگه اون‌قدر سفیدپوسته نیست. فکر کنم این چیز خوبیه، نه؟</Content>
@@ -275642,10 +275642,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">وقت چرت نیست، ای کله‌گندها.</Content>
     </LocalisableString>
     <LocalisableString StringID="16029775998975037665">
-      <Content Type="String">Donovan tells me Sal's called in a heavy-hitter named Santangelo to take me out. Like I don't have enough bullshit on my plate.</Content>
+      <Content Type="String">دونووان بهم می‌گه سال یه ضربه‌زن سنگین به اسم سانتانجلو خبر کرده که منو بکشه. انگار کم گه رو کله‌م ندارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16029884967390999160">
-      <Content Type="String">I hear there's some money.</Content>
+      <Content Type="String">می‌گن یه پولی هست.</Content>
     </LocalisableString>
     <LocalisableString StringID="16030186129428055168">
       <Content Type="String">[درآوردن صدای ترق‌وتروق با دهان]</Content>
@@ -275675,40 +275675,40 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">برای تو و مادرت.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031938780807501653">
-      <Content Type="String">Get quickly to the cab with guns in Hunters.</Content>
+      <Content Type="String">سریع با تفنگ‌ها به تاکسی تو هانترز برس.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031938780807501654">
-      <Content Type="String">Leave the car in the compound.</Content>
+      <Content Type="String">ماشین را در کمپ بذار.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031938780807501655">
-      <Content Type="String">You need a car to start the race. Come back with a car.</Content>
+      <Content Type="String">برای شروع مسابقه یه ماشین لازم داری. با یه ماشین برگرد.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031939880319129891">
-      <Content Type="String">Better try to find another way to the compound.</Content>
+      <Content Type="String">بهتره یه راه دیگه به کمپ پیدا کنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031939880319129896">
-      <Content Type="String">You can meet them anywhere in the city.</Content>
+      <Content Type="String">تو هر جایی از شهر می‌تونی ببینشون.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031939880319129897">
-      <Content Type="String">Following the courier can lead you to the truck's location.</Content>
+      <Content Type="String">دنبال کردن پیک می‌تونه تو رو به محل کامیون برسونه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031939880319129898">
-      <Content Type="String">The stolen truck is not marked on the map. You have to locate it on your own.</Content>
+      <Content Type="String">کامیون دزدیده‌شده روی نقشه علامت نخورده. باید خودت پیداش کنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031939880319129899">
-      <Content Type="String">The gang uses couriers to distribute stolen stuff.</Content>
+      <Content Type="String">گنگ از پیک‌ها برای پخش کالای دزدی استفاده می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031939880319129900">
-      <Content Type="String">Get the evidence.</Content>
+      <Content Type="String">مدرک رو بگیر.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031939880319129902">
-      <Content Type="String">The transport with evidence will go through Riverside.</Content>
+      <Content Type="String">خودروی حامل مدرک از ریورساید رد می‌شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031939880319129903">
       <Content Type="String">مدرک و شواهد را در ماشین نابود کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="16031940979830758132">
-      <Content Type="String">Be careful not to damage the guns.</Content>
+      <Content Type="String">حواست باشه به اسلحه‌ها آسیب نزنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16031940979830758133">
       <Content Type="String">مسیر اشتباه!!!</Content>
@@ -275810,7 +275810,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">چرا تو یه مدت نمی‌گردی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16039889258454171987">
-      <Content Type="String">Take a ride with Roxy back into town without drawing any heat.</Content>
+      <Content Type="String">با راکسی بدون جلب توجه برگرد شهر.</Content>
     </LocalisableString>
     <LocalisableString StringID="16040169742671193608">
       <Content Type="String">برو دیگه.</Content>
@@ -275852,7 +275852,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">رئیس فقط به دزدیدن تلویزیون و پوست و این چیزا قناعت نکرده - یه چیزای دیگه هم هست که پول خوبی میارن. می‌دونم کجا انبارش می‌کنن!</Content>
     </LocalisableString>
     <LocalisableString StringID="16041204856181053123">
-      <Content Type="String">If you run in the right circles you know Carl's the man to see for what you need.</Content>
+      <Content Type="String">اگه تو حلقه‌های درست بچرخی، می‌دونی برای چیزی که لازم داری باید کارل رو ببینی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16041305268451131559">
       <Content Type="String">داناوان</Content>
@@ -275867,7 +275867,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">...باید بکنمش.</Content>
     </LocalisableString>
     <LocalisableString StringID="16041467557018018394">
-      <Content Type="String">I see one more Dixie piece of shit comin’ after Sammy’s and it’s YOUR ass.</Content>
+      <Content Type="String">یه دیکسی دیگه ببینم که دنبال سمی باشه، کونتِ.</Content>
     </LocalisableString>
     <LocalisableString StringID="16042295753877669164">
       <Content Type="String">دارم می‌رم یه موقعیت جدید!</Content>
@@ -275915,16 +275915,16 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">خودشه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16044619114883772376">
-      <Content Type="String">Don't miss Daisy, fellas. She's waitin' for you, right behind that wall.</Content>
+      <Content Type="String">دیزی رو از دست ندید، بچه‌ها. پشت همون دیوار منتظر شماست.</Content>
     </LocalisableString>
     <LocalisableString StringID="16044667417750912692">
       <Content Type="String">...آره. معلومه، آره.</Content>
     </LocalisableString>
     <LocalisableString StringID="16044905354457490609">
-      <Content Type="String">We’re fucked as long as we sit here. Let’s go, Lincoln!</Content>
+      <Content Type="String">تا وقتی این‌جا نشستیم گهمون خورده. بریم، لینکلن!</Content>
     </LocalisableString>
     <LocalisableString StringID="16045524718036384718">
-      <Content Type="String">The getaway car has been destroyed. Mission failed.</Content>
+      <Content Type="String">ماشین فرار نابود شد. مأموریت شکست خورد.</Content>
     </LocalisableString>
     <LocalisableString StringID="16046205882838341693">
       <Content Type="String">پسر، داری اشتباه بزرگی می‌کنی!</Content>
@@ -275963,7 +275963,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">خب، احتمالاً چیزی نبود…</Content>
     </LocalisableString>
     <LocalisableString StringID="16047154765458948894">
-      <Content Type="String">Lou Marcano's kept his non-stop party going in the French Ward by ending his rivals and dumping their bodies in the bayou. Time to make him pay in kind.</Content>
+      <Content Type="String">لو مارکانو با تموم کردن رقیب‌هاش و انداختن جسدشون تو باتلاق، مهمونی بی‌وقفه‌ش رو تو فرنچ وارد سرپا نگه داشته. وقتشه همون‌طور تاوان بده.</Content>
     </LocalisableString>
     <LocalisableString StringID="16047276166213587565">
       <Content Type="String">...روز گندی.</Content>
@@ -275975,7 +275975,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">اونجا چه خبره؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16047981623399557598">
-      <Content Type="String">The Blessed is marked by this symbol...</Content>
+      <Content Type="String">برکت‌یافته با این علامت مشخص می‌شه...</Content>
     </LocalisableString>
     <LocalisableString StringID="16048132210869204564">
       <Content Type="String">دیگه نمی‌تونن ما رو از این محله بیرون نگه دارن.</Content>
@@ -275984,7 +275984,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">کاپون لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16048534083344256850">
-      <Content Type="String">Vs. race</Content>
+      <Content Type="String">مسابقه‌ی رو‌به‌رو</Content>
     </LocalisableString>
     <LocalisableString StringID="16049909637515268025">
       <Content Type="String">منبع اون میو‌میو کردن‌ها رو پیدا کردم. یهنوع عروسک دیوونه...</Content>
@@ -276035,7 +276035,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16050780109790943851">
-      <Content Type="String">A fierce man-beast covered in fur. A mouth of razors with claws to match. Many Negro men went huntin' the Rougarou. But none of dem returned.</Content>
+      <Content Type="String">یه جانور-انسان درنده پوشیده از مو. دهنی پر از تیغ با چنگال‌های هم‌اندازه. خیلی از مردهای سیاه رفتن روگارو رو شکار کنن. ولی هیچ‌کدومشون برنگشت.</Content>
     </LocalisableString>
     <LocalisableString StringID="16050955310529790511">
       <Content Type="String">یکدفعه داون تاون شبیه بلفاست لعنتی شده. چه غلطی داره می‌گذره؟</Content>
@@ -276065,7 +276065,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">عجب بدشانسی‌ای.</Content>
     </LocalisableString>
     <LocalisableString StringID="16053097589566012454">
-      <Content Type="String">Talk to informer.</Content>
+      <Content Type="String">با خبرچین حرف بزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="16053345229387038000">
       <Content Type="String">ت-تو... لعنتی!</Content>
@@ -276125,7 +276125,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">بیرد رو می‌آرم. اون می‌تونه فردا کمکم کنه همه‌شو بندازیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16055284778665511845">
-      <Content Type="String">I swear I saw him.</Content>
+      <Content Type="String">قسم می‌خورم دیدمش.</Content>
     </LocalisableString>
     <LocalisableString StringID="16055284778665511846">
       <Content Type="String">اینجا نیست؟</Content>
@@ -276194,7 +276194,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">تو ساوت‌داونز به مهمات نیاز دارم!</Content>
     </LocalisableString>
     <LocalisableString StringID="16056760063759031666">
-      <Content Type="String">Like I was sayin'...</Content>
+      <Content Type="String">مثل اینکه داشتم می‌گفتم...</Content>
     </LocalisableString>
     <LocalisableString StringID="16056936621025583344">
       <Content Type="String">کمک! افسر!</Content>
@@ -276218,10 +276218,10 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">کجا قایم شده بود؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16057369836037395695">
-      <Content Type="String">Here's another one.</Content>
+      <Content Type="String">یکی دیگه هم ایناهه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16057891108888725401">
-      <Content Type="String">Reduces growth time and loss.</Content>
+      <Content Type="String">زمان رشد و تلفات رو کم می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16058058403322504592">
       <Content Type="String">آنجا! همین‌جا!</Content>
@@ -276242,22 +276242,22 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">چپ، چپ، چپ راست، چپ!</Content>
     </LocalisableString>
     <LocalisableString StringID="16058656745126506297">
-      <Content Type="String">Comin', just , ah. On my way.</Content>
+      <Content Type="String">دارم می‌آم، فقط، آه. تو راهم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16058656745126506299">
-      <Content Type="String">Aye aye, cap.</Content>
+      <Content Type="String">چشم، کاپیتان.</Content>
     </LocalisableString>
     <LocalisableString StringID="16058656745126506302">
       <Content Type="String">اوه، داریم میریم؟ میام!</Content>
     </LocalisableString>
     <LocalisableString StringID="16058656745126506303">
-      <Content Type="String">I'll follow you into hell, cap.</Content>
+      <Content Type="String">تا جهنم دنبالت می‌آم، کاپیتان.</Content>
     </LocalisableString>
     <LocalisableString StringID="16058805902563207792">
-      <Content Type="String">Increases quality and reduces loss.</Content>
+      <Content Type="String">کیفیت رو بالا می‌بره و تلفات رو کم می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16058805902563207799">
-      <Content Type="String">Increases quality and reduces growth time.</Content>
+      <Content Type="String">کیفیت رو بالا می‌بره و زمان رشد رو کم می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16058987660415948748">
       <Content Type="String">داری برای من بوق می‌زنی؟</Content>
@@ -276269,13 +276269,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">هیچ‌کس جاش رو نمی‌گیره. ولی من یکی لازم دارم که سمت تو رو بگردونه، مطمئن شه پول باز می‌رسه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16059931802470306600">
-      <Content Type="String">Increases yield and reduces loss.</Content>
+      <Content Type="String">بازده رو بالا می‌بره و تلفات رو کم می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16059931802470306601">
-      <Content Type="String">Increases yield and quality.</Content>
+      <Content Type="String">بازده و کیفیت رو بالا می‌بره.</Content>
     </LocalisableString>
     <LocalisableString StringID="16059931802470306607">
-      <Content Type="String">Increases yield and reduces growth time.</Content>
+      <Content Type="String">بازده رو بالا می‌بره و زمان رشد رو کم می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16061048472068057106">
       <Content Type="String">گونه‌ی ۴</Content>
@@ -276290,7 +276290,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">گونه‌ی ۱</Content>
     </LocalisableString>
     <LocalisableString StringID="16061872234474439393">
-      <Content Type="String">Available as part of the "Faster, Baby!" patch.</Content>
+      <Content Type="String">به‌عنوان بخشی از بسته‌ی «Faster, Baby!» در دسترسه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16061941568031245624">
       <Content Type="String">گونه‌ی ۱</Content>
@@ -276341,7 +276341,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">چشاتون گرد، بچه‌ها.</Content>
     </LocalisableString>
     <LocalisableString StringID="16064554219521567584">
-      <Content Type="String">Hitting Pellegrini's in your best interests to fuck with Roy's state of mind, but don't skip out on destroying the shit he's got stacked up on the docks.</Content>
+      <Content Type="String">زدن به پلگرینی به نفع خودته که حال روحی رُی رو خراب کنی، ولی از نابود کردن اون گه‌هایی که تو اسکله انبار کرده غافل نشو.</Content>
     </LocalisableString>
     <LocalisableString StringID="16064946871063535044">
       <Content Type="String">می‌خوای برگردیم جایی که آخرین بار دیدیمش رو بگردیم؟</Content>
@@ -276350,7 +276350,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">ببین اون طرف چی می‌بینی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16065178212378167380">
-      <Content Type="String">Roll your ass on home now, nigger.</Content>
+      <Content Type="String">حالا برو خونه‌ت، سیاه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16065178212378167381">
       <Content Type="String">پسرم، دوستانه بمون.</Content>
@@ -276368,13 +276368,13 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">مگه دستمال سفره نشنیدن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16065438036309235405">
-      <Content Type="String">Get in here. I’ll give you the nickel tour. If that will help you help Anna.</Content>
+      <Content Type="String">بیا داخل. یه عیادت مختصر می‌کنمت. اگه به کمکت به آنا کمک کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16065448599371127269">
-      <Content Type="String">Whew. Whole mess of 'em.</Content>
+      <Content Type="String">اوه. یه عالمه‌شون.</Content>
     </LocalisableString>
     <LocalisableString StringID="16065448599371127270">
-      <Content Type="String">Assholes congregatin'.</Content>
+      <Content Type="String">عوضی‌ها دارن جمع می‌شن.</Content>
     </LocalisableString>
     <LocalisableString StringID="16065700083389161302">
       <Content Type="String">قبلاً می‌تونستی ماشینت رو این طرفا قفل نکنی. دیگه نه.</Content>
@@ -276389,7 +276389,7 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">مرده که کمکی نمی‌تونه بکنه. سنگر بگیر!</Content>
     </LocalisableString>
     <LocalisableString StringID="16066690493699816075">
-      <Content Type="String">I'm tellin' you, those were gunshots. We should go back in there and check on Ms. Olivia.</Content>
+      <Content Type="String">بهت می‌گم، اون صدای گلوله بود. باید برگردیم اون تو و سر به حال خانم اولیویا بزنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16066757804695761936">
       <Content Type="String">برو! گمشو!</Content>
@@ -276513,11 +276513,11 @@ To call the Hit Squad, select it from your Weapons Menu.</Content>
       <Content Type="String">گرت دلانگ «کثیف»</Content>
     </LocalisableString>
     <LocalisableString StringID="16072261925797262348">
-      <Content Type="String">Hope you've been considering the position you've put me in here. I wasn't effin' and blindin' over nothing. We're talking about me future. Nicki's too.</Content>
+      <Content Type="String">امیدوارم به موقعیتی که منو توش گذاشتی فکر کرده باشی. من بی‌خودی فحش نمی‌دادم. داریم درباره‌ی آینده‌ی من حرف می‌زنیم. آینده‌ی نیکی هم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16072984000405259587">
-      <Content Type="String">AGE: 58
-A longtime Marcano associate who runs waste disposal and rail-based smuggling out of Barclay Mills, Enzo's seen it all... and is still standing.</Content>
+      <Content Type="String">سن: ۵۸
+یه شریک قدیمی مارکانو که دفع زباله و قاچاق ریلی رو از بارکلی میلز می‌چرخونه، انزو همه‌چی رو دیده... و هنوز سرپاست.</Content>
     </LocalisableString>
     <LocalisableString StringID="16073646752732822244">
       <Content Type="String">این‌ها چه مشکلی دارن؟</Content>
@@ -276541,19 +276541,19 @@ A longtime Marcano associate who runs waste disposal and rail-based smuggling ou
       <Content Type="String">گندت رو لازم ندارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16074396713219047396">
-      <Content Type="String">I got nothing to say to you.</Content>
+      <Content Type="String">من چیزی برای گفتن به تو ندارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16074396713219047397">
-      <Content Type="String">You're bringing me down, man.</Content>
+      <Content Type="String">داری حالم رو بهم می‌زنی، مرد.</Content>
     </LocalisableString>
     <LocalisableString StringID="16074396713219047398">
       <Content Type="String">ما حرفی نداریم!</Content>
     </LocalisableString>
     <LocalisableString StringID="16074574841472276903">
-      <Content Type="String">Turns out you're broke as well as irresponsible.</Content>
+      <Content Type="String">معلوم شد علاوه بر بی‌مسئولیت، بی‌پول هم هستی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16075272752229582145">
-      <Content Type="String">Give Sammy my best, Lincoln.</Content>
+      <Content Type="String">از طرف من به سمی سلام برسون، لینکلن.</Content>
     </LocalisableString>
     <LocalisableString StringID="16075629712188842268">
       <Content Type="String">همین الان چی دیدم؟</Content>
@@ -276580,10 +276580,10 @@ A longtime Marcano associate who runs waste disposal and rail-based smuggling ou
       <Content Type="String">صدا از یکی از اون عروسک‌های وودوی لعنتی میاد. چه چیز چندش‌آوری...</Content>
     </LocalisableString>
     <LocalisableString StringID="16076906402607763109">
-      <Content Type="String">Talk to receptionist</Content>
+      <Content Type="String">با منشی حرف بزن</Content>
     </LocalisableString>
     <LocalisableString StringID="16077620482677860781">
-      <Content Type="String">Donovan's got intel on how you can finally get close enough to Uncle Lou to take him out.</Content>
+      <Content Type="String">دونووان اطلاعاتی داره که بالأخره می‌تونی به‌قدر کافی به عمو لو نزدیک شی و از سر راه برداشتنش.</Content>
     </LocalisableString>
     <LocalisableString StringID="16078459908776051716">
       <Content Type="String">هرچی تو بگی! فقط ولم کن برم.</Content>
@@ -276640,18 +276640,18 @@ A longtime Marcano associate who runs waste disposal and rail-based smuggling ou
       <Content Type="String">اون بیرون جز پشه چیزی نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="16082469877672745563">
-      <Content Type="String">Hey Momma,
+      <Content Type="String">هی مامان،
 
-Just wanted to let you know I'm doing fine. I met a film director and he says he's going to put me in his next picture. Exciting, isn't it? I'll call on Sunday.
+فقط می‌خواستم بدونی حالم خوبه. با یه کارگردان فیلم آشنا شدم و می‌گه می‌خواد تو فیلم بعدیش بذارم. هیجان‌انگیزه، نیست؟ یکشنبه زنگ می‌زنم.
 
-Love,
-Debbie</Content>
+با عشق،
+دبی</Content>
     </LocalisableString>
     <LocalisableString StringID="16082604579439599637">
       <Content Type="String">باشه، باشه، برات کار می‌کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="16083067939052634780">
-      <Content Type="String">Vito's been through enough shit to know you're his last chance at rising above River Row.</Content>
+      <Content Type="String">ویتو اون‌قدر گه دیده که می‌دونه تو آخرین شانسش برای بالا رفتن از ریور رویی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16084285009905417534">
       <Content Type="String">بیا این عوضی رو بکشیم، همین الان.</Content>
@@ -276693,7 +276693,7 @@ Debbie</Content>
       <Content Type="String">*ناله‌های پرشور*</Content>
     </LocalisableString>
     <LocalisableString StringID="16085815463700439230">
-      <Content Type="String">You want to give me one district that's your choice. But this is not what I signed up for. I thought we had an understanding of what we were doing here.</Content>
+      <Content Type="String">اگه می‌خوای یه منطقه به من بدی، انتخاب خودته. ولی این چیزی نیست که من ثبت‌نامش رو کرده بودم. فکر می‌کردم درباره‌ی کاری که این‌جا می‌کنیم توافق داریم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16086470345173124254">
       <Content Type="String">از اونجا برو بیرون! نمی‌ارزه!</Content>
@@ -276732,7 +276732,7 @@ Debbie</Content>
       <Content Type="String">داریم یه مشکل پیدا می‌کنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16086951694709507468">
-      <Content Type="String">Donovan's got information about Alvarez.</Content>
+      <Content Type="String">دونووان اطلاعاتی درباره‌ی آلوارز داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="16087033182431078497">
       <Content Type="String">دارن سهمیه‌ی جریمه‌هاشون رو پر می‌کنن، هان؟</Content>
@@ -276759,13 +276759,13 @@ Debbie</Content>
       <Content Type="String">کی فکر می‌کرد این‌قدر خوب شلیک کنن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16087987136176321814">
-      <Content Type="String">Well, least we know they got plenty of bullets.</Content>
+      <Content Type="String">خب، حداقل می‌دونیم مهمات زیاد دارن.</Content>
     </LocalisableString>
     <LocalisableString StringID="16087987136176321815">
-      <Content Type="String">If they're not careful, they might actually hit something!</Content>
+      <Content Type="String">اگه حواستون نباشه، ممکنه واقعاً به یه چیزی بزنن!</Content>
     </LocalisableString>
     <LocalisableString StringID="16088164504430442622">
-      <Content Type="String">Go give it another looksee.</Content>
+      <Content Type="String">برو یه بار دیگه نگاهی بنداز.</Content>
     </LocalisableString>
     <LocalisableString StringID="16088525206081272816">
       <Content Type="String">[جیغ دیوانه‌وار]</Content>
@@ -276780,7 +276780,7 @@ Debbie</Content>
       <Content Type="String">دستای لعنتیت رو ازم بکش!</Content>
     </LocalisableString>
     <LocalisableString StringID="16089908741584182244">
-      <Content Type="String">Yeah - I mean, yes, sir.</Content>
+      <Content Type="String">آره - یعنی، بله، قربان.</Content>
     </LocalisableString>
     <LocalisableString StringID="16090077195025326020">
       <Content Type="String">بهتره راهت رو بگیری، ای معتاد آشغال.</Content>
@@ -276804,7 +276804,7 @@ Debbie</Content>
       <Content Type="String">اون نارنجک لعنتی رو پرت کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="16092081745561971747">
-      <Content Type="String">Back off, buddy.</Content>
+      <Content Type="String">عقب بکش، رفیق.</Content>
     </LocalisableString>
     <LocalisableString StringID="16094099574973789745">
       <Content Type="String">«پول کلان»</Content>
@@ -276846,13 +276846,13 @@ Debbie</Content>
       <Content Type="String">چه غلطی می‌کنی؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="16095532697232123647">
-      <Content Type="String">Boom-Boom was a paperbag compared to the Brawler. You gotta keep movin' and don't let him get you in the corner.</Content>
+      <Content Type="String">بوم-بوم در مقابل مبارز مثل یه کیسه‌ی کاغذی بود. باید مدام در حرکت باشی و نذاری ببرتت گوشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16096098913724279921">
-      <Content Type="String">Welcome, dear friends. We are so pleased to have you with us.</Content>
+      <Content Type="String">خوش اومدید، دوستان عزیز. خیلی خوشحالیم که با ما هستید.</Content>
     </LocalisableString>
     <LocalisableString StringID="16096236273020217741">
-      <Content Type="String">Flower’s hand painted.</Content>
+      <Content Type="String">گل دست‌رنگ‌آمیزی‌شده‌ست.</Content>
     </LocalisableString>
     <LocalisableString StringID="16096242685497535429">
       <Content Type="String">باشه، بیا یه جای دیگه رو بگردیم.</Content>
@@ -276882,10 +276882,10 @@ Debbie</Content>
       <Content Type="String">باشه، باشه، انجامش می‌دم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16097582021538792320">
-      <Content Type="String">Those boys from Texas don't fuck around.</Content>
+      <Content Type="String">اون پسرها از تگزاس شوخی نمی‌کنن.</Content>
     </LocalisableString>
     <LocalisableString StringID="16097582021538792327">
-      <Content Type="String">Amen, brother. Amen.</Content>
+      <Content Type="String">آمین، داداش. آمین.</Content>
     </LocalisableString>
     <LocalisableString StringID="16098027472054786024">
       <Content Type="String">کد ۳۳، تصادف و فرار گزارش شد.</Content>
@@ -276894,7 +276894,7 @@ Debbie</Content>
       <Content Type="String">کد ۳۳، تصادف و فرار گزارش شد.</Content>
     </LocalisableString>
     <LocalisableString StringID="16098176033779759813">
-      <Content Type="String">I think you got Two Dicks' people running scared. Keep at 'em.</Content>
+      <Content Type="String">فکر می‌کنم آدم‌های تو-دیکس رو ترسوندی. ادامه بده.</Content>
     </LocalisableString>
     <LocalisableString StringID="16098799214614953536">
       <Content Type="String">بیا دیگه، داداش، ما اینجا برای گپ زدن نیستیم.</Content>
@@ -276951,7 +276951,7 @@ Debbie</Content>
       <Content Type="String">خجالت نکش! بزنش!</Content>
     </LocalisableString>
     <LocalisableString StringID="16099071417902780590">
-      <Content Type="String">"Specs" Ermo has a rep among Santini's crew for being a big talker, but when it comes to guarding a stolen haul, the man is not one to be fucked with.</Content>
+      <Content Type="String">«اسپکس» اِرمو بین دارودسته‌ی سانتینی این شهرت رو داره که زیاد لاف می‌زنه، ولی وقتی پای نگهبانی از یه غنیمت دزدی وسط می‌آد، نمی‌شه باهاش شوخی کرد.</Content>
     </LocalisableString>
     <LocalisableString StringID="16099339564795276581">
       <Content Type="String">راکسی! باید بریم! سریع!</Content>
@@ -276978,13 +276978,13 @@ Debbie</Content>
       <Content Type="String">خدای من! یکی آمبولانس خبر کنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="16101437928150253886">
-      <Content Type="String">Christ, if that's not a reason to move I don't know what is.</Content>
+      <Content Type="String">مسیح، اگه این دلیل مهاجرت نباشه، نمی‌دونم چیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="16101437928150253887">
-      <Content Type="String">Hell in a hand basket, I'll tell you what.</Content>
+      <Content Type="String">جهنم تو سبد دسته‌ای، بذار بگم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16101566942473079414">
-      <Content Type="String">Watch you don’t end up in one of those cells, soldier boy.</Content>
+      <Content Type="String">حواست باشه آخر و عاقبتت یکی از اون سلول‌ها نشه، پسرسرباز.</Content>
     </LocalisableString>
     <LocalisableString StringID="16102137223160021765">
       <Content Type="String">جوش نزنید، بچه‌ها.</Content>
@@ -277008,7 +277008,7 @@ Debbie</Content>
       <Content Type="String">این همه‌ش غلطه...</Content>
     </LocalisableString>
     <LocalisableString StringID="16103170764056918494">
-      <Content Type="String">Braniks Quest for Glory</Content>
+      <Content Type="String">جست‌وجوی افتخارِ برانیکس</Content>
     </LocalisableString>
     <LocalisableString StringID="16103501084668778268">
       <Content Type="String">خداحافظ دیگه.</Content>
@@ -277023,11 +277023,11 @@ Debbie</Content>
       <Content Type="String">داشتی از اون کفشای نو دست‌وپا می‌شکستی.</Content>
     </LocalisableString>
     <LocalisableString StringID="16104825083062100952">
-      <Content Type="String">I know you've known Nicki for a long time, but I'm nothing if not thorough. (You know I'm a sucker for paperwork.)
-Somehow she manages to survive a childhood as the only daughter of Thomas Burke, which makes her goddamn remarkable in my book. No warrants, no major arrests. I found a New Year's Eve assault charge involving Nicki, another woman, and a bartender from two years ago, but all the charges were dropped.
-Prior to the Butcher busting up Burke's leg, Nicki rigged up the cars Danny drove when he brought moonshine up from the stills in the bayou. Since then, she's been working for her old man, helping him scratch together whatever he can.
-Guess it's no secret that Nicki and Burke don't get along. Tried to dig around a bit and was told repeatedly it's a "family problem." Do with that what you will.
-ANALYSIS: She blames her old man for Danny's death (no surprise), and tells anyone who'll listen that she wants to get the hell out of New Bordeaux.</Content>
+      <Content Type="String">می‌دونم که نیکی رو از مدت‌ها پیش می‌شناسی، ولی من اگه کامل نباشم هیچی نیستم. (می‌دونی که عاشق کاغذبازیم.)
+یه جوری از بچگی به‌عنوان تنها دختر توماس برک جون سالم به در می‌بره، که به نظر من لعنتی فوق‌العاده‌ست. هیچ حکم جلب، هیچ بازداشت مهمی. یه اتهام حمله‌ی شب سال نو از دو سال پیش پیدا کردم که توش نیکی، یه زن دیگه و یه بارتندر بودن، ولی همه‌ی اتهام‌ها رد شد.
+قبل از اینکه قصاب پای برک رو خرد کنه، نیکی ماشین‌هایی رو دست‌کاری می‌کرد که دنی با هاش مشروب تقطیری رو از دستگاه‌های تو باتلاق بالا می‌آورد. از اون موقع، برای باباش کار می‌کنه و کمکش می‌کنه هر چی می‌تونه جمع کنه.
+حدس می‌زنم پوشیده نیست که نیکی و برک با هم کنار نمی‌آن. یه‌کم کاوش کردم و مدام بهم گفتن این یه «مشکل خونوادگیه». هر جور خواستی برداشتش کن.
+تحلیل: اون باباش رو مسئول مرگ دنی می‌دونه (تعجبی هم نداره)، و به هر کی گوش بده می‌گه می‌خواد لعنتی از نیو بوردو بره.</Content>
     </LocalisableString>
     <LocalisableString StringID="16104843108423997256">
       <Content Type="String">داره چی کار می‌کنه؟</Content>
@@ -277048,7 +277048,7 @@ ANALYSIS: She blames her old man for Danny's death (no surprise), and tells anyo
       <Content Type="String">می‌بینی داره چی کار می‌کنه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="16105613127182208634">
-      <Content Type="String">Wind your way through the Bayou in this curving course.</Content>
+      <Content Type="String">تو این مسیر پرپیچ از بیو رد شو.</Content>
     </LocalisableString>
     <LocalisableString StringID="16106246620888840875">
       <Content Type="String">وای! وای! وای! وای!</Content>
@@ -277093,13 +277093,13 @@ ANALYSIS: She blames her old man for Danny's death (no surprise), and tells anyo
       <Content Type="String">گندت می‌کنم تو گلوی لعنتیت!</Content>
     </LocalisableString>
     <LocalisableString StringID="16107213929220822840">
-      <Content Type="String">Got some rowdy boys over dere.</Content>
+      <Content Type="String">اون‌ور یه مشت پسر شلوغ داریم.</Content>
     </LocalisableString>
     <LocalisableString StringID="16107213929220822842">
       <Content Type="String">بذار با روش سختش یاد بگیرن!</Content>
     </LocalisableString>
     <LocalisableString StringID="16107213929220822843">
-      <Content Type="String">Dey best be passin' through.</Content>
+      <Content Type="String">بهتره عبوری باشن.</Content>
     </LocalisableString>
     <LocalisableString StringID="16107268556425983434">
       <Content Type="String">یه کم کمکم کن!</Content>
@@ -277126,13 +277126,13 @@ ANALYSIS: She blames her old man for Danny's death (no surprise), and tells anyo
       <Content Type="String">اون نارنجکه؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="16108514326213348469">
-      <Content Type="String">He fucked up. Bad.</Content>
+      <Content Type="String">گهش رو خورد. بدجور.</Content>
     </LocalisableString>
     <LocalisableString StringID="16108514326213348470">
-      <Content Type="String">Maybe dey can put de eye back in.</Content>
+      <Content Type="String">شاید بتونن چشم رو سر جاش برگردونن.</Content>
     </LocalisableString>
     <LocalisableString StringID="16108902160399761071">
-      <Content Type="String">Looks like someone was intent on keepin’ folks inside...</Content>
+      <Content Type="String">انگار یکی می‌خواسته مردم رو تو نگه داره...</Content>
     </LocalisableString>
     <LocalisableString StringID="16109856966458095456">
       <Content Type="String">هنوز اینجاست.</Content>
