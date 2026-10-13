@@ -14871,7 +14871,7 @@ Couple weeks unread mail = flown the coop?</Content>
       <Content Type="String">شنیدم اخیراً این طرفا جرم و جنایت بیشتر شده. بیا راهمون رو بریم.</Content>
     </LocalisableString>
     <LocalisableString StringID="849956100628299023">
-      <Content Type="String">Go, man, stop fucking standing around!</Content>
+      <Content Type="String">برو، رفیق، این‌قدر لعنتی وایسا!</Content>
     </LocalisableString>
     <LocalisableString StringID="850043910101347049">
       <Content Type="String">گوش کن، فقط دو جور مرد از این در میان تو: اونی که می‌خواد یکی رو آزار بده، و اونی که از خودش هم می‌ترسه. همین.</Content>
@@ -14964,7 +14964,7 @@ Couple weeks unread mail = flown the coop?</Content>
       <Content Type="String">He's got us going in circles.</Content>
     </LocalisableString>
     <LocalisableString StringID="855244433220797211">
-      <Content Type="String">Damn. Now, I've got no idea where he is...</Content>
+      <Content Type="String">لعنتی. حالا هیچ ایده‌ای ندارم کجاست...</Content>
     </LocalisableString>
     <LocalisableString StringID="855534994269847269">
       <Content Type="String">دریافت شد.</Content>
@@ -14979,19 +14979,19 @@ Couple weeks unread mail = flown the coop?</Content>
       <Content Type="String">That motherfucker was here. I fuckin' know it.</Content>
     </LocalisableString>
     <LocalisableString StringID="856625120620736682">
-      <Content Type="String">I'm pretty sure dat was gunfire!</Content>
+      <Content Type="String">تقریباً مطمئنم اون صدای شلیک بود!</Content>
     </LocalisableString>
     <LocalisableString StringID="856625120620736683">
-      <Content Type="String">Did I just hear shots fired?</Content>
+      <Content Type="String">همین الان صدای شلیک شنیدم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="856625120620736684">
-      <Content Type="String">Were those...shots?</Content>
+      <Content Type="String">اون‌ها... صدای شلیک بودن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="856625120620736685">
-      <Content Type="String">I think I heard gunshots!</Content>
+      <Content Type="String">فکر کنم صدای شلیک شنیدم!</Content>
     </LocalisableString>
     <LocalisableString StringID="856625120620736686">
-      <Content Type="String">dat might've been gunshots!</Content>
+      <Content Type="String">اون ممکنه صدای شلیک بوده باشه!</Content>
     </LocalisableString>
     <LocalisableString StringID="856669487554225536">
       <Content Type="String">گمش کردیم؟</Content>
@@ -15066,7 +15066,7 @@ Couple weeks unread mail = flown the coop?</Content>
       <Content Type="String">موتور کامیون زغال‌کش</Content>
     </LocalisableString>
     <LocalisableString StringID="859131848441734013">
-      <Content Type="String">You need something, son?</Content>
+      <Content Type="String">چیزی لازم داری، پسرم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="859131848441734014">
       <Content Type="String">I got my hand on my wallet.</Content>
@@ -15150,7 +15150,7 @@ Couple weeks unread mail = flown the coop?</Content>
       <Content Type="String">فرقی با ویتنام نداره. افتخارش برای افسرا می‌مونه و آخرش هم ما بدبخت می‌شیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="866146330130722308">
-      <Content Type="String">Don't they ever fuckin' bathe?</Content>
+      <Content Type="String">این‌ها هیچ‌وقت لعنتی حموم نمی‌کنن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="866146330130722311">
       <Content Type="String">At least them hippie girls like to fuck.</Content>
@@ -15249,13 +15249,13 @@ Couple weeks unread mail = flown the coop?</Content>
       <Content Type="String">بعضیا فقیرن، بعضیا هم خوش‌شانس.</Content>
     </LocalisableString>
     <LocalisableString StringID="868704888991376852">
-      <Content Type="String">Oh, shit! Did you see that?!</Content>
+      <Content Type="String">وای گندش! اون رو دیدی؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="868704888991376853">
       <Content Type="String">یکی آمبولانس خبر کنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="868704888991376855">
-      <Content Type="String">He just ran him right over!</Content>
+      <Content Type="String">همین الان از روش رد شد!</Content>
     </LocalisableString>
     <LocalisableString StringID="869328208607873590">
       <Content Type="String">افتخار. نشون افتخار. این یه مسخره‌بازیه.</Content>
@@ -15411,7 +15411,7 @@ Couple weeks unread mail = flown the coop?</Content>
       <Content Type="String">یه مدتی ندیدمت.</Content>
     </LocalisableString>
     <LocalisableString StringID="876047494474614769">
-      <Content Type="String">That's a damn Molotov!</Content>
+      <Content Type="String">این یه مولوتف لعنتیه!</Content>
     </LocalisableString>
     <LocalisableString StringID="876156605250316209">
       <Content Type="String">با والتر «پاپس» هالند روبه‌رو شوید</Content>
@@ -15483,7 +15483,7 @@ Couple weeks unread mail = flown the coop?</Content>
       <Content Type="String">الو؟ الو!! لعنتی، خط قطع شده.</Content>
     </LocalisableString>
     <LocalisableString StringID="885497888798903217">
-      <Content Type="String">Entonces porque tienes las armas?</Content>
+      <Content Type="String">انتنسیس، پورکه تیئنس لاس آرماس؟</Content>
     </LocalisableString>
     <LocalisableString StringID="885770319909720144">
       <Content Type="String">Oh, and we decided it was time to expand the family. Hope you don't mind.</Content>
@@ -242374,7 +242374,7 @@ Vito’s man inside of Marcano’s organization.</Content>
       <Content Type="String">می‌دونی هر کی اول بیاد، اول تیر می‌خوره؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14121319334139419267">
-      <Content Type="String">Okay, I'm comin', I'm comin'!</Content>
+      <Content Type="String">باشه، میام، میام!</Content>
     </LocalisableString>
     <LocalisableString StringID="14121319334139419268">
       <Content Type="String">Well, I ain't gonna wait around here.</Content>
@@ -242858,7 +242858,7 @@ Routes are also drawn on the Map screen.</Content>
       <Content Type="String">Frank: Don't worry. It's more of a fireworks than a dynamite. It will just give our escape an epic dimension.</Content>
     </LocalisableString>
     <LocalisableString StringID="14135371101862890246">
-      <Content Type="String">Clayton: Where is it?</Content>
+      <Content Type="String">کلیتون: کجاست؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14135371101862890247">
       <Content Type="String">Clayton: I can't see it.</Content>
@@ -242900,7 +242900,7 @@ Routes are also drawn on the Map screen.</Content>
       <Content Type="String">Clayton: You have no idea where this office is?</Content>
     </LocalisableString>
     <LocalisableString StringID="14135373300886146733">
-      <Content Type="String">Clayton: How you want to find the office?</Content>
+      <Content Type="String">کلیتون: می‌خوای دفتر رو چطور پیدا کنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14135373300886146734">
       <Content Type="String">Get the drugs.</Content>
@@ -242948,7 +242948,7 @@ Routes are also drawn on the Map screen.</Content>
       <Content Type="String">تندتر، بچه‌ها. وقت داره میره.</Content>
     </LocalisableString>
     <LocalisableString StringID="14135817869546769053">
-      <Content Type="String">Danny's hurt, Lincoln! Move it!</Content>
+      <Content Type="String">دنی زخمی شده، لینکلن! راه بیفت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14136145385696314838">
       <Content Type="String">آره، همین‌طوره!</Content>
@@ -243083,10 +243083,10 @@ Routes are also drawn on the Map screen.</Content>
       <Content Type="String">Start showcase</Content>
     </LocalisableString>
     <LocalisableString StringID="14136333174537385706">
-      <Content Type="String">Escaper got away!</Content>
+      <Content Type="String">فراری در رفت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14136333174537385707">
-      <Content Type="String">Your wingman died!</Content>
+      <Content Type="String">همرزمت مرد!</Content>
     </LocalisableString>
     <LocalisableString StringID="14136333174537385708">
       <Content Type="String">مک</Content>
@@ -243266,7 +243266,7 @@ Routes are also drawn on the Map screen.</Content>
       <Content Type="String">حمله‌ی خشن</Content>
     </LocalisableString>
     <LocalisableString StringID="14137973216759138878">
-      <Content Type="String">Grow a pair and show yourself, you fuck!</Content>
+      <Content Type="String">جفتت رو دربیار و خودت رو نشون بده، ای عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14138165757121282518">
       <Content Type="String">کسب‌وکار خلاف ساختمانی</Content>
@@ -243281,7 +243281,7 @@ Routes are also drawn on the Map screen.</Content>
       <Content Type="String">You're lookin' at the toughest motherfucker up and down the East Coast.</Content>
     </LocalisableString>
     <LocalisableString StringID="14139515164470363428">
-      <Content Type="String">Stop! I'll talk. Stop! STOP!!</Content>
+      <Content Type="String">بس کن! حرف می‌زنم. بس کن! بس کن!!</Content>
     </LocalisableString>
     <LocalisableString StringID="14139585264761200257">
       <Content Type="String">اون صدا از کجا میاد؟</Content>
@@ -243741,7 +243741,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">آره! این‌طوری باید انجامش بدی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14155182172690959909">
-      <Content Type="String">Fuck you, asshole!</Content>
+      <Content Type="String">گور بابای تو، ای عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14155372820397697512">
       <Content Type="String">وااای، مواظب باش!</Content>
@@ -243786,7 +243786,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">مسابقه‌ی نقطه‌به‌نقطه</Content>
     </LocalisableString>
     <LocalisableString StringID="14159109203883488824">
-      <Content Type="String">Right side! Fuckin' right side!</Content>
+      <Content Type="String">سمت راست! سمت راست لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14159258185257250264">
       <Content Type="String">ویدئو</Content>
@@ -243870,7 +243870,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">Yeah, that’s right. Huh. Anyway, I always thought that was funny. The idea of little Mexican crows flying around.</Content>
     </LocalisableString>
     <LocalisableString StringID="14161603394911329315">
-      <Content Type="String">Two G's on Boom-Boom to go all the way!</Content>
+      <Content Type="String">دو هزار تا روی بوم-بوم که تا آخر میره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14162314326416043852">
       <Content Type="String">فکر نمی‌کردم این‌طوری بشه.</Content>
@@ -244038,7 +244038,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">Anyone tries to run, I'll kill you myself.</Content>
     </LocalisableString>
     <LocalisableString StringID="14170756421238170947">
-      <Content Type="String">What do I pay you for!? Go!</Content>
+      <Content Type="String">من پول این کار رو بهت می‌دم که چی؟! راه بیفت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14171398489476471085">
       <Content Type="String">So you were the one causing all the ruckus at the Construction yard. I got a lot of ink out of that.</Content>
@@ -244047,13 +244047,13 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">این رو بخور، ای عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14171777245998290976">
-      <Content Type="String">Mr. Burke sent me. What do ya need?</Content>
+      <Content Type="String">آقای برک منو فرستاده. چی لازم داری؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14171777245998290977">
-      <Content Type="String">Suck my giant Irish cock, motherfuckers!</Content>
+      <Content Type="String">کیر ایرلندی گنده‌ی من رو بمکید، ای عوضیا!</Content>
     </LocalisableString>
     <LocalisableString StringID="14171777245998290978">
-      <Content Type="String">You bastards are fucked now!</Content>
+      <Content Type="String">ای حروم‌زاده‌ها، الان کارتون تمومه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14171777245998290981">
       <Content Type="String">Mr. Burke says to fuck 'em up, good, Mr. Clay!</Content>
@@ -244101,7 +244101,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">Looks like their getting a little more equal in who they're hiring down here.</Content>
     </LocalisableString>
     <LocalisableString StringID="14172943067423723690">
-      <Content Type="String">Better back the hell 'way from me!</Content>
+      <Content Type="String">بهتره از من فاصله بگیری!</Content>
     </LocalisableString>
     <LocalisableString StringID="14173788731795904528">
       <Content Type="String">Yeah. He's dead. Him and Giorgi both.</Content>
@@ -244212,10 +244212,10 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">این یه مشکل لعنتیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14176532778632934604">
-      <Content Type="String">How you like me now, asshole?!?</Content>
+      <Content Type="String">حالا ازم چطور خوشت میاد، عوضی؟!؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14176532778632934605">
-      <Content Type="String">That cocksucker's dead!</Content>
+      <Content Type="String">اون کونی مرده!</Content>
     </LocalisableString>
     <LocalisableString StringID="14176532778632934606">
       <Content Type="String">Almost feel bad for the dumb, dead bastard.</Content>
@@ -244227,7 +244227,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">برو ببین چه خبره.</Content>
     </LocalisableString>
     <LocalisableString StringID="14178566077419850832">
-      <Content Type="String">Yeah. How else?</Content>
+      <Content Type="String">آره. چطور دیگه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14178995868209453120">
       <Content Type="String">از بایو دور بمون!</Content>
@@ -244305,10 +244305,10 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">ارتقای پراکندگی ۱</Content>
     </LocalisableString>
     <LocalisableString StringID="14181263953578668813">
-      <Content Type="String">Don't you move!</Content>
+      <Content Type="String">تکون نخور!</Content>
     </LocalisableString>
     <LocalisableString StringID="14181263953578668814">
-      <Content Type="String">Bonswa, dipshit!</Content>
+      <Content Type="String">شب بخیر، ای احمق!</Content>
     </LocalisableString>
     <LocalisableString StringID="14181474712586397340">
       <Content Type="String">زخمی شدی؟ چی شد؟</Content>
@@ -244332,7 +244332,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">مرکز شهر رو از چنگ‌مون درنمیاری، بی‌شعور!</Content>
     </LocalisableString>
     <LocalisableString StringID="14183403487643752870">
-      <Content Type="String">Ow! Commie cocksucking piece of shit!</Content>
+      <Content Type="String">آخ! ای کثافت کمونیست لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14183404150577088399">
       <Content Type="String">[ غرش]</Content>
@@ -244386,7 +244386,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">*خفگی آرام در اثر فشار ساعد یا دست‌ها دور گلو، گونه‌ی ۲</Content>
     </LocalisableString>
     <LocalisableString StringID="14188581254793570797">
-      <Content Type="String">Lincoln! Get over here, man!</Content>
+      <Content Type="String">لینکلن! بیا اینجا، رفیق!</Content>
     </LocalisableString>
     <LocalisableString StringID="14188625497146833005">
       <Content Type="String">شلیک سرکوب‌کننده لازم دارم!</Content>
@@ -244503,13 +244503,13 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">چه غلطی لعنتی؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="14194336980625970809">
-      <Content Type="String">How'd I miss that big son of a bitch?!</Content>
+      <Content Type="String">چطور اون حروم‌زاده‌ی گنده رو از دست دادم؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="14194336980625970811">
       <Content Type="String">Must be a problem with the gun or somethin'…</Content>
     </LocalisableString>
     <LocalisableString StringID="14194336980625970814">
-      <Content Type="String">Won't miss next time!</Content>
+      <Content Type="String">دفعه‌ی بعد خطا نمی‌زنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14194795527593108204">
       <Content Type="String">لعنت! زد منو!</Content>
@@ -244602,7 +244602,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">Used ta kick up to Vito's man Andy Turetto for union work, but now dat coullion Grecco got Andy squeezing everybody for more "dues." You don't pay, you don't get a work permit. Poor fucks even gotta use Grecco's loudmouth buddies to collect.</Content>
     </LocalisableString>
     <LocalisableString StringID="14201770790740715908">
-      <Content Type="String">Pullin' back!</Content>
+      <Content Type="String">عقب می‌کشم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14201995744511449446">
       <Content Type="String">(فریاد هنگام سقوط)</Content>
@@ -244788,7 +244788,7 @@ Sal Marcano's sister-in-law and high society contact in Frisco Fields, she's res
       <Content Type="String">Can't hide forever…</Content>
     </LocalisableString>
     <LocalisableString StringID="14214319269676470044">
-      <Content Type="String">Boy, who you think you're foolin' with?</Content>
+      <Content Type="String">پسر، فکر می‌کنی داری سر کی رو کلاه می‌ذاری؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14214346574317723893">
       <Content Type="String">لعنتی غیب شد. گندش بگه.</Content>
@@ -245030,7 +245030,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14225575563392474883">
-      <Content Type="String">I'm serious! Get back here!</Content>
+      <Content Type="String">جدی می‌گم! برگرد اینجا!</Content>
     </LocalisableString>
     <LocalisableString StringID="14226406801839018964">
       <Content Type="String">زمیِ جیغ‌کشان (انفجاری)</Content>
@@ -245051,13 +245051,13 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">You shouldn’t have come here tonight.</Content>
     </LocalisableString>
     <LocalisableString StringID="14227647078171178608">
-      <Content Type="String">We ain't done nothin'!</Content>
+      <Content Type="String">ما هیچ کاری نکردیم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14227647078171178609">
-      <Content Type="String">This ain't right!</Content>
+      <Content Type="String">این درست نیست!</Content>
     </LocalisableString>
     <LocalisableString StringID="14227647078171178611">
-      <Content Type="String">Just let us go, man!</Content>
+      <Content Type="String">فقط بذار بریم، رفیق!</Content>
     </LocalisableString>
     <LocalisableString StringID="14227647078171178614">
       <Content Type="String">Stay behind me, baby.</Content>
@@ -245243,7 +245243,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">یکی یه کاری بکنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14235544733103645312">
-      <Content Type="String">You're gonna kill us!</Content>
+      <Content Type="String">می‌خوای بکشیمون!</Content>
     </LocalisableString>
     <LocalisableString StringID="14235626047678437856">
       <Content Type="String">چون تو لیست نبودی. دفعه‌ی بعد شانس بیار.</Content>
@@ -245381,10 +245381,10 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">Stop humans</Content>
     </LocalisableString>
     <LocalisableString StringID="14244029538942007472">
-      <Content Type="String">That's some kind of bomb!</Content>
+      <Content Type="String">این یه نوعی بمبه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14244029538942007473">
-      <Content Type="String">I think that's a bomb or something!</Content>
+      <Content Type="String">فکر کنم اون یه بمب یا چیزیه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14244029538942007475">
       <Content Type="String">این یه بمبه؟</Content>
@@ -245456,7 +245456,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">یادم نمی‌آد یه سیاه‌پوست سفارش داده باشم...</Content>
     </LocalisableString>
     <LocalisableString StringID="14249843031960661939">
-      <Content Type="String">Don't bother tryin' to hide!</Content>
+      <Content Type="String">وقتت رو برای قایم شدن تلف نکن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14250167364941893924">
       <Content Type="String">Got no time for rats.</Content>
@@ -245744,7 +245744,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">[ناله]</Content>
     </LocalisableString>
     <LocalisableString StringID="14264837404486849725">
-      <Content Type="String">Shoulda stuck with me, boys!</Content>
+      <Content Type="String">باید با من می‌موندید، بچه‌ها!</Content>
     </LocalisableString>
     <LocalisableString StringID="14264970629794207266">
       <Content Type="String">یا خدا!</Content>
@@ -245867,7 +245867,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">That stereotype about dock workers and their language? Not a stereotype.</Content>
     </LocalisableString>
     <LocalisableString StringID="14272243594200737200">
-      <Content Type="String">So spill it, how many chinks you kill?</Content>
+      <Content Type="String">خب بگو، چند تا از اونا رو کشتی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14272243594200737202">
       <Content Type="String">C'mon, don't be such a pussy. I just want to know what it was like over there.</Content>
@@ -245876,13 +245876,13 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">Listen, there's no reason to get huffy about this. I just asked--</Content>
     </LocalisableString>
     <LocalisableString StringID="14272790762112652265">
-      <Content Type="String">Yowch!</Content>
+      <Content Type="String">آخ!</Content>
     </LocalisableString>
     <LocalisableString StringID="14272790762112652266">
-      <Content Type="String">Jesus, dat hurt!</Content>
+      <Content Type="String">خدای من، این درد داشت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14272790762112652267">
-      <Content Type="String">Oh God...I think I got whiplash...</Content>
+      <Content Type="String">وای خدای من... فکر کنم گردنم پیچ خورد...</Content>
     </LocalisableString>
     <LocalisableString StringID="14273185784572341288">
       <Content Type="String">لعنتییی!!!</Content>
@@ -245906,7 +245906,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">I still can't believe what you found, that it all belonged to the... dead people. Mr. Simmons is worse than I thought.</Content>
     </LocalisableString>
     <LocalisableString StringID="14274419865760289141">
-      <Content Type="String">You alive, soldier?</Content>
+      <Content Type="String">زنده‌ای، سرباز؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14274460530717835737">
       <Content Type="String">Dat bouzin's up to something.</Content>
@@ -245921,7 +245921,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">دارم ضامن رو می‌کشم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14275283136736029257">
-      <Content Type="String">Haha, shot you, you fucking half-breed!</Content>
+      <Content Type="String">هاها، زدمت، ای دورگه‌ی لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14276149347990771092">
       <Content Type="String">برام بوق نزن!</Content>
@@ -245930,16 +245930,16 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">جایی دیرت شده؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="14276172260705934472">
-      <Content Type="String">Right back at you!</Content>
+      <Content Type="String">همین رو به خودت برمی‌گردونم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14276172260705934474">
-      <Content Type="String">How you doing today?</Content>
+      <Content Type="String">امروز حالت چطوره؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14276172260705934475">
-      <Content Type="String">Hey dere, how's da family?</Content>
+      <Content Type="String">سلام، خانواده چطورن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14276172260705934477">
-      <Content Type="String">Don't you look grand!</Content>
+      <Content Type="String">عجب شکوهمندی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14276594027046531051">
       <Content Type="String">Lockpick the gate.</Content>
@@ -245963,13 +245963,13 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">*سرفه*</Content>
     </LocalisableString>
     <LocalisableString StringID="14278087034107647493">
-      <Content Type="String">That boy has no shame!</Content>
+      <Content Type="String">اون پسر هیچ شرمی نداره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14278087034107647494">
-      <Content Type="String">Does your momma know what you're up to?</Content>
+      <Content Type="String">مامانت می‌دونه این کارا چیه می‌کنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14278087034107647495">
-      <Content Type="String">You're gonna break your momma's heart!</Content>
+      <Content Type="String">قلب مامانت رو می‌شکنی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14278488191045943440">
       <Content Type="String">[غرش جیغ‌مانند]</Content>
@@ -246170,7 +246170,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">My blade is sharp, your flesh is weak.</Content>
     </LocalisableString>
     <LocalisableString StringID="14289219310268624811">
-      <Content Type="String">Used to heal. Now I hurt!</Content>
+      <Content Type="String">قبلاً مرهم بودم. حالا درد می‌دم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14289371013703673172">
       <Content Type="String">یه تصادف شده! فکر کنم آمبولانس لازم داریم!</Content>
@@ -246212,13 +246212,13 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">کمک! کمک! گیر افتادم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14291553250548577325">
-      <Content Type="String">Hey, you gotta take that somewhere else, man.</Content>
+      <Content Type="String">هی، باید این رو یه‌جای دیگه ببری، رفیق.</Content>
     </LocalisableString>
     <LocalisableString StringID="14291553250548577326">
       <Content Type="String">Nah, man, I'm not holding.</Content>
     </LocalisableString>
     <LocalisableString StringID="14291662032538192821">
-      <Content Type="String">Kill the power in Barkley Mills!</Content>
+      <Content Type="String">برق بارکلی میلز رو قطع کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14291818856834984120">
       <Content Type="String">داره خالی می‌کنه تو ما!</Content>
@@ -246266,10 +246266,10 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">Could use some of Burke's boys in Frisco Fields.</Content>
     </LocalisableString>
     <LocalisableString StringID="14297162913938263124">
-      <Content Type="String">He got the young brother! He killed him!</Content>
+      <Content Type="String">برادر جوون رو گرفت! کشتش!</Content>
     </LocalisableString>
     <LocalisableString StringID="14297162913938263127">
-      <Content Type="String">Get this body away from me!</Content>
+      <Content Type="String">این جنازه رو از من دور کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14297538516275422529">
       <Content Type="String">You're welcome.</Content>
@@ -246290,7 +246290,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">They're not moving in here.</Content>
     </LocalisableString>
     <LocalisableString StringID="14297951154044783863">
-      <Content Type="String">I have to let niggers live in my building?</Content>
+      <Content Type="String">باید بذارم سیاه‌پوستا تو ساختمون من زندگی کنن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14298232238176313221">
       <Content Type="String">خیلی بهتر شد.</Content>
@@ -246302,7 +246302,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">He's slaughtering us.</Content>
     </LocalisableString>
     <LocalisableString StringID="14298598416108184031">
-      <Content Type="String">Do something, he's taking us out!</Content>
+      <Content Type="String">یه کاری بکنید، داره نابودمون می‌کنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14299423347166214195">
       <Content Type="String">گورستان</Content>
@@ -246380,10 +246380,10 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">دنی</Content>
     </LocalisableString>
     <LocalisableString StringID="14304767648040024392">
-      <Content Type="String">Yes, I'll miss him too.</Content>
+      <Content Type="String">آره، دلم برای منم تنگ میشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14304787097524404223">
-      <Content Type="String">Arrrrrrrrrrrrrrrrrrrrrgh!</Content>
+      <Content Type="String">آآآآآآآآآآه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14305073549458358056">
       <Content Type="String">عاقبت اینه، عوضی.</Content>
@@ -246422,10 +246422,10 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">Donovan, it's me.</Content>
     </LocalisableString>
     <LocalisableString StringID="14308204853881364377">
-      <Content Type="String">Hey. It's me.</Content>
+      <Content Type="String">هی. خودمم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14308204853881364379">
-      <Content Type="String">Hey, man, it's me.</Content>
+      <Content Type="String">هی، رفیق، خودمم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14308309282869681185">
       <Content Type="String">این میمون رو تو یه کیسه بفرست خونه.</Content>
@@ -246449,7 +246449,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">دنبال ایستگاه اتوبوسی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14309121030205934826">
-      <Content Type="String">You're back. I guess you need somethin'?</Content>
+      <Content Type="String">برگشتی. حدس می‌زنم چیزی لازم داری؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14309836367484509594">
       <Content Type="String">فقط نظر منه یا اخیراً این طرفا کلی هاییتی‌ای بیشتر شده؟</Content>
@@ -246479,13 +246479,13 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">انجام‌شده حسابش کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="14311574928379507460">
-      <Content Type="String">Why would you wanna hurt me?</Content>
+      <Content Type="String">چرا می‌خوای به من صدمه بزنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14311574928379507461">
       <Content Type="String">خواهش می‌کنم اون رو سمتم نگیر!</Content>
     </LocalisableString>
     <LocalisableString StringID="14311574928379507462">
-      <Content Type="String">Don't shoot! Please don't shoot!</Content>
+      <Content Type="String">شلیک نکن! خواهش می‌کنم شلیک نکن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14312113154654681604">
       <Content Type="String">تیر خوردم!</Content>
@@ -246533,13 +246533,13 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">آماده‌ام از دو طرف گیرش بندازیم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14314987556899756948">
-      <Content Type="String">Take dat to a race track!</Content>
+      <Content Type="String">این رو ببر پیست مسابقه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14314987556899756949">
-      <Content Type="String">Overcompensating?</Content>
+      <Content Type="String">داری جبران می‌کنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14314987556899756950">
-      <Content Type="String">Oh, yes, very impressive.</Content>
+      <Content Type="String">اوه، بله، خیلی تأثیرگذار.</Content>
     </LocalisableString>
     <LocalisableString StringID="14315666127639885790">
       <Content Type="String">Let's just all be extra careful.</Content>
@@ -246650,7 +246650,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">[ناله]</Content>
     </LocalisableString>
     <LocalisableString StringID="14323838604092447003">
-      <Content Type="String">Call off the dogs in Pointe Verdun!</Content>
+      <Content Type="String">پلیسا رو تو پوینت وردون دست بردار کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14323972933607934874">
       <Content Type="String">Marcano's dispatched some of his boys to finish Enzo off and anyone standing with him.</Content>
@@ -246731,7 +246731,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">نارنجک! تکون بخور!</Content>
     </LocalisableString>
     <LocalisableString StringID="14329016288197097217">
-      <Content Type="String">Depends. Who the fuck is asking?</Content>
+      <Content Type="String">بستگی داره. کی لعنتی می‌پرسه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14329137765208005348">
       <Content Type="String">یه جنازه‌ی لعنتی پیدا کردم.</Content>
@@ -246743,13 +246743,13 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">یکی رو از دست دادیم، بچه‌ها.</Content>
     </LocalisableString>
     <LocalisableString StringID="14329477943726254276">
-      <Content Type="String">Are we being bombed?</Content>
+      <Content Type="String">ما رو بمبارون کردن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14329477943726254277">
       <Content Type="String">Can't see much from here.</Content>
     </LocalisableString>
     <LocalisableString StringID="14329477943726254278">
-      <Content Type="String">What was it that exploded?</Content>
+      <Content Type="String">چی بود که منفجر شد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14330502866756333485">
       <Content Type="String">این چیز خوبیه. آره، همین‌طوره.</Content>
@@ -247049,7 +247049,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">نمی‌تونن این تبلیغای قصابی رو حالا از آنتن بردارن؟ طرف مرده و یخ کرده.</Content>
     </LocalisableString>
     <LocalisableString StringID="14350291125588885513">
-      <Content Type="String">All out! Need to reload!</Content>
+      <Content Type="String">خشاب خالی! باید پر کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14350291125588885514">
       <Content Type="String">دارم خشاب عوض می‌کنم! پشتمو بگیر!</Content>
@@ -247082,7 +247082,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">*تقلا با دهان‌بند*</Content>
     </LocalisableString>
     <LocalisableString StringID="14352511070150321063">
-      <Content Type="String">Take that, you fuckin' pigs!</Content>
+      <Content Type="String">این رو بگیرید، ای خوکای لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14352608626562535761">
       <Content Type="String">سرقت: سامسون ریچموند-لاکس</Content>
@@ -247124,10 +247124,10 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">Fucker. Put a cigarette out in his eye.</Content>
     </LocalisableString>
     <LocalisableString StringID="14354073490555317969">
-      <Content Type="String">Looks like he knows how to use that MG!</Content>
+      <Content Type="String">معلومه بلده از اون مسلسل استفاده کنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14354073490555317970">
-      <Content Type="String">Beast with an MG!</Content>
+      <Content Type="String">یه وحش با مسلسل!</Content>
     </LocalisableString>
     <LocalisableString StringID="14354086662385243472">
       <Content Type="String">کاساندرا</Content>
@@ -247169,7 +247169,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">لوکا را بکشید</Content>
     </LocalisableString>
     <LocalisableString StringID="14356762767471656868">
-      <Content Type="String">Brother... Brother, you gotta cut me loose!</Content>
+      <Content Type="String">داداش... داداش، باید بازم کنی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14357470000703177200">
       <Content Type="String">لعنتی! یه جایی اون طرف قایم شده.</Content>
@@ -247223,13 +247223,13 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">دارم توی موقعیت قرار می‌گیرم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14360016779235917290">
-      <Content Type="String">Let's see some blood!</Content>
+      <Content Type="String">بذار یه‌کم خون ببینیم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14360448136240349288">
-      <Content Type="String">Hang in there! We almost got 'em!</Content>
+      <Content Type="String">دووم بیار! تقریباً گرفتیمشون!</Content>
     </LocalisableString>
     <LocalisableString StringID="14360448136240349289">
-      <Content Type="String">We make murder and mayhem look easy!</Content>
+      <Content Type="String">ما قتل و آشوب رو آسون می‌کنیم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14360448136240349290">
       <Content Type="String">این‌جوری انجامش می‌دن!</Content>
@@ -247238,7 +247238,7 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">Fucker shows up again, I'll be ready.</Content>
     </LocalisableString>
     <LocalisableString StringID="14361672043755315217">
-      <Content Type="String">What, like trackin’ down bail-jumpers?</Content>
+      <Content Type="String">چی، مثل تعقیب کسایی که از دادگاه فرار کردن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14361804322647438098">
       <Content Type="String">کلی هیچی گیرمون اومد.</Content>
@@ -247349,10 +247349,10 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">I got my hands on some MOLOTOV COCKTAILS. A motherfucker sees one of these land next to him -- or on his buddy -- and he's not sticking around.</Content>
     </LocalisableString>
     <LocalisableString StringID="14366146461226988441">
-      <Content Type="String">Shit, this it it.</Content>
+      <Content Type="String">گندش، همین دیگه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14366146461226988442">
-      <Content Type="String">It's going down!</Content>
+      <Content Type="String">داره شروع میشه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14366262591651879105">
       <Content Type="String">You look. I tire of this.</Content>
@@ -247385,10 +247385,10 @@ Go to Cassandra's shop to collect your Kickback.</Content>
       <Content Type="String">ماریا باوا</Content>
     </LocalisableString>
     <LocalisableString StringID="14367944530477990197">
-      <Content Type="String">Stove his skull in!</Content>
+      <Content Type="String">کاسه‌ی سرش رو خرد کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14367944530477990198">
-      <Content Type="String">Crack his fuckin' bones!</Content>
+      <Content Type="String">استخوناش رو لعنتی بشکن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14368146662839803296">
       <Content Type="String">Talk or a I start cuttin'.</Content>
@@ -247749,7 +247749,7 @@ Despite being the scion of a well-respected Dixie Mafia family, Charlie's not ac
       <Content Type="String">I’m going to take over the city, district by district. Marcano wanted me to run the Hollow? Fuck him. By the time I’m done, I’ll be runnin’ the whole goddamn city.</Content>
     </LocalisableString>
     <LocalisableString StringID="14388504854568760566">
-      <Content Type="String">Can I get me a new ride in Tickfaw Harbor?</Content>
+      <Content Type="String">می‌تونم تو بندر تیکاو یه ماشین جدید بگیرم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14388577317097834934">
       <Content Type="String">شرط می‌بندم دفعه‌ی بعد این‌قدر زبون‌درازی نمی‌کنی!</Content>
@@ -247833,7 +247833,7 @@ Despite being the scion of a well-respected Dixie Mafia family, Charlie's not ac
       <Content Type="String">باشه، یه دقیقه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14391976208554046526">
-      <Content Type="String">You see a half-naked white boy run past?</Content>
+      <Content Type="String">یه سفیدپوست لخت دیدی این طرفا رد شد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14392863261808022866">
       <Content Type="String">Lived around here most of my life, and the one thing I know is if somethin' like that was happenin', everyone in the Hollow'd be talkin' about it. Warnin' each other.</Content>
@@ -247875,13 +247875,13 @@ Despite being the scion of a well-respected Dixie Mafia family, Charlie's not ac
       <Content Type="String">Somethin' bad goin' on here...</Content>
     </LocalisableString>
     <LocalisableString StringID="14395873443270417101">
-      <Content Type="String">Do I need to call da cops?</Content>
+      <Content Type="String">باید پلیس خبر کنم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14395873443270417103">
       <Content Type="String">Dat don't look good.</Content>
     </LocalisableString>
     <LocalisableString StringID="14396438696075381191">
-      <Content Type="String">Motherfuckers!</Content>
+      <Content Type="String">عوضیا!</Content>
     </LocalisableString>
     <LocalisableString StringID="14396519457017014688">
       <Content Type="String">(خرناس کشیدن)</Content>
@@ -248058,7 +248058,7 @@ Despite being the scion of a well-respected Dixie Mafia family, Charlie's not ac
       <Content Type="String">Leaving coverage area.</Content>
     </LocalisableString>
     <LocalisableString StringID="14407799507059913717">
-      <Content Type="String">Shit! We ain't done yet!</Content>
+      <Content Type="String">گندش! کارمون هنوز تموم نشده!</Content>
     </LocalisableString>
     <LocalisableString StringID="14407799507059913718">
       <Content Type="String">Fun while it lasted.</Content>
@@ -248268,7 +248268,7 @@ Despite being the scion of a well-respected Dixie Mafia family, Charlie's not ac
       <Content Type="String">ظاهراً دلت می‌خواد شب رو تو زندان بگذرونی.</Content>
     </LocalisableString>
     <LocalisableString StringID="14422344729949563672">
-      <Content Type="String">ONE MORE STEP!</Content>
+      <Content Type="String">یه قدم دیگه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14422709548259553468">
       <Content Type="String">*سرفه*</Content>
@@ -248372,10 +248372,10 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">After a fire bombing in '62, this church sits abandoned for a few years until Sammy Robinson starts to renovate it. When the Dixie Mafia takes over the Hollow, they decide to use the church as a hub for drug peddling.</Content>
     </LocalisableString>
     <LocalisableString StringID="14434103181208027056">
-      <Content Type="String">Paez. Where is he?</Content>
+      <Content Type="String">پائز. کجاست؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14434391348241395252">
-      <Content Type="String">You're fucking pathetic!</Content>
+      <Content Type="String">تو یه حرومزاده‌ی رقت‌انگیزی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14434480905740041973">
       <Content Type="String">دارم با سرعت از اینجا می‌زنم بیرون.</Content>
@@ -248486,10 +248486,10 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">Lord don't take me.</Content>
     </LocalisableString>
     <LocalisableString StringID="14441485017887698364">
-      <Content Type="String">Messing up the street like that!</Content>
+      <Content Type="String">خیابون رو این‌طوری گند زدن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14441485017887698365">
-      <Content Type="String">What is he trying to prove?</Content>
+      <Content Type="String">داره سعی می‌کنه چی رو ثابت کنه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14441485017887698367">
       <Content Type="String">I don't think that's safe.</Content>
@@ -248684,7 +248684,7 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">عقب‌نشینی کنید! همین حالا!</Content>
     </LocalisableString>
     <LocalisableString StringID="14452564478452587668">
-      <Content Type="String">Shit, Boss works outta the vodou shop.</Content>
+      <Content Type="String">گندش، رئیس از مغازه‌ی وودو کار می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14452610447463722528">
       <Content Type="String">You can follow me. As for you, go on and grab those bags off the truck. You'll be carryin' em to the burn room.</Content>
@@ -249036,7 +249036,7 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">تو بایو می‌میری!</Content>
     </LocalisableString>
     <LocalisableString StringID="14473901407551246513">
-      <Content Type="String">Fuck, they found the boat!</Content>
+      <Content Type="String">گندش، قایق رو پیدا کردن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14473956485569017045">
       <Content Type="String">ادامه از نسخه‌ی نمایشی</Content>
@@ -249051,7 +249051,7 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">تقریباً منتظرم که برنامه‌ی هالو تو رادیوم پخش بشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14475687885780475238">
-      <Content Type="String">And Cassandra?</Content>
+      <Content Type="String">و کاساندرا؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14475688985292103481">
       <Content Type="String">Some say that Cassandra was one of the thousands who drowned in the flood. Others say she slipped away to the swamps, and still rules what’s left of the City’s underworld from the bayou. Either way, she’s a ghost. She hasn’t been seen in years.</Content>
@@ -249111,13 +249111,13 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">این دیگه چه خبره؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="14478803048496876396">
-      <Content Type="String">Who fired that?</Content>
+      <Content Type="String">کی شلیک کرد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14478803048496876397">
-      <Content Type="String">That was close!</Content>
+      <Content Type="String">نزدیک بود!</Content>
     </LocalisableString>
     <LocalisableString StringID="14478803048496876399">
-      <Content Type="String">Dat was a bullet!</Content>
+      <Content Type="String">اون یه گلوله بود!</Content>
     </LocalisableString>
     <LocalisableString StringID="14478913222670394120">
       <Content Type="String">Stay clear of it…</Content>
@@ -249156,7 +249156,7 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">If I was twenty years younger I'd woop your ass!</Content>
     </LocalisableString>
     <LocalisableString StringID="14480754373338258606">
-      <Content Type="String">Fucking Christ!</Content>
+      <Content Type="String">خدای لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14480763582133395291">
       <Content Type="String">وقتشه بزنیم به چاک!</Content>
@@ -249207,7 +249207,7 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">That's a little suspicious.</Content>
     </LocalisableString>
     <LocalisableString StringID="14483909077508268415">
-      <Content Type="String">Is he running from somebody?</Content>
+      <Content Type="String">داره از یکی فرار می‌کنه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14484089064330550256">
       <Content Type="String">دود؟ خدای من...</Content>
@@ -249237,7 +249237,7 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">شنیدم دیروز یه شناکی کردی.</Content>
     </LocalisableString>
     <LocalisableString StringID="14486633699914669025">
-      <Content Type="String">Beggin' your pardon, motherfuckers!</Content>
+      <Content Type="String">عذر می‌خوام، ای عوضیا!</Content>
     </LocalisableString>
     <LocalisableString StringID="14486708377601102718">
       <Content Type="String">زمین‌گیرش می‌کنم!</Content>
@@ -249267,7 +249267,7 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="14487948218189526516">
-      <Content Type="String">Rot in hell, asshole!</Content>
+      <Content Type="String">تو جهنم بپوس، عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14488133250725976241">
       <Content Type="String">بی‌خودی جوش آوردم.</Content>
@@ -249306,7 +249306,7 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">گفت تامی نباید تو این کار می‌بود، همین رو گفت. دیگه چه معنایی می‌تونه داشته باشه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14489248279792319500">
-      <Content Type="String">Comin' down the left lane!</Content>
+      <Content Type="String">از لاین چپ داره میاد پایین!</Content>
     </LocalisableString>
     <LocalisableString StringID="14491059056381892833">
       <Content Type="String">گونه‌ی ۱</Content>
@@ -249426,16 +249426,16 @@ Despite testimony that he personally collected sports book receipts in excess of
       <Content Type="String">خداحافظ، رفیق.</Content>
     </LocalisableString>
     <LocalisableString StringID="14497578553189639451">
-      <Content Type="String">No… Lincoln… Somebody fucking help!</Content>
+      <Content Type="String">نه... لینکلن... یکی لعنتی کمک کنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14497578553189639452">
       <Content Type="String">لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14497578553189639453">
-      <Content Type="String">Lincoln? Lincoln!!</Content>
+      <Content Type="String">لینکلن؟ لینکلن!!</Content>
     </LocalisableString>
     <LocalisableString StringID="14497578553189639454">
-      <Content Type="String">Oh, shit! Lincoln! Fuck!</Content>
+      <Content Type="String">وای گندش! لینکلن! گندش!</Content>
     </LocalisableString>
     <LocalisableString StringID="14497831915945243407">
       <Content Type="String">Thinks he can hide in the dark.</Content>
@@ -249463,7 +249463,7 @@ Find and interrogate them to learn about Objectives associated with Rackets.</Co
       <Content Type="String">اون طرف یه صدایی شنیدم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14500126836611346948">
-      <Content Type="String">Oh, now you did it.</Content>
+      <Content Type="String">اوه، حالا خودت کردی.</Content>
     </LocalisableString>
     <LocalisableString StringID="14500280436132365839">
       <Content Type="String">فروشگاه</Content>
@@ -249475,16 +249475,16 @@ Find and interrogate them to learn about Objectives associated with Rackets.</Co
       <Content Type="String">افتاد!</Content>
     </LocalisableString>
     <LocalisableString StringID="14500655221981625154">
-      <Content Type="String">I'm kinda busy. What do you want?</Content>
+      <Content Type="String">یه‌کم سرم شلوغه. چی می‌خوای؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14500670982383627787">
       <Content Type="String">گور باباش، این سیاه‌پوست در رفت.</Content>
     </LocalisableString>
     <LocalisableString StringID="14500762068617008568">
-      <Content Type="String">Hey, I think that scared his boys!</Content>
+      <Content Type="String">هی، فکر کنم این ترسوند بچه‌هاشو!</Content>
     </LocalisableString>
     <LocalisableString StringID="14500762068617008569">
-      <Content Type="String">Whew. What was that boy MADE of?</Content>
+      <Content Type="String">هوف. اون پسر از چی ساخته شده بود؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14500762068617008571">
       <Content Type="String">Holy fuckin'... He's really dead.</Content>
@@ -249658,10 +249658,10 @@ Find and interrogate them to learn about Objectives associated with Rackets.</Co
       <Content Type="String">Movin' on - this is a waste of time.</Content>
     </LocalisableString>
     <LocalisableString StringID="14510486325793362641">
-      <Content Type="String">No more delays. Who's it going to be, Chalky?</Content>
+      <Content Type="String">دیگه تأخیر نمی‌کنیم. کدومش میشه، چاکی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14510486325793362642">
-      <Content Type="String">Enough fuckin' around. Where are you landing?</Content>
+      <Content Type="String">بسه این گند زدن. کجا فرود میای؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14510616003378013368">
       <Content Type="String">اتلاف وقت لعنتی.</Content>
@@ -249712,7 +249712,7 @@ Find and interrogate them to learn about Objectives associated with Rackets.</Co
       <Content Type="String">اون کیه؟ هی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14512692219149965494">
-      <Content Type="String">Get me a diversion in Tickfaw!</Content>
+      <Content Type="String">تیکاو یه انحراف برام درست کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14513238947363080055">
       <Content Type="String">Dirty whore.</Content>
@@ -249865,7 +249865,7 @@ Find and interrogate them to learn about Objectives associated with Rackets.</Co
       <Content Type="String">این یه جور امتحانه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14519289291816746791">
-      <Content Type="String">Aw, my fuckin' ears are ringin'!</Content>
+      <Content Type="String">آخ، گوشام لعنتی زنگ می‌زنن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14519482147643447817">
       <Content Type="String">*می‌خندد</Content>
@@ -250126,7 +250126,7 @@ Find and interrogate them to learn about Objectives associated with Rackets.</Co
       <Content Type="String">تا هنوز سر جاته، بجنب!</Content>
     </LocalisableString>
     <LocalisableString StringID="14534978525690118699">
-      <Content Type="String">What'd you do?</Content>
+      <Content Type="String">چیکار کردی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14535076645879554053">
       <Content Type="String">اوضاع خیلی خرابه.</Content>
@@ -250175,7 +250175,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">Don't like these Dixie motherfuckers any more than you. Tell me where your boss is and we'll work all this out.</Content>
     </LocalisableString>
     <LocalisableString StringID="14538954063445560783">
-      <Content Type="String">Augh!</Content>
+      <Content Type="String">آخ!</Content>
     </LocalisableString>
     <LocalisableString StringID="14538985845262217200">
       <Content Type="String">بعدش بریم یه بار، چطوره؟</Content>
@@ -250355,7 +250355,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">نارنجک!</Content>
     </LocalisableString>
     <LocalisableString StringID="14548100569003410189">
-      <Content Type="String">Heh... You good, Aunt Lil?</Content>
+      <Content Type="String">هه... خوبی، خاله لیل؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14548298574878752741">
       <Content Type="String">پشتت رو دارم!</Content>
@@ -250442,10 +250442,10 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">آروم باش، لوکا. اینجا هیچ‌کس نیست. و اگه بود، خیلی قبل از رسیدنش می‌دیدیمش.</Content>
     </LocalisableString>
     <LocalisableString StringID="14552071491846739841">
-      <Content Type="String">Skel's got me pinned!</Content>
+      <Content Type="String">این آشغال زمینگیرم کرده!</Content>
     </LocalisableString>
     <LocalisableString StringID="14552071491846739842">
-      <Content Type="String">He's chewin' me to bits!</Content>
+      <Content Type="String">داره تیکه‌تیکهم می‌کنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14552165653643986460">
       <Content Type="String">(نفس‌نفس‌زدن شدید)</Content>
@@ -250502,10 +250502,10 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">برای هالیس و تری عدالت! هالیس رو تبعید کنید!</Content>
     </LocalisableString>
     <LocalisableString StringID="14552895689060866995">
-      <Content Type="String">Incoming! Hit ‘em hard, Staff Sergeant!</Content>
+      <Content Type="String">داره میاد! محکم بزنیدشون، گروهبان ستاد!</Content>
     </LocalisableString>
     <LocalisableString StringID="14553001891574848757">
-      <Content Type="String">You make things right for my Bobby?</Content>
+      <Content Type="String">کار بابی من رو درست می‌کنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14553574862869068493">
       <Content Type="String">گیرم انداخته!</Content>
@@ -250520,7 +250520,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">Fella at the bar is Reggie -- Our new bartender.</Content>
     </LocalisableString>
     <LocalisableString StringID="14554127791481947562">
-      <Content Type="String">Uh… Hello?</Content>
+      <Content Type="String">اِ... الو؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14554209386297875045">
       <Content Type="String">Meet Sal Marcano and return his lost dossier.</Content>
@@ -250580,7 +250580,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">باشه. قبول. باهات راه میام.</Content>
     </LocalisableString>
     <LocalisableString StringID="14560124922264883060">
-      <Content Type="String">Ah, get offa me, ya manky coont!</Content>
+      <Content Type="String">آه، از سرم برو، ای عوضی کثافت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14561140306025886199">
       <Content Type="String">نباید هیچ‌وقت می‌اومدم اینجا.</Content>
@@ -250628,7 +250628,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">مستقیم فرستادمت جهنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14563160746447208851">
-      <Content Type="String">What's the boy up to?</Content>
+      <Content Type="String">این پسر چه نقشه‌ای داره؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14564639120690168877">
       <Content Type="String">Maybe try to duck sometime.</Content>
@@ -250784,10 +250784,10 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">پلیس را رشوه بده (۲ دقیقه)</Content>
     </LocalisableString>
     <LocalisableString StringID="14575529640697444265">
-      <Content Type="String">Now you're gonna bleed!</Content>
+      <Content Type="String">حالا خونریزی می‌کنی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14575529640697444266">
-      <Content Type="String">Gonna cut you wide open!</Content>
+      <Content Type="String">از این رو تا اون رو می‌شکافمت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14576199612423165825">
       <Content Type="String">*ناله‌ها*</Content>
@@ -250796,7 +250796,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">The boat has been destroyed. Mission failed.</Content>
     </LocalisableString>
     <LocalisableString StringID="14576414159698039992">
-      <Content Type="String">S'craic?</Content>
+      <Content Type="String">چه خبره؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14576414159698039995">
       <Content Type="String">Nice to see you, lad.</Content>
@@ -250835,10 +250835,10 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">I'm glad that's not my car.</Content>
     </LocalisableString>
     <LocalisableString StringID="14579961254357768258">
-      <Content Type="String">Fucking bastard!</Content>
+      <Content Type="String">ای حروم‌زاده‌ی لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14579961254357768259">
-      <Content Type="String">The balls on him!</Content>
+      <Content Type="String">عجب جراتی داره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14580372521956947233">
       <Content Type="String">بخواب زمین!</Content>
@@ -250874,7 +250874,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">Kill to get the money they're carrying.</Content>
     </LocalisableString>
     <LocalisableString StringID="14582456678338958122">
-      <Content Type="String">Which asshole are you?</Content>
+      <Content Type="String">تو کدوم عوضی هستی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14582543991381906825">
       <Content Type="String">یکی اینجاست. مطمئنم.</Content>
@@ -250892,10 +250892,10 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">کی گفتم استراحت کنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14582845742101350811">
-      <Content Type="String">Crop Fertilized!</Content>
+      <Content Type="String">محصول کود داده شد!</Content>
     </LocalisableString>
     <LocalisableString StringID="14583112232506229065">
-      <Content Type="String">Don't be afraid to get physical!</Content>
+      <Content Type="String">از درگیر شدن نترس!</Content>
     </LocalisableString>
     <LocalisableString StringID="14584042465818801333">
       <Content Type="String">گلوله نداره! شلیک!</Content>
@@ -250964,7 +250964,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">Heh. These boys better watch out for these girls tryin' to trap 'em. It's the nice ones you gotta watch out for - all sweet and quiet. They'll get wild on you REAL quick.</Content>
     </LocalisableString>
     <LocalisableString StringID="14585779182521536627">
-      <Content Type="String">Kiss my beautiful black ass!</Content>
+      <Content Type="String">کون قشنگ سیاه من رو ببوس!</Content>
     </LocalisableString>
     <LocalisableString StringID="14585909239026848537">
       <Content Type="String">باشه، باشه، فهمیدم.</Content>
@@ -251081,7 +251081,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">Shite. This ain't good at all. Fuck me.</Content>
     </LocalisableString>
     <LocalisableString StringID="14591281039961050655">
-      <Content Type="String">Come try that on me motherfucker!</Content>
+      <Content Type="String">بیا این رو روی من امتحان کن، عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14591517388154648896">
       <Content Type="String">از کجا بلد بود این کارو بکنه؟</Content>
@@ -251162,7 +251162,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">هیچ‌کس با سال مارکانو درنمی‌افته!</Content>
     </LocalisableString>
     <LocalisableString StringID="14594874037640837930">
-      <Content Type="String">Hey there, fre. How's life runnin' reefer?</Content>
+      <Content Type="String">سلام داداش. کسب‌وکار علف چطوره؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14595584531894639763">
       <Content Type="String">کسی دیگه می‌تونه ببینه؟</Content>
@@ -251210,13 +251210,13 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">Smash their inventory and steal their dough and word will get back to Sonny real quick.</Content>
     </LocalisableString>
     <LocalisableString StringID="14596397141422960860">
-      <Content Type="String">Something's coming!</Content>
+      <Content Type="String">یه چیزی داره میاد!</Content>
     </LocalisableString>
     <LocalisableString StringID="14596397141422960861">
-      <Content Type="String">Run! Hurry!</Content>
+      <Content Type="String">فرار کن! عجله کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14596397141422960863">
-      <Content Type="String">Why are they running!?</Content>
+      <Content Type="String">چرا دارن فرار می‌کنن؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="14596468125594561787">
       <Content Type="String">بسّه دیگه.</Content>
@@ -251228,7 +251228,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">آشنایی با مرکز فرماندهی</Content>
     </LocalisableString>
     <LocalisableString StringID="14597275922841089887">
-      <Content Type="String">Have some shrapnel, ya...fuck!</Content>
+      <Content Type="String">یه‌کم ترکش بخور، ای...عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14597969118277966027">
       <Content Type="String">Goddamned right.</Content>
@@ -251258,7 +251258,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">فکر کنم بمبه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14599589752254241407">
-      <Content Type="String">Get away from it!</Content>
+      <Content Type="String">ازش دور شو!</Content>
     </LocalisableString>
     <LocalisableString StringID="14599669762310883208">
       <Content Type="String">قرار بود پشتم باشی. کجایی؟</Content>
@@ -251276,7 +251276,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">درسته، لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="14600029588664926843">
-      <Content Type="String">Fuck this war! Fuck this war! Fuck this war!</Content>
+      <Content Type="String">گور بابای این جنگ! گور بابای این جنگ! گور بابای این جنگ!</Content>
     </LocalisableString>
     <LocalisableString StringID="14600113476107838285">
       <Content Type="String">پول‌جمع‌کن‌ها</Content>
@@ -251426,7 +251426,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">ایندیکای جمع‌آوری‌شده ۱/۳</Content>
     </LocalisableString>
     <LocalisableString StringID="14611847252484079189">
-      <Content Type="String">I know exactly where you are!</Content>
+      <Content Type="String">دقیقاً می‌دونم کجایی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14612093528872420704">
       <Content Type="String">داره بمب رو منفجر می‌کنه!</Content>
@@ -251477,7 +251477,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">پارکینگ توقیفی پلیس</Content>
     </LocalisableString>
     <LocalisableString StringID="14614153600352868552">
-      <Content Type="String">Lincoln, baby, you’re gon’ kill somebody!</Content>
+      <Content Type="String">لینکلن، عزیزم، داری یکی رو می‌کشی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14614710713593539665">
       <Content Type="String">[ناله]</Content>
@@ -251552,7 +251552,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">حالا گیرت آوردم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14618644226052483128">
-      <Content Type="String">Just keep those wheels in one piece!</Content>
+      <Content Type="String">فقط اون چرخا رو سالم نگه دار!</Content>
     </LocalisableString>
     <LocalisableString StringID="14619173986675101210">
       <Content Type="String">خیلی نزدیک بود، لعنتی!</Content>
@@ -251576,7 +251576,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">Um, hi.</Content>
     </LocalisableString>
     <LocalisableString StringID="14620673124571716623">
-      <Content Type="String">Did something else happen?</Content>
+      <Content Type="String">اتفاق دیگه‌ای هم افتاد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14620830414175392892">
       <Content Type="String">لعنتی، پلیس‌ها بیرونن!</Content>
@@ -251594,7 +251594,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">آره، می‌تونم بگردم، ولی زیاد چیزی نمی‌بینم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14621160400823110641">
-      <Content Type="String">Unfuckingbelievable!</Content>
+      <Content Type="String">باور لعنتی‌نکردنی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14621160400823110642">
       <Content Type="String">وای خدا.</Content>
@@ -251645,7 +251645,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">آره.</Content>
     </LocalisableString>
     <LocalisableString StringID="14622039310514425553">
-      <Content Type="String">It's in the blood, you know?</Content>
+      <Content Type="String">توی خونه، می‌دونی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14622040410026053796">
       <Content Type="String">So that's that, that then.</Content>
@@ -251657,7 +251657,7 @@ Would-be revolutionary out to end the Dixie Mafia occupation of the Hollow.</Con
       <Content Type="String">Sure looks that way.</Content>
     </LocalisableString>
     <LocalisableString StringID="14622210802201056870">
-      <Content Type="String">I ever tell you why I became a priest?</Content>
+      <Content Type="String">تا حالا گفتم چرا کشیش شدم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14622413373112210341">
       <Content Type="String">پسر، آروم می‌میری.</Content>
@@ -251909,10 +251909,10 @@ Francis'll probably invite you in for some supper, so don't go actin' like you'r
       <Content Type="String">حواست به رادیو باشه. شاید نیروی کمکی لازم داشته باشم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14631200650866591353">
-      <Content Type="String">Lord, is that a firearm?</Content>
+      <Content Type="String">خدایا، اون اسلحه‌ست؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14631200650866591354">
-      <Content Type="String">That boy has a weapon!</Content>
+      <Content Type="String">اون پسر اسلحه داره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14633717400148684143">
       <Content Type="String">«گندِ مقدس‌مآبانه»</Content>
@@ -251927,16 +251927,16 @@ Francis'll probably invite you in for some supper, so don't go actin' like you'r
       <Content Type="String">حالا پلیس افتاده دنبالت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14634272401769159463">
-      <Content Type="String">Need a new vehicle here in the Bayou!</Content>
+      <Content Type="String">تو بیو یه ماشین جدید لازم دارم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14634529207337864664">
-      <Content Type="String">That ain’t all of them!</Content>
+      <Content Type="String">این‌ها همشون نیستن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14634529207337864665">
-      <Content Type="String">Jesus. They keep comin’!</Content>
+      <Content Type="String">خدای من. همین‌طور میان!</Content>
     </LocalisableString>
     <LocalisableString StringID="14634529207337864667">
-      <Content Type="String">More of those sons of bitches!</Content>
+      <Content Type="String">بازم از این حروم‌زاده‌ها!</Content>
     </LocalisableString>
     <LocalisableString StringID="14635003701770928115">
       <Content Type="String">من همین‌جا می‌مونم، ولی تو ادامه بده بگرد.</Content>
@@ -251972,10 +251972,10 @@ Francis'll probably invite you in for some supper, so don't go actin' like you'r
       <Content Type="String">Report of an armed colored male in Frisco Fields. Any available units are welcome to check it out if ya' like.</Content>
     </LocalisableString>
     <LocalisableString StringID="14636247112239173860">
-      <Content Type="String">Ya hear me? Drift motherfucker!</Content>
+      <Content Type="String">شنیدی؟ در برو، عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14636349718755434253">
-      <Content Type="String">Did he fucking vanish?</Content>
+      <Content Type="String">اون غیبش زد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14636450627671789928">
       <Content Type="String">برادر و خواهرات درست کار می‌کنن. مشکل تو چیه؟</Content>
@@ -252026,7 +252026,7 @@ Francis'll probably invite you in for some supper, so don't go actin' like you'r
       <Content Type="String">I just don't agree.</Content>
     </LocalisableString>
     <LocalisableString StringID="14640114337593042745">
-      <Content Type="String">Can we talk about somethin' else?</Content>
+      <Content Type="String">می‌تونیم از یه چیز دیگه حرف بزنیم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14640114337593042749">
       <Content Type="String">I'm sorry, no.</Content>
@@ -252059,7 +252059,7 @@ Francis'll probably invite you in for some supper, so don't go actin' like you'r
       <Content Type="String">لعنت! باید خشاب عوض کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14641461730198829931">
-      <Content Type="String">Yer on yer own, bubba!</Content>
+      <Content Type="String">خودتی و خودت، داداش!</Content>
     </LocalisableString>
     <LocalisableString StringID="14642222242588123606">
       <Content Type="String">Trust me, Ellis. Here in a bit, this’ll all be behind us.</Content>
@@ -252074,16 +252074,16 @@ Francis'll probably invite you in for some supper, so don't go actin' like you'r
       <Content Type="String">سرتون رو پایین بگیرید!</Content>
     </LocalisableString>
     <LocalisableString StringID="14642558206395567763">
-      <Content Type="String">We got gunfire!</Content>
+      <Content Type="String">صدای شلیک داریم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14642558206395567764">
-      <Content Type="String">What the hell is he shooting at?</Content>
+      <Content Type="String">به چی داره لعنتی شلیک می‌کنه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14642558206395567765">
-      <Content Type="String">Crazy bastard has a gun!</Content>
+      <Content Type="String">این دیوونه‌ی حروم‌زاده اسلحه داره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14642558206395567766">
-      <Content Type="String">That boy's shootin' shit up!</Content>
+      <Content Type="String">اون پسر داره همه‌چی رو به گند می‌کشه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14642660208236477341">
       <Content Type="String">گور باباش. تو برو بگرد.</Content>
@@ -252107,7 +252107,7 @@ Francis'll probably invite you in for some supper, so don't go actin' like you'r
       <Content Type="String">*ناله*</Content>
     </LocalisableString>
     <LocalisableString StringID="14643309057424597581">
-      <Content Type="String">Whoops!</Content>
+      <Content Type="String">اوه اوه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14643309057424597582">
       <Content Type="String">Gone a bit… sideways.</Content>
@@ -252257,13 +252257,13 @@ Francis'll probably invite you in for some supper, so don't go actin' like you'r
       <Content Type="String">لعنت، لعنت، لعنت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14656518640365086937">
-      <Content Type="String">Drive through this fucker!</Content>
+      <Content Type="String">از روی این عوضی رد شو!</Content>
     </LocalisableString>
     <LocalisableString StringID="14656518640365086938">
-      <Content Type="String">Punch a hole through it!</Content>
+      <Content Type="String">یه سوراخ توش باز کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14656518640365086939">
-      <Content Type="String">Only way's through!</Content>
+      <Content Type="String">تنها راه، رد شدن ازشه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14656803603141771961">
       <Content Type="String">...I'm shot to bloody pieces...Jaysus...</Content>
@@ -252318,10 +252318,10 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">*هلهله و فریاد برای رقصنده‌ی برهنه*</Content>
     </LocalisableString>
     <LocalisableString StringID="14660867593159096540">
-      <Content Type="String">Make it real nasty, baby! Come on!</Content>
+      <Content Type="String">کارش رو تموم کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14660867593159096542">
-      <Content Type="String">Give us that chocolate shake, honey!</Content>
+      <Content Type="String">اون شیک شکلاتی رو بهمون بده، عزیزم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14660867593159096543">
       <Content Type="String">Fucked that one last night. She couldn't get enough.</Content>
@@ -252459,7 +252459,7 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">Consider it done. They'll be there before you know it.</Content>
     </LocalisableString>
     <LocalisableString StringID="14674980126523214885">
-      <Content Type="String">No problem, pal. Help is on its way.</Content>
+      <Content Type="String">مشکلی نیست، رفیق. کمک داره میاد.</Content>
     </LocalisableString>
     <LocalisableString StringID="14674980126523214886">
       <Content Type="String">Heh. You're shittin' me. Don't worry, they're on their way.</Content>
@@ -252489,7 +252489,7 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">هی! برو گمشو!</Content>
     </LocalisableString>
     <LocalisableString StringID="14677879539660316582">
-      <Content Type="String">Fuck -- gotta stay holed up!</Content>
+      <Content Type="String">گندش - باید سنگر بگیریم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14678456826371339286">
       <Content Type="String">*گریه*</Content>
@@ -252582,7 +252582,7 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">You bailed before the job was done. Mission failed.</Content>
     </LocalisableString>
     <LocalisableString StringID="14681679006266981966">
-      <Content Type="String">Don't fall asleep on me, boys. Stay sharp!</Content>
+      <Content Type="String">جلوی من خوابتون نبره، بچه‌ها. هشیار باشید!</Content>
     </LocalisableString>
     <LocalisableString StringID="14681957424083503832">
       <Content Type="String">اون آشغال‌دونی بدجور بو می‌ده، نه؟</Content>
@@ -252600,7 +252600,7 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">بستن</Content>
     </LocalisableString>
     <LocalisableString StringID="14682401683990655357">
-      <Content Type="String">Was that a mail room back there?</Content>
+      <Content Type="String">اون عقب اتاق پست بود؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14682884263847266344">
       <Content Type="String">Well THAT'S not a good sign.</Content>
@@ -252630,22 +252630,22 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">این می‌تونه هر معنایی داشته باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14684299825388223344">
-      <Content Type="String">Holy moley!</Content>
+      <Content Type="String">وای خدای من!</Content>
     </LocalisableString>
     <LocalisableString StringID="14684299825388223345">
       <Content Type="String">Hoo boy.</Content>
     </LocalisableString>
     <LocalisableString StringID="14684299825388223346">
-      <Content Type="String">The ever-living fuck?</Content>
+      <Content Type="String">چه غلطی لعنتی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14684299825388223349">
-      <Content Type="String">Ah, hell…</Content>
+      <Content Type="String">آه، جهنم...</Content>
     </LocalisableString>
     <LocalisableString StringID="14684299825388223350">
       <Content Type="String">لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="14684299825388223351">
-      <Content Type="String">Sweet fuck!</Content>
+      <Content Type="String">گندش!</Content>
     </LocalisableString>
     <LocalisableString StringID="14684521145771023411">
       <Content Type="String">شهرک کاروانی</Content>
@@ -252654,7 +252654,7 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">یکی باید کلیدهاشو ازش بگیره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14685073500794625213">
-      <Content Type="String">They're gonna run someone over!</Content>
+      <Content Type="String">می‌خوان زیر یکی رو بگیرن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14685073500794625215">
       <Content Type="String">به این احمق نباید جازه‌ی رانندگی می‌دادن.</Content>
@@ -252922,7 +252922,7 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">جا زد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14698619627942112341">
-      <Content Type="String">Let's school that motherfucker!</Content>
+      <Content Type="String">بیا ادبش کنیم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14698619627942112342">
       <Content Type="String">We got a wise ass here. Fuck. Him. Up.</Content>
@@ -253084,13 +253084,13 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">بجنب ببینم، عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14703641185170561056">
-      <Content Type="String">What's that colored doing down there?</Content>
+      <Content Type="String">اون رنگین‌پوست اون پایین چیکار می‌کنه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14703641185170561059">
       <Content Type="String">You free, boy. Might as well stand up.</Content>
     </LocalisableString>
     <LocalisableString StringID="14703690949374145500">
-      <Content Type="String">The pigs in Tickfaw need to back off!</Content>
+      <Content Type="String">پلیسای تیکاو باید عقب بکشن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14703880649379219126">
       <Content Type="String">لعنت، لعنت، لعنت!</Content>
@@ -253180,13 +253180,13 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">بنشینید</Content>
     </LocalisableString>
     <LocalisableString StringID="14712009878334161788">
-      <Content Type="String">Need some patching up. Lincoln, you hear me?</Content>
+      <Content Type="String">باید مداوا بشم. لینکلن، می‌شنوی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14712009878334161791">
       <Content Type="String">Could use more mending... Look what they did to me...</Content>
     </LocalisableString>
     <LocalisableString StringID="14712236374577609920">
-      <Content Type="String">You killed Burke!</Content>
+      <Content Type="String">برک رو کشتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14712324002843043872">
       <Content Type="String">حالا داره راه می‌افته.</Content>
@@ -253270,7 +253270,7 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">یه بار دیگه ببینیمت، مرده‌ای.</Content>
     </LocalisableString>
     <LocalisableString StringID="14714604403445910640">
-      <Content Type="String">Hey rummy. I'll catch you when I got change.</Content>
+      <Content Type="String">هی، ای میگسار. وقتی خرد پول داشتم میام سراغت.</Content>
     </LocalisableString>
     <LocalisableString StringID="14714783347734314432">
       <Content Type="String">اون عوضی رو بگیرید!</Content>
@@ -253312,7 +253312,7 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">*آه می‌کشد*</Content>
     </LocalisableString>
     <LocalisableString StringID="14716487250140647501">
-      <Content Type="String">No rush…</Content>
+      <Content Type="String">عجله‌ای نیست...</Content>
     </LocalisableString>
     <LocalisableString StringID="14716487250140647502">
       <Content Type="String">Go on. Collect your thoughts.</Content>
@@ -253486,19 +253486,19 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">Got plenty of options for what to do next. Money's the only limit.</Content>
     </LocalisableString>
     <LocalisableString StringID="14725067171048744889">
-      <Content Type="String">So, what's next, honey?</Content>
+      <Content Type="String">خب، بعدش چی، عزیزم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14725067171048744891">
       <Content Type="String">Lemme know what you want to work on next.</Content>
     </LocalisableString>
     <LocalisableString StringID="14725116466852643148">
-      <Content Type="String">Take the car! It's just a car, brother!</Content>
+      <Content Type="String">ماشین رو بگیر! فقط یه ماشینه، برادر!</Content>
     </LocalisableString>
     <LocalisableString StringID="14725116466852643150">
       <Content Type="String">You want it? Take it! No one needs to gethurt.</Content>
     </LocalisableString>
     <LocalisableString StringID="14725116466852643151">
-      <Content Type="String">I'll take you wherever you want to go!</Content>
+      <Content Type="String">هرجا بخوای می‌برمت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14725522744461515752">
       <Content Type="String">عجب گندکاری لعنتی.</Content>
@@ -253516,10 +253516,10 @@ The first step in doing that is to free the girls being held hostage at Doucet's
       <Content Type="String">هوم...</Content>
     </LocalisableString>
     <LocalisableString StringID="14726002884141967100">
-      <Content Type="String">We got our boy right there!</Content>
+      <Content Type="String">یارومون همین‌جاست!</Content>
     </LocalisableString>
     <LocalisableString StringID="14726002884141967103">
-      <Content Type="String">Where you goin', Kapon?</Content>
+      <Content Type="String">کجا می‌ری، کاپون؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14726469608485957852">
       <Content Type="String">Hey, Mr. Clay. Look over there. One of those cars has one of those fancy 8-track tape players in it!</Content>
@@ -253562,7 +253562,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">گلوله‌های نوک‌گود</Content>
     </LocalisableString>
     <LocalisableString StringID="14729281966192315895">
-      <Content Type="String">Guess not. You gonna be alright gettin’ home?</Content>
+      <Content Type="String">فکر نکنم. می‌تونی خودت بری خونه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14729373004400382692">
       <Content Type="String">خشابش خالیه! حمله کن!</Content>
@@ -253577,7 +253577,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">هوم...</Content>
     </LocalisableString>
     <LocalisableString StringID="14729599528208464827">
-      <Content Type="String">How's yer head feelin' now, Da?</Content>
+      <Content Type="String">سرت الان چطوره، بابا؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14730045314771422796">
       <Content Type="String">لعنتی.</Content>
@@ -253604,16 +253604,16 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">Marshall's dart gun</Content>
     </LocalisableString>
     <LocalisableString StringID="14730760662521855404">
-      <Content Type="String">I swear he's fixin' to run me down!</Content>
+      <Content Type="String">قسم می‌خورم می‌خواد زیرم بگیره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14730760662521855405">
-      <Content Type="String">Don't he see me? Hey! HEY!</Content>
+      <Content Type="String">منو نمی‌بینه؟ هی! هی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14730760662521855406">
-      <Content Type="String">What in heaven's name is he doing?</Content>
+      <Content Type="String">به نام آسمان‌ها، چیکار می‌کنه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14731132561566308835">
-      <Content Type="String">Hey, man, you asked.</Content>
+      <Content Type="String">هی، رفیق، خودت پرسیدی.</Content>
     </LocalisableString>
     <LocalisableString StringID="14731490832691260369">
       <Content Type="String">سوزی مدام سرم غر می‌زنه. می‌خواد براش یه ایوان و استخر بسازم.</Content>
@@ -253664,7 +253664,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">انگار آخرش این طرفا آروم شد.</Content>
     </LocalisableString>
     <LocalisableString StringID="14733405331843996915">
-      <Content Type="String">C'mon, man, you guys need to deal with this!</Content>
+      <Content Type="String">بیا دیگه، رفیق، شما باید این رو حل کنید!</Content>
     </LocalisableString>
     <LocalisableString StringID="14733508198154188984">
       <Content Type="String">پلیسا دارن یکی رو تعقیب می‌کنن.</Content>
@@ -253712,7 +253712,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">A hot shot of adrenaline with an anesthetic and coagulant chaser. It'll fix whatever ails you.</Content>
     </LocalisableString>
     <LocalisableString StringID="14735250036266619209">
-      <Content Type="String">I wanna see blood!</Content>
+      <Content Type="String">می‌خوام خون ببینم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14735503857393739419">
       <Content Type="String">پلیسای فریسکو مال منن. بهشون بگو.</Content>
@@ -253832,10 +253832,10 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">هیچ اثری ازش نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="14742698966719003169">
-      <Content Type="String">Yer fuckin' up my car!</Content>
+      <Content Type="String">داری ماشین من رو خراب می‌کنی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14742698966719003170">
-      <Content Type="String">This baby was cherry, you stupid sumbitch!</Content>
+      <Content Type="String">این ماشین نو و تر و تمیز بود، ای احمق لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14742698966719003171">
       <Content Type="String">Now you're really pissin' me off.</Content>
@@ -253895,7 +253895,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">Just another day in paradise.</Content>
     </LocalisableString>
     <LocalisableString StringID="14747020212525537935">
-      <Content Type="String">Those lads got some nice toys!</Content>
+      <Content Type="String">اون پسرا اسباب‌بازی‌های قشنگی دارن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14747890763605127846">
       <Content Type="String">I'm not one for bitching and moaning. Never saw much use for it. That said, I've got the least amount of power in this town and you've given me half this turf. Someone here's getting fucked. Better not be me.</Content>
@@ -253994,7 +253994,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">خدای من!</Content>
     </LocalisableString>
     <LocalisableString StringID="14750700834251573609">
-      <Content Type="String">Droppin' a petrol bomb on 'im!</Content>
+      <Content Type="String">دارم یه بمب بنزینی روش می‌ندازم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14751267165132336204">
       <Content Type="String">Gimme some of dat feel good shit.</Content>
@@ -254123,7 +254123,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">نزدیک بود بهم بخوره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14759261317402911406">
-      <Content Type="String">Party always this jumpin’?</Content>
+      <Content Type="String">مهمونی همیشه این‌قدر پرهیجان؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14759727636124324645">
       <Content Type="String">خودتو به دردسر انداختی!</Content>
@@ -254417,7 +254417,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">برد خدمات</Content>
     </LocalisableString>
     <LocalisableString StringID="14775834352341950613">
-      <Content Type="String">On the left! On the left!</Content>
+      <Content Type="String">سمت چپ! سمت چپ!</Content>
     </LocalisableString>
     <LocalisableString StringID="14776157428308178892">
       <Content Type="String">خون‌ریزی دارم، ولی چیز خاصی نیست.</Content>
@@ -254471,7 +254471,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">گونه‌ی ۲</Content>
     </LocalisableString>
     <LocalisableString StringID="14782920266406889368">
-      <Content Type="String">Hey man.</Content>
+      <Content Type="String">هی رفیق.</Content>
     </LocalisableString>
     <LocalisableString StringID="14782920266406889373">
       <Content Type="String">کجایی؟</Content>
@@ -254480,7 +254480,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">سلام عزیزم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14782920266406889375">
-      <Content Type="String">How you doin', hon?</Content>
+      <Content Type="String">چطوری، عزیزم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14784354699108087123">
       <Content Type="String">دارم نارنجک پرت می‌کنم!</Content>
@@ -254531,7 +254531,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">گونه‌ی ۲</Content>
     </LocalisableString>
     <LocalisableString StringID="14786202627047844440">
-      <Content Type="String">This is goddamn disappointing!</Content>
+      <Content Type="String">این خیلی لعنتی ناامیدکننده‌ست!</Content>
     </LocalisableString>
     <LocalisableString StringID="14786202627047844441">
       <Content Type="String">You see me again, that's the last thing you'll ever see!</Content>
@@ -254558,13 +254558,13 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">با آلما صحبت کنید</Content>
     </LocalisableString>
     <LocalisableString StringID="14788361947174498504">
-      <Content Type="String">Watch. Where. You're. Shooting!</Content>
+      <Content Type="String">حواست. باشه. به کی. شلیک می‌کنی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14788361947174498505">
-      <Content Type="String">Army didn't teach you to shoot?</Content>
+      <Content Type="String">ارتش بهت شلیک کردن یاد نداد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14788361947174498506">
-      <Content Type="String">Watch who you're shootin', man!</Content>
+      <Content Type="String">حواست باشه به کی شلیک می‌کنی، رفیق!</Content>
     </LocalisableString>
     <LocalisableString StringID="14788502579590132342">
       <Content Type="String">به‌عنوان بخشی از بسته‌ی «قماربازان بزرگ» در دسترس است.</Content>
@@ -254633,16 +254633,16 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">سلام.</Content>
     </LocalisableString>
     <LocalisableString StringID="14790888675769018547">
-      <Content Type="String">Yeah! It was wild!</Content>
+      <Content Type="String">آره! وحشیانه بود!</Content>
     </LocalisableString>
     <LocalisableString StringID="14792081762040141900">
-      <Content Type="String">Oh, dear Lord in heaven!</Content>
+      <Content Type="String">وای، خدای بزرگ!</Content>
     </LocalisableString>
     <LocalisableString StringID="14792081762040141901">
-      <Content Type="String">Someone just shot him!</Content>
+      <Content Type="String">یکی همین الان بهش شلیک کرد!</Content>
     </LocalisableString>
     <LocalisableString StringID="14792081762040141903">
-      <Content Type="String">Someone get that man a doctor!</Content>
+      <Content Type="String">یکی برای اون مرد دکتر خبر کنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14792098893567355853">
       <Content Type="String">Winkler description</Content>
@@ -254663,7 +254663,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">We got anybody to hit this target in Southdowns?</Content>
     </LocalisableString>
     <LocalisableString StringID="14792634070918286872">
-      <Content Type="String">Like you had another fucking choice?</Content>
+      <Content Type="String">مثل اینکه تو یه انتخاب لعنتی دیگه داشتی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14792634070918286875">
       <Content Type="String">I don't know. Maybe I should give it to Cassandra or Vito. Oh, right. My bad.</Content>
@@ -254705,10 +254705,10 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">Dispatch wants us back. Like right now.</Content>
     </LocalisableString>
     <LocalisableString StringID="14792939193055079234">
-      <Content Type="String">Brass says he walks! This boy has some juice!</Content>
+      <Content Type="String">گنده‌ها می‌گن ولش کنن! این پسر پارتی داره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14792939193055079235">
-      <Content Type="String">They're sending us somewhere else. Let's go!</Content>
+      <Content Type="String">می‌فرستنمون یه‌جای دیگه. راه بیفتید!</Content>
     </LocalisableString>
     <LocalisableString StringID="14793215809670154643">
       <Content Type="String">We need to lose them, Lincoln.</Content>
@@ -254873,19 +254873,19 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">It's managed to get even blacker than normal around here dese days.</Content>
     </LocalisableString>
     <LocalisableString StringID="14808286137918640780">
-      <Content Type="String">Better run while you still can, boy!</Content>
+      <Content Type="String">بهتره تا می‌تونی فرار کنی، پسر!</Content>
     </LocalisableString>
     <LocalisableString StringID="14808286137918640782">
       <Content Type="String">Don't give us a reason to come back here, boy!</Content>
     </LocalisableString>
     <LocalisableString StringID="14808286137918640783">
-      <Content Type="String">If it was up to me, you'd be hanging high!</Content>
+      <Content Type="String">اگه دست من بود، از سقف آویزونت می‌کردن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14808785445906492013">
-      <Content Type="String">Think he wears that uniform all the time?</Content>
+      <Content Type="String">فکر می‌کنی همیشه اون فرم رو می‌پوشه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14808785445906492014">
-      <Content Type="String">Wonder where he served?</Content>
+      <Content Type="String">عجب، کجا خدمت کرده؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14809108916194718497">
       <Content Type="String">گروه‌های خلاف را شکست دهید</Content>
@@ -254942,7 +254942,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">Burke's runnin' Barclay Mills and its rackets for me.</Content>
     </LocalisableString>
     <LocalisableString StringID="14811727967937479423">
-      <Content Type="String">You got somethin' for me?</Content>
+      <Content Type="String">یه چیزی برای من داری؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14811794758917999255">
       <Content Type="String">اتلاف وقت لعنتیه.</Content>
@@ -255008,13 +255008,13 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">شانس ما توی این یکی برگشت، بچه‌ها.</Content>
     </LocalisableString>
     <LocalisableString StringID="14814022051590970173">
-      <Content Type="String">He's ready for da morgue now!</Content>
+      <Content Type="String">الان آماده‌ی سردخونه‌ست!</Content>
     </LocalisableString>
     <LocalisableString StringID="14814022051590970174">
-      <Content Type="String">Got dat cocksucker!</Content>
+      <Content Type="String">اون کونی رو گرفتم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14814022051590970175">
-      <Content Type="String">Nailed dat asshole!</Content>
+      <Content Type="String">اون عوضی رو میخکوب کردم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14814866176007971529">
       <Content Type="String">Get Roxy and Slim back to Laveau's place.</Content>
@@ -255023,7 +255023,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">Every body tells a story...</Content>
     </LocalisableString>
     <LocalisableString StringID="14815916317558815001">
-      <Content Type="String">....stay away!</Content>
+      <Content Type="String">....دور بمون!</Content>
     </LocalisableString>
     <LocalisableString StringID="14817046967123835056">
       <Content Type="String">بچه‌ها دارن برای این پودر نوشیدنی جدید سر و دست می‌شکنن. می‌گن فضانوردا می‌خورنش؟ به نظر من کلّه.</Content>
@@ -255080,7 +255080,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">I think my eyes are startin' to adjust.</Content>
     </LocalisableString>
     <LocalisableString StringID="14818272810104421708">
-      <Content Type="String">Ah! Shit! Shit!</Content>
+      <Content Type="String">آه! گندش! گندش!</Content>
     </LocalisableString>
     <LocalisableString StringID="14818272810104421711">
       <Content Type="String">[جیغ از درد]</Content>
@@ -255113,13 +255113,13 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">کامیون را تحویل دهید</Content>
     </LocalisableString>
     <LocalisableString StringID="14818741739169071992">
-      <Content Type="String">I'm seeing stars...!</Content>
+      <Content Type="String">دارم ستاره می‌بینم...!</Content>
     </LocalisableString>
     <LocalisableString StringID="14818741739169071993">
-      <Content Type="String">Oh Jesus...my back...</Content>
+      <Content Type="String">وای خدای من... کمرم...</Content>
     </LocalisableString>
     <LocalisableString StringID="14818741739169071994">
-      <Content Type="String">My neck!</Content>
+      <Content Type="String">گردنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14819164798427341292">
       <Content Type="String">Careful, boys.</Content>
@@ -255176,10 +255176,10 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">احتمالاً هنوز نزدیکه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14822040488365312165">
-      <Content Type="String">I'd shoot back if I had a fuckin' gun!</Content>
+      <Content Type="String">اگه یه اسلحه‌ی لعنتی داشتم جوابشون رو می‌دادم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14822040488365312166">
-      <Content Type="String">Asshole's unloadin' on me!</Content>
+      <Content Type="String">این عوضی داره همه‌چیزش رو روی من خالی می‌کنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14822204001334621702">
       <Content Type="String">Ya got no idea who you're messin' with.</Content>
@@ -255197,7 +255197,7 @@ Remember, any Enforcers left alive will be waiting for you alongside the Racket 
       <Content Type="String">It's gonna take more than some four-leaf clovers to pretty up Barclay Mills.</Content>
     </LocalisableString>
     <LocalisableString StringID="14823651956269990216">
-      <Content Type="String">Go fuck yourself!</Content>
+      <Content Type="String">برو خودت رو گایید!</Content>
     </LocalisableString>
     <LocalisableString StringID="14823651956269990219">
       <Content Type="String">گمشو!</Content>
@@ -255263,13 +255263,13 @@ Find her. Now!</Content>
       <Content Type="String">من از عصبانی شدن خوشم نمی‌آد...</Content>
     </LocalisableString>
     <LocalisableString StringID="14828617071253319701">
-      <Content Type="String">Watch it up there!</Content>
+      <Content Type="String">حواست به بالا باشه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14828617071253319702">
-      <Content Type="String">You tryin' to kill me back here?</Content>
+      <Content Type="String">می‌خوای منو این عقب بکشی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14828617071253319703">
-      <Content Type="String">Hey! You forget I'm back here?!</Content>
+      <Content Type="String">هی! یادت رفت من این عقبم؟!</Content>
     </LocalisableString>
     <LocalisableString StringID="14829110668330932612">
       <Content Type="String">ماشین لعنتی خودت رو پیدا کن!</Content>
@@ -255359,7 +255359,7 @@ Find her. Now!</Content>
       <Content Type="String">لینکلن</Content>
     </LocalisableString>
     <LocalisableString StringID="14832649859501880146">
-      <Content Type="String">Our Mob Friends?</Content>
+      <Content Type="String">دوستان مافیایی ما؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14832649859501880147">
       <Content Type="String">I'll Be Quiet</Content>
@@ -255371,7 +255371,7 @@ Find her. Now!</Content>
       <Content Type="String">If It Gets Messy...</Content>
     </LocalisableString>
     <LocalisableString StringID="14832649859501880150">
-      <Content Type="String">Why Does It Matter?</Content>
+      <Content Type="String">چرا مهمه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14832649859501880151">
       <Content Type="String">هیچ‌کس به ما شک نمی‌کند</Content>
@@ -255386,7 +255386,7 @@ Find her. Now!</Content>
       <Content Type="String">دلیلی نیست</Content>
     </LocalisableString>
     <LocalisableString StringID="14832650959013508385">
-      <Content Type="String">Where's The Villa?</Content>
+      <Content Type="String">ویلا کجاست؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14832650959013508386">
       <Content Type="String">جلوگیری از فرار او</Content>
@@ -255416,7 +255416,7 @@ Find her. Now!</Content>
       <Content Type="String">I just don't think my Katie would like it.</Content>
     </LocalisableString>
     <LocalisableString StringID="14833766032770645812">
-      <Content Type="String">Should I be?</Content>
+      <Content Type="String">باید باشم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14834514267034088399">
       <Content Type="String">Shut yer bake. I'm movin'.</Content>
@@ -255440,7 +255440,7 @@ Find her. Now!</Content>
       <Content Type="String">خدای من!</Content>
     </LocalisableString>
     <LocalisableString StringID="14837024228320638949">
-      <Content Type="String">No, no, no!</Content>
+      <Content Type="String">نه، نه، نه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14837024228320638951">
       <Content Type="String">لعنتی!</Content>
@@ -255564,7 +255564,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">It appears so.</Content>
     </LocalisableString>
     <LocalisableString StringID="14844885781952671523">
-      <Content Type="String">Are you finished?</Content>
+      <Content Type="String">تموم شد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14844886881464299766">
       <Content Type="String">At least my way had a chance of ending things.</Content>
@@ -255579,7 +255579,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">این جواب نمی‌ده، سروان!! عقب‌نشینی کنید!</Content>
     </LocalisableString>
     <LocalisableString StringID="14845873143394615776">
-      <Content Type="String">...And for what?</Content>
+      <Content Type="String">...و به چه قیمتی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14845874242906244019">
       <Content Type="String">I used to admire you! Thought you represented everything great about this country.</Content>
@@ -255831,7 +255831,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">مشکلی نیست. پیداش می‌کنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14861845803501457971">
-      <Content Type="String">Faster, baby!</Content>
+      <Content Type="String">تندتر، عزیزم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14861991186566511320">
       <Content Type="String">These people don't even need cops around here. No one messes with them.</Content>
@@ -255924,13 +255924,13 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Drop off Roxy</Content>
     </LocalisableString>
     <LocalisableString StringID="14870367095803789765">
-      <Content Type="String">Get up on those assholes!</Content>
+      <Content Type="String">برید بالا سر اون عوضیا!</Content>
     </LocalisableString>
     <LocalisableString StringID="14870367095803789766">
-      <Content Type="String">Ain't no one stoppin' us!</Content>
+      <Content Type="String">هیچ‌کس جلومون رو نمی‌گیره!</Content>
     </LocalisableString>
     <LocalisableString StringID="14870367095803789767">
-      <Content Type="String">Stay strong, brothers!</Content>
+      <Content Type="String">قوی باشید، برادرا!</Content>
     </LocalisableString>
     <LocalisableString StringID="14870527247044056420">
       <Content Type="String">نارنجک! فرار کن!</Content>
@@ -256176,7 +256176,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">اون عوضی رو ندیدم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14885754597006927549">
-      <Content Type="String">Comin' up on one!</Content>
+      <Content Type="String">داره یکی میاد!</Content>
     </LocalisableString>
     <LocalisableString StringID="14885754597006927550">
       <Content Type="String">He's all ours...</Content>
@@ -256365,7 +256365,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">چشاتون رو باز کنید. هر جایی می‌تونه باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14896969183064063697">
-      <Content Type="String">The shit?</Content>
+      <Content Type="String">چه گندی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14896969183064063698">
       <Content Type="String">ها؟</Content>
@@ -256389,7 +256389,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">گونه‌ی ۱</Content>
     </LocalisableString>
     <LocalisableString StringID="14897541493644957250">
-      <Content Type="String">You're embarrassin' yourself. I mean, really?</Content>
+      <Content Type="String">داری خودت رو ضایع می‌کنی. واقعاً؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14897595743204447164">
       <Content Type="String">فهمیدم، بچه.</Content>
@@ -256407,7 +256407,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Trust me. I can do dis.</Content>
     </LocalisableString>
     <LocalisableString StringID="14898138086542678553">
-      <Content Type="String">Shit, time for me to sack up!</Content>
+      <Content Type="String">گندش، وقتشه خودمو جمع کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14898138086542678555">
       <Content Type="String">I know how dis is goin' to work...</Content>
@@ -256512,10 +256512,10 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">دارم خشاب عوض می‌کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14905245741700572370">
-      <Content Type="String">Getting more ammo!</Content>
+      <Content Type="String">دارم گلوله‌ی بیشتر می‌گیرم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14905245741700572371">
-      <Content Type="String">Shit, reloading!</Content>
+      <Content Type="String">گندش، دارم خشاب پر می‌کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14905715595898412706">
       <Content Type="String">جای خالی</Content>
@@ -256647,13 +256647,13 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">کسی رو نمی‌بینی که سر علف همدیگه رو بزنه. یعنی واقعاً نه. این تریاک لعنتی - نمی‌دونم لو چی فکر می‌کرد. لعنتی، ما بیشتر از درآمدی که داریم، خرج نگه داشتن پلیسا و نگه نداشتن جنازه‌ها از تیتر روزنامه می‌کنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="14911916169876443776">
-      <Content Type="String">Shit, he's not lettin' up!</Content>
+      <Content Type="String">گندش، دست بردار نیست!</Content>
     </LocalisableString>
     <LocalisableString StringID="14911916169876443778">
-      <Content Type="String">Need an assist!</Content>
+      <Content Type="String">کمک لازم دارم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14911916169876443779">
-      <Content Type="String">I'm gettin' torn up, fellas!</Content>
+      <Content Type="String">دارم تیکه‌تیکه می‌شم، بچه‌ها!</Content>
     </LocalisableString>
     <LocalisableString StringID="14911934282741909329">
       <Content Type="String">فکر می‌کنی برق رو قطع کرده؟</Content>
@@ -256863,7 +256863,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">سر جامونیم! شروع کنیم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14925527957474048399">
-      <Content Type="String">You like?</Content>
+      <Content Type="String">خوشت میاد؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14927033971941079637">
       <Content Type="String">اون دیگه چه کوفتی بود؟</Content>
@@ -256884,10 +256884,10 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">اون عوضی رو بکشید!</Content>
     </LocalisableString>
     <LocalisableString StringID="14927924248203300504">
-      <Content Type="String">Shit! Shit! Fuckin' shit!</Content>
+      <Content Type="String">گندش! گندش! گند لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14927924248203300507">
-      <Content Type="String">Fuck! FUCK!! AHHHHH!</Content>
+      <Content Type="String">گند! گند!! آآآآآه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14927950891183225020">
       <Content Type="String">Gonna wait til that coward comes out of his hole.</Content>
@@ -256920,7 +256920,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Y’all take a look around.</Content>
     </LocalisableString>
     <LocalisableString StringID="14929738579889946334">
-      <Content Type="String">What the hell. Check over there!</Content>
+      <Content Type="String">چه غلطی. اون طرف رو چک کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14930380677987790821">
       <Content Type="String">محل‌های تحویل مخفی را بدزد</Content>
@@ -256935,7 +256935,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">And that’s exactly why she did it.</Content>
     </LocalisableString>
     <LocalisableString StringID="14931632591998202442">
-      <Content Type="String">What was dat, anyway?</Content>
+      <Content Type="String">خب اون اصلاً چی بود؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14931632591998202443">
       <Content Type="String">این وحشتناک به گوش رسید!</Content>
@@ -257019,10 +257019,10 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">می‌فرستمش هوا!</Content>
     </LocalisableString>
     <LocalisableString StringID="14941679267446916492">
-      <Content Type="String">Fucker's reloadin'! GET HIM!</Content>
+      <Content Type="String">این عوضی داره خشاب پر می‌کنه! بگیرش!</Content>
     </LocalisableString>
     <LocalisableString StringID="14941679267446916495">
-      <Content Type="String">He's out! Now's yer chance!</Content>
+      <Content Type="String">خشابش خالی شد! الان فرصتته!</Content>
     </LocalisableString>
     <LocalisableString StringID="14941816013451589569">
       <Content Type="String">نه. حالم خوبه.</Content>
@@ -257178,7 +257178,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Look, you want to bring somebody down, you destroy the foundation they’re standing on. It’s the same basic OP we ran over in ‘Nam.</Content>
     </LocalisableString>
     <LocalisableString StringID="14952593099243356647">
-      <Content Type="String">What the fuck you doing?</Content>
+      <Content Type="String">چه غلطی داری می‌کنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14953177322882791646">
       <Content Type="String">یک‌طرفه، ۵ متر، پارک</Content>
@@ -257190,10 +257190,10 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">ظرفیت حمل مهمات همه‌ی سلاح‌های خودکار را %s درصد زیاد می‌کند.</Content>
     </LocalisableString>
     <LocalisableString StringID="14955160719070001228">
-      <Content Type="String">Big fucker with a shotgun!</Content>
+      <Content Type="String">یه گنده‌ی لعنتی با تفنگ ساچمه‌ای!</Content>
     </LocalisableString>
     <LocalisableString StringID="14955160719070001231">
-      <Content Type="String">Big ass shotgun coming your way!</Content>
+      <Content Type="String">یه تفنگ ساچمه‌ای گنده داره میاد طرفت!</Content>
     </LocalisableString>
     <LocalisableString StringID="14955185394300779488">
       <Content Type="String">فکر کردی می‌تونی بدون دادن حق عضویت کار کنی، پسر؟ قبل از کار تسویه کن!</Content>
@@ -257286,7 +257286,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Something's moving around.</Content>
     </LocalisableString>
     <LocalisableString StringID="14961494354567220326">
-      <Content Type="String">In the shadows! Over there!</Content>
+      <Content Type="String">تو سایه‌ها! اون طرف!</Content>
     </LocalisableString>
     <LocalisableString StringID="14961618184195559957">
       <Content Type="String">کمک! جناب مأمور، کمک لازم داریم!</Content>
@@ -257301,13 +257301,13 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">What the hell we got here...</Content>
     </LocalisableString>
     <LocalisableString StringID="14962532507015931478">
-      <Content Type="String">DeGarmo?</Content>
+      <Content Type="String">دگارمو؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14962533606527559721">
       <Content Type="String">They have him out in a building... down by the water...</Content>
     </LocalisableString>
     <LocalisableString StringID="14962539104085700776">
-      <Content Type="String">You'd get shot?</Content>
+      <Content Type="String">تیر می‌خوردی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14962540203597329019">
       <Content Type="String">Precisely.</Content>
@@ -257319,7 +257319,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Well maybe not. But it certainly was exciting.</Content>
     </LocalisableString>
     <LocalisableString StringID="14962544601643841831">
-      <Content Type="String">Where's DeGarmo?</Content>
+      <Content Type="String">دگارمو کجاست؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14962545701155470074">
       <Content Type="String">The first time I saw Lucio, he looked so handsome. Dashing, even. He wore the finest suits, drove the best cars... There was always something terribly romantic about all of this.</Content>
@@ -257343,7 +257343,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">You ain't worth the trouble.</Content>
     </LocalisableString>
     <LocalisableString StringID="14963533062597414327">
-      <Content Type="String">I thought you were going to kill me?</Content>
+      <Content Type="String">فکر کردم می‌خوای بکشم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14964156536143721532">
       <Content Type="String">انگار زنده‌ست... فکر کنم.</Content>
@@ -257415,7 +257415,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="14969821005026193373">
-      <Content Type="String">Shit, no.</Content>
+      <Content Type="String">گندش، نه.</Content>
     </LocalisableString>
     <LocalisableString StringID="14969821005026193374">
       <Content Type="String">نه.</Content>
@@ -257472,13 +257472,13 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">منصفانه‌ست.</Content>
     </LocalisableString>
     <LocalisableString StringID="14973674222485882727">
-      <Content Type="String">Hold your fire! I'm here to help you!</Content>
+      <Content Type="String">شلیک نکنید! من اومدم کمکتون کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="14973675321997510970">
-      <Content Type="String">Come mierda! Hace todo para la pinga!</Content>
+      <Content Type="String">کومه میهردا! آسه تودو پارا لا پینگا!</Content>
     </LocalisableString>
     <LocalisableString StringID="14973676421509139085">
-      <Content Type="String">Jesus Christ. You understand English?</Content>
+      <Content Type="String">خدای من. انگلیسی می‌فهمی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14974280868246943704">
       <Content Type="String">گونه‌ی ۲</Content>
@@ -257502,7 +257502,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Tell me where Marcano's counterfeiting operation is set up and we're square.</Content>
     </LocalisableString>
     <LocalisableString StringID="14974659384904570526">
-      <Content Type="String">What do you want from me?</Content>
+      <Content Type="String">از من چی می‌خوای؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14974660484416198737">
       <Content Type="String">Your only shot of getting out of this alive is me.</Content>
@@ -257568,10 +257568,10 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Tell me about Two Dicks' gambling racket.</Content>
     </LocalisableString>
     <LocalisableString StringID="14976813912536885909">
-      <Content Type="String">Oh, shit. Thanks!</Content>
+      <Content Type="String">وای گندش. ممنون!</Content>
     </LocalisableString>
     <LocalisableString StringID="14977653655066951080">
-      <Content Type="String">You heard from momma?</Content>
+      <Content Type="String">از مامان خبر داری؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14977759324942456141">
       <Content Type="String">من می‌گم اگه اون موقرمزا آشغال‌دونی شهر رو می‌خوان، بذار مال خودشون باشه.</Content>
@@ -257715,7 +257715,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Hope nobody got hurt.</Content>
     </LocalisableString>
     <LocalisableString StringID="14988204850142255346">
-      <Content Type="String">Nice parking job!</Content>
+      <Content Type="String">پارک کردن خوبی داشتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="14988204850142255347">
       <Content Type="String">خدای من!</Content>
@@ -257736,7 +257736,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">جوخه‌ی قتل</Content>
     </LocalisableString>
     <LocalisableString StringID="14991026138668918608">
-      <Content Type="String">They're unloadin' on me!</Content>
+      <Content Type="String">دارن همه‌چیزشون رو روی من خالی می‌کنن!</Content>
     </LocalisableString>
     <LocalisableString StringID="14991026138668918609">
       <Content Type="String">منو از اینجا ببر!</Content>
@@ -257754,13 +257754,13 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">اِ... بله؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14991627566551480720">
-      <Content Type="String">Is that a fucking grenade?</Content>
+      <Content Type="String">اون یه نارنجک لعنتیه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="14991627566551480722">
       <Content Type="String">نارنجک! فرار کنید! فرار!</Content>
     </LocalisableString>
     <LocalisableString StringID="14991627566551480723">
-      <Content Type="String">That better not be a grenade!</Content>
+      <Content Type="String">بهتره اون نارنجک نباشه!</Content>
     </LocalisableString>
     <LocalisableString StringID="14992099588641810962">
       <Content Type="String">We Need To discuss what's happening at the Community Church.</Content>
@@ -257769,7 +257769,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">خدای لعنتی من!</Content>
     </LocalisableString>
     <LocalisableString StringID="14993539505360653398">
-      <Content Type="String">Turn yourself around!</Content>
+      <Content Type="String">برگرد!</Content>
     </LocalisableString>
     <LocalisableString StringID="14993960263723944794">
       <Content Type="String">Still, thanks for lettin’ me and the boys use the bar. I’ll try to keep ‘em from pissin’ in the sinks this time.</Content>
@@ -257885,7 +257885,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">چه خبر؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15001536119340494407">
-      <Content Type="String">Bonjour!</Content>
+      <Content Type="String">سلام!</Content>
     </LocalisableString>
     <LocalisableString StringID="15002081106626351073">
       <Content Type="String">گونه‌ی ۱</Content>
@@ -257900,7 +257900,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">گونه‌ی ۴</Content>
     </LocalisableString>
     <LocalisableString StringID="15002340356036735925">
-      <Content Type="String">I’m right here! Come get me, Johnny!</Content>
+      <Content Type="String">من همین‌جام! بیا منو بگیر، جانی!</Content>
     </LocalisableString>
     <LocalisableString StringID="15003041213586584620">
       <Content Type="String">الو؟ الو! چه خبره...</Content>
@@ -257996,7 +257996,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">Just don't start talkin' that voodoo malarkey at me.</Content>
     </LocalisableString>
     <LocalisableString StringID="15008007617191853651">
-      <Content Type="String">Who pulled you up outta the swamp?</Content>
+      <Content Type="String">کی تو رو از باتلاق بیرون کشید؟</Content>
     </LocalisableString>
     <LocalisableString StringID="15008351236378388699">
       <Content Type="String">اگه اینجا بود، نمی‌تونستیم ببینیمش.</Content>
@@ -258224,7 +258224,7 @@ Head of the Marcano crime family and King Shit in New Bordeaux.</Content>
       <Content Type="String">اوه، گندش، این وحشتناک صدا داد.</Content>
     </LocalisableString>
     <LocalisableString StringID="15025917099269722332">
-      <Content Type="String">Bonswa!</Content>
+      <Content Type="String">شب به خیر!</Content>
     </LocalisableString>
     <LocalisableString StringID="15026120755953757032">
       <Content Type="String">Free the Sheriff Department's hostage.</Content>
