@@ -9490,7 +9490,7 @@
       <Content Type="String">خوش اومدی، داداش. چه کاری می‌تونم برات بکنم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="542367210721518410">
-      <Content Type="String">Good to see you again.</Content>
+      <Content Type="String">از دیدن دوباره‌ت خوشحالم.</Content>
     </LocalisableString>
     <LocalisableString StringID="542878885255740305">
       <Content Type="String">هیچی.</Content>
@@ -9532,7 +9532,7 @@
       <Content Type="String">آماده‌ای؟</Content>
     </LocalisableString>
     <LocalisableString StringID="544861101239820724">
-      <Content Type="String">Jury's still out on that one.</Content>
+      <Content Type="String">هیئت منصفه هنوز نظر نداده.</Content>
     </LocalisableString>
     <LocalisableString StringID="545041240474170508">
       <Content Type="String">می‌خوام این سیاه‌پوست رو سر جاش بشونم!</Content>
@@ -9571,7 +9571,7 @@
       <Content Type="String">یا خدا!</Content>
     </LocalisableString>
     <LocalisableString StringID="546741846437203321">
-      <Content Type="String">And remember, Boicherot’s is New Bordeaux’s home for style and class.</Content>
+      <Content Type="String">و یادت باشه، بوچرو خونه‌ی شیک و کلاس نیو بوردوئه.</Content>
     </LocalisableString>
     <LocalisableString StringID="546787593763492857">
       <Content Type="String">یه شلیک بکن دیگه!</Content>
@@ -9583,22 +9583,22 @@
       <Content Type="String">به حرکت ادامه بدید!</Content>
     </LocalisableString>
     <LocalisableString StringID="547143556468521096">
-      <Content Type="String">Come on.</Content>
+      <Content Type="String">بیا دیگه.</Content>
     </LocalisableString>
     <LocalisableString StringID="547145755491777582">
       <Content Type="String">هی. در رو باز کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="547146855003405793">
-      <Content Type="String">Yea.</Content>
+      <Content Type="String">آره.</Content>
     </LocalisableString>
     <LocalisableString StringID="547147954515034036">
       <Content Type="String">تو دیگه کی هستی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="547149054026662151">
-      <Content Type="String">Let's get the fuck out of here -- cops are closin' in.</Content>
+      <Content Type="String">بیا از اینجا لعنتی بزنیم بیرون -- پلیسا دارن محاصره می‌کنن.</Content>
     </LocalisableString>
     <LocalisableString StringID="547151253049918637">
-      <Content Type="String">Fuck, fuck... goddamn it...</Content>
+      <Content Type="String">لعنتی، لعنتی... گه...</Content>
     </LocalisableString>
     <LocalisableString StringID="547371313610270561">
       <Content Type="String">مناطق پلیس را حذف کنید</Content>
@@ -9619,10 +9619,10 @@
       <Content Type="String">[ناله]</Content>
     </LocalisableString>
     <LocalisableString StringID="548318334539110581">
-      <Content Type="String">Giorgi is scared shitless and is hiding onboard his ship, the Tanager. It's heavily fortified and if Frank wants Giorgi dead, he's going to have to get onto the ship and kill him. Frank needs a plan before he can take him down.</Content>
+      <Content Type="String">جیورجی به گه افتاده و داره تو کشتیش تنگر قایم می‌شه. حسابی مستحکمه و اگه فرانک بخواد جیورجی بمیره، باید بره رو کشتی و بکشش. فرانک قبل از از پا انداختنش نقشه لازم داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="548728164350056395">
-      <Content Type="String">If Slim gets away, all your work in Sinclair Parish will have been for nothing.</Content>
+      <Content Type="String">اگه اسلیم فرار کنه، تمام کارت تو سینکلر هدر رفته.</Content>
     </LocalisableString>
     <LocalisableString StringID="548934597227219677">
       <Content Type="String">همه‌چی آماده‌ست! تو بگو!</Content>
@@ -9640,13 +9640,13 @@
       <Content Type="String">فراموشت نمی‌کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="550429201878067928">
-      <Content Type="String">With ice in his veins, Gianni Amici's the asshole Frankie calls in when stupid fuckers try to call their bluff.</Content>
+      <Content Type="String">با یه قلب یخی، جانی آمیچی همون کونییه که فرانکی وقتی کونای خنگ سعی می‌کنن بازی در بیارن صداش می‌زنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="550549684593501339">
       <Content Type="String">حالا دیگه فقط داره سر به سرم می‌ذاره.</Content>
     </LocalisableString>
     <LocalisableString StringID="550576220684261681">
-      <Content Type="String">Goddamn, we sure kicked the hornet's nest this time.</Content>
+      <Content Type="String">لعنتی، این بار حسابی لونه‌ی زنبور رو به هم زدیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="550792639332980040">
       <Content Type="String">اوه، نه!</Content>
@@ -9667,16 +9667,16 @@
       <Content Type="String">نذار فرار کنه!</Content>
     </LocalisableString>
     <LocalisableString StringID="552466354509298343">
-      <Content Type="String">Yeah, well, Sammy's boy seems set on makin' some changes around here.</Content>
+      <Content Type="String">آره، خب، به نظر می‌آد پسر سمی تصمیم داره چند تا تغییر اینجا بده.</Content>
     </LocalisableString>
     <LocalisableString StringID="552943215199093348">
       <Content Type="String">دارم عقب‌نشینی می‌کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="553257102416160713">
-      <Content Type="String">I was bringin’ some kegs up, found this black light over there in the back.</Content>
+      <Content Type="String">چند تا بشکه می‌آوردم، این نور مشکی رو اون پشت تو انبار پیدا کردم.</Content>
     </LocalisableString>
     <LocalisableString StringID="554083288507724286">
-      <Content Type="String">This car's wrecked. Find another orange Samson Richmond-Lux.</Content>
+      <Content Type="String">این ماشین له شده. یه سامسون ریچموند-لاکس نارنجی دیگه پیدا کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="554516873518612171">
       <Content Type="String">این داره اعصاب‌خردکن می‌شه.</Content>
@@ -133808,10 +133808,10 @@ MJ</Content>
       <Content Type="String">تقصیر من نیست!</Content>
     </LocalisableString>
     <LocalisableString StringID="7765207854890222680">
-      <Content Type="String">Kill the Supplier.</Content>
+      <Content Type="String">تأمین‌کننده رو بکش.</Content>
     </LocalisableString>
     <LocalisableString StringID="7765207854890222683">
-      <Content Type="String">Destroy the Drug boats.</Content>
+      <Content Type="String">قایق‌های مواد رو نابود کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7765397891832518509">
       <Content Type="String">چه غلطی؟ برو اون گند رو چک کن!</Content>
@@ -133835,7 +133835,7 @@ MJ</Content>
       <Content Type="String">به من نگاه نکن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7766368584490907309">
-      <Content Type="String">Just leave me alone.</Content>
+      <Content Type="String">فقط ولم کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7767423686047211464">
       <Content Type="String">جنس شما اینجا جا نداره، پسر.</Content>
@@ -133862,7 +133862,7 @@ MJ</Content>
       <Content Type="String">پس کی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7768207172078349356">
-      <Content Type="String">I’ve had some good trainin’.</Content>
+      <Content Type="String">یه آموزش درست و حسابی دیدم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7768281099585508048">
       <Content Type="String">محموله داره می‌رسه به اسکله. یه عوضیِ عصبی به اسم باتربین اونجا همه‌کاره‌ست.</Content>
@@ -133883,19 +133883,19 @@ MJ</Content>
       <Content Type="String">حالا باید کون لعنتیش رو نجات بدم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7769100188852161644">
-      <Content Type="String">Talk to the fisherman</Content>
+      <Content Type="String">با ماهیگیر حرف بزن</Content>
     </LocalisableString>
     <LocalisableString StringID="7769100188852161647">
-      <Content Type="String">Identify the boat</Content>
+      <Content Type="String">قایق رو شناسایی کن</Content>
     </LocalisableString>
     <LocalisableString StringID="7769124423777089730">
       <Content Type="String">ای دیوونه‌ی لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="7769650328791396067">
-      <Content Type="String">If it's faster than the Moray, then it's probably got a jet engine strapped to it.</Content>
+      <Content Type="String">اگه از مورای تندتره، پس احتمالاً یه موتور جت روش سوار شده.</Content>
     </LocalisableString>
     <LocalisableString StringID="7770442191189206419">
-      <Content Type="String">I’m too partial to dick, I guess. Still, it was tough tryin’ to find a job after.</Content>
+      <Content Type="String">حدس می‌زنم زیاد کیر دوست دارم. با این حال، بعدش پیدا کردن کار سخت بود.</Content>
     </LocalisableString>
     <LocalisableString StringID="7770927893372045572">
       <Content Type="String">این‌طوری نگاهم نکن، پسر.</Content>
@@ -133952,10 +133952,10 @@ MJ</Content>
       <Content Type="String">باشه، باشه، فهمیدم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7775878199079853653">
-      <Content Type="String">There's no respect for authority anymore. No respect for anything.</Content>
+      <Content Type="String">دیگه هیچ احترامی به اقتدار نمونده. به هیچی احترام نمی‌ذارن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7775878199079853654">
-      <Content Type="String">Judges murdered? Maybe in Mexico, but not in this country. That ain't right.</Content>
+      <Content Type="String">قاضی‌ها کشته شدن؟ شاید تو مکزیک، ولی تو این مملکت نه. این درست نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="7776634303985760636">
       <Content Type="String">می‌دونم اینجاست. پیداش کنید.</Content>
@@ -133985,7 +133985,7 @@ MJ</Content>
       <Content Type="String">ما دوباره آماده‌ایم. لعنتی پیداش کنید!</Content>
     </LocalisableString>
     <LocalisableString StringID="7778060919232054476">
-      <Content Type="String">Return to the Cutler 50 and deliver it to the dock at Burke's Salvage Yard.</Content>
+      <Content Type="String">برگرد سراغ Cutler 50 و تحویلش بده به اسکله‌ی اوراقی برک.</Content>
     </LocalisableString>
     <LocalisableString StringID="7778113858942216300">
       <Content Type="String">این اطراف دیگه مثل قبل سفیدپوست‌نشین نیست، نه؟ خوشم میاد.</Content>
@@ -134066,7 +134066,7 @@ MJ</Content>
       <Content Type="String">گیر افتادم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7780643215931427346">
-      <Content Type="String">The police need to sweep these new coloreds out of here. Send 'em back to the Hollow.</Content>
+      <Content Type="String">پلیس باید این سیاهپوستای تازه رو از اینجا جمع کنه. برگردونشون هالو.</Content>
     </LocalisableString>
     <LocalisableString StringID="7780943145649676823">
       <Content Type="String">دیگه بریدم! نمی‌تونیم ببریم!</Content>
@@ -134075,7 +134075,7 @@ MJ</Content>
       <Content Type="String">دارم می‌رم سراغ اون اسلحه!</Content>
     </LocalisableString>
     <LocalisableString StringID="7781923652566608792">
-      <Content Type="String">Guess he wants to keep his nuts.</Content>
+      <Content Type="String">حدس می‌زنم می‌خواد تخماش رو نگه داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7781923652566608795">
       <Content Type="String">دیگه این دور و بر نبینمت!</Content>
@@ -134096,7 +134096,7 @@ MJ</Content>
       <Content Type="String">اصلاً از این طرف رفت؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7782711841549361903">
-      <Content Type="String">The fire at Sammy’s.</Content>
+      <Content Type="String">آتیش تو جای سمی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7783569784221811552">
       <Content Type="String">گونه‌ی ۲</Content>
@@ -134108,7 +134108,7 @@ MJ</Content>
       <Content Type="String">گونه‌ی ۱</Content>
     </LocalisableString>
     <LocalisableString StringID="7783949184376219082">
-      <Content Type="String">Quietly steal an occupied car</Content>
+      <Content Type="String">بی‌سروصدا یه ماشین پر رو بدزد</Content>
     </LocalisableString>
     <LocalisableString StringID="7783981937648710015">
       <Content Type="String">کاری کنی، تمومت می‌کنم!</Content>
@@ -134138,10 +134138,10 @@ MJ</Content>
       <Content Type="String">به اختیارِ پلیس نیو بوردو، دارم می‌خوام حالت رو خوب کنم، پسر.</Content>
     </LocalisableString>
     <LocalisableString StringID="7786028818797112010">
-      <Content Type="String">They call and ask me if I want some.</Content>
+      <Content Type="String">زنگ می‌زنن و می‌پرسن یه‌کم می‌خوام یا نه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7786466307634858087">
-      <Content Type="String">Clear the LZ by killing Aldridge's remaining men.</Content>
+      <Content Type="String">میدان فرود رو با کشتن آدمای باقی‌مونده‌ی آلدریج پاک کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7786593325034368992">
       <Content Type="String">کلی وسیله و لوازم کازینو اینجاست! از کوبا! پدره برای رئیس مارکانو قایمشون کرده! می‌گم کجان!</Content>
@@ -134153,7 +134153,7 @@ MJ</Content>
       <Content Type="String">نارنجک!</Content>
     </LocalisableString>
     <LocalisableString StringID="7786941897825444962">
-      <Content Type="String">You whupped their asses is what you’re sayin’.</Content>
+      <Content Type="String">داری می‌گی حسابی کونشون رو گاییدی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7787377696693447521">
       <Content Type="String">باورم نمی‌شه!</Content>
@@ -134165,7 +134165,7 @@ MJ</Content>
       <Content Type="String">پاداش خانواده: ندارد</Content>
     </LocalisableString>
     <LocalisableString StringID="7787688914812258784">
-      <Content Type="String">I'll go shake some more trees. See what else I can get to fall out.</Content>
+      <Content Type="String">میرم چند تا شاخه‌ی دیگه هم تکون بدم. ببینم چیز دیگه‌ای می‌افته.</Content>
     </LocalisableString>
     <LocalisableString StringID="7788203843316354290">
       <Content Type="String">با آلما صحبت کنید</Content>
@@ -134180,10 +134180,10 @@ MJ</Content>
       <Content Type="String">آره. احتمالاً همین‌طوره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7788655050155806704">
-      <Content Type="String">Someone should call the police on him.</Content>
+      <Content Type="String">یکی باید به پلیس خبرش کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7788655050155806705">
-      <Content Type="String">Probably behind all those other stolen cars.</Content>
+      <Content Type="String">احتمالاً پشت همه‌ی اون ماشینای دزدیده‌شده‌ست.</Content>
     </LocalisableString>
     <LocalisableString StringID="7788655050155806707">
       <Content Type="String">داره اون ماشین رو می‌دزده؟</Content>
@@ -134195,7 +134195,7 @@ MJ</Content>
       <Content Type="String">گرفتارت کردم، دیگه هیچ راهی نداری!</Content>
     </LocalisableString>
     <LocalisableString StringID="7789569546228025109">
-      <Content Type="String">I think we gotta problem.</Content>
+      <Content Type="String">فکر کنم یه مشکلی داریم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7789569546228025110">
       <Content Type="String">یه صدای عجیب شنیدم.</Content>
@@ -134204,25 +134204,25 @@ MJ</Content>
       <Content Type="String">پدر جیمز بالارد</Content>
     </LocalisableString>
     <LocalisableString StringID="7789712580915113761">
-      <Content Type="String">I need a target hit in the Ward.</Content>
+      <Content Type="String">تو وارد یه هدف لازم دارم بزنن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7789712580915113762">
-      <Content Type="String">Got some targets lined up in the Ward.</Content>
+      <Content Type="String">چند تا هدف تو وارد آماده کرده‌ام.</Content>
     </LocalisableString>
     <LocalisableString StringID="7789747743439616051">
       <Content Type="String">لبخند بزن، عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="7790013981064544060">
-      <Content Type="String">Shoulda been more careful, son.</Content>
+      <Content Type="String">باید بیشتر حواست بود، پسر.</Content>
     </LocalisableString>
     <LocalisableString StringID="7790013981064544063">
       <Content Type="String">اینجا چیکار می‌کنی، پسرجون؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7790322707149475539">
-      <Content Type="String">I'm dyin' goddammit. That bloody clear enough for you?</Content>
+      <Content Type="String">دارم می‌میرم لعنتی. این‌قدر روشن هست برات؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7790440158506375798">
-      <Content Type="String">My wife used to draw on anything she could get her hands on. Half the time she did not even realize what she was doing. And yet every stroke was pefeksyon...</Content>
+      <Content Type="String">زنم رو هر چی که دستش می‌گرفت می‌کشید روش. نصف وقتا حتی نمی‌فهمید داره چیکار می‌کنه. و با این حال هر خطش بی‌نقص بود...</Content>
     </LocalisableString>
     <LocalisableString StringID="7790555622720330220">
       <Content Type="String">از دست من قایم نمی‌شه.</Content>
@@ -134261,7 +134261,7 @@ MJ</Content>
       <Content Type="String">باشه! بسه! بس کن! بس کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="7792134602939687535">
-      <Content Type="String">This... it’s not about the weed. It’s about doin’ something with my hands that don’t involve hurtin’ anybody. Workin’ toward some kinda... Balance.</Content>
+      <Content Type="String">این... این درباره علف نیست. درباره انجام دادن یه کاری با دستامه که به کسی آسیب نزنه. تلاش برای یه جور... تعادل.</Content>
     </LocalisableString>
     <LocalisableString StringID="7792711067796033889">
       <Content Type="String">می‌خواد بترسوندمون!</Content>
@@ -134318,13 +134318,13 @@ MJ</Content>
       <Content Type="String">[ناله]</Content>
     </LocalisableString>
     <LocalisableString StringID="7793930741610090587">
-      <Content Type="String">Please don't do dat, sir. Dis job's all I got.</Content>
+      <Content Type="String">توروخدا این کار رو نکنید آقا. این کار تنها چیزی که دارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7794577394773992711">
       <Content Type="String">این اصلاً خوب نیست!</Content>
     </LocalisableString>
     <LocalisableString StringID="7794801217565504120">
-      <Content Type="String">I WANT my moonshine back! Go talk to Nicki - she'll help us retake it from the Butcher, that fat fuck.</Content>
+      <Content Type="String">من مشروب تقطیریم رو می‌خوام! برو با نیکی حرف بزن -- اون کمک می‌کنه از قصاب، اون حرومزاده‌ی چاق، پسش بگیریم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7794805544678038849">
       <Content Type="String">این پسر دنبال دردسر می‌گرده.</Content>
@@ -134360,19 +134360,19 @@ MJ</Content>
       <Content Type="String">[ناله]</Content>
     </LocalisableString>
     <LocalisableString StringID="7795813750501679678">
-      <Content Type="String">Car hunter</Content>
+      <Content Type="String">شکارچی خودرو</Content>
     </LocalisableString>
     <LocalisableString StringID="7795830697703260777">
       <Content Type="String">متأسفم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7795927541491278746">
-      <Content Type="String">Calling all units, respond to a Ten-double-zero at...</Content>
+      <Content Type="String">همه‌ی واحدها، پاسخ به یه ده-دو-صفر در...</Content>
     </LocalisableString>
     <LocalisableString StringID="7796074834583298764">
       <Content Type="String">پسر، پیدات می‌کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7796390918897807721">
-      <Content Type="String">Just got a report of a homicide in Frisco Fields. Suspect is described as a colored male. If'n you're around there maybe stop by and see what's what.</Content>
+      <Content Type="String">تازه گزارش یه قتل تو فریسکو فیلدز اومده. مظنون یه مرد سیاهپوست توصیف شده. اگه اون اطراف هستی شاید سر بزنی و ببینی ماجرا چیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7797520652038541892">
       <Content Type="String">خداحافظ، ای عوضی!</Content>
@@ -134399,22 +134399,22 @@ MJ</Content>
       <Content Type="String">گرفتتم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7800883628025702937">
-      <Content Type="String">Hope you know where you're going.</Content>
+      <Content Type="String">امیدوارم بدونی کجا میری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7800883628025702941">
       <Content Type="String">من باهاتم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7800883628025702942">
-      <Content Type="String">I'm right here.</Content>
+      <Content Type="String">من همین‌جام.</Content>
     </LocalisableString>
     <LocalisableString StringID="7800883628025702943">
-      <Content Type="String">Following your lead.</Content>
+      <Content Type="String">دنبال تو میام.</Content>
     </LocalisableString>
     <LocalisableString StringID="7800936778704181068">
       <Content Type="String">ببین مزه‌ی این خوشش می‌آد!</Content>
     </LocalisableString>
     <LocalisableString StringID="7801685798712092240">
-      <Content Type="String">Don't let these goddamn Micks get too cocky, pal. You called him up for the last piece of the city. Time to give me and my boys a run at it.</Content>
+      <Content Type="String">نذار این ایرلندی‌های لعنتی زیادی از خودشون مطمئن شن، رفیق. خودت صداشون زدی برای آخرین تیکه‌ی شهر. وقتشه به من و بچه‌هام هم یه شانس بدی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7801916729298962475">
       <Content Type="String">نباید گم شده باشه.</Content>
@@ -134432,10 +134432,10 @@ MJ</Content>
       <Content Type="String">همینه که می‌خوام ببینم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7803027272297062803">
-      <Content Type="String">Burke's happy.</Content>
+      <Content Type="String">برک راضیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7803179371702074321">
-      <Content Type="String">Y'all got plenty to drink here now.</Content>
+      <Content Type="String">الان اینجا برای خوردن به‌قدر کافی دارید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7803511024364382480">
       <Content Type="String">[ناله‌ی درد]</Content>
@@ -134462,7 +134462,7 @@ MJ</Content>
       <Content Type="String">می‌گن یه سیاه‌پوسته که داره گانگسترای شهر رو می‌زنه. عجب چیزی می‌شه، نه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7805453453317210895">
-      <Content Type="String">Grow this Strain at least once before being able to Hybridize it.</Content>
+      <Content Type="String">این واریته رو حداقل یه بار بکار تا بتونی دورگه‌ش کنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7805610416061966383">
       <Content Type="String">می‌خوام اون سیاه‌پوست شکنجه ببینه.</Content>
@@ -134471,30 +134471,30 @@ MJ</Content>
       <Content Type="String">دوباره می‌پرسم، این بار با مشتام می‌پرسم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7806038129567573867">
-      <Content Type="String">I'm in Frisco with eyes on targets.</Content>
+      <Content Type="String">من تو فریسکوم و هدفا رو زیر نظر دارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7806301029835578889">
-      <Content Type="String">Talk to Biaggio</Content>
+      <Content Type="String">با بیاجیو حرف بزن</Content>
     </LocalisableString>
     <LocalisableString StringID="7807236740310421128">
       <Content Type="String">وای گندش... خوردم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7807695973052762227">
-      <Content Type="String">Haha, you think turning off the lights changes anything?</Content>
+      <Content Type="String">هاها، فکر می‌کنی خاموش کردن چراغا چیزی رو عوض می‌کنه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7807744973308985051">
       <Content Type="String">بیا بیرون که ببینمت!</Content>
     </LocalisableString>
     <LocalisableString StringID="7808376904905161387">
-      <Content Type="String">Additional Content has completed installation.
-To access Additional Content, go to the Game menu, then select Exit to Main Menu.</Content>
+      <Content Type="String">محتوای اضافی نصب شد.
+برای دسترسی به محتوای اضافی، به منوی بازی برو و «خروج به منوی اصلی» رو انتخاب کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7808933913672884328">
-      <Content Type="String">Purchase Special Ammo 2 to unlock this upgrade for purchase.</Content>
+      <Content Type="String">برای آنلاک این ارتقا، فشنگ ویژه ۲ را بخر.</Content>
     </LocalisableString>
     <LocalisableString StringID="7809099279814446293">
-      <Content Type="String">AGE: 28
-Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging for the Irish Mob.</Content>
+      <Content Type="String">سن: ۲۸
+دختر برک، نیکی، تو پوینت وردون مستقر و تمام قاچاق مشروب مافیای ایرلندی رو مدیریت می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7809400809573048835">
       <Content Type="String">دارم انجامش می‌دم!</Content>
@@ -134515,7 +134515,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">این کمیته‌ی استقباله؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7810327222060142200">
-      <Content Type="String">Hit those bastards pretty hard and all I got was a single word -- Bellaire.</Content>
+      <Content Type="String">حسابی زدم به اون حرومزاده‌ها و تنها چیزی که گیرم اومد یه کلمه بود -- بلر.</Content>
     </LocalisableString>
     <LocalisableString StringID="7810435766601797897">
       <Content Type="String">صبر نکن! شلیک کن!</Content>
@@ -134524,13 +134524,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">گرفتیمش - شلیک کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="7810530996758296434">
-      <Content Type="String">You don't feel the least little bit guilty about it?</Content>
+      <Content Type="String">ذره‌ای هم بابتش احساس گناه نمی‌کنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7810530996758296436">
-      <Content Type="String">I thought you said being in the military would look good when you went into politics.</Content>
+      <Content Type="String">فکر می‌کردم گفتی سابقه‌ی نظامی وقتی بری سیاست خوب به نظر می‌آد.</Content>
     </LocalisableString>
     <LocalisableString StringID="7810746142712892096">
-      <Content Type="String">We've got a homicide in the French Ward. If you've not got somethin' else more important maybe you can go take a look. Suspect is described as a colored male. Dispatch out.</Content>
+      <Content Type="String">تو فرنچ وارد یه قتل داریم. اگه کار مهم‌تری نداری شاید بری یه نگاه بندازی. مظنون یه مرد سیاهپوست توصیف شده. تمام.</Content>
     </LocalisableString>
     <LocalisableString StringID="7810758270792161344">
       <Content Type="String">لعنتی زمین‌گیر شدم!</Content>
@@ -134548,13 +134548,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">داریم دنبال یه سیاه‌پوست تو تاریکی می‌گردیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7811343632427970668">
-      <Content Type="String">Enjoy your cut.</Content>
+      <Content Type="String">از سهمت لذت ببر.</Content>
     </LocalisableString>
     <LocalisableString StringID="7811343632427970670">
       <Content Type="String">چیز قشنگیه. نه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7811343632427970671">
-      <Content Type="String">May the good Lord continue to bless us all.</Content>
+      <Content Type="String">خدای مهربون همه‌مون رو همچنان برکت بده.</Content>
     </LocalisableString>
     <LocalisableString StringID="7811518806767562397">
       <Content Type="String">[خفگی همراه با تقلا]</Content>
@@ -134566,10 +134566,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">[خفگی همراه با تقلا]</Content>
     </LocalisableString>
     <LocalisableString StringID="7812192992822860584">
-      <Content Type="String">This guy wants to start something.</Content>
+      <Content Type="String">این یارو می‌خواد یه چیزی راه بندازه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7812217310907558499">
-      <Content Type="String">Pops has gotta be around here somewhere…</Content>
+      <Content Type="String">بابا باید یه جایی همین اطراف باشه...</Content>
     </LocalisableString>
     <LocalisableString StringID="7812666519541301313">
       <Content Type="String">دارم پشت سنگر می‌رم!</Content>
@@ -134617,7 +134617,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">پس ته چاه این شکلیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7815446034574405016">
-      <Content Type="String">Let's see how Burke handles Southdowns' black market racket.</Content>
+      <Content Type="String">ببینیم برک با راکت بازار سیاه ساوت‌داونز چطور کنار میاد.</Content>
     </LocalisableString>
     <LocalisableString StringID="7815944275898476791">
       <Content Type="String">پس‌زنی همه‌ی کلت‌ها را %s درصد کم می‌کند.</Content>
@@ -134662,7 +134662,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">می‌خوای یه کاری براشون بکنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7819046748325781539">
-      <Content Type="String">Fuck 'em all up.</Content>
+      <Content Type="String">همه‌شون رو داغون کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7819412011751485132">
       <Content Type="String">مثل یه سگ زیرش گرفتنش!</Content>
@@ -134716,16 +134716,16 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">پشتیبان لازم داریم. همین حالا!</Content>
     </LocalisableString>
     <LocalisableString StringID="7821801565192492956">
-      <Content Type="String">Use wrench</Content>
+      <Content Type="String">از آچار استفاده کن</Content>
     </LocalisableString>
     <LocalisableString StringID="7821801565192492957">
       <Content Type="String">لغو</Content>
     </LocalisableString>
     <LocalisableString StringID="7821801565192492958">
-      <Content Type="String">Press B + Y for a powerful move</Content>
+      <Content Type="String">برای یه حرکت قوی B + Y را فشار بده</Content>
     </LocalisableString>
     <LocalisableString StringID="7821801565192492959">
-      <Content Type="String">Tap B to come round</Content>
+      <Content Type="String">برای دور زدن B را بزن</Content>
     </LocalisableString>
     <LocalisableString StringID="7822393963000826818">
       <Content Type="String">لاستیک داغ و خون سرد</Content>
@@ -134740,7 +134740,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">همین فکر رو می‌کردم. داشتم چی می‌گفتم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7824205974998629031">
-      <Content Type="String">Your smuggling operation's mine. Your choice if you want to live and keep runnin' it.</Content>
+      <Content Type="String">عملیات قاچاق تو مال منه. خودت انتخاب کن زنده بمونی و ادامه‌ش بدی یا نه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7824864522140497049">
       <Content Type="String">هیچ‌کس اینجا نیست...</Content>
@@ -134776,7 +134776,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">درود بر پدر خون.</Content>
     </LocalisableString>
     <LocalisableString StringID="7827322287002596622">
-      <Content Type="String">Vito needs your help with some unfinished business. See what you can do for him.</Content>
+      <Content Type="String">ویتو برای یه کار نیمه‌تموم کمکت لازم داره. ببین چیکار می‌تونی براش بکنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7827326000329040880">
       <Content Type="String">امیدوارم این یارو رفته باشه.</Content>
@@ -134833,7 +134833,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">جیگ فکر کرده شوخی می‌کنیم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7828535679072087540">
-      <Content Type="String">Merle's run back to Doucet's to take stock of the damage you've done.</Content>
+      <Content Type="String">مِرل برگشته پیش دوسِی تا خسارتی که زدی رو ارزیابی کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7828856118052964452">
       <Content Type="String">لعنتی. باور نمی‌کنم رفته...</Content>
@@ -134845,10 +134845,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">اون فرار کرد، ولی من هنوز اینجام، عوضی!</Content>
     </LocalisableString>
     <LocalisableString StringID="7829272764972294173">
-      <Content Type="String">Being Charlie's brother-in-law is the only thing that's kept Natty from getting capped. To repay the favor, Natty deals smack to locals and drinks himself blind at the Double Barrel Bar.</Content>
+      <Content Type="String">برادرزن چارلی بودن تنها دلیل‌یه که نتی کشته نشده. در عوض این لطف، نتی به محلّیا هروئین می‌فروشه و تو بار دابل برل خودش رو از مستی کور می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7829401170486908272">
-      <Content Type="String">Men are crazy.</Content>
+      <Content Type="String">مردا دیوونه‌ان.</Content>
     </LocalisableString>
     <LocalisableString StringID="7829401170486908273">
       <Content Type="String">چرا این کار رو بکنه؟</Content>
@@ -134929,10 +134929,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">داری با من لاس می‌زنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7833551507415570342">
-      <Content Type="String">Please take a step back.</Content>
+      <Content Type="String">لطفاً یه قدم عقب بکش.</Content>
     </LocalisableString>
     <LocalisableString StringID="7833551507415570343">
-      <Content Type="String">I insist you respect my personal space.</Content>
+      <Content Type="String">اصرار دارم به فضای شخصیم احترام بذاری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7833965686967805650">
       <Content Type="String">گردنت رو می‌شکنم، عوضی!</Content>
@@ -134944,13 +134944,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">کالاهای بازار سیاه را نابود کنید</Content>
     </LocalisableString>
     <LocalisableString StringID="7834290204862145142">
-      <Content Type="String">Once focused solely on VIPs, Lou knows everyone wants to get their pickle tickled, whether they've got $20 to spend or $25,000. With that in mind, he's diversified the sex trade in the French Ward and has something to offer everyone.</Content>
+      <Content Type="String">لو که قبلاً فقط روی VIPها تمرکز داشت، می‌دونه همه می‌خوان کیفهاشون خارونده شه، مهم نیست ۲۰ دلار داشته باشن یا ۲۵٬۰۰۰. با این فکر، تجارت جنسی تو فرنچ وارد رو متنوع کرده و برای همه یه چیزی داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7834415579043717833">
-      <Content Type="String">Interrogate Informants to gain hideout intel</Content>
+      <Content Type="String">برای گرفتن اطلاعات مخفیگاه، از خبرچین‌ها بازجویی کن</Content>
     </LocalisableString>
     <LocalisableString StringID="7834597801886234136">
-      <Content Type="String">Thank you for linking to a 2K account. Enjoy the Classico outfit and Il Duca handgun.</Content>
+      <Content Type="String">ممنون که به یه حساب 2K وصل شدی. از لباس کلاسیکو و تپانچه Il Duca لذت ببر.</Content>
     </LocalisableString>
     <LocalisableString StringID="7834635588209986293">
       <Content Type="String">همین فکر می‌کردم. قبل اینکه شیفتت تموم شه، می‌خوام یه دستمال برداری و تمیزش کنی.</Content>
@@ -134962,28 +134962,28 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">آره، لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="7834885611124967331">
-      <Content Type="String">C’mon. Ready when you are.</Content>
+      <Content Type="String">بیا. هر وقت آماده‌ای.</Content>
     </LocalisableString>
     <LocalisableString StringID="7835534934443641730">
-      <Content Type="String">Vito can't spare anyone right now. Out.</Content>
+      <Content Type="String">ویتو الان نمی‌تونه کسی رو بفرسته. تمام.</Content>
     </LocalisableString>
     <LocalisableString StringID="7835545364535864811">
       <Content Type="String">بسوز، ای دیو لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="7835685830681207200">
-      <Content Type="String">Stay still, goddamnit.</Content>
+      <Content Type="String">تکون نخور، لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7835685830681207201">
-      <Content Type="String">Go with god, motherfucker.</Content>
+      <Content Type="String">با خدا برو، حرومزاده.</Content>
     </LocalisableString>
     <LocalisableString StringID="7835685830681207202">
-      <Content Type="String">Shhh. Shh.</Content>
+      <Content Type="String">هیس. هیس.</Content>
     </LocalisableString>
     <LocalisableString StringID="7835685830681207206">
-      <Content Type="String">Dammit…</Content>
+      <Content Type="String">لعنتی...</Content>
     </LocalisableString>
     <LocalisableString StringID="7835685830681207207">
-      <Content Type="String">Maybe be less of an asshole in the next life.</Content>
+      <Content Type="String">شاید تو زندگی بعدیت کمتر کونی باشی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7835842847496346554">
       <Content Type="String">می‌خوای گلوله بخوری؟</Content>
@@ -135010,7 +135010,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">سلاح سنگین قبلی</Content>
     </LocalisableString>
     <LocalisableString StringID="7838026188137373470">
-      <Content Type="String">The darkness is in the relics and remains, the history of Harless.</Content>
+      <Content Type="String">تاریکی تو آثار و باقی‌مونده‌هاست، تاریخ هارلس.</Content>
     </LocalisableString>
     <LocalisableString StringID="7838168494555508360">
       <Content Type="String">می‌خوای با من دربیفتی؟</Content>
@@ -135070,13 +135070,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">زمین‌گیری‌های خشن</Content>
     </LocalisableString>
     <LocalisableString StringID="7840421431104298504">
-      <Content Type="String">I’m gonna say a few words for her. You can join me, if...</Content>
+      <Content Type="String">می‌خوام چند تا کلمه براش بگم. می‌تونی همراهم باشی، اگه...</Content>
     </LocalisableString>
     <LocalisableString StringID="7840884839358939991">
-      <Content Type="String">What's going on with the boss man? He's been riding me all day.</Content>
+      <Content Type="String">رئیس رو چه شده؟ تمام روز داره سرم غر می‌زنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7841201889880274543">
-      <Content Type="String">You left Grecco behind. Mission failed.</Content>
+      <Content Type="String">گرکو رو جا گذاشتی. مأموریت شکست خورد.</Content>
     </LocalisableString>
     <LocalisableString StringID="7841460963448819449">
       <Content Type="String">لستر تریو</Content>
@@ -135160,7 +135160,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">خیلی داغه! برید کنار!</Content>
     </LocalisableString>
     <LocalisableString StringID="7849005743376804387">
-      <Content Type="String">Giorgi's got some ideas on what to do here.</Content>
+      <Content Type="String">جیورجی درباره اینکه اینجا چیکار کنیم چند تا نظریه داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7849088627893469048">
       <Content Type="String">نگهش می‌دارم که پا نشه.</Content>
@@ -135172,16 +135172,16 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">نه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7850969537556583394">
-      <Content Type="String">Shiiiiiiit, no.</Content>
+      <Content Type="String">گههههه، نه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7850969537556583398">
       <Content Type="String">لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7850969537556583399">
-      <Content Type="String">That's rough.</Content>
+      <Content Type="String">این سخته.</Content>
     </LocalisableString>
     <LocalisableString StringID="7851159650210521882">
-      <Content Type="String">Dead or alive, Vito needs to be found.</Content>
+      <Content Type="String">زنده یا مرده، ویتو باید پیدا شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7851487491908840537">
       <Content Type="String">ضامن نارنجک رو می‌کشم!</Content>
@@ -135211,13 +135211,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">بسه دیگه، لعنت به این وضع!</Content>
     </LocalisableString>
     <LocalisableString StringID="7853632210751796688">
-      <Content Type="String">Fuckin' union bosses are just as crooked as everyone else.</Content>
+      <Content Type="String">رئیسای اتحادیه لعنتی هم مثل بقیه فاسدن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7853632210751796693">
-      <Content Type="String">Long as you don't ask too many questions, you're fine.</Content>
+      <Content Type="String">تا وقتی سؤالای زیادی نپرسی، مشکلی نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="7853632210751796703">
-      <Content Type="String">Spent two weeks off work. Hope I get somethin' today.</Content>
+      <Content Type="String">دو هفته از کار مرخصی گرفتم. امیدوارم امروز یه چیزی بگیرم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7854450754525389269">
       <Content Type="String">یکی همین الان زیر گرفته شد!</Content>
@@ -135241,7 +135241,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">(زیرلب به زبان گیلیک ناسزا می‌گوید)</Content>
     </LocalisableString>
     <LocalisableString StringID="7855510177716278794">
-      <Content Type="String">dirty fu', dirty rotten, dog humping, fuckin' cocksucking bastard.</Content>
+      <Content Type="String">گه کثیف، پوسیده‌ی کثیف، سگ‌کون، حرومزاده‌ی کون‌لق لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7855510177716278795">
       <Content Type="String">(زیرلب به زبان گیلیک ناسزا می‌گوید)</Content>
@@ -135283,7 +135283,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">فکر کنم کارمون اینجا تمومه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7857670565775114171">
-      <Content Type="String">Uncle Lou's no better than that piece of shit Doc Gaston. A pusher and a whoremonger in a nice suit.</Content>
+      <Content Type="String">عمو لو از اون آشغال دکتر گاستون بهتر نیست. یه پخش‌کننده و جاکش تو کت شلوار قشنگ.</Content>
     </LocalisableString>
     <LocalisableString StringID="7857865996736578425">
       <Content Type="String">خیلی خوب.</Content>
@@ -135343,7 +135343,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">لعنتی! فشنگ بیشتری لازم دارم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7860574459088560680">
-      <Content Type="String">Merle pays a handful of assholes to drive around and keep an eye on things.</Content>
+      <Content Type="String">مِرل به چند تا کونی پول می‌ده که دور بزنن و اوضاع رو زیر نظر داشته باشن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7861284776511437603">
       <Content Type="String">پول حمایت! داشتن از یه مدرسه پول حمایت می‌گرفتن. یه مدرسه.</Content>
@@ -135358,7 +135358,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">برک سفیدپوست نیست. ایرلندیه. و یه مستِ داغون.</Content>
     </LocalisableString>
     <LocalisableString StringID="7861605251339337970">
-      <Content Type="String">You'll need the keys to start the truck.</Content>
+      <Content Type="String">برای روشن کردن کامیون کلیدها رو لازم داری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7861726543970929076">
       <Content Type="String">زاده‌ی بایو</Content>
@@ -135382,13 +135382,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">هی، حواست باشه، رفیق!</Content>
     </LocalisableString>
     <LocalisableString StringID="7863619320314943074">
-      <Content Type="String">Careful, friend.</Content>
+      <Content Type="String">حواست باشه، رفیق.</Content>
     </LocalisableString>
     <LocalisableString StringID="7863619320314943075">
       <Content Type="String">حواست به راهت باشه!</Content>
     </LocalisableString>
     <LocalisableString StringID="7864310479982143592">
-      <Content Type="String">I hate this shit, feel like a sittin' duck.</Content>
+      <Content Type="String">از این گند بدم می‌آد، حس یه مرغابی نشسته رو دارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7864377352316969752">
       <Content Type="String">گونه‌ی ۲</Content>
@@ -135403,22 +135403,22 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">بالاخره پیامت رو گرفتی، هان؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7865624056792906891">
-      <Content Type="String">Bonnie fuckin’ Harless.</Content>
+      <Content Type="String">بانی لعنتی هارلس.</Content>
     </LocalisableString>
     <LocalisableString StringID="7866196440646483676">
-      <Content Type="String">Appears to be letting up.</Content>
+      <Content Type="String">به نظر می‌رسه داره کم می‌شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7866196440646483677">
-      <Content Type="String">Looks like it's clearing up.</Content>
+      <Content Type="String">به نظر می‌رسه داره صاف می‌شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7866196440646483678">
-      <Content Type="String">Already over.</Content>
+      <Content Type="String">دیگه تمومه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7866771637702598392">
       <Content Type="String">این پسر اون‌قدر که قیافش نشون می‌ده کند نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="7866936486674072432">
-      <Content Type="String">Giorgi and Sal are waiting for you inside.</Content>
+      <Content Type="String">جیورجی و سال منتظرن داخل.</Content>
     </LocalisableString>
     <LocalisableString StringID="7867254555242222745">
       <Content Type="String">برو بیرون!</Content>
@@ -135544,10 +135544,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">کسی دیگه هم... اون رو دید؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7874015877505327840">
-      <Content Type="String">The email address provided is already associated with a 2K Account. Please return to the previous screen and sign in using that email address. If you are unable to sign in, you may reset your password by visiting accounts.2k.com or contact 2K Support at support.2k.com. Error Code $errorCode</Content>
+      <Content Type="String">ایمیل داده‌شده قبلاً به یه حساب 2K وصل شده. لطفاً به صفحه‌ی قبل برگرد و با همون ایمیل وارد شو. اگه نمی‌تونی وارد شی، می‌تونی رمزت رو با مراجعه به accounts.2k.com عوض کنی یا با پشتیبانی 2K در support.2k.com تماس بگیری. کد خطا $errorCode</Content>
     </LocalisableString>
     <LocalisableString StringID="7874015877505327843">
-      <Content Type="String">Please provide a valid email address. Error Code $errorCode</Content>
+      <Content Type="String">لطفاً یه ایمیل معتبر وارد کن. کد خطا $errorCode</Content>
     </LocalisableString>
     <LocalisableString StringID="7874134026043882792">
       <Content Type="String">نمی‌تونیم بذاریم این کار رو بکنه و بره!</Content>
@@ -135592,10 +135592,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">جابه‌جایی در شهر</Content>
     </LocalisableString>
     <LocalisableString StringID="7876589678201148625">
-      <Content Type="String">That one looks like me Ma.</Content>
+      <Content Type="String">اون یکی شبیه مادرمه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7876589678201148626">
-      <Content Type="String">Better double bag it with her. Just sayin'.</Content>
+      <Content Type="String">بهتره باهاش دوتایی جلد بندازی. فقط گفتم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7877089718223793880">
       <Content Type="String">لعنتی، داره سیم‌کشی می‌کنه.</Content>
@@ -135604,13 +135604,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">درباره‌ی این با رئیس حرف بزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7877124942760821076">
-      <Content Type="String">Weed delivered! (1/3)</Content>
+      <Content Type="String">علف تحویل شد! (1/3)</Content>
     </LocalisableString>
     <LocalisableString StringID="7877124942760821078">
       <Content Type="String">تحویل علف کامل شد!</Content>
     </LocalisableString>
     <LocalisableString StringID="7877124942760821079">
-      <Content Type="String">Weed delivered! (2/3)</Content>
+      <Content Type="String">علف تحویل شد! (2/3)</Content>
     </LocalisableString>
     <LocalisableString StringID="7877355125563261409">
       <Content Type="String">تا آخر امروز کارت تمومه!</Content>
@@ -135655,10 +135655,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">جرثقیل داره حرکت می‌کنه. حواستون به پشتتون باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7881522687103830552">
-      <Content Type="String">You better have brought the high-end shit.</Content>
+      <Content Type="String">بهتره جنس درجه‌یک آورده باشی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7881522687103830555">
-      <Content Type="String">These glasses better be clean.</Content>
+      <Content Type="String">بهتره این استکانا تمیز باشن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7882195079690623344">
       <Content Type="String">شاید به بچه‌های بیشتری این بالا نیاز داشته باشیم.</Content>
@@ -135673,10 +135673,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">باشه. بذار خودم ادامه بدم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7883008885595509267">
-      <Content Type="String">Call outta Southdowns 'bout an armed colored male if any units can spare a moment.</Content>
+      <Content Type="String">از ساوت‌داونز تماس داریم درباره یه مرد سیاهپوست مسلح، اگه واحدی وقت اضافه داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7883206196395418986">
-      <Content Type="String">You don't know what love is. But I'm gonna show you...</Content>
+      <Content Type="String">نمی‌دونی عشق چیه. ولی نشونت می‌دم...</Content>
     </LocalisableString>
     <LocalisableString StringID="7883404346543026976">
       <Content Type="String">بندازش، عوضی!</Content>
@@ -135688,10 +135688,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">دیگه پرتش کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="7883650934913460760">
-      <Content Type="String">We're breakin' no laws here. You've got no right- .</Content>
+      <Content Type="String">ما اینجا هیچ قانونی رو نمی‌شکنیم. تو حق نداری--</Content>
     </LocalisableString>
     <LocalisableString StringID="7885451983338970929">
-      <Content Type="String">Sal's in the ground. Wish I'd be there to see it but… It's done. Guess the only question is what's next?</Content>
+      <Content Type="String">سال تو خاکه. کاش بودم و می‌دیدم، ولی... تموم شد. حدس می‌زنم تنها سؤال اینه که بعدش چی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7885762785645547541">
       <Content Type="String">ممنون.</Content>
@@ -135745,7 +135745,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">گونه‌ی ۱</Content>
     </LocalisableString>
     <LocalisableString StringID="7888748288233813117">
-      <Content Type="String">Various contraband and untaxed goods, primarily transported by sea.</Content>
+      <Content Type="String">انواع کالای قاچاق و بدون مالیات، عمدتاً حمل‌شده از راه دریا.</Content>
     </LocalisableString>
     <LocalisableString StringID="7888892680682495909">
       <Content Type="String">آماده! بیا این عوضی رو خلاص کنیم.</Content>
@@ -135766,7 +135766,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">اگه سر دزدیدن کامیون بگیرنت، چند سال زندان می‌شی - یه‌کم بیشتر هم اگه اسلحه رو تو جیبت پیدا کنن. ولی مواد، لعنتی، برای اون کار می‌خوان تورو بفرستن زیر زندون. نه. نه ممنون.</Content>
     </LocalisableString>
     <LocalisableString StringID="7889197628207441591">
-      <Content Type="String">They were fuckin' knock-outs. And Sammy, oh man, he was drunk off his ass.</Content>
+      <Content Type="String">حسابی توپ بودن. و سمی، آه مرد، اون حسابی مست بود.</Content>
     </LocalisableString>
     <LocalisableString StringID="7889247605243202357">
       <Content Type="String">نمی‌تونم، لعنتی! گرکو منو می‌کشه!</Content>
@@ -135781,13 +135781,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">برای بابی یه یادداشت بذار درباره‌ی اون فیلترهای هوا. داری گوش می‌دی؟ اونایی که عقبن رو چک کردم. اون‌قدر مستعملن که این گندکاری برمی‌گرده تو و همه‌مون رو می‌کشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7889392014540590929">
-      <Content Type="String">C'mon, Lincoln, we need to keep moving.</Content>
+      <Content Type="String">بیا، لینکلن، باید راه بریم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7889618418113137901">
       <Content Type="String">رنگ بدنه</Content>
     </LocalisableString>
     <LocalisableString StringID="7890631616703578462">
-      <Content Type="String">The days of folks usin' the Bellaire Supermarket to sell people are fuckin' over. Vito'll find another use for it.</Content>
+      <Content Type="String">روزایی که مردم از سوپرمارکت بلر برای فروش آدما استفاده می‌کردن لعنتی تمومه. ویتو استفاده‌ی دیگه‌ای براش پیدا می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7890844563230299340">
       <Content Type="String">قهرمان‌بازی درنیار که بمیری!</Content>
@@ -135829,7 +135829,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">شاید اون یارو به خدمتکارا انعام نداده؟ ببخشید، نباید شوخی می‌کردم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7893356425517874924">
-      <Content Type="String">Tailing target: Bagman</Content>
+      <Content Type="String">تعقیب هدف: پول‌بگیر</Content>
     </LocalisableString>
     <LocalisableString StringID="7893428716224010557">
       <Content Type="String">با یه سفیدپوست اشتباهی کلافت شدی!</Content>
@@ -135841,22 +135841,22 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">...مامان...مامان، دارم بدجوری خون‌ریزی می‌کنم....</Content>
     </LocalisableString>
     <LocalisableString StringID="7893808479332599646">
-      <Content Type="String">Don't have enough seniority, some shit about union rules. Screw that. You put in a request, you should get it off.</Content>
+      <Content Type="String">قدیمی بودن کافی نداری، یه قانون اتحادیه یا از این چرندیات. به درک. درخواست می‌دی، باید مرخصیت رو بدن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7894016710854745024">
       <Content Type="String">برو روی پشت‌بوم</Content>
     </LocalisableString>
     <LocalisableString StringID="7894016710854745025">
-      <Content Type="String">Infiltrate broadcasting</Content>
+      <Content Type="String">به پخش نفوذ کن</Content>
     </LocalisableString>
     <LocalisableString StringID="7894016710854745026">
-      <Content Type="String">Talk to the technician</Content>
+      <Content Type="String">با تکنسین حرف بزن</Content>
     </LocalisableString>
     <LocalisableString StringID="7894016710854745030">
-      <Content Type="String">Shortcircuit the jammer</Content>
+      <Content Type="String">پارازیت‌انداز رو اتصال کوتاه کن</Content>
     </LocalisableString>
     <LocalisableString StringID="7894016710854745031">
-      <Content Type="String">Go to the street</Content>
+      <Content Type="String">برو تو خیابون</Content>
     </LocalisableString>
     <LocalisableString StringID="7894406574592040794">
       <Content Type="String">نگذار بهمون شلیک کنه!</Content>
@@ -135901,7 +135901,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">پیداش می‌کنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7896415267321465608">
-      <Content Type="String">Your dad's never been much for details.</Content>
+      <Content Type="String">بابات هیچ‌وقت اهل جزئیات نبوده.</Content>
     </LocalisableString>
     <LocalisableString StringID="7896550825464661481">
       <Content Type="String">دارم میام!</Content>
@@ -135919,13 +135919,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">[جا زدن فشنگ در تفنگ ساچمه‌ای]</Content>
     </LocalisableString>
     <LocalisableString StringID="7896728764962033761">
-      <Content Type="String">End it, once and for all.</Content>
+      <Content Type="String">تمومش کن، یه بار برای همیشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7897270367738054844">
-      <Content Type="String">Guess you just don't got the nerve.</Content>
+      <Content Type="String">حدس می‌زنم فقط جربزه‌ش رو نداری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7897270367738054845">
-      <Content Type="String">Fuckin' coloreds are bigger pussies than I thought.</Content>
+      <Content Type="String">این سیاهپوستای لعنتی از اون چیزی که فکر می‌کردم ترسوترن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7897270367738054846">
       <Content Type="String">تو منو نمی‌ترسونی، عوضی!</Content>
@@ -136000,7 +136000,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">برو پایین!</Content>
     </LocalisableString>
     <LocalisableString StringID="7901331031857526273">
-      <Content Type="String">Bubs is as mean as a goddamn snake. Turetto has him out "reminding" folks to pay their dues and the exposure of the fish market won't sway him from delivering a beating.</Content>
+      <Content Type="String">بابس مثل یه مار لعنتی بدجنسه. تورتتو گذاشته‌ش که به مردم «یادآوری» کنه حقشون رو بدن و دیدن بازار ماهی هم باعث نمی‌شه از کتک زدن دست بکشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7901903126296426179">
       <Content Type="String">فکر کنم کارمون اینجا تمومه.</Content>
@@ -136021,7 +136021,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">از تاریکی متنفرم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7902025840441198480">
-      <Content Type="String">Please...stop, just stop...</Content>
+      <Content Type="String">توروخدا... بسه، فقط بسه...</Content>
     </LocalisableString>
     <LocalisableString StringID="7902025840441198483">
       <Content Type="String">ولش کن!</Content>
@@ -136048,37 +136048,37 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">برای استراحت، سیگار بکشید</Content>
     </LocalisableString>
     <LocalisableString StringID="7902736870189417918">
-      <Content Type="String">Not only that, I know he's friends with a couple of niggers and they go over there at night and play cards. Told John when they moved in that I wouldn't tolerate niggers on my property.</Content>
+      <Content Type="String">نه تنها این، می‌دونم با چند تا سیاهپوست رفیقه و شبها میرن اونجا ورق بازی می‌کنن. به جان گفتم وقتی اومدن که سیاهپوست رو تو ملک من تحمل نمی‌کنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903155124015132960">
-      <Content Type="String">My blood gave birth to this city. Owned it. But now I look around and all I see is Filth sittin’ where Well-Borns once reigned.</Content>
+      <Content Type="String">خون من این شهر رو به دنیا آورد. مالکش بود. ولی الان دور و برم رو نگاه می‌کنم و تنها چیزی که می‌بینم پلیدیه که جای اصیل‌زاده‌ها نشسته.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903156223526761203">
-      <Content Type="String">How sad for you.</Content>
+      <Content Type="String">چه غم‌انگیز برای تو.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903157323038389318">
-      <Content Type="String">You’re lookin’ a bit peaked, cher. Maybe you oughta sit a spell.</Content>
+      <Content Type="String">رنگت پریده، جانم. شاید بهتره یه‌کم بشینی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903158422550017561">
-      <Content Type="String">I’m fine.</Content>
+      <Content Type="String">حالم خوبه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903159522061645804">
-      <Content Type="String">Tell me where she is.</Content>
+      <Content Type="String">بگو کجاست.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903160621573274047">
       <Content Type="String">گم شو.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903161721084902258">
-      <Content Type="String">The Filth will know their name... And their place...</Content>
+      <Content Type="String">پلیدی اسمشون رو می‌دونه... و جاشون رو...</Content>
     </LocalisableString>
     <LocalisableString StringID="7903162820596530373">
-      <Content Type="String">The Blessed belongs to me, Mr. Clay.</Content>
+      <Content Type="String">مقدس مال منه، آقای کلی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903163920108158616">
-      <Content Type="String">You’ll never get out of here alive.</Content>
+      <Content Type="String">هیچ‌وقت زنده از اینجا در نمی‌ری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903165019619786859">
-      <Content Type="String">...Heard that before.</Content>
+      <Content Type="String">...این رو قبلاً شنیدم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903322744613792480">
       <Content Type="String">خدای من! حالا چیکار کنیم؟</Content>
@@ -136090,40 +136090,40 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">گندش! بگو این اتفاق نیفتاده!</Content>
     </LocalisableString>
     <LocalisableString StringID="7903498188773537079">
-      <Content Type="String">You and I are clear what we're looking at. If you're wanting me to stick around, be a part of all this, then the next piece of action needs to come my way.</Content>
+      <Content Type="String">هر دوتامون می‌دونیم ماجرا چیه. اگه می‌خوای بمونم و بخشی از این ماجرا باشم، پس نوبت بعدی کار باید بیاد سراغ من.</Content>
     </LocalisableString>
     <LocalisableString StringID="7903644850708327424">
       <Content Type="String">با این یارو حرف بزن</Content>
     </LocalisableString>
     <LocalisableString StringID="7904002847480294448">
-      <Content Type="String">You’ll never get anywhere near Anna.</Content>
+      <Content Type="String">هیچ‌وقت حتی نزدیک آنا هم نمی‌شی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7904003946991922563">
-      <Content Type="String">She belongs with us, Mr. Clay. She needs us... Now, more than ever.</Content>
+      <Content Type="String">اون مال ماست، آقای کلی. به ما نیاز داره... الان بیشتر از همیشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7904005046503550806">
-      <Content Type="String">You shouldn’t be here.</Content>
+      <Content Type="String">نباید اینجا باشی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7904007245526807292">
-      <Content Type="String">Have you ever seen the life-light drain from another man’s eyes, Mr. Clay?</Content>
+      <Content Type="String">تا حالا دیدی نور زندگی از چشم یه مرد دیگه بره، آقای کلی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7904008345038435407">
-      <Content Type="String">You’d get no argument from me.</Content>
+      <Content Type="String">از طرف من مخالفتی نداری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7904009444550063618">
-      <Content Type="String">We believe that humanity is ultimately doomed, Mr. Clay.</Content>
+      <Content Type="String">ما باور داریم بشریت آخرش محکوم به نابودیه، آقای کلی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7904010544061691861">
-      <Content Type="String">Ya’ know, I had a feelin’ you might be resistant to my charms. Can’t blame a girl for tryin’.</Content>
+      <Content Type="String">می‌دونی، حس می‌کردم ممکنه در برابر جذابیتهام مقاومت کنی. نمی‌شه یه دختر رو بابت تلاش کردن سرزنش کرد.</Content>
     </LocalisableString>
     <LocalisableString StringID="7904013842596576462">
-      <Content Type="String">It’s a beautiful thing. Pure. Intimate.</Content>
+      <Content Type="String">چیز قشنگیه. خالص. صمیمی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7904014942108204673">
-      <Content Type="String">...I have.</Content>
+      <Content Type="String">...من دارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7904103558212085995">
-      <Content Type="String">Find drug cache.</Content>
+      <Content Type="String">مخفیگاه مواد رو پیدا کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7904201750127407876">
       <Content Type="String">برو گمشو، بی‌شعور!</Content>
@@ -136168,7 +136168,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">لعنتی. این نمی‌تونه خوب باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7905323422180821158">
-      <Content Type="String">Gonna need everyone to pull double time this week to clear this shit outta here. More stuff's on the way from Cuba, and we need to make room for it.</Content>
+      <Content Type="String">این هفته همه باید دوبل کار کنن تا این گند رو از اینجا جمعه کنیم. چیزای بیشتری از کوبا در راهه و باید جا باز کنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7905441644587709192">
       <Content Type="String">یکی دکتر بیاره!</Content>
@@ -136186,10 +136186,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">شلیک می‌کنم. شقه‌اش می‌کنم. یا دهنش رو می‌بندم. الان می‌میری!</Content>
     </LocalisableString>
     <LocalisableString StringID="7906587022233989111">
-      <Content Type="String">Seein' big things out there on the streets. And it's all because of these guns right here.</Content>
+      <Content Type="String">چیزای گنده تو خیابونا می‌بینم. و همه‌ش به خاطر همین اسلحه‌هاست.</Content>
     </LocalisableString>
     <LocalisableString StringID="7906855900606393669">
-      <Content Type="String">So no matter the trials and tribulations going on in your life, rest assured that you will discover a new way here at Sacriste Sanatarium. In fact, once you’re inside, you may never want to leave.</Content>
+      <Content Type="String">پس مهم نیست زندگیت چه سختی‌ها و مصیبت‌هایی داره، مطمئن باش اینجا تو آسایشگاه ساکریسته یه راه جدید پیدا می‌کنی. در واقع، وقتی داخل شدی، ممکنه هیچ‌وقت نخوای بری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7906869584016527532">
       <Content Type="String">می‌بینی، هشدار داده بودم.</Content>
@@ -136225,25 +136225,25 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">متن ۱ AB</Content>
     </LocalisableString>
     <LocalisableString StringID="7907362803627153862">
-      <Content Type="String">Bevers' boys make their moonshine away from prying eyes. Bust them up and piss them off by taking out their still.</Content>
+      <Content Type="String">پسرای بورز مشروبشون رو دور از چشم‌ها می‌سازن. با از بین بردن تقطیرکننده‌شون گند بزن به کارشون و عصبیشون کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7907698184328336268">
       <Content Type="String">مرکز شهر</Content>
     </LocalisableString>
     <LocalisableString StringID="7908439866873381986">
-      <Content Type="String">I better go.</Content>
+      <Content Type="String">بهتره برم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7908440966385010229">
-      <Content Type="String">Yeah. Okay. Lincoln... just because Barbieri's dead doesn't necessarily mean this neighborhood is firmly in our control. If he's still got any men hanging around, you should think about clearing them out.</Content>
+      <Content Type="String">آره. باشه. لینکلن... فقط چون باربیری مرده لزوماً یعنی این محله کاملاً زیر کنترل ما نیست. اگه هنوز آدمی داره این اطراف، بهتره فکر پاک کردنشون باشی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7908442065896638344">
-      <Content Type="String">Giorgi shot him in the head. Looked like he went pretty quick. ...Goddammit.</Content>
+      <Content Type="String">جیورجی تو کله‌ش شلیک کرد. به نظر می‌رسه خیلی سریع رفت. ...لعنتی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7908443165408266587">
-      <Content Type="String">...I hate this fuckin' town.</Content>
+      <Content Type="String">...از این شهر لعنتی بدم می‌آد.</Content>
     </LocalisableString>
     <LocalisableString StringID="7908444264919894830">
-      <Content Type="String">Don't. Ain't nothing good coming from that.</Content>
+      <Content Type="String">نکن. از اون کار هیچی خوبی در نمی‌آد.</Content>
     </LocalisableString>
     <LocalisableString StringID="7908445364431523041">
       <Content Type="String">کی گفته باید چیز خوبی ازش بیرون بیاد؟</Content>
@@ -136255,13 +136255,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">عذاب کشید؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7908448662966407642">
-      <Content Type="String">Least our version of it anyway.</Content>
+      <Content Type="String">حداقل نسخه‌ی خودمون ازش.</Content>
     </LocalisableString>
     <LocalisableString StringID="7908449762478035885">
-      <Content Type="String">We are the righteously fucked.</Content>
+      <Content Type="String">ما درست و حسابی گاییده شدیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7908899584921948575">
-      <Content Type="String">Go out the back way.</Content>
+      <Content Type="String">از راه پشتی برو بیرون.</Content>
     </LocalisableString>
     <LocalisableString StringID="7908905496283709160">
       <Content Type="String">رفیق، اینجا به تو ربطی نداره.</Content>
@@ -136285,31 +136285,31 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">همون‌جا بمون، دارم نارنجک می‌ندازم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7909404138571133776">
-      <Content Type="String">Thanks for earlier.</Content>
+      <Content Type="String">بابت قبلاً ممنون.</Content>
     </LocalisableString>
     <LocalisableString StringID="7909406337594390262">
-      <Content Type="String">Said you could use some help.</Content>
+      <Content Type="String">گفتی یه‌کم کمک لازم داری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7909407437106018377">
-      <Content Type="String">My old man used to be whip smart. If anyone tried to pull some shit on him, he saw it coming a mile away. Now. Fuck. Now, he barely knows the goddamn day of the week.</Content>
+      <Content Type="String">پیرمردم قبلاً تیز بود. اگه کسی می‌خواست سرش کلاه بذاره، از یه مایل دورتر می‌دید. الان. گه. الان، زورکی می‌دونه چه روزیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7909408536617646620">
-      <Content Type="String">Bayou ain't exactly my favorite place in the world.</Content>
+      <Content Type="String">بیو دقیقاً جای مورد علاقه‌ی من تو دنیا نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="7909409636129274863">
-      <Content Type="String">Some of our boys are down in the bayou. If you could get the 'shine from them and bring it back, it'd make my life a lot easier.</Content>
+      <Content Type="String">چند تا از بچه‌هامون تو بیو هستن. اگه بتونی مشروب رو ازشون بگیری و بیاری، زندگیم خیلی راحت‌تر می‌شه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7909410735640903074">
-      <Content Type="String">Ain't been time for small talk, but where are you at with all this?</Content>
+      <Content Type="String">وقت گپ زدن نبوده، ولی تو با این ماجرا کجایی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7909411835152531317">
-      <Content Type="String">C'mon now, the redneck assholes that live down there just love it when black folks drop by for a visit.</Content>
+      <Content Type="String">بیا دیگه، اون روستایی‌های کونی که اون پایین زندگی می‌کنن عاشق اینن که سیاهپوستا بیان یه سر بزنن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7909412934664159432">
-      <Content Type="String">Normal.</Content>
+      <Content Type="String">عادی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7909414034175787675">
-      <Content Type="String">All I really want is for everything to go back the way it was. Before Vietnam, before that night. Back when everything felt-</Content>
+      <Content Type="String">تنها چیزی که می‌خوام اینه که همه‌چی به همون چیزی که بود برگرده. قبل ویتنام، قبل اون شب. اون وقتایی که همه‌چی حس--</Content>
     </LocalisableString>
     <LocalisableString StringID="7909843103765818131">
       <Content Type="String">وفاداری ویتو افزایش یافت</Content>
@@ -136324,7 +136324,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">از اون‌طرف دارم بهش شلیک می‌کنم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7912936237691916793">
-      <Content Type="String">Hey, Two Dicks came by the gym. Between getting Eddie free and whatever else you've been doing, the man is pissed.</Content>
+      <Content Type="String">هی، دو-دیکس اومد باشگاه. بین آزاد کردن ادی و هر کار دیگه‌ای که داشتی می‌کنی، یارو حسابی عصبانیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7913867992853481585">
       <Content Type="String">بیا اینجا، خوشگله!</Content>
@@ -136357,7 +136357,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">هی، این کیه لعنتی...</Content>
     </LocalisableString>
     <LocalisableString StringID="7915064227433312443">
-      <Content Type="String">You hurt? Stay still. Don't move.</Content>
+      <Content Type="String">زخمی شدی؟ تکون نخور. حرکت نکن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7915299303418524184">
       <Content Type="String">حالا شد!</Content>
@@ -136375,22 +136375,22 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">انگار نمی‌تونم... نفسم رو بگیرم...</Content>
     </LocalisableString>
     <LocalisableString StringID="7916203960404915149">
-      <Content Type="String">My boys got one the rackets locked down. And part of our job there is to get a lay of the land, a feel for the folks who live there. Would be quite a shame to throw all that away.</Content>
+      <Content Type="String">بچه‌های من یکی از راکت‌ها رو قفل کردن. و بخشی از کار ما اونجا اینه که اوضاع رو بشناسیم، مردم اونجا رو حس کنیم. حیف می‌شه همه‌شو دور بریزیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7916203960404915150">
-      <Content Type="String">Considering I've got men in the area as well, it looks as if you're trying to keep us guessing.</Content>
+      <Content Type="String">با توجه به اینکه من هم آدم تو منطقه دارم، به نظر می‌رسه داری سعی می‌کنی ما رو تو تردید نگه داری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7916746511246967247">
       <Content Type="String">با کاساندرا حرف بزن</Content>
     </LocalisableString>
     <LocalisableString StringID="7917625426430806084">
-      <Content Type="String">Watch out. He's a good shot.</Content>
+      <Content Type="String">حواست باشه. تیرانداز خوبیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7917625426430806087">
-      <Content Type="String">Ahh, fuck. I'm hit.</Content>
+      <Content Type="String">آخ، گه. خوردم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7918549446053732282">
-      <Content Type="String">He appears to be up to no good.</Content>
+      <Content Type="String">به نظر می‌رسه قصد بدی داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7918549446053732286">
       <Content Type="String">اون... قایم شدی، قربان؟</Content>
@@ -136408,7 +136408,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">دارم پر و پیمون می‌کنم. اون پسر ثابت کرده کشتنش خیلی سخته.</Content>
     </LocalisableString>
     <LocalisableString StringID="7919820211078350717">
-      <Content Type="String">Be ready for anything.</Content>
+      <Content Type="String">آماده‌ی هر چیزی باش.</Content>
     </LocalisableString>
     <LocalisableString StringID="7919944388437737037">
       <Content Type="String">همینه که میشه، احمق.</Content>
@@ -136456,7 +136456,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">طرز نگاه کردنش به من با اون لبخند بزرگ و احمقانه‌ش. مثل این که... داره بهم می‌خنده.</Content>
     </LocalisableString>
     <LocalisableString StringID="7922102181885574438">
-      <Content Type="String">Kill Santangelo's men to flush him out.</Content>
+      <Content Type="String">آدمای سانتانجلو رو بکش تا از مخفیگاهش بیرون بیاد.</Content>
     </LocalisableString>
     <LocalisableString StringID="7922543985846828601">
       <Content Type="String">این بد به گوش می‌رسه!</Content>
@@ -136474,16 +136474,16 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">می‌دونم اینجایی...</Content>
     </LocalisableString>
     <LocalisableString StringID="7922862478851644156">
-      <Content Type="String">I need some targets got in River Row.</Content>
+      <Content Type="String">تو ریور رو چند تا هدف لازم دارم بزنن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7922890213428692675">
       <Content Type="String">حواست به جاده باشه، ای دیوونه!</Content>
     </LocalisableString>
     <LocalisableString StringID="7922955467215248453">
-      <Content Type="String">Don't let some white boy rush you. Take your time.</Content>
+      <Content Type="String">نذار یه پسر سفید عجلت بندازه. با وقتت برو.</Content>
     </LocalisableString>
     <LocalisableString StringID="7922955467215248454">
-      <Content Type="String">I'm here as long as it takes, brother.</Content>
+      <Content Type="String">من اینجام تا هر چقدر لازم باشه، داداش.</Content>
     </LocalisableString>
     <LocalisableString StringID="7923016678406603984">
       <Content Type="String">خب؟</Content>
@@ -136495,10 +136495,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">پس راهت رو برو.</Content>
     </LocalisableString>
     <LocalisableString StringID="7923239540442999481">
-      <Content Type="String">Come on, follow me.</Content>
+      <Content Type="String">بیا، دنبالم بیا.</Content>
     </LocalisableString>
     <LocalisableString StringID="7923239540442999482">
-      <Content Type="String">Get inna line behind me.</Content>
+      <Content Type="String">پشت من بیا صف.</Content>
     </LocalisableString>
     <LocalisableString StringID="7923671666272355266">
       <Content Type="String">دارم دنبال یه دود می‌گردم، مرکز. ممکنه یه چند لحظه دیگه یه تیراندازی با حضور مأمور داشته باشیم.</Content>
@@ -136516,10 +136516,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">یه احمق داره آتیش روشن می‌کنه، مرکز. می‌رم ببینم چی می‌فهمم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7924080477620577645">
-      <Content Type="String">Lincoln, I am partial to my wheels.</Content>
+      <Content Type="String">لینکلن، من به ماشینم دل بسته‌ام.</Content>
     </LocalisableString>
     <LocalisableString StringID="7924085081414081373">
-      <Content Type="String">...General Harless. The symbols. The ceremonies. Those people callin’ themselves “family.”</Content>
+      <Content Type="String">...جنرال هارلس. نمادها. مراسم‌ها. اون آدمایی که خودشون رو «خونواده» صدا می‌کنن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7924270657402905417">
       <Content Type="String">بیا یه‌جور دیگه امتحان کنیم...</Content>
@@ -136531,13 +136531,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">دارم می‌رم، آروم باش!</Content>
     </LocalisableString>
     <LocalisableString StringID="7926689866446803295">
-      <Content Type="String">Ain’t gettin’ shit from me.</Content>
+      <Content Type="String">از من هیچی نمی‌گیری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7927198153693749152">
       <Content Type="String">تو برای سانتینی کار می‌کنی. می‌خوام بدونم چه نقشه‌ای داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7927198153693749155">
-      <Content Type="String">Tell me everything about Santini's smuggling racket.</Content>
+      <Content Type="String">همه‌چیز درباره راکت قاچاق سانتینی رو بگو.</Content>
     </LocalisableString>
     <LocalisableString StringID="7927266600436662856">
       <Content Type="String">نارنجک! بخواب زمین!</Content>
@@ -136546,7 +136546,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">بدو! نارنجک!</Content>
     </LocalisableString>
     <LocalisableString StringID="7927446888054448597">
-      <Content Type="String">Wow, is it just me or are there a lot more Irish down here lately?</Content>
+      <Content Type="String">وای، فقط برای من این‌طوره یا این اواخر ایرلندی‌ای بیشتری اینجا هست؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7928303135659941117">
       <Content Type="String">حتماً اینجاست! کسی دیدش؟</Content>
@@ -136561,10 +136561,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">تیکاو هاربر</Content>
     </LocalisableString>
     <LocalisableString StringID="7929649365775817406">
-      <Content Type="String">These pigs in the Bayou need to be somewhere else.</Content>
+      <Content Type="String">این خوک‌های تو بیو باید جای دیگه‌ای باشن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7930001568381699933">
-      <Content Type="String">Tupelo's gonna be at Landry's with the rest of his Southern Union buddies.</Content>
+      <Content Type="String">توپلو با بقیه‌ی رفقای اتحادیه‌ی جنوبش تو لندریز می‌شینه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7930132684281111444">
       <Content Type="String">بذار برم سراغ این عوضی!</Content>
@@ -136573,10 +136573,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">عقلت رو از دست دادی، عوضی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7930845993311976818">
-      <Content Type="String">You settlin' things with Tupelo… Goes a long way to feelin' like the kids and me can leave Sinclair in peace.</Content>
+      <Content Type="String">تو کارت رو با توپلو صاف کنی... خیلی کمک می‌کنه که حس کنم من و بچه‌ها می‌تونیم سینکلر رو با آرامش ترک کنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7931125286718790990">
-      <Content Type="String">What kind of sick fuck shoots up a birthday party?</Content>
+      <Content Type="String">چه مریضی به مهمونی تولد شلیک می‌کنه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7931221882639021825">
       <Content Type="String">این دیگه چه کوفتی بود؟</Content>
@@ -136597,7 +136597,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">ای بابا. بهتره ببینم اون چی بود...</Content>
     </LocalisableString>
     <LocalisableString StringID="7931253936589269984">
-      <Content Type="String">Multiple reports of property damage at the County Fair.</Content>
+      <Content Type="String">چند گزارش خسارت اموال در نمایشگاه شهرستان.</Content>
     </LocalisableString>
     <LocalisableString StringID="7931545914952479365">
       <Content Type="String">این کثافت رو پیدا کنید. همین حالا.</Content>
@@ -136621,7 +136621,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">این دیگه چه وضعیه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7933267749478411832">
-      <Content Type="String">At least it's got a nice beat. I think.</Content>
+      <Content Type="String">حداقل ریتم خوبی داره. فکر کنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7933267749478411835">
       <Content Type="String">[بی‌ریتم بشکن می‌زند]</Content>
@@ -136633,7 +136633,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">خدا خیرت بده!</Content>
     </LocalisableString>
     <LocalisableString StringID="7934255874456176374">
-      <Content Type="String">Much appreciated.</Content>
+      <Content Type="String">خیلی ممنون.</Content>
     </LocalisableString>
     <LocalisableString StringID="7934255874456176375">
       <Content Type="String">خب، عجب! ممنون!</Content>
@@ -136654,16 +136654,16 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">من لعنتی احمق نیستم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7935381774363275181">
-      <Content Type="String">Fuck you very much, then.</Content>
+      <Content Type="String">خب پس، خیلی هم گاییدنت.</Content>
     </LocalisableString>
     <LocalisableString StringID="7935381774363275182">
-      <Content Type="String">God bless ya, anyway.</Content>
+      <Content Type="String">در هر صورت، خدا برکتت بده.</Content>
     </LocalisableString>
     <LocalisableString StringID="7935381774363275183">
-      <Content Type="String">Catch ya another time, den.</Content>
+      <Content Type="String">دفعه‌ی دیگه می‌بینمت، پس.</Content>
     </LocalisableString>
     <LocalisableString StringID="7936233991500843917">
-      <Content Type="String">Bad, Bad Mr. Burke</Content>
+      <Content Type="String">آقای برک بد، بد</Content>
     </LocalisableString>
     <LocalisableString StringID="7936803984833631377">
       <Content Type="String">برای اینکه جلوی اومدنشون به اینجا رو بگیریم. تا حالا از «نظریه‌ی دومینو» چیزی نشنیدی؟</Content>
@@ -136690,7 +136690,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">کمک به یه کهنه‌سرباز؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7937281730456445369">
-      <Content Type="String">Anything helps.</Content>
+      <Content Type="String">هر چیزی کمک می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7937281730456445371">
       <Content Type="String">پول خرد داری؟</Content>
@@ -136699,16 +136699,16 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">کاساندرا می‌گه یه کاری برای من داری؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7937347722475441545">
-      <Content Type="String">Alright, let's hurry this up.</Content>
+      <Content Type="String">باشه، بیایید سریع‌تر تمومش کنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7937347722475441546">
       <Content Type="String">پس می‌خوایم چند تا گنگستر رو گند بزنیم؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7937347722475441549">
-      <Content Type="String">Cassandra said you might need a little help, Mr. Clay.</Content>
+      <Content Type="String">کاساندرا گفت ممکنه یه‌کم کمک لازم داشته باشی، آقای کلی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7937347722475441550">
-      <Content Type="String">Point me at the fuckers who need to die.</Content>
+      <Content Type="String">منو به کونایی نشون بده که باید بمیرن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7937347722475441551">
       <Content Type="String">سراغ این حروم‌زاده‌ی بدشانس کجا میریم؟</Content>
@@ -136747,7 +136747,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">اون باشگاه قدیمی هم زشت بود.</Content>
     </LocalisableString>
     <LocalisableString StringID="7939818731265098972">
-      <Content Type="String">Sal Marcano wants to discuss a big job with you, along with the future of Delray Hollow.</Content>
+      <Content Type="String">سال مارکانو می‌خواد درباره یه کار گنده و آینده‌ی دلری هالو با تو حرف بزنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7939909666606113864">
       <Content Type="String">نسخه‌ی ۲</Content>
@@ -136762,7 +136762,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">نسخه‌ی ۴</Content>
     </LocalisableString>
     <LocalisableString StringID="7940331348543409167">
-      <Content Type="String">Call Cassandra and get me some backup in the Bayou.</Content>
+      <Content Type="String">به کاساندرا زنگ بزن و تو بیو پشتیبانی برام بگیر.</Content>
     </LocalisableString>
     <LocalisableString StringID="7940553567967518948">
       <Content Type="String">وای! مواظب باش!</Content>
@@ -136774,7 +136774,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">خب، من که حیرت کردم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7941051722855808831">
-      <Content Type="String">Get the Track Record in The Big Easy to unlock.</Content>
+      <Content Type="String">برای آنلاک، رکورد مسیر «د بیگ ایزی» را بگیر.</Content>
     </LocalisableString>
     <LocalisableString StringID="7941849822709064636">
       <Content Type="String">برات چی بیارم، عزیزم؟</Content>
@@ -136882,13 +136882,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">شاید فقط یه برق‌کار لعنتی لازم داریم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7950417999350146332">
-      <Content Type="String">Don't let Scaletta's east coast tone fool you. He ain't shit. And he ain't ever gonna be shit. He's a fuckin' wannabe.</Content>
+      <Content Type="String">نذار لحن ساحلی شرقی اسکالتا گولت بزنه. هیچی نیست. و هیچ‌وقت هم هیچی نمی‌شه. یه آرزومند لعنتیه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7950417999350146333">
-      <Content Type="String">I ate at Scaletta's joint once. And his gammy fish tasted like eighty-five year old pussy. Not that I would know.</Content>
+      <Content Type="String">یه بار تو قهوه‌خونه‌ی اسکالتا غذا خوردم. و ماهی گندش مزه‌ی کس یه پیرزن هشتاد و پنج ساله می‌داد. نه اینکه بدونم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7950417999350146335">
-      <Content Type="String">Scaletta's got a history. A history suggestin' he'll sell you out without even thinkin' twice.</Content>
+      <Content Type="String">اسکالتا سابقه داره. سابقه‌ای که نشون می‌ده بدون حتی یه لحظه فکر کردن بهت خیانت می‌کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7950498970577609521">
       <Content Type="String">کی اونجاست؟</Content>
@@ -136963,13 +136963,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">در جای خودش با ویتو صحبت کنید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7954085606650009438">
-      <Content Type="String">Even if we DO run French Ward, you're not gonna come looking to me to run the fucking whorehouse.</Content>
+      <Content Type="String">حتی اگه ما فرنچ وارد رو بگردونیم، نمیای سراغ من که فاحشه‌خونه‌ی لعنتی رو بگردونم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7954137530053826327">
       <Content Type="String">فکر می‌کنی دوباره سر و کله‌ی اون سفیدپوست‌ها پیدا شده؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7954212112049170587">
-      <Content Type="String">You're doing a helluva job out there, Lincoln. Grab the 'shine and get back to the drop as fast as you can. And Lincoln, don't let up on those other assholes. Not even for a second.</Content>
+      <Content Type="String">کارت اون بیرون عالیه، لینکلن. مشروب رو بگیر و تا می‌تونی سریع برگرد به محل تحویل. و لینکلن، از اون کونای دیگه هم دست نکش. حتی یه لحظه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7954399888400017352">
       <Content Type="String">...امکان نداره... این درست نیست...</Content>
@@ -136993,19 +136993,19 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">گونه‌ی ۲</Content>
     </LocalisableString>
     <LocalisableString StringID="7955338011956269488">
-      <Content Type="String">It took him awhile, but Danny finally started letting me go on some of these runs. And this route right here, was hands down my number one favorite. Get on out there and kick some fucking ass.</Content>
+      <Content Type="String">یه‌کم طول کشید، ولی دنی بالاخره گذاشت من تو بعضی از این رفت‌وآمدها برم. و همین مسیری که اینجاست، بدون شک شماره‌یک محبوبم بود. برو اون بیرون و کون یه نفر رو بزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7956112068142340777">
-      <Content Type="String">Danny fancied himself a race car driver. And he was damn good at it too. But he hated these runs. Thought they were a giant bore. He took care of that problem by setting up races between the moonshine pickups and drop-offs. Stupid bastard always had to make things harder than they needed to be. Guess that's what they really mean by the luck of the Irish.</Content>
+      <Content Type="String">دنی خودش رو راننده‌ی مسابقه می‌دونست. و در این کار هم لعنتی خوب بود. ولی از این رفت‌وآمدها متنفر بود. فکر می‌کرد خیلی خسته‌کننده‌ان. اون مشکل رو با گذاشتن مسابقه بین برداشتن و تحویل مشروب حل کرد. حرومزاده خنگ همیشه کارها رو از اون‌چیزی که باید سخت‌تر می‌کرد. حدس می‌زنم منظورشون از شانس ایرلندی همینه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7956325796505959996">
-      <Content Type="String">Select and play your extra downloaded episodes</Content>
+      <Content Type="String">قسمت‌های اضافی دانلودشده‌ت رو انتخاب و پخش کن</Content>
     </LocalisableString>
     <LocalisableString StringID="7956325796505959998">
-      <Content Type="String">Starts a race with selected car</Content>
+      <Content Type="String">مسابقه‌ای با خودروی انتخاب‌شده شروع می‌کنه</Content>
     </LocalisableString>
     <LocalisableString StringID="7956325796505959999">
-      <Content Type="String">Starts a quick combat</Content>
+      <Content Type="String">یه نبرد سریع شروع می‌کنه</Content>
     </LocalisableString>
     <LocalisableString StringID="7956357817707384081">
       <Content Type="String">گیرت آوردم!</Content>
@@ -137032,13 +137032,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">این که نشونه‌ی خوبی نیست!</Content>
     </LocalisableString>
     <LocalisableString StringID="7957161815237639799">
-      <Content Type="String">Return to the green Bullworth Aspen and deliver it to Burke's Salvage Yard.</Content>
+      <Content Type="String">برگرد سراغ آسپن سبز بول‌ورث و تحویلش بده به اوراقی برک.</Content>
     </LocalisableString>
     <LocalisableString StringID="7957237968049439582">
-      <Content Type="String">Word is, Dixie's got their little peckers all knotted up over our little takeover of the distillery. They're doing everything they can to stop us from bringing in the 'shine from the bayou. If we want to stand a chance at making it back here in one piece, you're going to need to deal with that Dixie muscle. And do it fast, Lincoln. Folks around here are starting to sober up and realize what a shitty lot in life they've been dealt.</Content>
+      <Content Type="String">شنیدم دیکسی‌ها کیر کوچولوشون رو به خاطر تسخیر کارخونه‌ی تقطیر ما گره زدن. هر کاری می‌کنن که نذارن ما مشروب رو از بیو بیاریم. اگه بخوایم شانس رسیدن به اینجا رو داشته باشیم، باید با اون زور دیکسی کنار بیای. و سریع، لینکلن. این اطراف مردم دارن هوششون میاد و می‌فهمن چه گندی...</Content>
     </LocalisableString>
     <LocalisableString StringID="7958320869053917956">
-      <Content Type="String">I never meant for you to think I was taking advantage of you or our history, Burke. This part of the city is coming to you. And I hope this squares us up.</Content>
+      <Content Type="String">هیچ‌وقت نمی‌خواستم فکر کنی دارم از تو یا گذشته‌ی ما سوءاستفاده می‌کنم، برک. این تیکه از شهر داره میاد به تو. و امیدوارم این کار حسابمون رو صاف کنه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7958494491794342676">
       <Content Type="String">رفیق، وقت بازی نیست.</Content>
@@ -137050,7 +137050,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">بس کن این الکی‌گشتن رو.</Content>
     </LocalisableString>
     <LocalisableString StringID="7958567137893598933">
-      <Content Type="String">Calling me for only half the district was a real fucking smart move. Kept me on my toes. Of course, it'll be even smarter for you to keep me on your side.</Content>
+      <Content Type="String">فقط برای نصف محله صدام زدی، حرکت خیلی لعنتی باهوشانه‌ای بود. منو تو آماده‌باش نگه داشت. البته، باهوش‌ترش اینه که منو طرف خودت نگه داری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7959123778292639824">
       <Content Type="String">درست می‌شه، عزیزم.</Content>
@@ -137068,7 +137068,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">سرتو بدزد! بخواب زمین!</Content>
     </LocalisableString>
     <LocalisableString StringID="7959358142667038817">
-      <Content Type="String">Joey Finch is the Vegas-style pit boss of an incognito casino operating out of a waterfront warehouse. Likely to be a lot of working Joes gambling away their paychecks.</Content>
+      <Content Type="String">جویی فینچ مدیر میزهای کازینوی مخفی به سبک وگاسه که تو یه انبار لب دریا کار می‌کنه. احتمالاً کلی کارگر جو پول هفتگیشون رو قمار می‌کنن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7960599255434722395">
       <Content Type="String">برچسب برای لسیتر نایت‌کراولر</Content>
@@ -137092,10 +137092,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">فکر کردی کجا می‌ری؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7963947967823765024">
-      <Content Type="String">Sleeveless tee and jeans. Perfect for when you're out in those hot, New Bordeaux streets.</Content>
+      <Content Type="String">تیشرت بی‌تن و شلوار جین. عالیه برای وقتی تو خیابونای داغ نیو بوردو بیرونی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7964383079603052320">
-      <Content Type="String">Guess that depends on where all this ends.</Content>
+      <Content Type="String">حدس می‌زنم این به اینکه همه‌چی کجا تموم شه بستگی داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7964471140486249212">
       <Content Type="String">مال منی، عوضی!</Content>
@@ -137104,7 +137104,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">کاری می‌کنم دیگه خودتو نگیری!</Content>
     </LocalisableString>
     <LocalisableString StringID="7964852203795295274">
-      <Content Type="String">Anna’s gotten herself mixed up with a mess of fucked up assholes.</Content>
+      <Content Type="String">آنا خودش رو قاطی یه مشت حرومزاده‌ی گندزده کرده.</Content>
     </LocalisableString>
     <LocalisableString StringID="7964889674622168853">
       <Content Type="String">لینکلن</Content>
@@ -137158,7 +137158,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">همه‌ی واحدها، توجه کنید، گزارش‌ی داریم که یک مرد رنگین‌پوست از چراغ قرمز رد شده. درخواست اعزام فوری.</Content>
     </LocalisableString>
     <LocalisableString StringID="7968758831249560375">
-      <Content Type="String">Be advised, we have report of a colored male failing to stop at a red light. All units respond.</Content>
+      <Content Type="String">توجه، گزارش داریم یه مرد سیاهپوست از چراغ قرمز رد شده. همه‌ی واحدها پاسخ بدن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7969431229923761836">
       <Content Type="String">اون سایه تکون خورد. کیه؟</Content>
@@ -137173,7 +137173,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">این گنده‌هه افتاد!</Content>
     </LocalisableString>
     <LocalisableString StringID="7970068434709166834">
-      <Content Type="String">Get grandma to informer.</Content>
+      <Content Type="String">مادربزرگ رو ببر پیش خبرچین.</Content>
     </LocalisableString>
     <LocalisableString StringID="7970155045426476856">
       <Content Type="String">اون از خودمونه؟</Content>
@@ -137185,13 +137185,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">یه چیزی دیدم...</Content>
     </LocalisableString>
     <LocalisableString StringID="7970204858697433756">
-      <Content Type="String">I'm trying to bite my tongue, son. But you can't ask me to secure a goddamn racket, then boot me off the turf later. It ain't right, I tell you. And I won't take this kind of treatment lightly.</Content>
+      <Content Type="String">دارم سعی می‌کنم زبونم رو گاز بگیرم، پسر. ولی نمی‌تونی ازم بخوای یه راکت لعنتی رو قفل کنم و بعد منو از قلمرو بیرون بندازی. درست نیست، بهت می‌گم. و این جور رفتار رو ساده نمی‌گیرم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7970204858697433759">
-      <Content Type="String">My boys are out there for you, Lincoln. They lock that shit down because you ask them to. And when you turn around and tear it away it tells them they don't mean shit. From where I'm sitting, there's nothing right about that.</Content>
+      <Content Type="String">بچه‌های من برای تو اون بیرونن، لینکلن. اون گند رو قفل می‌کنن چون تو ازشون خواستی. و وقتی برمی‌گردی و از دستشون می‌گیری، بهشون می‌فهمی که به هیچی نمی‌ارزن. از جایی که من نشستم، هیچی تو این ماجرا درست نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="7970429995151350484">
-      <Content Type="String">ACCEPT ACTIVITY: PL Time Trial Race 1</Content>
+      <Content Type="String">شروع فعالیت: مسابقه‌ی زمانی PL ۱</Content>
     </LocalisableString>
     <LocalisableString StringID="7970598376280550216">
       <Content Type="String">بیا، یه نگاه بکن.</Content>
@@ -137212,16 +137212,16 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">(خرناس کشیدن)</Content>
     </LocalisableString>
     <LocalisableString StringID="7971711865180330355">
-      <Content Type="String">Miss Lily says you might be able to help me out?</Content>
+      <Content Type="String">خانم لی لی می‌گه شاید بتونی کمکم کنی؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7971772800660157396">
-      <Content Type="String">Of course ya' come crawlin' back when you need somethin'.</Content>
+      <Content Type="String">البته که وقتی یه چیزی لازم داری با خرخونی برمی‌گردی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7971772800660157397">
       <Content Type="String">کتک خوردی، نه؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7971772800660157398">
-      <Content Type="String">Reap what you sow, motherfucker.</Content>
+      <Content Type="String">هر چی بکاری، همون رو درو می‌کنی، حرومزاده.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972084131185016645">
       <Content Type="String">یارومون رو گرفتیم! وقت تموم کردن این عوضی گستاخه!</Content>
@@ -137251,46 +137251,46 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">اون یارو دیوونه‌ست!</Content>
     </LocalisableString>
     <LocalisableString StringID="7972820971373943330">
-      <Content Type="String">Any available units, witnesses have reported seeing a colored male brandishing a firearm. Please investigate.</Content>
+      <Content Type="String">هر واحد در دسترس، شاهدها گزارش دادن یه مرد سیاهپوست اسلحه نشون داده. لطفاً بررسی کنید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972820971373943331">
-      <Content Type="String">Calling all available units. Please respond to reports of an armed colored male.</Content>
+      <Content Type="String">همه‌ی واحدهای در دسترس. لطفاً به گزارش یه مرد سیاهپوست مسلح پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972820971373943336">
-      <Content Type="String">Units in the area, there's a reported colored male brandishing a firearm. Please respond.</Content>
+      <Content Type="String">واحدهای منطقه، گزارش یه مرد سیاهپوست با اسلحه شده. لطفاً پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972820971373943337">
-      <Content Type="String">A male colored with a firearm has been reported. Units in the area, please respond.</Content>
+      <Content Type="String">گزارش یه مرد سیاهپوست با اسلحه رسیده. واحدهای منطقه، لطفاً پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972820971373943338">
-      <Content Type="String">Any available units, an armed colored male has been spotted. Please respond.</Content>
+      <Content Type="String">هر واحد در دسترس، یه مرد سیاهپوست مسلح دیده شده. لطفاً پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972820971373943340">
-      <Content Type="String">Any units in the vicinity, got a call 'bout an armed colored male. Please respond.</Content>
+      <Content Type="String">هر واحدی در نزدیکی، تماسی درباره یه مرد سیاهپوست مسلح گرفتیم. لطفاً پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972820971373943341">
-      <Content Type="String">Attention area units, we've gotten a report of a colored male with a firearm. Please respond.</Content>
+      <Content Type="String">توجه واحدهای منطقه، گزارش یه مرد سیاهپوست با اسلحه رسیده. لطفاً پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972820971373943342">
-      <Content Type="String">All units, an armed colored male has been seen in the area. Please respond with caution.</Content>
+      <Content Type="String">همه‌ی واحدها، یه مرد سیاهپوست مسلح تو منطقه دیده شده. لطفاً با احتیاط پاسخ بدید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972820971373943343">
-      <Content Type="String">Available units, reports of an armed colored male. Please investigate.</Content>
+      <Content Type="String">واحدهای در دسترس، گزارش یه مرد سیاهپوست مسلح. لطفاً بررسی کنید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972967371556990153">
-      <Content Type="String">I coulda done big things in Southdowns. Ya' fucked up big there, boy-o.</Content>
+      <Content Type="String">می‌تونستم کارای گنده تو ساوت‌داونز بکنم. اونجا حسابی گند زدی، پسره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972980212727404372">
-      <Content Type="String">Tag the alarm box and guardhouses.</Content>
+      <Content Type="String">جعبه‌ی آژیر و اتاق نگهبانی رو تگ کن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7972980212727404375">
       <Content Type="String">پشت‌بوم را ترک کنید.</Content>
     </LocalisableString>
     <LocalisableString StringID="7973591460331146279">
-      <Content Type="String">Removes current police zone after 15 second delay.</Content>
+      <Content Type="String">منطقه‌ی پلیس فعلی رو بعد از ۱۵ ثانیه برمی‌داره.</Content>
     </LocalisableString>
     <LocalisableString StringID="7973933379927120569">
-      <Content Type="String">I'm in Tickfaw. Just about outta everything.</Content>
+      <Content Type="String">من تو تیکاوام. تقریباً همه‌چی تموم شده.</Content>
     </LocalisableString>
     <LocalisableString StringID="7974655503829988973">
       <Content Type="String">آماده. دستورم رو بده.</Content>
@@ -137326,7 +137326,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">گونه‌ی ۱</Content>
     </LocalisableString>
     <LocalisableString StringID="7976040335446206861">
-      <Content Type="String">Everything's so bright! I can see through my skin, my skin!</Content>
+      <Content Type="String">همه‌چی این‌قدر روشنه! می‌تونم از پوست خودم ببینم، پوستم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7976063458046355632">
       <Content Type="String">خب، این قطعاً عجیبه...</Content>
@@ -137371,7 +137371,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">کسی اونجاست؟ خط همین الان قطع شد.</Content>
     </LocalisableString>
     <LocalisableString StringID="7978841473773454218">
-      <Content Type="String">Safe place for hostage</Content>
+      <Content Type="String">جای امن برای گروگان</Content>
     </LocalisableString>
     <LocalisableString StringID="7979953404031512608">
       <Content Type="String">چراغ‌ها خاموش!</Content>
@@ -137380,7 +137380,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">سسسسس...</Content>
     </LocalisableString>
     <LocalisableString StringID="7980420780977357469">
-      <Content Type="String">Christ, man. We don’t get too many colored folks in these parts.</Content>
+      <Content Type="String">مسیح، مرد. ما این اطراف زیاد سیاهپوست نمی‌بینیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7980436477038322226">
       <Content Type="String">زمین‌گیر شدم!</Content>
@@ -137398,7 +137398,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">دریاچه‌ی شمالی</Content>
     </LocalisableString>
     <LocalisableString StringID="7982119932857406495">
-      <Content Type="String">My trucks, yeah. It was just supposed to be a one-time deal, but, heck. Artie just won't stop. I can't take the fall here.</Content>
+      <Content Type="String">کامیونای من، آره. قرار بود فقط یه بار باشه، ولی خب. آرتی دست بردار نیست. من نمی‌تونم اینجا تاوانش رو بدم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7982319673948464448">
       <Content Type="String">برو!</Content>
@@ -137419,10 +137419,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">دیشب از اون ایستگاه قطار صدای داد شنیدم. راهمو ادامه دادم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7985454175439187597">
-      <Content Type="String">Something's there...</Content>
+      <Content Type="String">یه چیزی اونجاست...</Content>
     </LocalisableString>
     <LocalisableString StringID="7985922065465417970">
-      <Content Type="String">I don't know that I believe Cassandra about her kid. Can't say I don't believe her, either. Whatever the truth is, the woman's committed. And I respect that.</Content>
+      <Content Type="String">نمی‌دونم حرف کاساندرا درباره بچه‌ش رو باور می‌کنم یا نه. نمی‌تونم بگم باور نمی‌کنم هم. هر چی حقیقت باشه، اون زن متعهده. و من به این احترام می‌ذارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7987504752198118440">
       <Content Type="String">مطمئن شو می‌دونی به چی شلیک می‌کنی!</Content>
@@ -137431,7 +137431,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">وای نه... با اینجا چیکار کردن؟</Content>
     </LocalisableString>
     <LocalisableString StringID="7987613375993196789">
-      <Content Type="String">Mister Oleander</Content>
+      <Content Type="String">آقای اولیندر</Content>
     </LocalisableString>
     <LocalisableString StringID="7988179668406058112">
       <Content Type="String">اون احمق رو از پا دربیار!</Content>
@@ -137443,16 +137443,16 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">اون عوضی رو از پا دربیار!</Content>
     </LocalisableString>
     <LocalisableString StringID="7988876271633899285">
-      <Content Type="String">Talk to Vito.</Content>
+      <Content Type="String">با ویتو حرف بزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="7988876271633899286">
-      <Content Type="String">Drive fast to the Deli bar.</Content>
+      <Content Type="String">سریع برو به بار دلی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7988876271633899287">
-      <Content Type="String">Kill Lenny.</Content>
+      <Content Type="String">لنی رو بکش.</Content>
     </LocalisableString>
     <LocalisableString StringID="7989049526111385352">
-      <Content Type="String">Goddammit, kid. What the fuck am I supposed to say? Feels like you pulled me into this shit just so you could fuck me. I thought you were better than that. Fuck. Prove to me right here that you're better than that.</Content>
+      <Content Type="String">لعنتی، بچه. من چی بگم لعنتی؟ حس می‌کنم منو کشوندی تو این گند فقط که منو بگایی. فکر می‌کردم بهتر از اینی. گه. همین الان همین‌جا بهم ثابت کن که بهتر از اینی.</Content>
     </LocalisableString>
     <LocalisableString StringID="7989574544442235608">
       <Content Type="String">همین الان دیدمش. چشات رو باز کن.</Content>
@@ -137506,7 +137506,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">اون دختر یه پیچش شله.</Content>
     </LocalisableString>
     <LocalisableString StringID="7992258067473127527">
-      <Content Type="String">Are you turning pussy? Cause I'm trying to figure out why Cassandra ain't at the bottom of the fucking bayou right now.</Content>
+      <Content Type="String">داری ترسو می‌شی؟ چون دارم سعی می‌کنم بفهمم چرا کاساندرا الان ته بیو نیست.</Content>
     </LocalisableString>
     <LocalisableString StringID="7993874515828630304">
       <Content Type="String">یا خدا!</Content>
@@ -137518,7 +137518,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="7994322228637134208">
-      <Content Type="String">We've been through this before, brother. You splitting the lock down and then making a call right here. But your call needs to swing my way this time. Or we're going to have problems.</Content>
+      <Content Type="String">قبلاً هم از این مرحله گذشتیم، داداش. تو قفل رو تقسیم می‌کنی و بعد همین‌جا تصمیم می‌گیری. ولی این بار تصمیمت باید به نفع من باشه. وگرنه مشکل پیدا می‌کنیم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7994360680598244187">
       <Content Type="String">نامرد لعنتی!</Content>
@@ -137554,7 +137554,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">[ناله]</Content>
     </LocalisableString>
     <LocalisableString StringID="7995981754830996765">
-      <Content Type="String">I can think of tougher hustles.</Content>
+      <Content Type="String">می‌تونم کلاهبرداری‌های سخت‌تری رو به یاد بیارم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7996088849781569124">
       <Content Type="String">گور بابای من اگه بدونم. چند سال اخیر ساحل بودم. حساب می‌کنم اگه بابی ویل و خانم مارکانو بخوان بیشتر بمونم، پولش رو می‌گیرم. ببینیم چی می‌شه.</Content>
@@ -137587,13 +137587,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">برای متوقف کردن من... بیشتر از اینا لازمه.</Content>
     </LocalisableString>
     <LocalisableString StringID="7997340640813861913">
-      <Content Type="String">That little side project I asked you about? Come on by, I wanna talk about it some.</Content>
+      <Content Type="String">اون پروژه‌ی جانبی که ازت پرسیدم؟ بیا یه سر بزن، می‌خوام یه‌کم درباره‌ش حرف بزنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7997340640813861914">
-      <Content Type="String">Hey, I have more names on that, uh, "list" when you got a minute. Come by whenever.</Content>
+      <Content Type="String">هی، روی اون، اِ، «لیست» اسمای بیشتری دارم وقتی یه دقیقه وقت داشتی. هر وقت شد بیا.</Content>
     </LocalisableString>
     <LocalisableString StringID="7997340640813861915">
-      <Content Type="String">There's a couple more guys need dealing with. Come over - I don't wanna talk about it on the phone.</Content>
+      <Content Type="String">چند تا یاروی دیگه هم هستن که باید حل بشن. بیا -- نمی‌خوام پشت تلفن حرفش رو بزنم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7997374496539967082">
       <Content Type="String">دانوون از زیر گل و لای رد شده تا در مورد کسب‌وکارهای خلاف بارکلی میلز بفهمه.</Content>
@@ -137620,7 +137620,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">این عوضی رو از روم بردارید!</Content>
     </LocalisableString>
     <LocalisableString StringID="7998326995279263482">
-      <Content Type="String">I got big plans for this one, lad. And it starts with a statue of Marcano getting ass fucked by a goddamn badger.</Content>
+      <Content Type="String">برای این یکی نقشه‌های گنده دارم، پسر. و با یه مجسمه از مارکانو شروع می‌شه که یه گورکن لعنتی داره از پشت گاییدنش.</Content>
     </LocalisableString>
     <LocalisableString StringID="7998748941020435152">
       <Content Type="String">«انگار ساده‌ست»</Content>
@@ -137644,7 +137644,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">اینجا گیر افتادم!</Content>
     </LocalisableString>
     <LocalisableString StringID="7999005357849063336">
-      <Content Type="String">I better not get sick again.</Content>
+      <Content Type="String">بهتره باز مریض نشم.</Content>
     </LocalisableString>
     <LocalisableString StringID="7999005357849063338">
       <Content Type="String">بهتره برم تو خونه!</Content>
@@ -137671,22 +137671,22 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">بررسی شد</Content>
     </LocalisableString>
     <LocalisableString StringID="8000816822744945099">
-      <Content Type="String">You got the keys, so you can drive.</Content>
+      <Content Type="String">کلیدا پیش توئه، پس تو بران.</Content>
     </LocalisableString>
     <LocalisableString StringID="8000905132471300962">
-      <Content Type="String">Talk to Maria Bava.</Content>
+      <Content Type="String">با ماریا باوا حرف بزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="8001697257311225254">
       <Content Type="String">بالاخره یه‌کم عمل!</Content>
     </LocalisableString>
     <LocalisableString StringID="8001767736337441124">
-      <Content Type="String">My hubby's gonna have my ass.</Content>
+      <Content Type="String">شوهرم حسابی سرم می‌ریزه.</Content>
     </LocalisableString>
     <LocalisableString StringID="8001767736337441125">
-      <Content Type="String">I can't afford this shit...</Content>
+      <Content Type="String">نمی‌تونم از پس این گند بر بیام...</Content>
     </LocalisableString>
     <LocalisableString StringID="8001767736337441127">
-      <Content Type="String">Aw hell, look at this.</Content>
+      <Content Type="String">آه گه، این رو ببین.</Content>
     </LocalisableString>
     <LocalisableString StringID="8001868419298966128">
       <Content Type="String">این معامله رو انجام بدیم و بعدش برای امروز کارم تمومه. روز طولانی‌ای بود.</Content>
@@ -137704,13 +137704,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">برگرد اینجا!</Content>
     </LocalisableString>
     <LocalisableString StringID="8001996072969339767">
-      <Content Type="String">Someone's over there.</Content>
+      <Content Type="String">یکی اونجاست.</Content>
     </LocalisableString>
     <LocalisableString StringID="8002298505262680941">
-      <Content Type="String">You want to secure your own weed supply, but Mauricio Alvarez, the main Cuban producer, only operates through a network of middle-men. Biaggio heard that Alvarez has a deal going down in Mazucar - sounds like a chance to open talks...</Content>
+      <Content Type="String">می‌خوای منبع علف خودت رو امن کنی، ولی موریسیو آلوارز، تولیدکننده‌ی اصلی کوبایی، فقط از طریق شبکه‌ای از واسطه‌ها کار می‌کنه. بیاجیو شنیده که آلوارز یه معامله تو مازوکار داره -- به نظر فرصتی برای شروع گفت‌وگو...</Content>
     </LocalisableString>
     <LocalisableString StringID="8002760406804743707">
-      <Content Type="String">Establish Coverage, cost - FREE</Content>
+      <Content Type="String">ایجاد پوشش، هزینه -- رایگان</Content>
     </LocalisableString>
     <LocalisableString StringID="8003291968856277365">
       <Content Type="String">سبک انیمیشن</Content>
@@ -137734,13 +137734,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">ضامن رو بکش، لعنتی!</Content>
     </LocalisableString>
     <LocalisableString StringID="8004201853337913689">
-      <Content Type="String">A bowl... Maybe for a ceremony of some kind...</Content>
+      <Content Type="String">یه کاسه... شاید برای یه جور مراسم...</Content>
     </LocalisableString>
     <LocalisableString StringID="8004697021961862394">
       <Content Type="String">توضیح دقت تیراندازی هنگام رانندگی</Content>
     </LocalisableString>
     <LocalisableString StringID="8004794579606009771">
-      <Content Type="String">A wise man knows when he's been bested.</Content>
+      <Content Type="String">آدم دانا می‌دونه کی مغلوب شده.</Content>
     </LocalisableString>
     <LocalisableString StringID="8005271184870384607">
       <Content Type="String">ضامن کشیده شد! نارنجک داره می‌ره تو!</Content>
@@ -137803,10 +137803,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">دماغه‌ی براگ، بایو</Content>
     </LocalisableString>
     <LocalisableString StringID="8009087300130026838">
-      <Content Type="String">If you're dealing in guns these are they hard, cold motherfuckers you want backing you up.</Content>
+      <Content Type="String">اگه تو کار اسلحه‌ای، اینا همون حرومزاده‌های سخت و بی‌رحمی هستن که می‌خوای پشتت باشن.</Content>
     </LocalisableString>
     <LocalisableString StringID="8009430113836909649">
-      <Content Type="String">Talk to Connie DeMarco.</Content>
+      <Content Type="String">با کانی دیمارکو حرف بزن.</Content>
     </LocalisableString>
     <LocalisableString StringID="8009717047801429593">
       <Content Type="String">مطمئنی که می‌کنی. مطمئن.</Content>
@@ -137815,13 +137815,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">مطمئنی که می‌کنی. مطمئن.</Content>
     </LocalisableString>
     <LocalisableString StringID="8010103286747174898">
-      <Content Type="String">Think I need your help, fellas. One of yours done slipped and hurt himself in the storage room.</Content>
+      <Content Type="String">فکر کنم کمکتون لازم دارم، رفقا. یکی از آدمای شما تو انبار لیز خورده و خودش رو زخمی کرده.</Content>
     </LocalisableString>
     <LocalisableString StringID="8010522550091206809">
-      <Content Type="String">For just the one client.</Content>
+      <Content Type="String">فقط برای یک مشتری.</Content>
     </LocalisableString>
     <LocalisableString StringID="8011056307499448708">
-      <Content Type="String">That was just fuckin' lucky.</Content>
+      <Content Type="String">این فقط شانس لعنتی بود.</Content>
     </LocalisableString>
     <LocalisableString StringID="8011056307499448709">
       <Content Type="String">عینک لعنتی لازم داری!</Content>
@@ -137833,13 +137833,13 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">یه مولوتف پرت کن!</Content>
     </LocalisableString>
     <LocalisableString StringID="8011429021169643013">
-      <Content Type="String">The Southern Union peddles racist literature and paraphernalia to turn a quick buck. Wreck any you find to hurt their cash flow.</Content>
+      <Content Type="String">اتحادیه‌ی جنوب برای یه پول سریع، ادبیات و اقلام نژادپرستانه پخش می‌کنه. هر چی پیدا کردی رو داغون کن تا جریان پولشون صدمه ببینه.</Content>
     </LocalisableString>
     <LocalisableString StringID="8012286036584775595">
       <Content Type="String">دست از گشتن دنبالش برندار!</Content>
     </LocalisableString>
     <LocalisableString StringID="8012845953197534200">
-      <Content Type="String">Where are dey -</Content>
+      <Content Type="String">کجان--</Content>
     </LocalisableString>
     <LocalisableString StringID="8012845953197534201">
       <Content Type="String">آیا حتی می‌بینن -</Content>
@@ -137860,10 +137860,10 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">هر کاری لازم باشه می‌کنم که پیدات کنم، پسر...</Content>
     </LocalisableString>
     <LocalisableString StringID="8013170239875882554">
-      <Content Type="String">Burke's pissed and not what you'd call reasonable. See what you can do for him.</Content>
+      <Content Type="String">برک عصبانیه و اصلاً آدم معقولی نیست. ببین چیکار می‌تونی براش بکنی.</Content>
     </LocalisableString>
     <LocalisableString StringID="8013170239875882555">
-      <Content Type="String">Burke's not one to take being passed over lightly. You might want to keep an eye on that.</Content>
+      <Content Type="String">برک از اون آدمایی نیست که نادیده گرفته شدن رو ساده بگیره. بهتره یه چشم بهش داشته باشی.</Content>
     </LocalisableString>
     <LocalisableString StringID="8013474296034521432">
       <Content Type="String">بعد از اینکه برگشت، شروع کرد با یه دختر رنگین‌پوست از شهر بیرون بره.</Content>
@@ -137881,7 +137881,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">این بین خودمون می‌مونه.</Content>
     </LocalisableString>
     <LocalisableString StringID="8014998110939469142">
-      <Content Type="String">You left Frank behind. Mission failed.</Content>
+      <Content Type="String">فرانک رو جا گذاشتی. مأموریت شکست خورد.</Content>
     </LocalisableString>
     <LocalisableString StringID="8015093699130483273">
       <Content Type="String">امروز؟</Content>
@@ -137926,7 +137926,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">تکمیل زیرزمین</Content>
     </LocalisableString>
     <LocalisableString StringID="8018498138846197959">
-      <Content Type="String">Bevers can't be happy about what you've been doing to the Distillery's business.</Content>
+      <Content Type="String">بورز نمی‌تونه از کاری که تو با کاسبی کارخونه‌ی تقطیر کردی راضی باشه.</Content>
     </LocalisableString>
     <LocalisableString StringID="8018701612817631258">
       <Content Type="String">سلاح‌سازی: مهمات بیشتر</Content>
@@ -137995,7 +137995,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">سرقت: بولورث اسپن</Content>
     </LocalisableString>
     <LocalisableString StringID="8022226562904649347">
-      <Content Type="String">Skip this hideout</Content>
+      <Content Type="String">از این مخفیگاه بگذر</Content>
     </LocalisableString>
     <LocalisableString StringID="8022966633213420817">
       <Content Type="String">(خرناس کشیدن)</Content>
@@ -138004,7 +138004,7 @@ Burke's daughter, Nicki is based in Pointe Verdun and manages all bootlegging fo
       <Content Type="String">(خرناس آرام و نفس‌کشیدن سنگین)</Content>
     </LocalisableString>
     <LocalisableString StringID="8023112738989781222">
-      <Content Type="String">You won't get to Roy unless you REALLY put a dent in his smuggling operation.</Content>
+      <Content Type="String">تا وقتی عملیات قاچاقش رو واقعاً داغون نکنی به روی نمی‌رسی.</Content>
     </LocalisableString>
     <LocalisableString StringID="8023168754401735169">
       <Content Type="String">باید پیش‌بینی می‌کردم.</Content>
