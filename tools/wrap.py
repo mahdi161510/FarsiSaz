@@ -12,8 +12,10 @@
     خودمان خطوط را می‌شکنیم؛ پس ویجت دیگر کاری برای شکستن ندارد و هر سطر یک
     «تکهٔ خوانا» به ترتیب منطقی است. نتیجه:
       • خط اول = شروع جمله (در RTL: لبهٔ راست)، خط‌های بعد به ترتیب پایین.
-      • نام گوینده («فرانک: ...») طبیعتاً در ابتدای سطر اول می‌ماند، یعنی
-        همان‌جایی که چشم فارسی‌خوان شروع می‌کند.
+      • نام گوینده: موتور بازی خودش «نام: » را پیش از متن می‌چسباند، پس نام
+        همیشه ابتدای رشته (= لبهٔ چپ سطر) می‌افتاد. به خودِ رشتهٔ نام یک شکست
+        خط اضافه می‌کنیم تا نام تنها روی سطر اول بنشیند؛ چون سطرهای زیرنویس
+        راست‌چین‌اند، نام در لبهٔ راست بالای دیالوگ ظاهر می‌شود.
 
 همه‌ی محاسبات عرض با متریک واقعی فونت بازی (fonts_en_pc.gfx) انجام می‌شود.
 """
@@ -35,6 +37,36 @@ LIMIT_EM = 30.1
 DEFAULT_LIMIT = int(round(LIMIT_EM * EM))
 
 SUBTITLE_CATS = ("story", "bark", "ui")
+
+# ---------------------------------------------------------------------------
+# نام گوینده
+# ---------------------------------------------------------------------------
+# موتور بازی رشتهٔ «نام: » را پیش از متنِ زیرنویس می‌گذارد و ویجت، سطرها را
+# راست‌چین می‌چیند؛ پس هرچه در ابتدای رشته بیاید، در نمایش انتهای سطر (سمت چپ)
+# می‌افتد. برای بردنِ نام به سمت راست، به خودِ رشتهٔ نام یک شکست خط اضافه
+# می‌کنیم: نام تنها روی سطر اول می‌ماند و چون سطرها راست‌چین‌اند، در لبهٔ راست
+# بالای دیالوگ می‌نشیند و متن از سطر بعد شروع می‌شود.
+#
+# نکته‌ها:
+#   * صورت فرارِ \r\n همان شکستی است که خودِ بازی در بقیهٔ رشته‌ها می‌شناسد.
+#   * نیم‌فاصلهٔ \u200c بعد از شکست می‌آید تا اگر موتور فاصله‌های انتهایی را
+#     trim کند، شکست حذف نشود؛ این نویسه بی‌عرض و بی‌رنگ است و در فونت بازی هم
+#     وجود دارد (همه‌جای متن‌های فارسی استفاده می‌شود).
+SPEAKER_LABELS = frozenset({
+    "Lincoln", "MJ", "Burke", "Cassandra", "Donovan", "Olivia", "Giorgi", "Enzo",
+    "Danny", "Vito", "Sammy", "Ellis", "Roxy", "Nicki", "Alma", "Marcano", "Ritchie",
+    "Winkler", "Blanche", "Vargas", "Duplass", "Paez", "Connie", "Jackie", "Frank",
+    "Alvarez", "Tony", "Merle", "Charlie", "Roy", "Maria", "Tommy", "Sonny", "Harold",
+    "Artie",
+})
+
+LABEL_BREAK = "\r\n"
+LABEL_GUARD = "\u200c"
+LABEL_SUFFIX = LABEL_BREAK + LABEL_GUARD
+
+# جداکنندهٔ «: » که خودِ موتور پیش از متن می‌گذارد؛ اولین سطر دیالوگ باید این
+# مقدار کمتر از حد بسته‌بندی باشد تا موتور خودش دوباره نشکند.
+SEPARATOR_EM = 0.6
 
 _METRICS = None
 
@@ -124,15 +156,31 @@ def wrap_line(line: str, metrics: Metrics, limit: int):
     return lines
 
 
-def plan_lines(fa: str, metrics: Metrics, limit: int):
-    """سطرهای منطقی نهایی را می‌سازد؛ شکست‌های دستی (\\r\\n) حفظ می‌شوند."""
+def plan_lines(fa: str, metrics: Metrics, limit: int, first_limit: int | None = None):
+    """سطرهای منطقی نهایی را می‌سازد؛ شکست‌های دستی (\r\n) حفظ می‌شوند.
+
+    ``first_limit`` (اختیاری) حد باریک‌تری برای اولین سطر است؛ چون موتور بازی
+    «نام: » را پیش از متن می‌گذارد و سطر اولِ دیالوگ را پهن‌تر می‌کند.
+    """
     result = []
     for part in fa.split("\r\n"):
-        if metrics.width(part) <= limit:
+        part_limit = limit
+        if first_limit is not None and not result:
+            part_limit = min(limit, first_limit)
+        if metrics.width(part) <= part_limit:
             result.append(part)
             continue
-        result.extend(wrap_line(part, metrics, limit))
+        result.extend(wrap_line(part, metrics, part_limit))
     return result
+
+
+def speaker_label_value(text: str):
+    """رشتهٔ نام گوینده را با یک شکست خط تمام می‌کند (idempotent)."""
+    if not text:
+        return None
+    if text.endswith(LABEL_SUFFIX):
+        return None
+    return text.rstrip("\r\n") + LABEL_SUFFIX
 
 
 def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
@@ -144,6 +192,8 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
     """
     if metrics is None or not fa:
         return None
+    if en and en.strip() in SPEAKER_LABELS:          # برچسب نام گوینده
+        return speaker_label_value(fa)
     if cat is not None and cat not in SUBTITLE_CATS:
         return None
     if not any(unicodedata.category(ch) == "Lo" and 0x0600 <= ord(ch) <= 0x06FF for ch in fa):
@@ -152,7 +202,8 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
         return None                                   # مارکاپ/تیتراژ دست‌نخورده
     if "[RET]" in fa:
         return None            # شکست خط‌های خودِ بازی (فهرست مسیرها) دست‌نخورده می‌ماند
-    lines = plan_lines(fa, metrics, limit)
+    lines = plan_lines(fa, metrics, limit,
+                       first_limit=limit - int(round(SEPARATOR_EM * EM)))
     joined = "\r\n".join(lines)
     if joined == fa:
         return None
@@ -178,6 +229,15 @@ def _self_test():
     lines = plan_lines(manual, metrics, metrics.space * 40)
     assert lines[0] == "برچسب: مقدار", lines[0]
     assert len(lines) > 2, lines
+    # برچسب نام گوینده: شکست خط انتهایی اضافه می‌شود و تابع idempotent است
+    lab = speaker_label_value("جورجو")
+    assert lab == "جورجو" + LABEL_SUFFIX, repr(lab)
+    assert speaker_label_value(lab) is None, repr(lab)
+    assert speaker_label_value("جورجو\r\n") == "جورجو" + LABEL_SUFFIX
+    # سطر اول دیالوگ با حد باریک‌تر بسته می‌شود (جا برای «: » موتور)
+    narrow = plan_lines(plain, metrics, metrics.space * 30,
+                        first_limit=metrics.space * 10)
+    assert metrics.width(narrow[0]) <= metrics.space * 10, narrow[0]
     # idempotent
     out = "\r\n".join(plan_lines(plain, metrics, metrics.space * 30))
     assert "\r\n".join(plan_lines(out, metrics, metrics.space * 30)) == out
