@@ -48,6 +48,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fslib  # noqa: E402
 from shape import shape_text  # noqa: E402
+import wrap as subtitle_wrap  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -62,6 +63,13 @@ JOBS = [
     ("stringtable_en_common_group.xml", "stringtable_en_common_group.xbin"),
     ("stringtable_en_pc_group.xml", "stringtable_en_pc_group.xbin"),
 ]
+
+# متن انگلیسی مرجع هر جدول؛ برای تشخیص نام گوینده و نوع رشته (زیرنویس/منو) لازم است.
+WRAP_SOURCES = {
+    "stringtable_en_common_group.xbin": "source/stringtable_en_common_group.xml",
+    "stringtable_en_pc_group.xbin": "source/stringtable_en_pc_group.xml",
+}
+GFX_FONT = "fonts_en_pc.gfx"
 
 ENTITY_RE = re.compile(r"&(amp|lt|gt|quot|apos|#\d+|#[xX][0-9a-fA-F]+);")
 _ENTITY_MAP = {"amp": "&", "lt": "<", "gt": ">", "quot": '"', "apos": "'"}
@@ -117,8 +125,55 @@ def write_xml(items, xml_path: str) -> None:
 # بسته‌بندی / بازکردن xbin
 # ---------------------------------------------------------------------------
 
+def _load_categories():
+    """نگاشت متن انگلیسی -> دسته‌های ممکن، از فهرست مادر (work/index_common.tsv)."""
+    import collections
+    cats = collections.defaultdict(set)
+    for name in ("index_common.tsv", "index_pc.tsv"):
+        path = os.path.join(ROOT, "work", name)
+        if not os.path.exists(path):
+            continue
+        with open(path, "r", encoding="utf-8", newline="") as fh:
+            for line in fh:
+                parts = line.rstrip("\r\n").split("\t")
+                if len(parts) >= 3:
+                    cats[fslib.unesc(parts[1])].add(parts[2])
+    return cats
+
+
+def make_wrapper(xbin_name: str, limit: int):
+    """تابع آماده‌سازی متن پیش از شکل‌دهی: شکستن خطوط زیرنویس + حفظ نام گوینده.
+
+    اگر متریک فونت یا فایل مرجع در دسترس نباشد، None برمی‌گردد و بسته‌بندی
+    مثل قبل انجام می‌شود.
+    """
+    metrics = subtitle_wrap.load_metrics(os.path.join(ROOT, GFX_FONT))
+    if metrics is None:
+        return None
+    en_path = os.path.join(ROOT, WRAP_SOURCES.get(xbin_name, ""))
+    if not os.path.exists(en_path):
+        print("  ! فایل مرجع انگلیسی پیدا نشد (%s)؛ شکستن خطوط انجام نمی‌شود." % en_path)
+        return None
+    en_by_sid = {sid: body for sid, body in read_items(en_path)}
+    cats = _load_categories()
+
+    def wrapper(sid, text):
+        if not text or "\n" in text.replace("\r", ""):
+            # پایان‌خط‌های موجود حفظ می‌شوند، ولی طول هر سطر بازبینی می‌شود.
+            pass
+        en = en_by_sid.get(sid, "")
+        cat = None
+        for c in cats.get(en, ()):          # چند دسته برای یک متن: اگر یکی زیرنویس باشد کافی است
+            if c in subtitle_wrap.SUBTITLE_CATS:
+                cat = c
+                break
+        return subtitle_wrap.wrap_entry(en, text, cat, metrics, limit)
+
+    return wrapper
+
+
 def pack_bytes(items, verbose: bool = True, *, header_bytes=None, string_id_bytes=None,
-               shape_rtl: bool = True):
+               shape_rtl: bool = True, wrapper=None):
     """items را به xbin تبدیل می‌کند؛ متن‌های یکسان فقط یک‌بار در داده ذخیره می‌شوند.
 
     فایل‌های اصلی Mafia III رشته‌های تکراری را intern می‌کنند و چند ردیف
@@ -161,8 +216,13 @@ def pack_bytes(items, verbose: bool = True, *, header_bytes=None, string_id_byte
     chunk = bytearray()
     string_offsets = {}
     for i, (sid, text) in enumerate(items):
-        # فقط باینری بازی شکل‌دهی می‌شود؛ XML، بچ‌ها و حافظه‌ی ترجمه خوانا می‌مانند.
-        wire_text = shape_text(text) if shape_rtl else text
+        # شکستن خطوط زیرنویس و سپس شکل‌دهی؛ XML، بچ‌ها و حافظه‌ی ترجمه خوانا می‌مانند.
+        prepared = text
+        if wrapper is not None:
+            candidate = wrapper(sid, text)
+            if candidate:
+                prepared = candidate
+        wire_text = shape_text(prepared) if shape_rtl else prepared
         data = wire_text.encode("utf-8") + b"\x00"
         string_offset = string_offsets.get(data)
         if string_offset is None:
@@ -199,12 +259,13 @@ def pack_bytes(items, verbose: bool = True, *, header_bytes=None, string_id_byte
     return info
 
 
-def pack(items, xbin_path: str, verbose: bool = True, *, shape_rtl: bool = True) -> dict:
+def pack(items, xbin_path: str, verbose: bool = True, *, shape_rtl: bool = True,
+         wrapper=None) -> dict:
     """items را بسته‌بندی کرده و در xbin_path می‌نویسد.
 
     به‌طور پیش‌فرض متن RTL فقط در باینری پیش‌شکل‌دهی و بصری می‌شود.
     """
-    info = pack_bytes(items, verbose=False, shape_rtl=shape_rtl)
+    info = pack_bytes(items, verbose=False, shape_rtl=shape_rtl, wrapper=wrapper)
     with open(xbin_path, "wb") as fh:
         fh.write(info["blob"])
     if verbose:
@@ -453,7 +514,13 @@ def main() -> int:
                     help="مقایسه‌ی --diff XBIN [XML]؛ اگر XML نیاید، فایل هم‌نام در ریشه انتخاب می‌شود")
     ap.add_argument("--patch", nargs=3, metavar=("ORIG.xbin", "XML", "OUT.xbin"),
                     help="ساخت xbin با حفظ هدر و StringIDهای فایل اصلی")
+    ap.add_argument("--no-wrap", action="store_true",
+                    help="شکستن خطوط زیرنویس را خاموش کن (فقط شکل‌دهی RTL)")
+    ap.add_argument("--wrap-em", type=float, default=subtitle_wrap.LIMIT_EM,
+                    help="حد عرض هر سطر زیرنویس بر حسب em (پیش‌فرض: %.1f)"
+                         % subtitle_wrap.LIMIT_EM)
     args = ap.parse_args()
+    wrap_limit = int(round(args.wrap_em * subtitle_wrap.EM))
 
     if args.test:
         return self_test()
@@ -475,6 +542,11 @@ def main() -> int:
         pack(read_items(args.pack[0]), args.pack[1])
         return 0
 
+    def _wrapper_for(xbin_name):
+        if args.no_wrap:
+            return None
+        return make_wrapper(xbin_name, wrap_limit)
+
     print("ساخت فایل‌های xbin از XMLهای فارسی...")
     total = 0
     for xml_name, xbin_name in JOBS:
@@ -487,12 +559,21 @@ def main() -> int:
         print("== %s: %s آیتم، %s فارسی (%.1f%%)"
               % (xml_name, format(len(items), ","), format(fa, ","),
                  100.0 * fa / max(len(items), 1)))
-        info = pack(items, os.path.join(ROOT, xbin_name))
+        wrapper = _wrapper_for(xbin_name)
+        if wrapper is not None:
+            wrapped = sum(1 for sid, text in items
+                          if (wrapper(sid, text) or "").count("\r\n") > text.count("\r\n"))
+            print("     شکستن خطوط زیرنویس: %s رشته بازچینی شد (حد %.1f em)"
+                  % (format(wrapped, ","), args.wrap_em))
+        info = pack(items, os.path.join(ROOT, xbin_name), wrapper=wrapper)
         total += info["bytes"]
 
         # بررسی درجا: XML خام است؛ باینری متن‌های RTL را پیش‌شکل‌دهی می‌کند.
         back = unpack(os.path.join(ROOT, xbin_name))["items"]
-        expected = [(sid, shape_text(text)) for sid, text in items]
+        if wrapper is None:
+            expected = [(sid, shape_text(text)) for sid, text in items]
+        else:
+            expected = [(sid, shape_text(wrapper(sid, text) or text)) for sid, text in items]
         assert back == expected, "بازخوانی xbin با متن خام/شکل‌دهی‌شده‌ی مورد انتظار یکی نیست!"
         print("     ✔ بازخوانی xbin و شکل‌دهی RTL تأیید شد")
     print("مجموع: %.2f MB" % (total / 1048576.0))
