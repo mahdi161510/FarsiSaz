@@ -36,6 +36,26 @@ DEFAULT_LIMIT = int(round(LIMIT_EM * EM))
 
 SUBTITLE_CATS = ("story", "bark", "ui")
 
+# ---------------------------------------------------------------------------
+# برچسب نام گوینده
+# ---------------------------------------------------------------------------
+# موتور بازی خودش «نام گوینده» را قبل از متنِ زیرنویس می‌چسباند و ویجت آن را
+# چپ‌به‌راست می‌کشد؛ چون متن ما پیش‌شکل‌دهی/بازچینی شده، آن نام ته سطر (سمت
+# چپ) می‌افتد و آخر از همه خوانده می‌شود. برای بردنش به لبهٔ راست، به انتهای
+# خودِ رشتهٔ نام فاصله اضافه می‌کنیم: هنگام بازچینی RTL این فاصله‌ها به ابتدای
+# رشتهٔ ذخیره‌شده می‌روند، خط را پر می‌کنند و نام را به راست می‌رانند.
+SPEAKER_LABELS = frozenset({
+    "Lincoln", "MJ", "Burke", "Cassandra", "Donovan", "Olivia", "Giorgi", "Enzo",
+    "Danny", "Vito", "Sammy", "Ellis", "Roxy", "Nicki", "Alma", "Marcano", "Ritchie",
+    "Winkler", "Blanche", "Vargas", "Duplass", "Paez", "Connie", "Jackie", "Frank",
+    "Alvarez", "Tony", "Merle", "Charlie", "Roy", "Maria", "Tommy", "Sonny", "Harold",
+    "Artie",
+})
+
+# عرض کل «فاصله‌ها + نام + جداکنندهٔ موتور» روی خط نام (بر حسب em)
+LABEL_TARGET_EM = 29.4
+LABEL_SEPARATOR_EM = 1.0        # تخمین برای ": " که خودِ موتور می‌گذارد
+
 _METRICS = None
 
 # تگ‌های مارکاپی که نباید دست‌کاری شوند (bold، h1، h2 ...)
@@ -135,6 +155,24 @@ def plan_lines(fa: str, metrics: Metrics, limit: int):
     return result
 
 
+def pad_speaker_label(text: str, metrics: Metrics, limit: int):
+    """نام گوینده را با فاصله‌های انتهایی به لبهٔ راست خط می‌راند.
+
+    خروجی، مقدار منطقیِ تازه است؛ هنگام بسته‌بندی، reverse شدن RTL آن
+    فاصله‌ها را به ابتدای رشته (سمت چپ کادر) می‌برد و نام به راست می‌رسد.
+    """
+    if metrics is None or not text:
+        return None
+    width = metrics.width(text)
+    room = int(round((LABEL_TARGET_EM - LABEL_SEPARATOR_EM) * EM)) - width
+    if room <= 0:
+        return None
+    spaces = int(room // metrics.space)
+    if spaces < 1:
+        return None
+    return text + (" " * spaces)
+
+
 def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
     """خروجی نهایی: fa با شکست خط‌های درست، یا None اگر تغییری لازم نبود.
 
@@ -146,6 +184,8 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
         return None
     if cat is not None and cat not in SUBTITLE_CATS:
         return None
+    if en and en.strip() in SPEAKER_LABELS:          # برچسب نام گوینده
+        return pad_speaker_label(fa, metrics, limit)
     if not any(unicodedata.category(ch) == "Lo" and 0x0600 <= ord(ch) <= 0x06FF for ch in fa):
         return None                                   # فقط متن فارسی
     if _MARKUP_RE.search(fa):
@@ -178,6 +218,10 @@ def _self_test():
     lines = plan_lines(manual, metrics, metrics.space * 40)
     assert lines[0] == "برچسب: مقدار", lines[0]
     assert len(lines) > 2, lines
+    # برچسب نام گوینده: فاصله‌ها به انتهای مقدار منطقی اضافه می‌شوند
+    lab = pad_speaker_label("جورجو", metrics, metrics.space * 30)
+    assert lab and lab.startswith("جورجو") and lab.strip() == "جورجو", lab
+    assert len(lab) > len("جورجو") + 10, lab
     # idempotent
     out = "\r\n".join(plan_lines(plain, metrics, metrics.space * 30))
     assert "\r\n".join(plan_lines(out, metrics, metrics.space * 30)) == out
