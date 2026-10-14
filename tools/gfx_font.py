@@ -436,16 +436,6 @@ def rebuild_font3(font: Font3, ttf_path: Path, size_scale: float = PERSIAN_GLYPH
             capped_advances += 1
         merged[code] = FontGlyph(code, shape, advance, make_rect(rect))
 
-    payload = assemble_font3(font, merged)
-    return payload, len(additions), capped_advances
-
-
-def assemble_font3(font: Font3, merged: dict) -> bytes:
-    """جدول DefineFont3 را از مجموعهٔ گلیف‌های تازه می‌سازد و اعتبارسنجی می‌کند.
-
-    ساختار هر گلیف و همهٔ گلیف‌های قبلی بیت‌به‌بیت حفظ می‌شوند؛ فقط جدول
-    جابه‌جایی/کد و جدول‌های advance و bounds از نو نوشته می‌شوند.
-    """
     codes = sorted(merged)
     if len(codes) > 65535:
         raise ValueError("DefineFont3 NumGlyphs exceeds 65535")
@@ -489,89 +479,7 @@ def assemble_font3(font: Font3, merged: dict) -> bytes:
     for code, old_glyph in font.glyphs.items():
         if rebuilt.glyphs[code] != old_glyph:
             raise AssertionError("original glyph U+%04X changed in font %d" % (code, font.font_id))
-    return bytes(out)
-
-
-# ---------------------------------------------------------------------------
-# پرکنندهٔ نام گوینده (فاصلهٔ نامرئیِ غیروِیت‌اسپیس)
-# ---------------------------------------------------------------------------
-# موتور بازی «نام گوینده: » را پیش از متن زیرنویس می‌گذارد و ویجت چپ‌به‌راست
-# می‌چیند؛ چون متن فارسی پیش‌شکل‌دهی شده، نام ته سطر (لبهٔ چپ) می‌افتد. برای
-# راندن نام به لبهٔ راست باید به ابتدای رشتهٔ ذخیره‌شده عرض اضافه کنیم، ولی
-# فاصله‌های معمولی (و حتی U+00A0) ممکن است هنگام چیدن متن جمع/حذف شوند. پس یک
-# گلیفِ کاملاً خالی با عرض یک em را در نقطهٔ خصوصی U+E000 به فونت اضافه می‌کنیم:
-# نه ویج‌اسپیس است که جمع شود، نه چیزی چاپ می‌کند، و عرضش هم دقیقاً یک em است.
-BLANK_FILL_CODE = 0xE000
-BLANK_FILL_ADVANCE = 20480          # یک em در واحدهای GFx
-_BLANK_SHAPE = b"\x10\x00"          # NumFillBits=1، NumLineBits=0، EndShapeRecord
-
-
-def blank_glyph(code: int = BLANK_FILL_CODE, advance: int = BLANK_FILL_ADVANCE) -> FontGlyph:
-    return FontGlyph(code, _BLANK_SHAPE, advance, make_rect((0, 0, 0, 0)))
-
-
-def add_blank_filler(input_path: Path, output_path: Path,
-                     code: int = BLANK_FILL_CODE,
-                     advance: int = BLANK_FILL_ADVANCE) -> int:
-    """گلیف خالی پرکننده را به همهٔ DefineFont3های فایل GFX اضافه می‌کند.
-
-    خروجی: تعداد فونت‌هایی که گلیف به آن‌ها اضافه شد.
-    """
-    data = input_path.read_bytes()
-    tags_start, tags = parse_gfx(data)
-    rebuilt_tags = []
-    touched = 0
-    for tag in tags:
-        if tag.code == TAG_DEFINE_FONT3:
-            font = parse_font3(tag.payload)
-            if code not in font.glyphs:
-                merged = dict(font.glyphs)
-                merged[code] = blank_glyph(code, advance)
-                rebuilt_tags.append(pack_tag(tag.code, assemble_font3(font, merged)))
-                touched += 1
-                continue
-            if font.glyphs[code] != blank_glyph(code, advance):
-                raise ValueError(
-                    "font %d already maps U+%04X to a different glyph" % (font.font_id, code))
-        rebuilt_tags.append(data[tag.start:tag.end])
-
-    out = bytearray(data[:tags_start])
-    for raw_tag in rebuilt_tags:
-        out.extend(raw_tag)
-    struct.pack_into("<I", out, 4, len(out))
-
-    # اعتبارسنجی: ترتیب تگ‌ها و گلیف‌های قبلی دست‌نخورده باشند.
-    _, final_tags = parse_gfx(bytes(out))
-    if len(final_tags) != len(tags) or [t.code for t in final_tags] != [t.code for t in tags]:
-        raise AssertionError("SWF tag sequence changed while adding the filler glyph")
-    for old_tag, new_tag in zip(tags, final_tags):
-        if old_tag.code != TAG_DEFINE_FONT3:
-            if data[old_tag.start:old_tag.end] != bytes(out)[new_tag.start:new_tag.end]:
-                raise AssertionError("non-font tag %d was modified" % old_tag.code)
-    fonts = 0
-    for old_tag, new_tag in zip(tags, final_tags):
-        if old_tag.code != TAG_DEFINE_FONT3:
-            continue
-        old_font = parse_font3(old_tag.payload)
-        new_font = parse_font3(new_tag.payload)
-        glyph = new_font.glyphs.get(code)
-        if glyph is None or glyph.advance != advance or glyph.shape != _BLANK_SHAPE:
-            raise AssertionError("filler glyph missing in font %d" % new_font.font_id)
-        for old_code, old_glyph in old_font.glyphs.items():
-            if new_font.glyphs.get(old_code) != old_glyph:
-                raise AssertionError(
-                    "U+%04X changed in font %d" % (old_code, old_font.font_id))
-        if len(new_font.glyphs) != len(old_font.glyphs) + (0 if code in old_font.glyphs else 1):
-            raise AssertionError("unexpected glyph count in font %d" % new_font.font_id)
-        fonts += 1
-    if fonts == 0:
-        raise ValueError("no DefineFont3 tag found in %s" % input_path)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_bytes(out)
-    print("Input: %s (%s bytes)" % (input_path, len(data)))
-    print("Output: %s (%s bytes)" % (output_path, len(out)))
-    print("Blank filler: U+%04X, advance %d (%d font(s) extended)" % (code, advance, touched))
-    return touched
+    return bytes(out), len(additions), capped_advances
 
 
 @dataclass
@@ -699,20 +607,13 @@ def main():
         epilog=("نمونه: python3 tools/gfx_font.py originals/fonts_en_pc.gfx "
                 "work/vazirmatn-ttf fonts_en_pc.gfx"),
     )
-    parser.add_argument("--blank-fill", action="store_true",
-                        help="به‌جای تزریق گلیف‌های فارسی، فقط گلیف خالی پرکننده را اضافه کن")
     parser.add_argument("input", type=Path, help="فایل اصلی fonts_en_pc.gfx")
-    parser.add_argument("font_dir", type=Path, nargs="?",
+    parser.add_argument("font_dir", type=Path,
                         help="پوشه‌ی TTFهای ثابت Vazirmatn (Regular/Medium/Bold/ExtraBold)")
     parser.add_argument("output", type=Path, help="مسیر خروجی GFX")
     parser.add_argument("--scale", type=float, default=PERSIAN_GLYPH_SCALE,
                         help="ضریب اندازه‌ی گلیف‌های تازه؛ پیش‌فرض 1.08 (۸٪ بزرگ‌تر)")
     args = parser.parse_args()
-    if args.blank_fill:
-        add_blank_filler(args.input, args.output)
-        return
-    if args.font_dir is None:
-        parser.error("font_dir لازم است مگر با --blank-fill")
     if not 0.5 <= args.scale <= 1.5:
         parser.error("--scale باید بین 0.5 و 1.5 باشد")
     add_persian(args.input, args.font_dir, args.output, size_scale=args.scale)

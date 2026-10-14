@@ -36,35 +36,6 @@ DEFAULT_LIMIT = int(round(LIMIT_EM * EM))
 
 SUBTITLE_CATS = ("story", "bark", "ui")
 
-# ---------------------------------------------------------------------------
-# برچسب نام گوینده
-# ---------------------------------------------------------------------------
-# موتور بازی خودش «نام گوینده» را قبل از متنِ زیرنویس می‌چسباند و ویجت آن را
-# چپ‌به‌راست می‌کشد؛ چون متن ما پیش‌شکل‌دهی/بازچینی شده، آن نام ته سطر (سمت
-# چپ) می‌افتد و آخر از همه خوانده می‌شود. برای بردنش به لبهٔ راست، به انتهای
-# خودِ رشتهٔ نام پرکننده اضافه می‌کنیم: هنگام بازچینی RTL این پرکننده به ابتدای
-# رشتهٔ ذخیره‌شده می‌رود، سطر را پر می‌کند و نام را به راست می‌راند.
-#
-# پرکننده U+E000 است: گلیفِ کاملاً خالی با عرض یک em که tools/gfx_font.py در
-# همهٔ فونت‌های fonts_en_pc.gfx تزریق کرده است. فاصله‌های معمولی (و حتی
-# U+00A0) را ویج‌های متن می‌توانند جمع کنند یا trim کنند و بی‌اثر شوند؛ یک
-# نویسهٔ گرافیکیِ بی‌رنگ چنین سرنوشتی ندارد.
-SPEAKER_LABELS = frozenset({
-    "Lincoln", "MJ", "Burke", "Cassandra", "Donovan", "Olivia", "Giorgi", "Enzo",
-    "Danny", "Vito", "Sammy", "Ellis", "Roxy", "Nicki", "Alma", "Marcano", "Ritchie",
-    "Winkler", "Blanche", "Vargas", "Duplass", "Paez", "Connie", "Jackie", "Frank",
-    "Alvarez", "Tony", "Merle", "Charlie", "Roy", "Maria", "Tommy", "Sonny", "Harold",
-    "Artie",
-})
-
-# عرض کل «پرکننده + نام + جداکنندهٔ موتور» روی خط نام (بر حسب em)
-LABEL_TARGET_EM = 29.0          # ~۱ em حاشیه تا از عرض کادر (۳۰٫۰ em) نگذرد
-LABEL_SEPARATOR_EM = 1.0        # تخمین برای ": " که خودِ موتور می‌گذارد
-
-# پرکنندهٔ نامرئی: گلیف خالیِ U+E000 با عرض یک em (در fonts_en_pc.gfx تزریق شده)
-FILL_CHAR = "\ue000"
-FILL_ADVANCE = EM
-
 _METRICS = None
 
 # تگ‌های مارکاپی که نباید دست‌کاری شوند (bold، h1، h2 ...)
@@ -164,25 +135,6 @@ def plan_lines(fa: str, metrics: Metrics, limit: int):
     return result
 
 
-def pad_speaker_label(text: str, metrics: Metrics, limit: int):
-    """نام گوینده را با پرکنندهٔ نامرئی به لبهٔ راست خط می‌راند.
-
-    خروجی، مقدار منطقیِ تازه است؛ هنگام بسته‌بندی، reverse شدن RTL آن
-    پرکننده را به ابتدای رشته (سمت چپ کادر) می‌برد و نام به راست می‌رسد.
-    تابع idempotent است: پرکنندهٔ قبلی (اگر باشد) ابتدا حذف می‌شود.
-    """
-    if metrics is None or not text:
-        return None
-    name = text.strip(FILL_CHAR)
-    if not name:
-        return None
-    width = metrics.width(name)
-    room = int(round((LABEL_TARGET_EM - LABEL_SEPARATOR_EM) * EM)) - width
-    if room < FILL_ADVANCE:
-        return None
-    return name + FILL_CHAR * int(room // FILL_ADVANCE)
-
-
 def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
     """خروجی نهایی: fa با شکست خط‌های درست، یا None اگر تغییری لازم نبود.
 
@@ -194,8 +146,6 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
         return None
     if cat is not None and cat not in SUBTITLE_CATS:
         return None
-    if en and en.strip() in SPEAKER_LABELS:          # برچسب نام گوینده
-        return pad_speaker_label(fa, metrics, limit)
     if not any(unicodedata.category(ch) == "Lo" and 0x0600 <= ord(ch) <= 0x06FF for ch in fa):
         return None                                   # فقط متن فارسی
     if _MARKUP_RE.search(fa):
@@ -228,18 +178,6 @@ def _self_test():
     lines = plan_lines(manual, metrics, metrics.space * 40)
     assert lines[0] == "برچسب: مقدار", lines[0]
     assert len(lines) > 2, lines
-    # برچسب نام گوینده: پرکنندهٔ نامرئی به انتهای مقدار منطقی اضافه می‌شود
-    lab = pad_speaker_label("جورجو", metrics, metrics.space * 30)
-    assert lab and lab.startswith("جورجو"), lab
-    fill = lab[len("جورجو"):]
-    assert fill and set(fill) == {FILL_CHAR}, repr(fill[:8])
-    # idempotent: خروجی تازه همان است
-    assert pad_speaker_label(lab, metrics, metrics.space * 30) == lab, lab
-    # عرض کل از حد کادر (۳۰٫۰ em) کمتر است تا ویجت خودش نشکند
-    real = Metrics({0xE000: FILL_ADVANCE, 0x20: 8000}, 8000)
-    total = real.width(lab) + LABEL_SEPARATOR_EM * EM
-    assert total <= 30.0 * EM, total / EM
-    assert abs((real.width(lab) - len("جورجو") * 10000) - len(fill) * FILL_ADVANCE) <= FILL_ADVANCE
     # idempotent
     out = "\r\n".join(plan_lines(plain, metrics, metrics.space * 30))
     assert "\r\n".join(plan_lines(out, metrics, metrics.space * 30)) == out
