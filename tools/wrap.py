@@ -86,6 +86,64 @@ HUD_LIMIT_EM = 14.0
 # عرض پنل‌های باریکِ ژورنال/پروفایل/اعلان‌ها (اندازه‌گیری‌شده از اسکرین‌شات‌ها ≈۱۴em).
 # ردیف‌های فهرست‌شده در translations/panel_rows.tsv در همین عرض شکسته می‌شوند.
 PANEL_LIMIT_EM = 14.0
+
+# ---------------------------------------------------------------------------
+# عرض ایمنِ پنل — پنل یا زیرنویس؟
+# ---------------------------------------------------------------------------
+# ویجت هر سطری را که از کادرش پهن‌تر باشد خودش می‌شکند و چون متن ما بصری
+# (پیش‌شکل‌دهی‌شده) ذخیره شده، تکه‌های شکسته از آخر جمله به اول می‌افتند
+# (کاربر «از پایین به بالا» می‌خواند). پس هر سطر باید در عرضِ کادرِ خودش
+# شکسته شده باشد. مسئله این است که یک رشته می‌تواند در ویجت‌های مختلف دیده
+# شود: کادر زیرنویس پهن است (۳۰٫۱em) ولی پنل‌های بازی (هدف، اعلان، ژورنال،
+# سند) باریک‌اند (۱۴em اندازه‌گیری‌شده).
+#
+# از داده نمی‌توان فهمید کدام رشته در کدام ویجت می‌آید، ولی از متن می‌شود:
+#   * دیالوگِ گفته‌شده نشانه‌ی گفتار دارد — ضمیر اول‌شخص، نقل‌قول، لهجه‌ی
+#     محاوره، سه‌نقطه، تعجب/پرسش، یا شروع با صوت.
+#   * متنِ پنل/اطلاعیه/دادنامه لحن نوشتاری دارد (و دادنامه‌ها پاراگراف‌بندی
+#     شده‌اند و شکست خط دارند).
+# پس متنِ گفتاری در عرض کادر پهن می‌ماند و بقیه در عرض ایمنِ پنل شکسته می‌شود.
+PANEL_SAFE_LIMIT_EM = 14.0
+
+_SPOKEN_RE = re.compile(
+    r"(?:^|\s)(?:I|I'm|I'll|I've|I'd|me|my|mine|we|we're|we'll|we'd|our|us)\b"
+    r"|[\"“”«»]"
+    r"|\b(?:ain'?t|gonna|gotta|outta|'em|'bout|'cause|'cuz|'round|'til|y'know|"
+    r"ya|dat|dere|yer|dis|mo')\b"
+    r"|\b\w+in'\b"
+    r"|\.\.\.|…",
+    re.I)
+_INTERJECTION_RE = re.compile(
+    r"^(?:yeah|nope?|what|why|how|who|where|when|okay|ok|right|sure|fine|well|oh|"
+    r"hey|damn|dammit|shit|christ|jesus|listen|look|come on|wait|hold on|sorry|"
+    r"thanks|please|hello|hi|good|great|maybe|huh)\b",
+    re.I)
+_QUESTION_TAIL_RE = re.compile(r"[!?][\"”']?$")
+
+
+def safe_limit(limit: int, panel_em: float | None = PANEL_SAFE_LIMIT_EM) -> int:
+    """حدِ ایمنِ پنل؛ هرگز پهن‌تر از باریک‌ترین کادرِ شناخته‌شده‌ی بازی."""
+    if panel_em is None:
+        return limit
+    return min(limit, int(round(panel_em * EM)))
+
+
+def panel_like(en: str | None) -> bool:
+    """متنِ پنل/اطلاعیه/سند است (نه دیالوگِ گفته‌شده)؟"""
+    if not en:
+        return False
+    if "\r\n" in en:
+        return True                     # پاراگراف‌بندی‌شده: پنل/سند/راهنما
+    text = en.strip()
+    if _QUESTION_TAIL_RE.search(text):
+        return False                    # پرسش/تعجب: گفتاری
+    if _INTERJECTION_RE.match(text):
+        return False
+    if _SPOKEN_RE.search(text):
+        return False
+    return True
+
+
 PANEL_ROWS: set = set()
 
 
@@ -358,7 +416,8 @@ def speaker_label_value(text: str):
     return text.rstrip("\r\n") + LABEL_SUFFIX
 
 
-def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int, sid: int | None = None):
+def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int,
+               sid: int | None = None, panel_em: float | None = PANEL_SAFE_LIMIT_EM):
     """خروجی نهایی: fa با شکست خط‌های درست، یا None اگر تغییری لازم نبود.
 
     فقط رشته‌های فارسیِ دسته‌های زیرنویس/رابط که خودِ بازی می‌شکند بازچینی
@@ -389,6 +448,8 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int, sid: int 
         return None                                   # مارکاپ/تیتراژ دست‌نخورده
     if "[RET]" in fa:
         return None            # شکست خط‌های خودِ بازی (فهرست مسیرها) دست‌نخورده می‌ماند
+    if panel_like(en):                                # پنل/اعلان/سند: کادر باریک
+        limit = safe_limit(limit, panel_em)
     if "\r\n" in fa and "\r\n" in (en or ""):       # متن از پیش شکسته (پنل/راهنما)
         bounded = wrap_lines_to_english(fa, en, metrics, limit)
         if bounded is not None:

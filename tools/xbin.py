@@ -72,6 +72,18 @@ WRAP_SOURCES = {
 GFX_FONT = "fonts_en_pc.gfx"
 PANEL_ROWS_FILE = os.path.join("translations", "panel_rows.tsv")
 
+# حد پیش‌فرض شکستن خط برای هر جدول (کادر پهنِ زیرنویس/نوار توضیح).
+WRAP_EM_DEFAULTS = {
+    "stringtable_en_common_group.xbin": subtitle_wrap.LIMIT_EM,
+    "stringtable_en_pc_group.xbin": subtitle_wrap.LIMIT_EM,
+}
+
+# جدول‌هایی که قاعدهٔ «پنل باریک» روی آن‌ها هم اعمال می‌شود: متن‌هایی که
+# دیالوگِ گفته‌شده نیستند (پنل هدف، اعلان‌ها، ژورنال، سندها، راهنماها) در
+# عرضِ اندازه‌گیری‌شده‌ی پنل‌ها (۱۴em) شکسته می‌شوند تا هیچ ویجتی خودش
+# دست به شکستن نزند. جدول تنظیمات نوار توضیح پهن دارد و بیرون می‌ماند.
+PANEL_TABLES = {"stringtable_en_common_group.xbin"}
+
 ENTITY_RE = re.compile(r"&(amp|lt|gt|quot|apos|#\d+|#[xX][0-9a-fA-F]+);")
 _ENTITY_MAP = {"amp": "&", "lt": "<", "gt": ">", "quot": '"', "apos": "'"}
 
@@ -172,7 +184,9 @@ def make_wrapper(xbin_name: str, limit: int):
             if c in subtitle_wrap.SUBTITLE_CATS:
                 cat = c
                 break
-        return subtitle_wrap.wrap_entry(en, text, cat, metrics, limit, sid)
+        panel_em = (subtitle_wrap.PANEL_SAFE_LIMIT_EM
+                    if xbin_name in PANEL_TABLES else None)
+        return subtitle_wrap.wrap_entry(en, text, cat, metrics, limit, sid, panel_em)
 
     return wrapper
 
@@ -521,11 +535,17 @@ def main() -> int:
                     help="ساخت xbin با حفظ هدر و StringIDهای فایل اصلی")
     ap.add_argument("--no-wrap", action="store_true",
                     help="شکستن خطوط زیرنویس را خاموش کن (فقط شکل‌دهی RTL)")
-    ap.add_argument("--wrap-em", type=float, default=subtitle_wrap.LIMIT_EM,
-                    help="حد عرض هر سطر زیرنویس بر حسب em (پیش‌فرض: %.1f)"
-                         % subtitle_wrap.LIMIT_EM)
+    ap.add_argument("--wrap-em", type=float, default=None,
+                    help="حد عرض هر سطر بر حسب em (پیش‌فرض: %.1f برای جدول مشترک = "
+                         "باریک‌ترین کادر بازی، %.1f برای جدول تنظیمات = نوار پهن)"
+                         % (subtitle_wrap.PANEL_SAFE_LIMIT_EM, subtitle_wrap.LIMIT_EM))
     args = ap.parse_args()
-    wrap_limit = int(round(args.wrap_em * subtitle_wrap.EM))
+
+    def wrap_em_for(xbin_name: str) -> float:
+        """حد پیش‌فرض هر جدول؛ --wrap-em همه را بازنویسی می‌کند."""
+        if args.wrap_em is not None:
+            return args.wrap_em
+        return WRAP_EM_DEFAULTS.get(xbin_name, subtitle_wrap.LIMIT_EM)
 
     if args.test:
         return self_test()
@@ -550,7 +570,7 @@ def main() -> int:
     def _wrapper_for(xbin_name):
         if args.no_wrap:
             return None
-        return make_wrapper(xbin_name, wrap_limit)
+        return make_wrapper(xbin_name, int(round(wrap_em_for(xbin_name) * subtitle_wrap.EM)))
 
     print("ساخت فایل‌های xbin از XMLهای فارسی...")
     total = 0
@@ -568,8 +588,8 @@ def main() -> int:
         if wrapper is not None:
             wrapped = sum(1 for sid, text in items
                           if (wrapper(sid, text) or "").count("\r\n") > text.count("\r\n"))
-            print("     شکستن خطوط زیرنویس: %s رشته بازچینی شد (حد %.1f em)"
-                  % (format(wrapped, ","), args.wrap_em))
+            print("     شکستن خطوط: %s رشته بازچینی شد (حد %.1f em)"
+                  % (format(wrapped, ","), wrap_em_for(xbin_name)))
         info = pack(items, os.path.join(ROOT, xbin_name), wrapper=wrapper)
         total += info["bytes"]
 
