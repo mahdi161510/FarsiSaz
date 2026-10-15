@@ -15,6 +15,11 @@ import fslib
 
 _TAG_INNER_RE = re.compile(r"^([A-Za-z_][A-Za-z0-9_]*)(?:\s|=|/|$)")
 _NEWLINE_RE = re.compile(r"(\r\n|\r|\n)")
+# «[RET]» جداکنندهٔ ردیف‌های پنل‌های وسط صفحه است (کارت فصل، کارت مکان،
+# فهرست مسیرها). اگر آن را جزو یک پاراگرافِ واحد شکل بدهیم، الگوریتم Bidi
+# ترتیب ردیف‌ها را برمی‌گرداند و پنل از پایین به بالا خوانده می‌شود؛ پس آن را
+# مثل پایان‌خط می‌گیریم: هر ردیف جداگانه پیش‌شکل‌دهی می‌شود و ترتیب حفظ می‌گردد.
+_RET_RE = re.compile(r"(\[RET\])")
 # Protect a lone literal percent as well; printf placeholders are already in TOKEN_RE.
 _SHAPE_TOKEN_RE = re.compile(
     f"(?:{fslib.TOKEN_RE.pattern})|\\[[A-Z][A-Z0-9_]*\\]|"
@@ -278,9 +283,19 @@ def shape_text(text: str) -> str:
     """
     if not fslib.has_rtl(text):
         return text
-    parts = _NEWLINE_RE.split(text)
-    return "".join(part if part in ("\r\n", "\r", "\n") else _shape_line(part)
-                   for part in parts)
+    out = []
+    for part in _NEWLINE_RE.split(text):
+        if part in ("\r\n", "\r", "\n"):
+            out.append(part)
+            continue
+        for piece in _RET_RE.split(part):
+            if piece == "[RET]":
+                out.append(piece)
+            elif fslib.has_rtl(piece):
+                out.append(_shape_line(piece))
+            else:
+                out.append(piece)
+    return "".join(out)
 
 
 def _self_test():
@@ -310,6 +325,14 @@ def _self_test():
         raise AssertionError("ترتیب سطرهای چندخطی عوض شد")
     if shape_text(" سلام ") != " ﻡﻼﺳ ":
         raise AssertionError("نمونه‌ی دقیق سلام با لیگچر/فاصله‌ی مورد انتظار یکی نیست")
+    # ردیف‌های [RET] باید ترتیب خود را حفظ کنند و هر ردیف جداگانه شکل بگیرد
+    rows = ["اسکله‌ی سند آیلند به ساوت‌پورت", "سند آیلند", "هانترز", "گرینفیلد"]
+    joined = "[RET]".join(rows)
+    shaped = shape_text(joined)
+    if shaped != "[RET]".join(_shape_line(r) for r in rows):
+        raise AssertionError("ترتیب ردیف‌های [RET] عوض شد: %r" % shaped)
+    if shaped.split("[RET]")[0] != _shape_line(rows[0]):
+        raise AssertionError("ردیف اول [RET] جابه‌جا شد: %r" % shaped)
     print("✔ پیش‌شکل‌دهی، ترتیب سطرها، لیگچر لام-الف، Bidi، توکن‌ها، markup و CRLF تأیید شد")
 
 
