@@ -267,22 +267,17 @@ def _template_units(line: str) -> list[str]:
 
 
 def wrap_template(fa: str, metrics: Metrics, limit: int) -> str:
-    """متن قالبیِ چندخطی را با حفظ جای‌نگهدارها در حد کادر باریک می‌شکند."""
+    """متن قالبیِ چندخطی را با حفظ جای‌نگه‌دارها در حد کادر باریک می‌شکند.
+
+    جای‌نگه‌دارها به واژهٔ چسبیده‌شان قفل شده‌اند (`_template_units`)، پس
+    مقدارها هرگز از برچسبشان جدا نمی‌شوند؛ خودِ شکستن هم متعادل است.
+    """
     result: list[str] = []
     for line in fa.split("\r\n"):
         if metrics.width(line) <= limit:
             result.append(line)
             continue
-        current = ""
-        for unit in _template_units(line):
-            candidate = unit if not current else current + " " + unit
-            if current and metrics.width(candidate) > limit:
-                result.append(current)
-                current = unit
-            else:
-                current = candidate
-        if current:
-            result.append(current)
+        result.extend(_balanced_breaks(_template_units(line), metrics, limit))
     return "\r\n".join(result)
 
 
@@ -371,25 +366,22 @@ def load_metrics(gfx_path: str):
     return _METRICS
 
 
-def wrap_line(line: str, metrics: Metrics, limit: int, first_limit: int | None = None):
-    """یک سطر منطقی را به تکه‌های ≤ حد عرض می‌شکند — با سطرهای هم‌عرض.
+def _balanced_breaks(units, metrics: Metrics, limit: int, first_limit: int | None = None):
+    """واحدها را به سطرهای ≤ حد می‌شکند و سطرها را هم‌عرض نگه می‌دارد.
 
-    شکستنِ حریصانه (پر کردن هر سطر تا آخرین واژهٔ جا‌شده) ته سطرها یک واژهٔ
-    تنها می‌گذاشت («… پیدا کنید و / بکشید») و همان چیزی است که کاربر «باگ
-    چندخطی» می‌بیند. این‌جا با برنامه‌ریزی پویا شکستی انتخاب می‌شود که مجموع
-    مربعِ فضای خالی سطرها کمینه شود؛ نتیجه: سطرها هم‌عرض می‌شوند، سطر تک‌واژه‌ای
-    ساخته نمی‌شود و تعداد سطرها هم کمتر از حالت متعادل نمی‌شود (چون مجموع فضای
-    خالی با افزودن سطر بزرگ‌تر می‌شود).
+    برنامه‌ریزی پویا روی مرز واحدها: هزینهٔ هر سطر = مربع فضای خالیِ آن، به‌علاوهٔ
+    جریمهٔ سنگین برای سطر تک‌واحدی و واژهٔ ناچاربلند. چون با افزودن هر سطر مجموع
+    فضای خالی بزرگ‌تر می‌شود، این روش تعداد سطر را زیاد نمی‌کند و فقط تقسیم را
+    متعادل می‌کند.
     """
-    if metrics.width(line) <= (first_limit or limit):
-        return [line]
-    words = line.split(" ")
-    if len(words) <= 1:
-        return [line]
-    n = len(words)
-    widths = [metrics.width(w) for w in words]
+    if not units:
+        return []
+    if len(units) <= 1:
+        return [units[0]]
+    n = len(units)
+    widths = [metrics.width(u) for u in units]
     space = metrics.space
-    single_penalty = (limit / EM) ** 2 * 6.0      # سطر تک‌واژه‌ای گران تمام می‌شود
+    single_penalty = (limit / EM) ** 2 * 6.0
     INF = float("inf")
     best = [INF] * (n + 1)
     choice = [0] * (n + 1)
@@ -401,12 +393,11 @@ def wrap_line(line: str, metrics: Metrics, limit: int, first_limit: int | None =
             width = widths[j] if j == i else width + space + widths[j]
             if width > cap and j > i:
                 break
-            overflow = width > cap                    # واژهٔ بسیار بلند: ناچار
             slack = (limit - width) / EM
             cost = slack * slack
             if j == i and n > 1:
                 cost += single_penalty
-            if overflow:
+            if width > cap:                      # واژهٔ بسیار بلند: ناچار
                 cost += single_penalty * 4
             total = cost + best[j + 1]
             if total < best[i]:
@@ -417,9 +408,24 @@ def wrap_line(line: str, metrics: Metrics, limit: int, first_limit: int | None =
         j = choice[i]
         if j <= i:
             j = i + 1
-        result.append(" ".join(words[i:j]))
+        result.append(" ".join(units[i:j]))
         i = j
     return result
+
+
+def wrap_line(line: str, metrics: Metrics, limit: int, first_limit: int | None = None):
+    """یک سطر منطقی را به تکه‌های ≤ حد عرض می‌شکند — با سطرهای هم‌عرض.
+
+    شکستنِ حریصانه (پر کردن هر سطر تا آخرین واژهٔ جا‌شده) ته سطرها یک واژهٔ
+    تنها می‌گذاشت («… پیدا کنید و / بکشید») و همان چیزی است که کاربر «باگ
+    چندخطی» می‌بیند.
+    """
+    if metrics.width(line) <= (first_limit or limit):
+        return [line]
+    words = line.split(" ")
+    if len(words) <= 1:
+        return [line]
+    return _balanced_breaks(words, metrics, limit, first_limit)
 
 
 def plan_lines(fa: str, metrics: Metrics, limit: int, first_limit: int | None = None):
