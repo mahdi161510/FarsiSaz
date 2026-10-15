@@ -103,6 +103,68 @@ OBJECTIVE_VERBS = (
 _OBJECTIVE_RE = re.compile(r"^(%s)\b" % "|".join(OBJECTIVE_VERBS))
 
 
+# ---------------------------------------------------------------------------
+# پنل‌ها/راهنماهای قالبی (نقشه و HUD)
+# ---------------------------------------------------------------------------
+# چند ردیف جدول، متن چندخطیِ قالبی‌اند که بازی مقادیر را در %s/{} می‌گذارد و در
+# کادرهای باریک (مثلاً راهنمای شناور نقشه) نشان می‌دهد: «%s رکت / %s محله»،
+# «ورودی‌های پیدا‌شده: %s/%s / مزدورها: %s/%s» و … . سطرهای این ردیف‌ها پهن‌تر از
+# کادر باریک‌اند و خودِ ویجت آن‌ها را می‌شکند؛ چون متن پیش‌شکل‌دهی‌شده است، ترتیب
+# سطر برعکس می‌شود. این‌ها را هم خودمان در همان حد باریک می‌شکنیم.
+_PLACEHOLDER_RE = re.compile(r"%[-+0#]*\d*(?:\.\d+)?[a-zA-Z]|\{[^}]*\}")
+
+
+def is_template_panel(en: str) -> bool:
+    """آیا این رشته یک متن قالبیِ چندخطی است که در کادر باریک نشان داده می‌شود؟"""
+    if not en or "\r\n" not in en:
+        return False
+    return bool(_PLACEHOLDER_RE.search(en))
+
+
+def _template_units(line: str) -> list[str]:
+    """واژه‌ها را به واحدهایی می‌شکند که جای‌نگهدار (%s/{}‌) وسطشان نباشد.
+
+    «%s کسب‌وکار خلاف» باید یک واحد بماند تا جای‌نگهدارِ نام از برچسبش جدا نشود.
+    """
+    words = line.split(" ")
+    units: list[str] = []
+    index = 0
+    while index < len(words):
+        word = words[index]
+        if _PLACEHOLDER_RE.search(word):
+            if index + 1 < len(words) and words[index + 1]:
+                units.append(word + " " + words[index + 1])
+                index += 2
+                continue
+            if units:
+                units[-1] = units[-1] + " " + word
+                index += 1
+                continue
+        units.append(word)
+        index += 1
+    return units
+
+
+def wrap_template(fa: str, metrics: Metrics, limit: int) -> str:
+    """متن قالبیِ چندخطی را با حفظ جای‌نگهدارها در حد کادر باریک می‌شکند."""
+    result: list[str] = []
+    for line in fa.split("\r\n"):
+        if metrics.width(line) <= limit:
+            result.append(line)
+            continue
+        current = ""
+        for unit in _template_units(line):
+            candidate = unit if not current else current + " " + unit
+            if current and metrics.width(candidate) > limit:
+                result.append(current)
+                current = unit
+            else:
+                current = candidate
+        if current:
+            result.append(current)
+    return "\r\n".join(result)
+
+
 def is_objective(en: str, cat: str | None) -> bool:
     """آیا این رشته یک «هدف/مأموریت» رابط است که در کادر باریک نشان داده می‌شود؟"""
     if cat != "ui" or not en:
@@ -244,6 +306,9 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
         return None
     if en and en.strip() in SPEAKER_LABELS:          # برچسب نام گوینده
         return speaker_label_value(fa)
+    if is_template_panel(en):                         # راهنمای قالبی (نقشه/HUD)
+        joined = wrap_template(fa, metrics, int(round(HUD_LIMIT_EM * EM)))
+        return joined if joined != fa else None
     if cat is not None and cat not in SUBTITLE_CATS:
         return None
     if is_objective(en, cat):                          # هدف در کادر باریک پنل
@@ -295,6 +360,21 @@ def _self_test():
     assert not is_objective("Find the Crash Site", "bark")
     assert not is_objective("Take a walk back over dere again.", "ui")
     assert not is_objective("Drive Shooting Accuracy Desc", "ui")
+    # متن‌های قالبیِ چندخطی (راهنمای نقشه/HUD)
+    assert is_template_panel("%s Racket \r\n%s District")
+    assert is_template_panel("Entrances Found %s/%s\r\nEnforcers %s/%s")
+    assert not is_template_panel("%s Racket")
+    assert not is_template_panel("Watch you don\u2019t end up in one of those cells, soldier boy.")
+    # جای‌نگهدار از برچسبش جدا نمی‌شود
+    units = _template_units("%s کسب‌وکار خلاف %s محله")
+    assert units and units[0] == "%s کسب‌وکار" and units[1] == "خلاف" and units[2] == "%s محله", units
+    assert _template_units("سلام %s دنیا") == ["سلام", "%s دنیا"]
+    label = "خبرچین‌های بازجویی‌شده: %s/%s"
+    assert wrap_template(label, metrics, metrics.space * 40) == label
+    long_line = "مزدورها " + " ".join("واژه" + wide for _ in range(6))
+    wrapped = wrap_template(long_line, metrics, metrics.space * 10)
+    assert len(wrapped.split("\r\n")) > 1, wrapped
+    assert wrapped.split("\r\n")[0].startswith("مزدورها"), wrapped
     # سطر اول دیالوگ با حد باریک‌تر بسته می‌شود (جا برای «: » موتور)
     narrow = plan_lines(plain, metrics, metrics.space * 30,
                         first_limit=metrics.space * 10)
