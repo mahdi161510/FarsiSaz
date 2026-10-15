@@ -371,22 +371,55 @@ def load_metrics(gfx_path: str):
     return _METRICS
 
 
-def wrap_line(line: str, metrics: Metrics, limit: int):
-    """یک سطر منطقی را به تکه‌های ≤ حد عرض می‌شکند (حریصانه، بر پایه‌ی واژه)."""
-    if metrics.width(line) <= limit:
+def wrap_line(line: str, metrics: Metrics, limit: int, first_limit: int | None = None):
+    """یک سطر منطقی را به تکه‌های ≤ حد عرض می‌شکند — با سطرهای هم‌عرض.
+
+    شکستنِ حریصانه (پر کردن هر سطر تا آخرین واژهٔ جا‌شده) ته سطرها یک واژهٔ
+    تنها می‌گذاشت («… پیدا کنید و / بکشید») و همان چیزی است که کاربر «باگ
+    چندخطی» می‌بیند. این‌جا با برنامه‌ریزی پویا شکستی انتخاب می‌شود که مجموع
+    مربعِ فضای خالی سطرها کمینه شود؛ نتیجه: سطرها هم‌عرض می‌شوند، سطر تک‌واژه‌ای
+    ساخته نمی‌شود و تعداد سطرها هم کمتر از حالت متعادل نمی‌شود (چون مجموع فضای
+    خالی با افزودن سطر بزرگ‌تر می‌شود).
+    """
+    if metrics.width(line) <= (first_limit or limit):
         return [line]
     words = line.split(" ")
-    lines, current = [], ""
-    for word in words:
-        candidate = word if not current else current + " " + word
-        if current and metrics.width(candidate) > limit:
-            lines.append(current)
-            current = word
-        else:
-            current = candidate
-    if current:
-        lines.append(current)
-    return lines
+    if len(words) <= 1:
+        return [line]
+    n = len(words)
+    widths = [metrics.width(w) for w in words]
+    space = metrics.space
+    single_penalty = (limit / EM) ** 2 * 6.0      # سطر تک‌واژه‌ای گران تمام می‌شود
+    INF = float("inf")
+    best = [INF] * (n + 1)
+    choice = [0] * (n + 1)
+    best[n] = 0.0
+    for i in range(n - 1, -1, -1):
+        cap = first_limit if (i == 0 and first_limit) else limit
+        width = 0.0
+        for j in range(i, n):
+            width = widths[j] if j == i else width + space + widths[j]
+            if width > cap and j > i:
+                break
+            overflow = width > cap                    # واژهٔ بسیار بلند: ناچار
+            slack = (limit - width) / EM
+            cost = slack * slack
+            if j == i and n > 1:
+                cost += single_penalty
+            if overflow:
+                cost += single_penalty * 4
+            total = cost + best[j + 1]
+            if total < best[i]:
+                best[i] = total
+                choice[i] = j + 1
+    result, i = [], 0
+    while i < n:
+        j = choice[i]
+        if j <= i:
+            j = i + 1
+        result.append(" ".join(words[i:j]))
+        i = j
+    return result
 
 
 def plan_lines(fa: str, metrics: Metrics, limit: int, first_limit: int | None = None):
@@ -403,7 +436,8 @@ def plan_lines(fa: str, metrics: Metrics, limit: int, first_limit: int | None = 
         if metrics.width(part) <= part_limit:
             result.append(part)
             continue
-        result.extend(wrap_line(part, metrics, part_limit))
+        result.extend(wrap_line(part, metrics, part_limit,
+                                part_limit if part_limit != limit else None))
     return result
 
 
