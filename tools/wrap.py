@@ -105,6 +105,14 @@ PANEL_LIMIT_EM = 14.0
 # پس متنِ گفتاری در عرض کادر پهن می‌ماند و بقیه در عرض ایمنِ پنل شکسته می‌شود.
 PANEL_SAFE_LIMIT_EM = 14.0
 
+# دسته‌ی «ui» همیشه در جعبه‌های رابط (ژورنال، فهرست، اعلان، راهنما) دیده می‌شود،
+# نه در کادر پهنِ زیرنویس؛ پس لحنِ جمله نباید آن را از قاعدهٔ عرض ایمن بیرون بگذارد.
+# نمونه‌های واقعی که با معیار لحن رد می‌شدند: «Look Behind Vehicle: Press …»
+# (فعل Look در فهرست اصوات گفتاری است)، نام‌های نقل‌قولی مثل «"Angry White Boys"»
+# و مأموریت‌های نام‌دار مثل «Defeat Nick "Boom-Boom" Beaumont». اگر این‌ها پهن
+# بمانند، ویجت خودش می‌شکند و ترتیب سطر برعکس می‌شود.
+UI_SAFE_CAT = "ui"
+
 _SPOKEN_RE = re.compile(
     r"(?:^|\s)(?:I|I'm|I'll|I've|I'd|me|my|mine|we|we're|we'll|we'd|our|us)\b"
     r"|[\"“”«»]"
@@ -488,7 +496,9 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int,
         return None                                   # مارکاپ/تیتراژ دست‌نخورده
     if "[RET]" in fa:
         return None            # شکست خط‌های خودِ بازی (فهرست مسیرها) دست‌نخورده می‌ماند
-    if panel_like(en):                                # پنل/اعلان/سند: کادر باریک
+    # هر متنِ جدول مشترک در عرض ایمنِ پنل شکسته می‌شود (نه فقط متن‌های پنلی):
+    # تا وقتی ویجت‌های بازی دست‌کم ۱۴em عرض دارند، هیچ سطری را خودشان نمی‌شکنند.
+    if panel_em is not None and (panel_like(en) or cat == UI_SAFE_CAT):
         limit = safe_limit(limit, panel_em)
     if "\r\n" in fa and "\r\n" in (en or ""):       # متن از پیش شکسته (پنل/راهنما)
         bounded = wrap_lines_to_english(fa, en, metrics, limit)
