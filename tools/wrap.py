@@ -114,6 +114,45 @@ _OBJECTIVE_RE = re.compile(r"^(%s)\b" % "|".join(OBJECTIVE_VERBS))
 _PLACEHOLDER_RE = re.compile(r"%[-+0#]*\d*(?:\.\d+)?[a-zA-Z]|\{[^}]*\}")
 
 
+# ---------------------------------------------------------------------------
+# سقفِ خطِ انگلیسی
+# ---------------------------------------------------------------------------
+# بازی خیلی از متن‌های چندخطی را از پیش شکسته است (عنوان + متن راهنما، فهرست‌ها،
+# تیتراژ…). آن خط‌های انگلیسی داخل کادر جا می‌شوند؛ پس اگر خط فارسی از معادل
+# انگلیسی‌اش پهن‌تر شود، ویجت مجبور می‌شود خودش بشکند و ترتیب برعکس می‌شود.
+# قاعده: هیچ خط فارسی از خط انگلیسیِ متناظرش پهن‌تر نمی‌شود (کف ۱۴em تا لبه‌های
+# بی‌خطرِ کادرهای پهن دست‌نخورده بمانند).
+EN_BOUND_FLOOR_EM = 14.0
+EN_BOUND_TOLERANCE_EM = 0.5
+
+
+def wrap_lines_to_english(fa: str, en: str, metrics: Metrics, limit: int):
+    """خطوط فارسی را در عرضِ کادرِ ثابت‌شده با متن انگلیسی می‌شکند.
+
+    کادر دست‌کم به‌قدر پهن‌ترین خطِ انگلیسیِ همان رشته است؛ اگر آن پهن‌ترین خط
+    کوچک باشد (راهنما/پنل باریک)، خطوط فارسی هم در همان حد می‌شکنند تا ویجت
+    مجبور نشود خودش بشکند و ترتیب را برعکس کند.
+    """
+    fa_lines = fa.split("\r\n")
+    en_lines = en.split("\r\n")
+    if not en_lines:
+        return None
+    widest_en = max(metrics.width(line) for line in en_lines) / EM
+    cap_em = max(EN_BOUND_FLOOR_EM, widest_en)
+    if cap_em + EN_BOUND_TOLERANCE_EM >= limit / EM:
+        return None            # کادر پهن است؛ قاعدهٔ معمولِ زیرنویس کافی است
+    cap = int(round((cap_em + EN_BOUND_TOLERANCE_EM) * EM))
+    if all(metrics.width(line) <= cap for line in fa_lines):
+        return None
+    result = []
+    for fa_line in fa_lines:
+        if metrics.width(fa_line) <= cap:
+            result.append(fa_line)
+            continue
+        result.extend(wrap_line(fa_line, metrics, cap))
+    return "\r\n".join(result)
+
+
 def is_template_panel(en: str) -> bool:
     """آیا این رشته یک متن قالبیِ چندخطی است که در کادر باریک نشان داده می‌شود؟"""
     if not en or "\r\n" not in en:
@@ -322,6 +361,11 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
         return None                                   # مارکاپ/تیتراژ دست‌نخورده
     if "[RET]" in fa:
         return None            # شکست خط‌های خودِ بازی (فهرست مسیرها) دست‌نخورده می‌ماند
+    if "\r\n" in fa and "\r\n" in (en or ""):       # متن از پیش شکسته (پنل/راهنما)
+        bounded = wrap_lines_to_english(fa, en, metrics, limit)
+        if bounded is not None:
+            return bounded
+        # وگرنه قاعدهٔ معمولِ زیرنویس/کادر پهن اعمال می‌شود
     lines = plan_lines(fa, metrics, limit,
                        first_limit=limit - int(round(SEPARATOR_EM * EM)))
     joined = "\r\n".join(lines)
@@ -365,6 +409,15 @@ def _self_test():
     assert is_template_panel("Entrances Found %s/%s\r\nEnforcers %s/%s")
     assert not is_template_panel("%s Racket")
     assert not is_template_panel("Watch you don\u2019t end up in one of those cells, soldier boy.")
+    # سقف خط انگلیسی: خط فارسی از معادل انگلیسی پهن‌تر نمی‌شود
+    en_line = "Hold " + wide * 3
+    fa_line = " ".join("واژه" + wide for _ in range(12))
+    bounded = wrap_lines_to_english(fa_line + "\r\nدوم", en_line + "\r\nدوم", metrics, 10 ** 9)
+    assert bounded and len(bounded.split("\r\n")) > 2, bounded
+    # اگر پهن‌ترین خط انگلیسی پهن باشد (کادر پهن)، خط فارسیِ کوتاه‌تر دست‌نخورده می‌ماند
+    wide_en = " ".join("word" + wide for _ in range(40))
+    short_fa = "خط کوتاه"
+    assert wrap_lines_to_english(short_fa, wide_en + "\r\n" + wide_en, metrics, 10 ** 9) is None
     # جای‌نگهدار از برچسبش جدا نمی‌شود
     units = _template_units("%s کسب‌وکار خلاف %s محله")
     assert units and units[0] == "%s کسب‌وکار" and units[1] == "خلاف" and units[2] == "%s محله", units
