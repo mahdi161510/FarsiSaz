@@ -66,7 +66,57 @@ LABEL_SUFFIX = LABEL_BREAK + LABEL_GUARD
 
 # جداکنندهٔ «: » که خودِ موتور پیش از متن می‌گذارد؛ اولین سطر دیالوگ باید این
 # مقدار کمتر از حد بسته‌بندی باشد تا موتور خودش دوباره نشکند.
+
+# ---------------------------------------------------------------------------
+# پنل «هدف» گوشهٔ بالا-چپ
+# ---------------------------------------------------------------------------
+# متن هدف در یک کادر باریک نشان داده می‌شود، نه در کادر پهنِ زیرنویس؛ پس هدف‌های
+# بلندتر از عرض آن کادر را خودِ ویجت می‌شکند و چون متن ما پیش‌شکل‌دهی‌شده است،
+# ترتیب سطرها برعکس می‌شود (پایین به بالا). مثل زیرنویس‌ها خودمان هدف را در حد
+# عرض همان کادر می‌شکنیم.
+#
+# عرض کادر هدف از اسکرین‌شات خود بازی تخمین زده شده: کادر ≈۲۴۰ پیکسل و هر em
+# متریک زیرنویس ≈۱۶٫۶ پیکسل ⇒ ≈۱۴٫۵em؛ کمی کمتر می‌گیریم تا هیچ‌وقت جا نماند.
+# جداکنندهٔ «: » که خودِ موتور پیش از متن می‌گذارد؛ اولین سطر دیالوگ باید این
+# مقدار کمتر از حد بسته‌بندی باشد تا موتور خودش دوباره نشکند.
 SEPARATOR_EM = 0.6
+
+HUD_LIMIT_EM = 14.0
+
+# فعل‌های امری که با آن‌ها «هدف/مأموریت»های رابط ساخته می‌شوند (Title Case و
+# بدون نقطهٔ پایانی). این‌ها همان رشته‌هایی هستند که در پنل هدف و فهرست اهداف
+# ژورنال دیده می‌شوند.
+OBJECTIVE_VERBS = (
+    "Find", "Clear", "Kill", "Reach", "Destroy", "Steal", "Escape", "Recover",
+    "Return", "Talk", "Meet", "Deliver", "Retrieve", "Eliminate", "Take", "Bring",
+    "Follow", "Speak", "Collect", "Disable", "Sabotage", "Infiltrate", "Protect",
+    "Defend", "Rescue", "Wiretap", "Interrogate", "Locate", "Lose", "Drive",
+    "Smash", "Blow", "Purchase", "Visit", "Rendezvous", "Regroup", "Confront",
+    "Dismantle", "Pick", "Plant", "Bribe", "Recruit", "Ambush", "Raid", "Survive",
+    "Flee", "Assassinate", "Track", "Search", "Grab", "Open", "Place", "Arm",
+    "Wait", "Lure", "Escort", "Chase", "Tail", "Stash", "Wire", "Hack", "Rob",
+    "Hunt", "Free", "Release", "Stop", "Save", "Repair", "Set", "Use", "Call",
+    "Enter", "Exit", "Activate", "Enable", "Trade", "Sell", "Buy", "Distract",
+    "Sneak", "Turn", "Jump", "Climb", "Swim", "Eat", "Drink", "Answer", "Send",
+    "Play", "Pay", "Leave", "Give", "Hold", "Hide", "Knock", "Ride", "Reload",
+)
+_OBJECTIVE_RE = re.compile(r"^(%s)\b" % "|".join(OBJECTIVE_VERBS))
+
+
+def is_objective(en: str, cat: str | None) -> bool:
+    """آیا این رشته یک «هدف/مأموریت» رابط است که در کادر باریک نشان داده می‌شود؟"""
+    if cat != "ui" or not en:
+        return False
+    text = en.strip()
+    if not text or len(text) > 70:
+        return False
+    if text.endswith(".") or text.endswith("!") or text.endswith("?"):
+        return False                    # جملهٔ کامل ⇒ دیالوگ/توضیح، نه هدف
+    if text.endswith("Desc") or " Desc" in text:
+        return False                    # توضیح تنظیمات، در فهرست پهن دیده می‌شود
+    if "\r\n" in text or "[RET]" in text:
+        return False
+    return bool(_OBJECTIVE_RE.match(text))
 
 _METRICS = None
 
@@ -196,6 +246,11 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
         return speaker_label_value(fa)
     if cat is not None and cat not in SUBTITLE_CATS:
         return None
+    if is_objective(en, cat):                          # هدف در کادر باریک پنل
+        hud = int(round(HUD_LIMIT_EM * EM))
+        lines = plan_lines(fa, metrics, hud)
+        joined = "\r\n".join(lines)
+        return joined if joined != fa else None
     if not any(unicodedata.category(ch) == "Lo" and 0x0600 <= ord(ch) <= 0x06FF for ch in fa):
         return None                                   # فقط متن فارسی
     if _MARKUP_RE.search(fa):
@@ -234,6 +289,12 @@ def _self_test():
     assert lab == "جورجو" + LABEL_SUFFIX, repr(lab)
     assert speaker_label_value(lab) is None, repr(lab)
     assert speaker_label_value("جورجو\r\n") == "جورجو" + LABEL_SUFFIX
+    # هدف‌ها: تشخیص درست + شکستن در کادر باریک
+    assert is_objective("Find the Crash Site", "ui")
+    assert is_objective("Track down and Kill Dixie Patrols", "ui")
+    assert not is_objective("Find the Crash Site", "bark")
+    assert not is_objective("Take a walk back over dere again.", "ui")
+    assert not is_objective("Drive Shooting Accuracy Desc", "ui")
     # سطر اول دیالوگ با حد باریک‌تر بسته می‌شود (جا برای «: » موتور)
     narrow = plan_lines(plain, metrics, metrics.space * 30,
                         first_limit=metrics.space * 10)
