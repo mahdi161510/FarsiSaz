@@ -70,6 +70,7 @@ WRAP_SOURCES = {
     "stringtable_en_pc_group.xbin": "source/stringtable_en_pc_group.xml",
 }
 GFX_FONT = "fonts_en_pc.gfx"
+PANEL_ROWS_FILE = os.path.join("translations", "panel_rows.tsv")
 
 ENTITY_RE = re.compile(r"&(amp|lt|gt|quot|apos|#\d+|#[xX][0-9a-fA-F]+);")
 _ENTITY_MAP = {"amp": "&", "lt": "<", "gt": ">", "quot": '"', "apos": "'"}
@@ -156,6 +157,10 @@ def make_wrapper(xbin_name: str, limit: int):
         return None
     en_by_sid = {sid: body for sid, body in read_items(en_path)}
     cats = _load_categories()
+    panel_path = os.path.join(ROOT, PANEL_ROWS_FILE)
+    panel_count = subtitle_wrap.load_panel_rows(panel_path)
+    if panel_count:
+        print("  ردیف‌های پنل باریک: %s (از %s)" % (panel_count, PANEL_ROWS_FILE))
 
     def wrapper(sid, text):
         if not text or "\n" in text.replace("\r", ""):
@@ -167,7 +172,7 @@ def make_wrapper(xbin_name: str, limit: int):
             if c in subtitle_wrap.SUBTITLE_CATS:
                 cat = c
                 break
-        return subtitle_wrap.wrap_entry(en, text, cat, metrics, limit)
+        return subtitle_wrap.wrap_entry(en, text, cat, metrics, limit, sid)
 
     return wrapper
 

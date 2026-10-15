@@ -83,6 +83,30 @@ SEPARATOR_EM = 0.6
 
 HUD_LIMIT_EM = 14.0
 
+# عرض پنل‌های باریکِ ژورنال/پروفایل/اعلان‌ها (اندازه‌گیری‌شده از اسکرین‌شات‌ها ≈۱۴em).
+# ردیف‌های فهرست‌شده در translations/panel_rows.tsv در همین عرض شکسته می‌شوند.
+PANEL_LIMIT_EM = 14.0
+PANEL_ROWS: set = set()
+
+
+def load_panel_rows(path: str) -> int:
+    """فهرست ردیف‌های پنل‌های باریک را از TSV می‌خواند (خطوط شروع‌شده با # نادیده)."""
+    global PANEL_ROWS
+    rows = set()
+    try:
+        with open(path, encoding="utf-8") as handle:
+            for line in handle:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                sid = line.split("\t", 1)[0].strip()
+                if sid.isdigit():
+                    rows.add(int(sid))
+    except FileNotFoundError:
+        return 0
+    PANEL_ROWS = rows
+    return len(rows)
+
 # فعل‌های امری که با آن‌ها «هدف/مأموریت»های رابط ساخته می‌شوند (Title Case و
 # بدون نقطهٔ پایانی). این‌ها همان رشته‌هایی هستند که در پنل هدف و فهرست اهداف
 # ژورنال دیده می‌شوند.
@@ -334,7 +358,7 @@ def speaker_label_value(text: str):
     return text.rstrip("\r\n") + LABEL_SUFFIX
 
 
-def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
+def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int, sid: int | None = None):
     """خروجی نهایی: fa با شکست خط‌های درست، یا None اگر تغییری لازم نبود.
 
     فقط رشته‌های فارسیِ دسته‌های زیرنویس/رابط که خودِ بازی می‌شکند بازچینی
@@ -343,6 +367,10 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int):
     """
     if metrics is None or not fa:
         return None
+    if sid is not None and sid in PANEL_ROWS:        # پنل باریک ژورنال/اعلان
+        lines = plan_lines(fa, metrics, int(round(PANEL_LIMIT_EM * EM)))
+        joined = "\r\n".join(lines)
+        return joined if joined != fa else None
     if en and en.strip() in SPEAKER_LABELS:          # برچسب نام گوینده
         return speaker_label_value(fa)
     if is_template_panel(en):                         # راهنمای قالبی (نقشه/HUD)
@@ -409,6 +437,12 @@ def _self_test():
     assert is_template_panel("Entrances Found %s/%s\r\nEnforcers %s/%s")
     assert not is_template_panel("%s Racket")
     assert not is_template_panel("Watch you don\u2019t end up in one of those cells, soldier boy.")
+    # ردیف‌های پنل باریک: همیشه در عرض PANEL_LIMIT_EM شکسته می‌شوند
+    PANEL_ROWS.add(1)
+    lab_lines = plan_lines("الف ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی " * 3,
+                           metrics, metrics.space * 6)
+    assert len(lab_lines) > 1, lab_lines
+    PANEL_ROWS.clear()
     # سقف خط انگلیسی: خط فارسی از معادل انگلیسی پهن‌تر نمی‌شود
     en_line = "Hold " + wide * 3
     fa_line = " ".join("واژه" + wide for _ in range(12))
