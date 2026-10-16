@@ -22,7 +22,7 @@
 پرتاب مواد منفجره هنگام رانندگی: #E_CTRL_VEHICLE_WEAPON_GRENADE_AIM# را نگه دارید تا نشانه‌گیری کنید، سپس رها کنید تا پرتاب شود</Content>
     </LocalisableString>
     <LocalisableString StringID="2378073424513412962">
-      <Content Type="String">چرخ ماوس: بزرگ‌نمایی و کوچکنمایی</Content>
+      <Content Type="String">چرخ ماوس: بزرگ‌نمایی/کوچک‌نمایی</Content>
     </LocalisableString>
     <LocalisableString StringID="2397189119963250569">
       <Content Type="String">لرزش</Content>
@@ -37,13 +37,13 @@
       <Content Type="String">پیش از تصمیم‌گیری، با زدن فلش چپ یا راست، امتیازها و ارتقاهای ممکنِ معاون خود را ببینید. برای دیدن ارتقاها و امتیازهای گذشته، #E_MA_MAP_PLAYER# را بزنید.</Content>
     </LocalisableString>
     <LocalisableString StringID="3330581356261580452">
-      <Content Type="String">این متن نمونه‌ی پلتفرم ۲ برای WINDOWS است</Content>
+      <Content Type="String">این متن نمونه‌ی پلتفرم ۲ برای ویندوز است</Content>
     </LocalisableString>
     <LocalisableString StringID="3330581356261580453">
-      <Content Type="String">این متن نمونه‌ی پلتفرم ۳ برای WINDOWS است</Content>
+      <Content Type="String">این متن نمونه‌ی پلتفرم ۳ برای ویندوز است</Content>
     </LocalisableString>
     <LocalisableString StringID="3330581356261580455">
-      <Content Type="String">این متن نمونه‌ی پلتفرم ۱ برای WINDOWS است</Content>
+      <Content Type="String">این متن نمونه‌ی پلتفرم ۱ برای ویندوز است</Content>
     </LocalisableString>
     <LocalisableString StringID="3393520119077825885">
       <Content Type="String">دسته قطع شد</Content>
@@ -310,7 +310,10 @@
       <Content Type="String">تغییر پروفایل</Content>
     </LocalisableString>
     <LocalisableString StringID="18229727269072727389">
-      <Content Type="String">تا زمانی که این نماد دیده می‌شود، کامپیوتر را خاموش یا جدا نکنید، وگرنه ممکن است به داده‌های ذخیره‌ی بازی‌تان آسیب برسد.</Content>
+      <Content Type="String">تا زمانی که این نماد
+دیده می‌شود، رایانه را از برق نکشید
+و خاموش نکنید؛ وگرنه ممکن است
+داده‌های ذخیره‌ی بازی‌تان آسیب ببینند.</Content>
     </LocalisableString>
     <LocalisableString StringID="18400611527009175786">
       <Content Type="String">محتوای اضافی موجود نیست</Content>

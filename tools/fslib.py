@@ -40,7 +40,8 @@ TOKEN_RE = re.compile(
     r"&lt;/?[A-Za-z_][A-Za-z0-9_]*(?:\s[^&]*?)?&gt;"  # مارکاپ escaped مثل &lt;bold&gt;
     r"|</?[A-Za-z_][^<>\r\n]*>"                        # مارکاپ خام مثل <color=...>
     r"|#[^#\r\n]{1,80}#"                               # راهنمای دکمه‌ها مثل #E_CTRL_MAP#
-    r"|\[(?:RET|ACTION)\]"                             # جداکننده‌های فنی (ترجمه نمی‌شوند)
+    r"|\[(?:RET|ACTION|HORN|ROAR|RT|X|HIT_1|ENTER_CAR|"
+    r"WEAPON_SELECT|QUESTION_ACTION|QUESTION_SELECT)\]"  # placeholderهای فنی
     r"|%%|%[-+0#]*\d*(?:\.\d+)?[a-zA-Z]"               # قالب‌های printf مثل %s یا %S
     r"|\{\}|\{\d+\}|\{[A-Za-z_][A-Za-z0-9_]*\}"        # قالب‌های آکولادی
     r"|\$\$|\$",                                       # علامت پول

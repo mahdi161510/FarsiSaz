@@ -60,13 +60,16 @@ def main() -> int:
         st = per_cat[cat]
         st[0] += 1
         st[2] += cnt
-        if en in tm:
+        fa = tm.get(en)
+        # پوشش یعنی متن واقعاً فارسی شده باشد؛ ورودی‌هایی که در حافظه
+        # هستند اما هنوز فقط لاتین دارند، نباید جزو درصد پوشش حساب شوند.
+        if fa is not None and fslib.has_rtl(fa):
             st[1] += 1
             st[3] += cnt
 
     lines = ["# پیشرفت فارسی‌سازی Mafia III", ""]
-    lines.append("| دسته | توضیح | رشته‌های یکتا | ترجمه‌شده | درصد یکتا | ظهور در بازی | پوشش ظهور |")
-    lines.append("|---|---|---:|---:|---:|---:|---:|")
+    lines.append("| دسته | توضیح | رشته‌های یکتا | ترجمه‌شده | درصد یکتا | ظهور فارسی‌شده | ظهور در بازی | پوشش ظهور |")
+    lines.append("|---|---|---:|---:|---:|---:|---:|---:|")
     tot = [0, 0, 0, 0]
     for cat in CATS:
         st = per_cat.get(cat)
@@ -74,12 +77,12 @@ def main() -> int:
             continue
         for i in range(4):
             tot[i] += st[i]
-        lines.append("| `%s` | %s | %d | %d | %.1f%% | %d | %.1f%% |" % (
+        lines.append("| `%s` | %s | %d | %d | %.1f%% | %d | %d | %.1f%% |" % (
             cat, CAT_FA[cat], st[0], st[1], 100.0 * st[1] / max(st[0], 1),
-            st[2], 100.0 * st[3] / max(st[2], 1)))
-    lines.append("| **جمع** | | **%d** | **%d** | **%.1f%%** | **%d** | **%.1f%%** |" % (
+            st[3], st[2], 100.0 * st[3] / max(st[2], 1)))
+    lines.append("| **جمع** | | **%d** | **%d** | **%.1f%%** | **%d** | **%d** | **%.1f%%** |" % (
         tot[0], tot[1], 100.0 * tot[1] / max(tot[0], 1),
-        tot[2], 100.0 * tot[3] / max(tot[2], 1)))
+        tot[3], tot[2], 100.0 * tot[3] / max(tot[2], 1)))
     lines.append("")
     if problems:
         lines.append("## مشکلات حافظه‌ی ترجمه")
