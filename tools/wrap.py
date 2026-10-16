@@ -113,6 +113,20 @@ PANEL_SAFE_LIMIT_EM = 14.0
 # بمانند، ویجت خودش می‌شکند و ترتیب سطر برعکس می‌شود.
 UI_SAFE_CAT = "ui"
 
+# ---------------------------------------------------------------------------
+# ظرفیت سطرِ پنجره‌های پنل (ارتفاع ثابت)
+# ---------------------------------------------------------------------------
+# پنجره‌ی راهنمای نقشه/اعلان‌ها ارتفاع ثابت دارند و متنِ بلندتر را می‌بُرند. از
+# اسکرین‌شات کاربر اندازه‌گیری شد: پنجره ≈۱۷٫۶em عرض دارد و متن هشت‌سطری ما از
+# دو طرف بریده شده بود؛ دقیقاً ۶ سطر وسط متن دیده می‌شد، پس ظرفیتِ همان پنجره
+# ۶ سطر است و بودجه را روی ۵ می‌گذاریم تا یک سطر هم حاشیه داشته باشیم
+# (پنل اعلانِ اسکرین‌شات قبلی هم ۵ سطر نشان داده بود). اگر متن پنلی در عرض ۱۴em
+# به بیش از این بودجه برسد، تا سقفِ ۱۷em فقط به‌قدر لازم گشاد می‌شود — همیشه زیر
+# عرض واقعی پنجره می‌مانیم تا ویجت خودش دست به شکستن (و برگشت ترتیب) نزند.
+NOTE_PANEL_LIMIT_EM = 17.0
+PANEL_LINE_BUDGET = 5
+PANEL_WIDEN_STEP_EM = 0.25
+
 _SPOKEN_RE = re.compile(
     r"(?:^|\s)(?:I|I'm|I'll|I've|I'd|me|my|mine|we|we're|we'll|we'd|our|us)\b"
     r"|[\"“”«»]"
@@ -134,6 +148,29 @@ def safe_limit(limit: int, panel_em: float | None = PANEL_SAFE_LIMIT_EM) -> int:
     if panel_em is None:
         return limit
     return min(limit, int(round(panel_em * EM)))
+
+
+def fit_panel_budget(fa: str, metrics: "Metrics", narrow: int,
+                     budget: int = PANEL_LINE_BUDGET,
+                     ceiling_em: float = NOTE_PANEL_LIMIT_EM) -> int:
+    """باریک‌ترین عرضی (از ``narrow`` تا ``ceiling_em``) که متن را در بودجهٔ سطر جا کند.
+
+    پنجره‌های پنل بازی ارتفاع ثابت دارند: اگر متن بیشتر از ظرفیت سطر شود، ویجت
+    بالا و پایینِ متن را می‌بُرد (کاربر دیده بود که جمله از وسط شروع و نیمه‌کاره
+    تمام می‌شود). برای رفعِ آن فقط به‌قدرِ لازم سطرها را گشاد می‌کنیم تا کمترین
+    فاصله از عرض ایمنِ ۱۴em حفظ شود و اگر هیچ عرضی متن را جا نکند، همان باریک
+    می‌ماند (متن‌های بلندِ ژورنال/پرونده که پنجره‌شان اسکرول‌دار است دست‌نخورده).
+    """
+    if len(plan_lines(fa, metrics, narrow)) <= budget:
+        return narrow
+    step = max(1, int(round(PANEL_WIDEN_STEP_EM * EM)))
+    ceiling = int(round(ceiling_em * EM))
+    width = narrow + step
+    while width <= ceiling:
+        if len(plan_lines(fa, metrics, width)) <= budget:
+            return width
+        width += step
+    return narrow
 
 
 def panel_like(en: str | None) -> bool:
@@ -214,6 +251,26 @@ _PLACEHOLDER_RE = re.compile(r"%[-+0#]*\d*(?:\.\d+)?[a-zA-Z]|\{[^}]*\}")
 # بی‌خطرِ کادرهای پهن دست‌نخورده بمانند).
 EN_BOUND_FLOOR_EM = 14.0
 EN_BOUND_TOLERANCE_EM = 0.5
+
+
+def panel_width_for(fa: str, en: str | None, cat: str | None, metrics: "Metrics",
+                    limit: int, panel_em: float | None = PANEL_SAFE_LIMIT_EM):
+    """عرضِ مؤثرِ کادر برای یک ردیف: (حد، پنلی‌بودن).
+
+    قاعده‌ی یکتا برای هر دو مسیر: `wrap_entry` هنگام بسته‌بندی و
+    `tools/audit_boxes.py` هنگام بازبینی همین تابع را صدا می‌زنند تا سنجش با
+    ساخت یکی باشد.
+    """
+    if panel_em is None:
+        return limit, False
+    if cat == UI_SAFE_CAT or panel_like(en):
+        narrow = safe_limit(limit, panel_em)
+        if cat != UI_SAFE_CAT and panel_like(en):
+            # پنجره‌ی پنل ارتفاع ثابت دارد؛ اگر متن بیشتر از ظرفیتش سطر شود،
+            # بالا و پایینش بریده می‌شود. فقط به‌قدر لازم گشاد می‌کنیم.
+            narrow = fit_panel_budget(fa, metrics, narrow)
+        return narrow, True
+    return limit, False
 
 
 def wrap_lines_to_english(fa: str, en: str, metrics: Metrics, limit: int):
@@ -498,15 +555,16 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int,
         return None            # شکست خط‌های خودِ بازی (فهرست مسیرها) دست‌نخورده می‌ماند
     # هر متنِ جدول مشترک در عرض ایمنِ پنل شکسته می‌شود (نه فقط متن‌های پنلی):
     # تا وقتی ویجت‌های بازی دست‌کم ۱۴em عرض دارند، هیچ سطری را خودشان نمی‌شکنند.
-    if panel_em is not None and (panel_like(en) or cat == UI_SAFE_CAT):
-        limit = safe_limit(limit, panel_em)
+    limit, panel_row = panel_width_for(fa, en, cat, metrics, limit, panel_em)
     if "\r\n" in fa and "\r\n" in (en or ""):       # متن از پیش شکسته (پنل/راهنما)
         bounded = wrap_lines_to_english(fa, en, metrics, limit)
         if bounded is not None:
             return bounded
         # وگرنه قاعدهٔ معمولِ زیرنویس/کادر پهن اعمال می‌شود
+    # جاگذاری «نام: » فقط برای زیرنویس است؛ سطرهای پنل چنین پیشوندی ندارند و
+    # تنگ‌کردنِ سطر اولشان فقط یک سطر اضافه به متن تحمیل می‌کند.
     lines = plan_lines(fa, metrics, limit,
-                       first_limit=limit - int(round(SEPARATOR_EM * EM)))
+                       first_limit=None if panel_row else limit - int(round(SEPARATOR_EM * EM)))
     joined = "\r\n".join(lines)
     if joined == fa:
         return None

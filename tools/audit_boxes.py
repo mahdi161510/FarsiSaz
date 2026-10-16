@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""audit_boxes.py — بازبینی «هیچ سطری از کادرِ نمایشش پهن‌تر نباشد».
+"""audit_boxes.py — بازبینی «هیچ سطری از کادرِ نمایشش پهن‌تر نباشد» + ظرفیت سطر پنل.
 
 چرا لازم است؟
     متن‌ها بصری (پیش‌شکل‌دهی‌شده) در xbin ذخیره می‌شوند. اگر سطری از کادرِ ویجت
@@ -7,22 +7,26 @@
     به اول می‌افتند (کاربر «از پایین به بالا» می‌خواند). پس باید مطمئن شویم هر خط
     در عرض کادرِ *خودش* شکسته شده است.
 
-کادرها
-    باریک = ۱۴em (پنل هدف، اعلان، ژورنال/پروفایل، سند، راهنمای نقشه) برای ردیف‌هایی
-    که `wrap.py` آن‌ها را پنلی می‌داند (`panel_like`)، ردیف‌های `panel_rows.tsv`،
-    راهنماهای قالبی و همه‌ی ردیف‌های دسته‌ی `ui`.
-    پهن = ۳۰٫۱em (کادر زیرنویس) برای بقیه (دیالوگ/بارک).
+    عرضِ هر ردیف با همان تابعی حساب می‌شود که هنگام ساخت استفاده می‌شود
+    (`wrap.panel_width_for`)، پس سنجش و ساخت هیچ‌وقت از هم جدا نمی‌افتند.
 
 دسته‌بندی موارد پهن‌تر از کادر
     * [RET]  : خودِ بازی این توکن را به شکست خط تبدیل می‌کند؛ «خط» ما یکی نیست.
     * key-token: خطی که پهنای واقعی‌اش را توکن `#E_…‎` تعیین می‌کند؛ بازی آن را با
       نام کوتاهِ کلید عوض می‌کند، ولی متریک ما طولِ نویسه‌های توکن را می‌شمارد
       (بیش‌برآورد ⇒ سمت امن).
-    * markup/credits/latin: تیتراژ، نام‌های تازه‌وارد، رشته‌های توسعه‌دهنده.
-    * UNEXPLAINED: هر چیز دیگری ⇒ باگ واقعی و باید رفع شود (کد خروج ۱).
+    * credits/markup: تیتراژ و کردیت، در صفحه‌ی پهن و مرکزچین.
+    * dev/no-space: رشته‌های آزمون/توسعه‌ی بی‌فاصله.
+    * latin: نام خاص، نشانی و عنوان آهنگ؛ شکستنی نیست.
+    * UNEXPLAINED: هر چیز دیگری ⇒ باگ واقعی (کد خروج ۱).
+
+بخش دوم گزارش، شمارشِ سطرهای متن‌های پنلی است: پنجره‌ی پنل ارتفاع ثابت دارد و
+بیشتر از ``PANEL_LINE_BUDGET`` سطر را می‌بُرد. این عدد اطلاعی است، چون متن‌های
+بلندِ ژورنال/پرونده/تیتراژ در پنجره‌های اسکرول‌دار نمایش داده می‌شوند.
 
 استفاده
-    python3 tools/audit_boxes.py [xbin] [--xml source/stringtable_en_common_group.xml]
+    python3 tools/audit_boxes.py
+    python3 tools/audit_boxes.py stringtable_en_pc_group.xbin --xml source/stringtable_en_pc_group.xml
 """
 from __future__ import annotations
 
@@ -45,7 +49,7 @@ FA_RE = re.compile(r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70
 _ID_RE = re.compile(r'StringID="(\d+)">\s*<Content Type="String">(.*?)</Content>', re.S)
 
 
-def load_en(path: str) -> dict:
+def load_xml(path: str) -> dict:
     with open(path, encoding="utf-8") as handle:
         return {int(sid): body for sid, body in _ID_RE.findall(handle.read())}
 
@@ -68,13 +72,17 @@ def load_cats() -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser(description="بازبینی پهنای خطوط نسبت به کادرها")
     ap.add_argument("xbin", nargs="?", default=os.path.join(ROOT, "stringtable_en_common_group.xbin"))
-    ap.add_argument("--xml", default=os.path.join(ROOT, "source", "stringtable_en_common_group.xml"))
+    ap.add_argument("--xml", default=None, help="جدول انگلیسی منبع (پیش‌فرض: هم‌نامِ xbin در source/)")
+    ap.add_argument("--fa-xml", default=None, help="جدول فارسی ریشه (پیش‌فرض: هم‌نامِ xbin در ریشه)")
     ap.add_argument("--gfx", default=os.path.join(ROOT, "fonts_en_pc.gfx"))
-    ap.add_argument("--narrow-em", type=float, default=W.PANEL_SAFE_LIMIT_EM)
     ap.add_argument("--wide-em", type=float, default=W.LIMIT_EM)
-    ap.add_argument("--all-narrow", action="store_true",
-                    help="همه‌ی سطرها را با کادر باریک بسنج (پیش‌فرض: طبق PANEL_TABLES)")
     args = ap.parse_args()
+
+    name = os.path.basename(args.xbin)
+    tables = ("common", "pc")
+    table = next((t for t in tables if t in name), "common")
+    args.xml = args.xml or os.path.join(ROOT, "source", "stringtable_en_%s_group.xml" % table)
+    args.fa_xml = args.fa_xml or os.path.join(ROOT, "stringtable_en_%s_group.xml" % table)
 
     metrics = W.load_metrics(args.gfx)
     if metrics is None:
@@ -83,28 +91,31 @@ def main() -> int:
     em = W.EM
     # جدول‌های بیرونِ PANEL_TABLES (مثل جدول تنظیمات `_pc_group`) نوار توضیحِ پهن
     # دارند؛ پس همه‌ی سطرهایشان در کادر پهن سنجیده می‌شوند.
-    narrow_table = args.all_narrow or os.path.basename(args.xbin) in X.PANEL_TABLES
-    en_by_sid = load_en(args.xml)
+    panel_em = W.PANEL_SAFE_LIMIT_EM if name in X.PANEL_TABLES else None
+    en_by_sid = load_xml(args.xml)
+    fa_by_sid = load_xml(args.fa_xml)
     cats = load_cats()
-    panels = W.load_panel_rows(os.path.join(ROOT, "translations", "panel_rows.tsv"))
+    W.load_panel_rows(os.path.join(ROOT, "translations", "panel_rows.tsv"))
     items = X.unpack(args.xbin)["items"]
 
-    narrow = int(round(args.narrow_em * em))
     wide = int(round(args.wide_em * em))
     stats = collections.Counter()
     examples: dict = collections.defaultdict(list)
+    budget_rows = []
 
     for sid, text in items:
         body = en_by_sid.get(sid, "")
+        fa = fa_by_sid.get(sid, "")
         cat = next((c for c in cats.get(body, ()) if c in W.SUBTITLE_CATS), None)
-        is_narrow = narrow_table and (sid in W.PANEL_ROWS or cat == W.UI_SAFE_CAT
-                                      or W.is_template_panel(body) or W.panel_like(body))
-        limit = narrow if is_narrow else wide
-        box = "narrow" if is_narrow else "wide"
+        limit, is_panel = W.panel_width_for(fa, body, cat, metrics, wide, panel_em)
+        lines = text.split("\r\n")
         rich = "<" in text or "&" in text          # تیتراژ/کردیت: متن مارکاپ‌دار
         stats["rows"] += 1
-        for line in text.split("\r\n"):
-            stats["lines"] += 1
+        stats["lines"] += len(lines)
+        if is_panel and len(lines) > W.PANEL_LINE_BUDGET:
+            budget_rows.append((sid, len(lines), limit / em))
+        box = "panel" if is_panel else "wide"
+        for line in lines:
             width = metrics.width(line)
             if width <= limit:
                 continue
@@ -122,22 +133,24 @@ def main() -> int:
                 kind = "UNEXPLAINED"
             stats["%s/%s" % (box, kind)] += 1
             if len(examples["%s/%s" % (box, kind)]) < 8:
-                examples["%s/%s" % (box, kind)].append((sid, width / em, line))
+                examples["%s/%s" % (box, kind)].append((sid, width / em, limit / em, line))
 
     print("== %s" % os.path.relpath(args.xbin, ROOT))
-    print("   %d ردیف، %d سطر | کادر باریک %.1fem، کادر پهن %.1fem"
-          % (stats["rows"], stats["lines"], args.narrow_em, args.wide_em))
-    over_narrow = sum(v for k, v in stats.items() if k.startswith("narrow/"))
-    print("   سطرهای پهن‌تر از کادر: باریک %d، پهن %d"
-          % (over_narrow, sum(v for k, v in stats.items() if k.startswith("wide/"))))
-    for key in sorted(k for k in stats if "/" in k):
-        print("     %-26s %5d" % (key, stats[key]))
-    for key in sorted(examples):
-        if key.endswith("UNEXPLAINED"):
-            print("   ! نمونه‌های توضیح‌نشده (%s):" % key)
-            for sid, width, line in examples[key]:
-                print("     %d  %.1fem  %s" % (sid, width, line[:90]))
-    unexplained = stats["narrow/UNEXPLAINED"] + stats["wide/UNEXPLAINED"]
+    print("   %d ردیف، %d سطر | کادر پهن %.1fem" % (stats["rows"], stats["lines"], args.wide_em))
+    over = collections.Counter({k: v for k, v in stats.items() if "/" in k})
+    print("   سطرهای پهن‌تر از کادرِ خودشان: %d" % sum(over.values()))
+    for key in sorted(over):
+        lines = ["     %-26s %5d" % (key, over[key])]
+        for sid, width, limit, line in examples[key]:
+            if key.endswith("UNEXPLAINED"):
+                lines.append("\n       %d  %.1fem > %.1fem  %s" % (sid, width, limit, line[:80]))
+        print("".join(lines))
+    if budget_rows:
+        print("   متن‌های پنلی با بیش از %d سطر (پنجره‌ی ثابت، بیشترشان اسکرول‌دار): %d"
+              % (W.PANEL_LINE_BUDGET, len(budget_rows)))
+        for sid, n, lim in sorted(budget_rows, key=lambda r: -r[1])[:5]:
+            print("     %d: %d سطر (حد %.2fem)" % (sid, n, lim))
+    unexplained = sum(v for k, v in over.items() if k.endswith("UNEXPLAINED"))
     print("   %s" % ("✔ هیچ سطر توضیح‌نشده‌ای نیست." if not unexplained
                      else "✘ %d سطر توضیح‌نشده؛ باید رفع شود." % unexplained))
     return 1 if unexplained else 0
