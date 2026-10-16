@@ -98,7 +98,7 @@ def main() -> int:
     W.load_panel_rows(os.path.join(ROOT, "translations", "panel_rows.tsv"))
     narrow_count = W.load_narrow_rows(os.path.join(ROOT, W.NARROW_ROWS_FILE))
     if narrow_count:
-        print("   ردیف‌های با کادرِ اختصاصی: %d (از %s)" % (narrow_count, W.NARROW_ROWS_FILE))
+        print("   ردیف‌های با کادرِ باریک‌تر: %d (از %s)" % (narrow_count, W.NARROW_ROWS_FILE))
     items = X.unpack(args.xbin)["items"]
 
     wide = int(round(args.wide_em * em))
@@ -115,6 +115,18 @@ def main() -> int:
         rich = "<" in text or "&" in text          # تیتراژ/کردیت: متن مارکاپ‌دار
         stats["rows"] += 1
         stats["lines"] += len(lines)
+        # ردیف‌های کادرِ باریک: بودجه در واحدِ «شکل‌دهی‌شده» است، پس جداگانه سنجیده
+        # می‌شوند (عرض خطِ ذخیره‌شده = همان چیزی که بازی می‌سنجد).
+        budget_px = W.narrow_budget_px(sid)
+        if budget_px is not None:
+            widest = max((metrics.width(line) for line in lines), default=0)
+            stats["narrow_rows"] += 1
+            ratio = widest / budget_px if budget_px else 0.0
+            if ratio > 1.0:
+                stats["narrow_over"] += 1
+                examples["narrow_over"].append((sid, widest / em, budget_px / em, lines[0]))
+            stats["narrow_worst"] = max(stats["narrow_worst"], ratio)
+            continue
         if is_panel and len(lines) > W.PANEL_LINE_BUDGET:
             budget_rows.append((sid, len(lines), limit / em))
         box = "panel" if is_panel else "wide"
@@ -148,12 +160,19 @@ def main() -> int:
             if key.endswith("UNEXPLAINED"):
                 lines.append("\n       %d  %.1fem > %.1fem  %s" % (sid, width, limit, line[:80]))
         print("".join(lines))
+    if stats["narrow_rows"]:
+        print("   ردیف‌های کادرِ باریک: %d — پهن‌ترین سطر %.0f%% بودجهٔ خودش  %s"
+              % (stats["narrow_rows"], 100.0 * stats["narrow_worst"],
+                 "✔" if not stats["narrow_over"] else "✘ %d سرریز" % stats["narrow_over"]))
+        for sid, width, budget, line in examples.get("narrow_over", [])[:5]:
+            print("       %d  %.2fem > %.2fem  %s" % (sid, width, budget, line[:70]))
     if budget_rows:
         print("   متن‌های پنلی با بیش از %d سطر (پنجره‌ی ثابت، بیشترشان اسکرول‌دار): %d"
               % (W.PANEL_LINE_BUDGET, len(budget_rows)))
         for sid, n, lim in sorted(budget_rows, key=lambda r: -r[1])[:5]:
             print("     %d: %d سطر (حد %.2fem)" % (sid, n, lim))
     unexplained = sum(v for k, v in over.items() if k.endswith("UNEXPLAINED"))
+    unexplained += stats["narrow_over"]
     print("   %s" % ("✔ هیچ سطر توضیح‌نشده‌ای نیست." if not unexplained
                      else "✘ %d سطر توضیح‌نشده؛ باید رفع شود." % unexplained))
     return 1 if unexplained else 0

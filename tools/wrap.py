@@ -28,6 +28,8 @@ import unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+from shape import shape_text  # noqa: E402  (شکل‌دهی بصری برای سنجش پهنای واقعی)
+
 EM = 20480                      # واحد استاندارد جدول‌های فونت GFx برای هر em
 # عرض کادر زیرنویس: با دو نمونهٔ تصویری خود بازی کالیبره شده است.
 # در هر دو نمونه (زیرنویس دوخطی Mafia III و Mafia DE) طول سطر اول و «واژهٔ
@@ -192,6 +194,12 @@ def panel_like(en: str | None) -> bool:
 PANEL_ROWS: set = set()
 NARROW_ROWS: dict = {}
 NARROW_ROWS_FILE = "translations/narrow_rows.tsv"
+# ردیف‌های باریک: عددِ فایل «همان عرضی» است که خودِ بازی می‌سنجد، یعنی پهنای متنِ
+# شکل‌دهی‌شده (بصری). بازی همین متنِ ذخیره‌شده را می‌چیند، پس واحدِ سنجش ما هم باید
+# همان باشد؛ سنجشِ متنِ منطقی همان متن را ~۳۰٪ پهن‌تر نشان می‌دهد و سطرها را
+# بی‌دلیل کوتاه می‌کند.
+NARROW_FIT_STEP_EM = 0.25
+NARROW_FIT_FLOOR_EM = 4.0
 
 
 def load_narrow_rows(path: str) -> int:
@@ -291,10 +299,6 @@ def panel_width_for(fa: str, en: str | None, cat: str | None, metrics: "Metrics"
     """
     if panel_em is None:
         return limit, False
-    if sid is not None and sid in NARROW_ROWS:
-        # کادرِ این ردیف باریک‌تر است (اندازه‌گیری‌شده از اسکرین‌شات بازی)؛ بدون
-        # هیچ گشادکردنی همان عرضِ اختصاصی اعمال می‌شود.
-        return min(limit, int(round(NARROW_ROWS[sid] * EM))), True
     if cat == UI_SAFE_CAT or panel_like(en):
         narrow = safe_limit(limit, panel_em)
         if cat != UI_SAFE_CAT and panel_like(en):
@@ -461,6 +465,38 @@ def load_metrics(gfx_path: str):
     space = advances.get(0x20) or 8000
     _METRICS = Metrics(advances, space)
     return _METRICS
+
+
+def shaped_width(text: str, metrics) -> int:
+    """پهنای متنی که بازی می‌بیند: شکل‌دهی‌شدهٔ بصری، نه متنِ منطقی."""
+    return metrics.width(shape_text(text))
+
+
+def narrow_budget_px(sid: int | None) -> int | None:
+    """عرضِ مجازِ کادرِ باریک برای این ردیف (به em)، یا None."""
+    if sid is None or sid not in NARROW_ROWS:
+        return None
+    return int(round(NARROW_ROWS[sid] * EM))
+
+
+def fit_narrow_lines(fa: str, metrics, limit: int, budget: int):
+    """پهن‌ترین حدی که سطرهایش در کادرِ باریک جا می‌شوند.
+
+    از ``limit`` شروع می‌کند و با گام‌های ``NARROW_FIT_STEP_EM`` پایین می‌آید تا
+    پهنای «شکل‌دهی‌شدهٔ» همهٔ سطرها زیرِ ``budget`` بیفتد. نتیجه: هم تضمینِ جا شدن
+    داریم، هم کمترین تعداد سطر (به‌جای تنگ‌کردنِ کورکورانهٔ متنِ منطقی).
+    """
+    best = None
+    step = max(1, int(round(NARROW_FIT_STEP_EM * EM)))
+    floor = max(1, int(round(NARROW_FIT_FLOOR_EM * EM)))
+    probe = limit
+    while probe >= floor:
+        lines = plan_lines(fa, metrics, probe, None, exact_lines=True)
+        if max((shaped_width(line, metrics) for line in lines), default=0) <= budget:
+            return lines
+        best = lines
+        probe -= step
+    return best if best is not None else plan_lines(fa, metrics, floor, None, exact_lines=True)
 
 
 def _split_exactly(units, metrics: "Metrics", limit: int, first_limit: int | None, want: int):
@@ -666,12 +702,15 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int,
         # وگرنه قاعدهٔ معمولِ زیرنویس/کادر پهن اعمال می‌شود
     # جاگذاری «نام: » فقط برای زیرنویس است؛ سطرهای پنل چنین پیشوندی ندارند و
     # تنگ‌کردنِ سطر اولشان فقط یک سطر اضافه به متن تحمیل می‌کند.
-    # ردیف‌های با کادرِ اختصاصیِ باریک: کمترین تعداد سطرِ ممکن (ارتفاع پنل را
-    # بی‌دلیل مصرف نکن) با تقسیمِ متعادل میان همان سطرها.
-    narrow_fixed = sid is not None and sid in NARROW_ROWS
-    lines = plan_lines(fa, metrics, limit,
-                       first_limit=None if panel_row else limit - int(round(SEPARATOR_EM * EM)),
-                       exact_lines=narrow_fixed)
+    # ردیف‌های کادرِ باریک: عرض را همان‌طور که بازی می‌سنجد محدود می‌کنیم (هر سطرِ
+    # شکل‌دهی‌شده ≤ بودجهٔ اندازه‌گیری‌شده از اسکرین‌شات) و در میان حدهای ممکن
+    # پهن‌ترین را برمی‌داریم تا کمترین تعداد سطر به دست بیاید.
+    budget = narrow_budget_px(sid)
+    if budget is not None:
+        lines = fit_narrow_lines(fa, metrics, limit, budget)
+    else:
+        lines = plan_lines(fa, metrics, limit,
+                           first_limit=None if panel_row else limit - int(round(SEPARATOR_EM * EM)))
     joined = "\r\n".join(lines)
     if joined == fa:
         return None
