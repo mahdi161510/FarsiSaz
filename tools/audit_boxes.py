@@ -96,6 +96,9 @@ def main() -> int:
     fa_by_sid = load_xml(args.fa_xml)
     cats = load_cats()
     W.load_panel_rows(os.path.join(ROOT, "translations", "panel_rows.tsv"))
+    narrow_count = W.load_narrow_rows(os.path.join(ROOT, W.NARROW_ROWS_FILE))
+    if narrow_count:
+        print("   ردیف‌های با کادرِ اختصاصی: %d (از %s)" % (narrow_count, W.NARROW_ROWS_FILE))
     items = X.unpack(args.xbin)["items"]
 
     wide = int(round(args.wide_em * em))
@@ -107,7 +110,7 @@ def main() -> int:
         body = en_by_sid.get(sid, "")
         fa = fa_by_sid.get(sid, "")
         cat = next((c for c in cats.get(body, ()) if c in W.SUBTITLE_CATS), None)
-        limit, is_panel = W.panel_width_for(fa, body, cat, metrics, wide, panel_em)
+        limit, is_panel = W.panel_width_for(fa, body, cat, metrics, wide, panel_em, sid)
         lines = text.split("\r\n")
         rich = "<" in text or "&" in text          # تیتراژ/کردیت: متن مارکاپ‌دار
         stats["rows"] += 1

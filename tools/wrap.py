@@ -190,6 +190,33 @@ def panel_like(en: str | None) -> bool:
 
 
 PANEL_ROWS: set = set()
+NARROW_ROWS: dict = {}
+NARROW_ROWS_FILE = "translations/narrow_rows.tsv"
+
+
+def load_narrow_rows(path: str) -> int:
+    """ردیف‌هایی که کادرِ پنجره‌شان باریک‌تر از پنلِ معمول است: sid → عرض (em)."""
+    global NARROW_ROWS
+    rows = {}
+    try:
+        with open(path, encoding="utf-8") as handle:
+            for line in handle:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                parts = line.split("\t")
+                if len(parts) < 2:
+                    continue
+                sid, width = parts[0].strip(), parts[1].strip()
+                if sid.isdigit():
+                    try:
+                        rows[int(sid)] = float(width)
+                    except ValueError:
+                        continue
+    except FileNotFoundError:
+        return 0
+    NARROW_ROWS = rows
+    return len(rows)
 
 
 def load_panel_rows(path: str) -> int:
@@ -254,7 +281,8 @@ EN_BOUND_TOLERANCE_EM = 0.5
 
 
 def panel_width_for(fa: str, en: str | None, cat: str | None, metrics: "Metrics",
-                    limit: int, panel_em: float | None = PANEL_SAFE_LIMIT_EM):
+                    limit: int, panel_em: float | None = PANEL_SAFE_LIMIT_EM,
+                    sid: int | None = None):
     """عرضِ مؤثرِ کادر برای یک ردیف: (حد، پنلی‌بودن).
 
     قاعده‌ی یکتا برای هر دو مسیر: `wrap_entry` هنگام بسته‌بندی و
@@ -263,6 +291,10 @@ def panel_width_for(fa: str, en: str | None, cat: str | None, metrics: "Metrics"
     """
     if panel_em is None:
         return limit, False
+    if sid is not None and sid in NARROW_ROWS:
+        # کادرِ این ردیف باریک‌تر است (اندازه‌گیری‌شده از اسکرین‌شات بازی)؛ بدون
+        # هیچ گشادکردنی همان عرضِ اختصاصی اعمال می‌شود.
+        return min(limit, int(round(NARROW_ROWS[sid] * EM))), True
     if cat == UI_SAFE_CAT or panel_like(en):
         narrow = safe_limit(limit, panel_em)
         if cat != UI_SAFE_CAT and panel_like(en):
@@ -431,7 +463,69 @@ def load_metrics(gfx_path: str):
     return _METRICS
 
 
-def _balanced_breaks(units, metrics: Metrics, limit: int, first_limit: int | None = None):
+def _split_exactly(units, metrics: "Metrics", limit: int, first_limit: int | None, want: int):
+    """واحدها را دقیقاً به ``want`` سطر می‌شکند و عرض‌ها را متعادل می‌کند."""
+    n = len(units)
+    INF = float("inf")
+    space = metrics.space
+    single_penalty = (limit / EM) ** 2 * 6.0
+    widths = [metrics.width(u) for u in units]
+    # cost[k][i] = کمترین هزینه برای شکستن units[i:] به دقیقاً k سطر
+    cost = [[INF] * (n + 1) for _ in range(want + 1)]
+    pick = [[0] * (n + 1) for _ in range(want + 1)]
+    for k in range(1, want + 1):
+        cost[k][n] = INF if k else 0
+    cost[0][n] = 0.0
+    for k in range(1, want + 1):
+        for i in range(n - 1, -1, -1):
+            cap = first_limit if (i == 0 and first_limit) else limit
+            width = 0.0
+            for j in range(i, n):
+                width = widths[j] if j == i else width + space + widths[j]
+                if width > cap and j > i:
+                    break
+                if cost[k - 1][j + 1] == INF:
+                    continue
+                slack = (limit - width) / EM
+                line_cost = slack * slack
+                if j == i and n > 1:
+                    line_cost += single_penalty
+                if width > cap:
+                    line_cost += single_penalty * 4
+                total = line_cost + cost[k - 1][j + 1]
+                if total < cost[k][i]:
+                    cost[k][i] = total
+                    pick[k][i] = j + 1
+    if cost[want][0] == INF:              # غیرممکن (نباید پیش بیاید)
+        return _balanced_breaks(units, metrics, limit, first_limit)
+    result, i, k = [], 0, want
+    while i < n and k > 0:
+        j = pick[k][i] or (i + 1)
+        result.append(" ".join(units[i:j]))
+        i, k = j, k - 1
+    return result
+
+
+def _min_line_count(units, metrics: "Metrics", limit: int, first_limit: int | None = None) -> int:
+    """کمترین تعداد سطرِ ممکن برای این واحدها (بدون توجه به تعادل)."""
+    n = len(units)
+    INF = 10 ** 9
+    best = [INF] * (n + 1)
+    best[n] = 0
+    for i in range(n - 1, -1, -1):
+        cap = first_limit if (i == 0 and first_limit) else limit
+        width = 0
+        for j in range(i, n):
+            width = metrics.width(units[j]) if j == i else width + metrics.space + metrics.width(units[j])
+            if width > cap and j > i:
+                break
+            if width <= cap and best[j + 1] + 1 < best[i]:
+                best[i] = best[j + 1] + 1
+    return best[0] if best[0] < INF else n
+
+
+def _balanced_breaks(units, metrics: Metrics, limit: int, first_limit: int | None = None,
+                     exact_lines: bool = False):
     """واحدها را به سطرهای ≤ حد می‌شکند و سطرها را هم‌عرض نگه می‌دارد.
 
     برنامه‌ریزی پویا روی مرز واحدها: هزینهٔ هر سطر = مربع فضای خالیِ آن، به‌علاوهٔ
@@ -444,6 +538,13 @@ def _balanced_breaks(units, metrics: Metrics, limit: int, first_limit: int | Non
     if len(units) <= 1:
         return [units[0]]
     n = len(units)
+    if exact_lines:
+        # کمترین تعداد سطرِ ممکن را قفل می‌کنیم و بعد تقسیم را با همان تعداد
+        # سطر متعادل می‌کنیم. بدون این قید، کمینه‌کردنِ «مربع فضای خالی» در
+        # عرض‌های باریک سطرِ اضافه می‌سازد (نمونه: متن ۴۷em در عرض ۸٫۵em هفت سطر
+        # می‌شد در حالی که پنج سطر کافی است) و ارتفاع بی‌دلیل مصرف می‌شود.
+        want = _min_line_count(units, metrics, limit, first_limit)
+        return _split_exactly(units, metrics, limit, first_limit, want)
     widths = [metrics.width(u) for u in units]
     space = metrics.space
     single_penalty = (limit / EM) ** 2 * 6.0
@@ -478,7 +579,8 @@ def _balanced_breaks(units, metrics: Metrics, limit: int, first_limit: int | Non
     return result
 
 
-def wrap_line(line: str, metrics: Metrics, limit: int, first_limit: int | None = None):
+def wrap_line(line: str, metrics: Metrics, limit: int, first_limit: int | None = None,
+              exact_lines: bool = False):
     """یک سطر منطقی را به تکه‌های ≤ حد عرض می‌شکند — با سطرهای هم‌عرض.
 
     شکستنِ حریصانه (پر کردن هر سطر تا آخرین واژهٔ جا‌شده) ته سطرها یک واژهٔ
@@ -490,10 +592,11 @@ def wrap_line(line: str, metrics: Metrics, limit: int, first_limit: int | None =
     words = line.split(" ")
     if len(words) <= 1:
         return [line]
-    return _balanced_breaks(words, metrics, limit, first_limit)
+    return _balanced_breaks(words, metrics, limit, first_limit, exact_lines)
 
 
-def plan_lines(fa: str, metrics: Metrics, limit: int, first_limit: int | None = None):
+def plan_lines(fa: str, metrics: Metrics, limit: int, first_limit: int | None = None,
+               exact_lines: bool = False):
     """سطرهای منطقی نهایی را می‌سازد؛ شکست‌های دستی (\r\n) حفظ می‌شوند.
 
     ``first_limit`` (اختیاری) حد باریک‌تری برای اولین سطر است؛ چون موتور بازی
@@ -508,7 +611,7 @@ def plan_lines(fa: str, metrics: Metrics, limit: int, first_limit: int | None = 
             result.append(part)
             continue
         result.extend(wrap_line(part, metrics, part_limit,
-                                part_limit if part_limit != limit else None))
+                                part_limit if part_limit != limit else None, exact_lines))
     return result
 
 
@@ -555,7 +658,7 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int,
         return None            # شکست خط‌های خودِ بازی (فهرست مسیرها) دست‌نخورده می‌ماند
     # هر متنِ جدول مشترک در عرض ایمنِ پنل شکسته می‌شود (نه فقط متن‌های پنلی):
     # تا وقتی ویجت‌های بازی دست‌کم ۱۴em عرض دارند، هیچ سطری را خودشان نمی‌شکنند.
-    limit, panel_row = panel_width_for(fa, en, cat, metrics, limit, panel_em)
+    limit, panel_row = panel_width_for(fa, en, cat, metrics, limit, panel_em, sid)
     if "\r\n" in fa and "\r\n" in (en or ""):       # متن از پیش شکسته (پنل/راهنما)
         bounded = wrap_lines_to_english(fa, en, metrics, limit)
         if bounded is not None:
@@ -563,8 +666,12 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int,
         # وگرنه قاعدهٔ معمولِ زیرنویس/کادر پهن اعمال می‌شود
     # جاگذاری «نام: » فقط برای زیرنویس است؛ سطرهای پنل چنین پیشوندی ندارند و
     # تنگ‌کردنِ سطر اولشان فقط یک سطر اضافه به متن تحمیل می‌کند.
+    # ردیف‌های با کادرِ اختصاصیِ باریک: کمترین تعداد سطرِ ممکن (ارتفاع پنل را
+    # بی‌دلیل مصرف نکن) با تقسیمِ متعادل میان همان سطرها.
+    narrow_fixed = sid is not None and sid in NARROW_ROWS
     lines = plan_lines(fa, metrics, limit,
-                       first_limit=None if panel_row else limit - int(round(SEPARATOR_EM * EM)))
+                       first_limit=None if panel_row else limit - int(round(SEPARATOR_EM * EM)),
+                       exact_lines=narrow_fixed)
     joined = "\r\n".join(lines)
     if joined == fa:
         return None

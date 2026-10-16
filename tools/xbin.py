@@ -173,6 +173,11 @@ def make_wrapper(xbin_name: str, limit: int):
     panel_count = subtitle_wrap.load_panel_rows(panel_path)
     if panel_count:
         print("  ردیف‌های پنل باریک: %s (از %s)" % (panel_count, PANEL_ROWS_FILE))
+    narrow_path = os.path.join(ROOT, subtitle_wrap.NARROW_ROWS_FILE)
+    narrow_count = subtitle_wrap.load_narrow_rows(narrow_path)
+    if narrow_count:
+        print("  ردیف‌های با کادرِ باریک‌تر (اختصاصی): %s (از %s)"
+              % (narrow_count, subtitle_wrap.NARROW_ROWS_FILE))
 
     def wrapper(sid, text):
         if not text or "\n" in text.replace("\r", ""):
