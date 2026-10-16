@@ -117,6 +117,19 @@ def main() -> int:
         stats["lines"] += len(lines)
         # ردیف‌های کادرِ باریک: بودجه در واحدِ «شکل‌دهی‌شده» است، پس جداگانه سنجیده
         # می‌شوند (عرض خطِ ذخیره‌شده = همان چیزی که بازی می‌سنجد).
+        # ردیف‌های «هدف/مأموریت» HUD: کادر باریک‌تر از پنل است و باید در واحدِ
+        # شکل‌دهی‌شده سنجیده شوند (همان‌طور که خود بازی می‌سنجد).
+        cat_row = next((c for c in cats.get(body, ()) if c in W.SUBTITLE_CATS), None)
+        if W.is_objective(body, cat_row) and "#" not in text and "%" not in text:
+            widest = max((W.shaped_width(line, metrics) for line in lines), default=0)
+            budget = int(round(W.OBJECTIVE_HUD_LIMIT_EM * em))
+            stats["objective_rows"] += 1
+            ratio = widest / budget if budget else 0.0
+            if ratio > 1.0:
+                stats["objective_over"] += 1
+                examples["objective_over"].append((sid, widest / em, budget / em, lines[0]))
+            stats["objective_worst"] = max(stats["objective_worst"], ratio)
+            continue
         budget_px = W.narrow_budget_px(sid)
         if budget_px is not None:
             widest = max((metrics.width(line) for line in lines), default=0)
@@ -160,6 +173,13 @@ def main() -> int:
             if key.endswith("UNEXPLAINED"):
                 lines.append("\n       %d  %.1fem > %.1fem  %s" % (sid, width, limit, line[:80]))
         print("".join(lines))
+    if stats["objective_rows"]:
+        print("   ردیف‌های هدف/مأموریت HUD: %d — پهن‌ترین سطر %.0f%% بودجهٔ %.1fem  %s"
+              % (stats["objective_rows"], 100.0 * stats["objective_worst"],
+                 W.OBJECTIVE_HUD_LIMIT_EM,
+                 "✔" if not stats["objective_over"] else "✘ %d سرریز" % stats["objective_over"]))
+        for sid, width, budget, line in examples.get("objective_over", [])[:5]:
+            print("       %d  %.2fem > %.2fem  %s" % (sid, width, budget, line[:70]))
     if stats["narrow_rows"]:
         print("   ردیف‌های کادرِ باریک: %d — پهن‌ترین سطر %.0f%% بودجهٔ خودش  %s"
               % (stats["narrow_rows"], 100.0 * stats["narrow_worst"],
@@ -172,7 +192,7 @@ def main() -> int:
         for sid, n, lim in sorted(budget_rows, key=lambda r: -r[1])[:5]:
             print("     %d: %d سطر (حد %.2fem)" % (sid, n, lim))
     unexplained = sum(v for k, v in over.items() if k.endswith("UNEXPLAINED"))
-    unexplained += stats["narrow_over"]
+    unexplained += stats["narrow_over"] + stats["objective_over"]
     print("   %s" % ("✔ هیچ سطر توضیح‌نشده‌ای نیست." if not unexplained
                      else "✘ %d سطر توضیح‌نشده؛ باید رفع شود." % unexplained))
     return 1 if unexplained else 0

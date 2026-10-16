@@ -84,6 +84,11 @@ LABEL_SUFFIX = LABEL_BREAK + LABEL_GUARD
 SEPARATOR_EM = 0.6
 
 HUD_LIMIT_EM = 14.0
+# ردیف‌های «هدف/مأموریت» در HUD همان ستون باریکِ چپ را می‌نویسند (نه پنل ۱۴em).
+# اسکرین‌شات بازیکن نشان می‌دهد سطر ۱۱٫۱۸em دست‌نخورده می‌ماند ولی سطرهای بلندتر را
+# خودِ بازی می‌شکند و چون سرِ سطر را به سطر بعد می‌اندازد، ترتیب خواندن به‌هم
+# می‌ریزد (همان «متن‌ها رفته توی هم»). پس هر سطر باید داخل همین کادر بماند.
+OBJECTIVE_HUD_LIMIT_EM = 10.5
 
 # عرض پنل‌های باریکِ ژورنال/پروفایل/اعلان‌ها (اندازه‌گیری‌شده از اسکرین‌شات‌ها ≈۱۴em).
 # ردیف‌های فهرست‌شده در translations/panel_rows.tsv در همین عرض شکسته می‌شوند.
@@ -261,6 +266,8 @@ OBJECTIVE_VERBS = (
     "Enter", "Exit", "Activate", "Enable", "Trade", "Sell", "Buy", "Distract",
     "Sneak", "Turn", "Jump", "Climb", "Swim", "Eat", "Drink", "Answer", "Send",
     "Play", "Pay", "Leave", "Give", "Hold", "Hide", "Knock", "Ride", "Reload",
+    "Damage", "Wreck", "Wipe", "Blast", "Loot", "Secure", "Upgrade", "Boost",
+    "Investigate", "Inspect", "Breach", "Block", "Capture", "Seize", "Tag",
 )
 _OBJECTIVE_RE = re.compile(r"^(%s)\b" % "|".join(OBJECTIVE_VERBS))
 
@@ -681,11 +688,12 @@ def wrap_entry(en: str, fa: str, cat: str | None, metrics, limit: int,
         return joined if joined != fa else None
     if cat is not None and cat not in SUBTITLE_CATS:
         return None
-    if is_objective(en, cat):                          # هدف در کادر باریک پنل
-        hud = int(round(HUD_LIMIT_EM * EM))
-        lines = plan_lines(fa, metrics, hud)
-        joined = "\r\n".join(lines)
-        return joined if joined != fa else None
+    if is_objective(en, cat):                          # هدف در کادر باریک HUD
+        if "#" not in fa and "%" not in fa:            # توکن کلید/مقدار: پهنای واقعی کوتاه است
+            budget = int(round(OBJECTIVE_HUD_LIMIT_EM * EM))
+            lines = fit_narrow_lines(fa, metrics, int(round(HUD_LIMIT_EM * EM)), budget)
+            joined = "\r\n".join(lines)
+            return joined if joined != fa else None
     if not any(unicodedata.category(ch) == "Lo" and 0x0600 <= ord(ch) <= 0x06FF for ch in fa):
         return None                                   # فقط متن فارسی
     if _MARKUP_RE.search(fa):
